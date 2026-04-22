@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Mota - Portfólio</title>
+    <meta name="description" content="Portfólio de Eduardo Mota Bielecky da Silva Mello, Estudante de Engenharia de Software e Desenvolvedor Java.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="blob-bg"></div>
+
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Eduardo<span>.dev</span></a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-btn" aria-label="Alternar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-container fade-in">
+                <div class="hero-content">
+                    <span class="greeting">Olá, mundo! Eu sou</span>
+                    <h1 class="name">Eduardo Mota <br>Bielecky da Silva Mello</h1>
+                    <h2 class="role"><span class="typewriter"></span><span class="cursor">|</span></h2>
+                    
+                    <!-- Contato visível apenas na impressão (PDF) -->
+                    <div class="print-contact">
+                        eduardombielecky@gmail.com | (11) 96148-5534 | São Bernardo do Campo, SP<br>
+                        linkedin.com/in/bielecky | github.com/edubielecky
+                    </div>
+
+                    <p class="summary">
+                        Busco oportunidades como Estagiário ou Desenvolvedor Júnior com foco em Java. 
+                        Apaixonado por criar soluções eficientes e resolver problemas através do código.
+                    </p>
+                    <div class="cta-group">
+                        <a href="#contato" class="btn btn-primary">Entrar em Contato</a>
+                        <a href="#projetos" class="btn btn-secondary">Ver Projetos</a>
+                        <a href="javascript:window.print()" class="btn btn-outline"><i class="fas fa-file-pdf"></i> Gerar CV (PDF)</a>
+                    </div>
+                    <div class="social-links-hero">
+                        <a href="https://www.linkedin.com/in/bielecky/" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/edubielecky" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/perfil.jpg" alt="Eduardo Mota" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Mim Section -->
+        <section id="sobre" class="section about">
+            <div class="container">
+                <h2 class="section-title reveal">Sobre Mim</h2>
+                <div class="about-grid reveal">
+                    <div class="about-text glass-card">
+                        <p>Sou estudante de Bacharelado em Engenharia de Software e resido em São Bernardo do Campo, SP. Tenho um perfil focado em metas e sou dedicado a aprender novas tecnologias e metodologias de desenvolvimento.</p>
+                        <p>Além da programação, sou entusiasta de hardware (montagem e manutenção de PCs de alta performance) e me interesso muito por tecnologia automotiva. Gosto de entender como as coisas funcionam por baixo dos panos.</p>
+                        
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <strong>Formação</strong>
+                                    <span>Bacharelado em Engenharia de Software (Em andamento)</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Localização</strong>
+                                    <span>São Bernardo do Campo, SP</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-bullseye"></i>
+                                <div>
+                                    <strong>Objetivo</strong>
+                                    <span>Estágio em Engenharia de Software / Dev Java</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades Section -->
+        <section id="habilidades" class="section skills">
+            <div class="container">
+                <h2 class="section-title reveal">Habilidades Técnicas</h2>
+                <div class="skills-grid reveal">
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-code"></i> Linguagens</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Python (Iniciante)</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-tools"></i> Ferramentas e IDEs</h3>
+                        <div class="skill-tags">
+                            <span class="tag">IntelliJ IDEA</span>
+                            <span class="tag">VS Code</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-database"></i> Bancos de Dados</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Consultas SQL</span>
+                            <span class="tag">Estruturação de Dados</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-clipboard-list"></i> Outras Habilidades</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Metodologias Ágeis (Trello)</span>
+                            <span class="tag">Pacote Office Avançado</span>
+                            <span class="tag">DaVinci Resolve</span>
+                            <span class="tag">Hardware de Alta Performance</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h3><i class="fas fa-language"></i> Idiomas</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Português (Nativo)</span>
+                            <span class="tag">Inglês</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiência Section -->
+        <section id="experiencia" class="section experience">
+            <div class="container">
+                <h2 class="section-title reveal">Experiência Profissional</h2>
+                <div class="timeline reveal">
+                    
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Experiência Recente</div>
+                        <h3 class="timeline-title">Atendimento e Operações</h3>
+                        <h4 class="timeline-company">Churrascaria Adega do Dino</h4>
+                        <ul class="timeline-details">
+                            <li>Gestão de atendimento ao cliente em ambiente de alto volume, demonstrando grande capacidade de comunicação e trabalho sob pressão.</li>
+                            <li>Desenvolvimento e manutenção de planilhas para controle de estoque e organização de dados internos, aplicando raciocínio lógico e gestão de informações.</li>
+                            <li>Auxílio na comunicação digital e estruturação de anúncios da unidade.</li>
+                        </ul>
+                        <div class="skill-tags mt-2">
+                            <span class="tag">Comunicação</span>
+                            <span class="tag">Trabalho em Equipe</span>
+                            <span class="tag">Organização de Dados</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Nov 2024 - 2025</div>
+                        <h3 class="timeline-title">Especialista em Hardware</h3>
+                        <h4 class="timeline-company">Prática Independente</h4>
+                        <ul class="timeline-details">
+                            <li>Montagem, configuração e testes de sistemas computacionais avançados.</li>
+                            <li>Otimização de sistemas operacionais e gestão de componentes térmicos.</li>
+                            <li>Infraestrutura de hardware com foco em processamento intensivo e estabilidade.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos Section -->
+        <section id="projetos" class="section projects">
+            <div class="container">
+                <h2 class="section-title reveal">Projetos Relevantes</h2>
+                <div class="projects-grid reveal">
+                    
+                    <!-- Projeto 1: Corretora de Criptomoedas -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sistema de Corretora de Criptomoedas</h3>
+                            <p class="project-desc">Projeto universitário envolvendo o desenvolvimento de uma plataforma para simulação e gestão de ativos digitais. A plataforma possui foco em trilhas educacionais e oferece uma interface funcional e intuitiva.</p>
+                            <div class="skill-tags">
+                                <span class="tag">Java</span>
+                                <span class="tag">Projeto Acadêmico</span>
+                                <span class="tag">Lógica de Negócios</span>
+                            </div>
+                            <!-- Github Removido conforme solicitado -->
+                        </div>
+                    </div>
+
+                    <!-- Projeto 2: Sistema OTIS -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-placeholder" style="padding: 0; background: none;">
+                            <img src="img/otis.jpg" alt="Sistema OTIS" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sistema OTIS</h3>
+                            <p class="project-desc">Plataforma e sistema desenvolvidos com foco em interface amigável. Projeto completo hospedado e disponível para acesso online.</p>
+                            <div class="skill-tags">
+                                <span class="tag">Web App</span>
+                                <span class="tag">Frontend</span>
+                            </div>
+                            <div style="margin-top: 1.5rem; display: flex; gap: 0.8rem; flex-wrap: wrap;">
+                                <a href="https://sistema-otis-puce.vercel.app/" target="_blank" class="btn btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;"><i class="fas fa-external-link-alt"></i> Acessar Site</a>
+                                <a href="https://github.com/edubielecky/Sistema-OTIS" target="_blank" class="btn btn-outline" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;"><i class="fab fa-github"></i> Código</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3: Feira Online -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-placeholder" style="padding: 0; background: none;">
+                            <img src="img/feira.jpg" alt="Feira Online" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Feira Online</h3>
+                            <p class="project-desc">Plataforma digital para ambiente de feira online, permitindo interatividade e experiência de e-commerce aos usuários.</p>
+                            <div class="skill-tags">
+                                <span class="tag">E-commerce</span>
+                                <span class="tag">Web</span>
+                            </div>
+                            <div style="margin-top: 1.5rem; display: flex; gap: 0.8rem; flex-wrap: wrap;">
+                                <a href="https://feira-online-liart.vercel.app/" target="_blank" class="btn btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;"><i class="fas fa-external-link-alt"></i> Acessar Site</a>
+                                <a href="https://github.com/edubielecky/FEIRA-ONLINE" target="_blank" class="btn btn-outline" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;"><i class="fab fa-github"></i> Código</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 4: Ready 2 Work -->
+                    <div class="project-card glass-card">
+                        <div class="project-img-placeholder">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Ready 2 Work</h3>
+                            <p class="project-desc">Aplicação com foco no preparo para o mercado de trabalho e auxílio à empregabilidade.</p>
+                            <div class="skill-tags">
+                                <span class="tag">App</span>
+                                <span class="tag">Mercado</span>
+                            </div>
+                            <div style="margin-top: 1.5rem;">
+                                <a href="https://github.com/edubielecky/ready2work" target="_blank" class="btn btn-outline" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;"><i class="fab fa-github"></i> Ver no GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contato" class="section contact">
+            <div class="container text-center reveal">
+                <h2 class="section-title">Vamos Conversar?</h2>
+                <p class="contact-text">Estou sempre em busca de novos desafios e oportunidades para aprender e contribuir. Sinta-se à vontade para me mandar uma mensagem!</p>
+                <div class="contact-links" style="margin-bottom: 2rem;">
+                    <a href="mailto:eduardombielecky@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Enviar E-mail</a>
+                    <a href="https://www.linkedin.com/in/bielecky/" target="_blank" class="btn btn-secondary"><i class="fab fa-linkedin"></i> Conectar no LinkedIn</a>
+                    <a href="https://github.com/edubielecky" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+                <div class="contact-links">
+                    <a href="javascript:window.print()" class="btn btn-outline"><i class="fas fa-file-pdf"></i> Gerar Currículo em PDF</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Eduardo Mota. Todos os direitos reservados.</p>
+            <p class="footer-note">Desenvolvido com dedicação para a área de Engenharia de Software.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Botão do WhatsApp -->
+    <a href="https://wa.me/5511961485534" class="whatsapp-btn" target="_blank" aria-label="Contato pelo WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>
