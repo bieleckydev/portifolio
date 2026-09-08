@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kcalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0e12"/>
+      <stop offset="100%" stop-color="#141720"/>
+    </linearGradient>
+    <linearGradient id="kcalAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b87333"/>
+    </linearGradient>
+    <linearGradient id="kcalGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="kcalBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="kcalRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#kcalBg)"/>
+
+  <!-- Grid lines -->
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="350" x2="800" y2="350"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="100" y1="0" x2="100" y2="450"/>
+    <line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/>
+    <line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/>
+    <line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+
+  <!-- Top App Window Bar -->
+  <rect x="24" y="20" width="752" height="44" rx="8" fill="#181c25" stroke="#2a3040" stroke-width="1"/>
+  <circle cx="46" cy="42" r="5" fill="#ef4444"/>
+  <circle cx="62" cy="42" r="5" fill="#f59e0b"/>
+  <circle cx="78" cy="42" r="5" fill="#10b981"/>
+  <text x="106" y="46" font-family="monospace" font-size="12" font-weight="700" fill="#e09858" letter-spacing="1">KCAL.IO // NUTRITION &amp; DAILY MACRO TELEMETRY</text>
+  
+  <rect x="635" y="30" width="130" height="24" rx="12" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-width="1"/>
+  <circle cx="647" cy="42" r="3.5" fill="#10b981"/>
+  <text x="656" y="46" font-family="monospace" font-size="11" font-weight="600" fill="#10b981">LIVE WEB APP</text>
+
+  <!-- Left Card: Calorie Target Progress Dial -->
+  <rect x="24" y="80" width="360" height="346" rx="10" fill="#151821" stroke="#252a38" stroke-width="1"/>
+  <text x="48" y="114" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">BALANÇO CALÓRICO DIÁRIO</text>
+  <text x="48" y="132" font-family="system-ui, sans-serif" font-size="11" fill="#717a8c">Meta: 2.200 kcal • Ingerido vs Restante</text>
+
+  <!-- Circular progress gauge -->
+  <circle cx="204" cy="235" r="82" fill="none" stroke="#232734" stroke-width="16"/>
+  <circle cx="204" cy="235" r="82" fill="none" stroke="url(#kcalAccent)" stroke-width="16" stroke-dasharray="515" stroke-dashoffset="140" stroke-linecap="round"/>
+  
+  <text x="204" y="226" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#ffffff">1.680</text>
+  <text x="204" y="246" text-anchor="middle" font-family="monospace" font-size="12" font-weight="600" fill="#f59e0b">KCAL CONSUMIDAS</text>
+  <text x="204" y="266" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#8b93a0">520 kcal restantes</text>
+
+  <!-- Dial Mini Badges -->
+  <rect x="52" y="360" width="90" height="46" rx="6" fill="#1c202d" stroke="#2d3345" stroke-width="1"/>
+  <text x="97" y="380" text-anchor="middle" font-family="monospace" font-size="13" font-weight="700" fill="#10b981">76%</text>
+  <text x="97" y="396" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#717a8c">DA META</text>
+
+  <rect x="159" y="360" width="90" height="46" rx="6" fill="#1c202d" stroke="#2d3345" stroke-width="1"/>
+  <text x="204" y="380" text-anchor="middle" font-family="monospace" font-size="13" font-weight="700" fill="#3b82f6">4 Refeições</text>
+  <text x="204" y="396" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#717a8c">LOG REGISTRADO</text>
+
+  <rect x="266" y="360" width="90" height="46" rx="6" fill="#1c202d" stroke="#2d3345" stroke-width="1"/>
+  <text x="311" y="380" text-anchor="middle" font-family="monospace" font-size="13" font-weight="700" fill="#e09858">-450 kcal</text>
+  <text x="311" y="396" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#717a8c">DÉFICIT LEVE</text>
+
+  <!-- Right Top Card: Macronutrient Bars -->
+  <rect x="402" y="80" width="374" height="196" rx="10" fill="#151821" stroke="#252a38" stroke-width="1"/>
+  <text x="426" y="112" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff">DISTRIBUIÇÃO DE MACRONUTRIENTES</text>
+
+  <!-- Protein bar -->
+  <text x="426" y="140" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Proteínas</text>
+  <text x="750" y="140" text-anchor="end" font-family="monospace" font-size="12" font-weight="700" fill="#10b981">142g / 160g (88%)</text>
+  <rect x="426" y="147" width="326" height="10" rx="5" fill="#202432"/>
+  <rect x="426" y="147" width="286" height="10" rx="5" fill="url(#kcalGreen)"/>
+
+  <!-- Carbs bar -->
+  <text x="426" y="180" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Carboidratos</text>
+  <text x="750" y="180" text-anchor="end" font-family="monospace" font-size="12" font-weight="700" fill="#3b82f6">185g / 220g (84%)</text>
+  <rect x="426" y="187" width="326" height="10" rx="5" fill="#202432"/>
+  <rect x="426" y="187" width="274" height="10" rx="5" fill="url(#kcalBlue)"/>
+
+  <!-- Fats bar -->
+  <text x="426" y="220" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Gorduras Totais</text>
+  <text x="750" y="220" text-anchor="end" font-family="monospace" font-size="12" font-weight="700" fill="#f59e0b">52g / 65g (80%)</text>
+  <rect x="426" y="227" width="326" height="10" rx="5" fill="#202432"/>
+  <rect x="426" y="227" width="260" height="10" rx="5" fill="url(#kcalAccent)"/>
+
+  <text x="426" y="258" font-family="monospace" font-size="10" fill="#717a8c">META PERSONALIZADA CALCULADA COM TAXA METABÓLICA BASAL</text>
+
+  <!-- Right Bottom Card: Recent Meals Log -->
+  <rect x="402" y="292" width="374" height="134" rx="10" fill="#151821" stroke="#252a38" stroke-width="1"/>
+  <text x="426" y="322" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">REFEIÇÕES RECENTES</text>
+
+  <g transform="translate(426, 336)">
+    <!-- Meal 1 -->
+    <rect x="0" y="0" width="102" height="72" rx="6" fill="#1c202d" stroke="#2d3345" stroke-width="1"/>
+    <text x="10" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#e09858">Café da Manhã</text>
+    <text x="10" y="42" font-family="monospace" font-size="13" font-weight="700" fill="#ffffff">480 kcal</text>
+    <text x="10" y="60" font-family="monospace" font-size="9" fill="#10b981">P: 34g • C: 50g</text>
+
+    <!-- Meal 2 -->
+    <rect x="112" y="0" width="102" height="72" rx="6" fill="#1c202d" stroke="#2d3345" stroke-width="1"/>
+    <text x="122" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#e09858">Almoço</text>
+    <text x="122" y="42" font-family="monospace" font-size="13" font-weight="700" fill="#ffffff">720 kcal</text>
+    <text x="122" y="60" font-family="monospace" font-size="9" fill="#10b981">P: 62g • C: 78g</text>
+
+    <!-- Meal 3 -->
+    <rect x="224" y="0" width="102" height="72" rx="6" fill="#1c202d" stroke="#2d3345" stroke-width="1"/>
+    <text x="234" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#e09858">Lanche Tarde</text>
+    <text x="234" y="42" font-family="monospace" font-size="13" font-weight="700" fill="#ffffff">480 kcal</text>
+    <text x="234" y="60" font-family="monospace" font-size="9" fill="#10b981">P: 46g • C: 57g</text>
+  </g>
+</svg>

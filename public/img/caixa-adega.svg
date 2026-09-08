@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1115"/>
+      <stop offset="100%" stop-color="#171920"/>
+    </linearGradient>
+    <linearGradient id="copperGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b87333"/>
+      <stop offset="100%" stop-color="#e09858"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e2129"/>
+      <stop offset="100%" stop-color="#15171d"/>
+    </linearGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#b87333" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <g opacity="0.07" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="350" x2="800" y2="350"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="100" y1="0" x2="100" y2="450"/>
+    <line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/>
+    <line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/>
+    <line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+
+  <!-- Top Application Bar -->
+  <rect x="24" y="20" width="752" height="44" rx="8" fill="#1b1e25" stroke="#2a2e39" stroke-width="1"/>
+  <circle cx="46" cy="42" r="5" fill="#ef4444"/>
+  <circle cx="62" cy="42" r="5" fill="#f59e0b"/>
+  <circle cx="78" cy="42" r="5" fill="#10b981"/>
+  
+  <text x="106" y="46" font-family="monospace" font-size="12" font-weight="700" fill="#e09858" letter-spacing="1">ADEGA POS // TERMINAL DE CAIXA EM PRODUÇÃO</text>
+  
+  <rect x="620" y="30" width="144" height="24" rx="12" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-width="1"/>
+  <circle cx="632" cy="42" r="3" fill="#10b981"/>
+  <text x="642" y="46" font-family="monospace" font-size="10" font-weight="600" fill="#34d399">ONLINE • IMPRESSORA</text>
+
+  <!-- Left: Order Items Ticket Panel -->
+  <rect x="24" y="76" width="460" height="350" rx="8" fill="url(#cardGrad)" stroke="#2a2e39" stroke-width="1"/>
+  
+  <text x="44" y="104" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">MESA 08 • COMANDA #0142</text>
+  <text x="44" y="122" font-family="monospace" font-size="11" fill="#8b949e">Operador: Eduardo M. • 19:42:15</text>
+  <line x1="44" y1="134" x2="464" y2="134" stroke="#2d333f" stroke-width="1"/>
+
+  <!-- Items list -->
+  <!-- Item 1 -->
+  <rect x="44" y="146" width="420" height="48" rx="6" fill="#242833" stroke="#333846" stroke-width="1"/>
+  <text x="60" y="170" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">1x Picanha Especial na Brasa (800g)</text>
+  <text x="60" y="186" font-family="monospace" font-size="10" fill="#b87333">PONTO: AO PONTO // COM FAROFA &amp; VINAGRETE</text>
+  <text x="380" y="174" font-family="monospace" font-size="13" font-weight="700" fill="#e09858">R$ 149,90</text>
+
+  <!-- Item 2 -->
+  <rect x="44" y="202" width="420" height="44" rx="6" fill="#242833" stroke="#333846" stroke-width="1"/>
+  <text x="60" y="224" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">2x Chopp Artesanal IPA 500ml</text>
+  <text x="60" y="238" font-family="monospace" font-size="10" fill="#8b949e">BEBIDAS • COPO TULIPA</text>
+  <text x="388" y="228" font-family="monospace" font-size="13" font-weight="700" fill="#e09858">R$ 38,00</text>
+
+  <!-- Item 3 -->
+  <rect x="44" y="254" width="420" height="44" rx="6" fill="#242833" stroke="#333846" stroke-width="1"/>
+  <text x="60" y="276" font-family="sans-serif" font-size="13" font-weight="600" fill="#ffffff">1x Pudim de Leite Condensado Caseiro</text>
+  <text x="60" y="290" font-family="monospace" font-size="10" fill="#8b949e">SOBREMESAS</text>
+  <text x="390" y="280" font-family="monospace" font-size="13" font-weight="700" fill="#e09858">R$ 16,50</text>
+
+  <!-- Quick Actions inside ticket -->
+  <rect x="44" y="312" width="130" height="30" rx="4" fill="#1b1e25" stroke="#b87333" stroke-width="1"/>
+  <text x="56" y="331" font-family="monospace" font-size="10" font-weight="600" fill="#e09858">+ ADICIONAR ITEM</text>
+  
+  <rect x="182" y="312" width="120" height="30" rx="4" fill="#1b1e25" stroke="#384050" stroke-width="1"/>
+  <text x="194" y="331" font-family="monospace" font-size="10" fill="#a0aec0">DIVIDIR CONTA</text>
+
+  <rect x="310" y="312" width="154" height="30" rx="4" fill="#1b1e25" stroke="#384050" stroke-width="1"/>
+  <text x="320" y="331" font-family="monospace" font-size="10" fill="#a0aec0">DESCONTO / CUPOM</text>
+
+  <text x="44" y="380" font-family="monospace" font-size="11" fill="#6e7681">INTEGRAÇÃO: ESC/POS TÉRMICA DIRETA • 58MM / 80MM</text>
+  <text x="44" y="398" font-family="monospace" font-size="11" fill="#10b981">● PROTOCOLO WEBSOCKET EM TEMPO REAL ATIVO</text>
+
+  <!-- Right: Payment & Summary Panel -->
+  <rect x="500" y="76" width="276" height="350" rx="8" fill="url(#cardGrad)" stroke="#2a2e39" stroke-width="1"/>
+  
+  <text x="520" y="106" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff" letter-spacing="0.5">RESUMO DA CONTA</text>
+  
+  <text x="520" y="140" font-family="sans-serif" font-size="12" fill="#8b949e">Subtotal:</text>
+  <text x="710" y="140" font-family="monospace" font-size="12" fill="#ffffff" text-anchor="end">R$ 204,40</text>
+  
+  <text x="520" y="166" font-family="sans-serif" font-size="12" fill="#8b949e">Serviço Opcional (10%):</text>
+  <text x="710" y="166" font-family="monospace" font-size="12" fill="#ffffff" text-anchor="end">R$ 20,44</text>
+  
+  <line x1="520" y1="184" x2="756" y2="184" stroke="#2d333f" stroke-width="1"/>
+
+  <text x="520" y="214" font-family="sans-serif" font-size="14" font-weight="700" fill="#e09858">TOTAL A PAGAR</text>
+  <text x="756" y="214" font-family="monospace" font-size="22" font-weight="800" fill="#ffffff" text-anchor="end">R$ 224,84</text>
+
+  <!-- Payment Methods Badges -->
+  <rect x="520" y="238" width="70" height="28" rx="4" fill="#b87333" fill-opacity="0.15" stroke="#b87333" stroke-width="1"/>
+  <text x="536" y="256" font-family="monospace" font-size="10" font-weight="700" fill="#e09858">PIX</text>
+
+  <rect x="598" y="238" width="76" height="28" rx="4" fill="#1e2430" stroke="#333b4d" stroke-width="1"/>
+  <text x="612" y="256" font-family="monospace" font-size="10" fill="#a0aec0">CRÉDITO</text>
+
+  <rect x="682" y="238" width="74" height="28" rx="4" fill="#1e2430" stroke="#333b4d" stroke-width="1"/>
+  <text x="696" y="256" font-family="monospace" font-size="10" fill="#a0aec0">DÉBITO</text>
+
+  <!-- Big Copper Checkout Button -->
+  <rect x="520" y="286" width="236" height="46" rx="6" fill="url(#copperGrad)" filter="url(#subtleGlow)"/>
+  <text x="638" y="314" font-family="monospace" font-size="13" font-weight="800" fill="#0f1115" text-anchor="middle" letter-spacing="0.5">FECHAR CONTA [F10]</text>
+
+  <!-- Print Thermal Button -->
+  <rect x="520" y="342" width="236" height="38" rx="6" fill="#242833" stroke="#3d4454" stroke-width="1"/>
+  <text x="638" y="366" font-family="monospace" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle">🖨️ IMPRIMIR COMPROVANTE</text>
+  
+  <text x="520" y="408" font-family="monospace" font-size="9" fill="#8b949e">SEGURANÇA: ENCRIPTADO • RECONCILIAÇÃO OK</text>
+</svg>

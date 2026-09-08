@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="r2wBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1117"/>
+      <stop offset="100%" stop-color="#161b24"/>
+    </linearGradient>
+    <linearGradient id="r2wCopper" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b87333"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#r2wBg)"/>
+
+  <!-- Top bar -->
+  <rect x="24" y="20" width="752" height="46" rx="8" fill="#171b24" stroke="#2a303e" stroke-width="1"/>
+  <circle cx="48" cy="43" r="5" fill="#ef4444"/>
+  <circle cx="64" cy="43" r="5" fill="#f59e0b"/>
+  <circle cx="80" cy="43" r="5" fill="#10b981"/>
+
+  <text x="110" y="47" font-family="monospace" font-size="12" font-weight="700" fill="#e09858">READY 2 WORK // TECH CAREER ACCELERATOR PLATFORM</text>
+  
+  <rect x="580" y="30" width="180" height="26" rx="13" fill="#b87333" fill-opacity="0.15" stroke="#b87333" stroke-width="1"/>
+  <text x="670" y="47" font-family="monospace" font-size="10" font-weight="700" fill="#e09858" text-anchor="middle">STATUS: CANDIDATO PRONTO</text>
+
+  <!-- Left: Candidate Profile & Match Metrics -->
+  <g transform="translate(24, 80)">
+    <rect width="320" height="346" rx="8" fill="#151922" stroke="#282f3f" stroke-width="1"/>
+    
+    <circle cx="48" cy="48" r="24" fill="#b87333" fill-opacity="0.2" stroke="#b87333" stroke-width="1.5"/>
+    <text x="48" y="54" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#e09858">💼</text>
+
+    <text x="86" y="44" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">Simulador de Carreira Tech</text>
+    <text x="86" y="60" font-family="monospace" font-size="10" fill="#8c97a8">Trilha Java Jr &amp; Engenharia</text>
+
+    <line x1="20" y1="84" x2="300" y2="84" stroke="#252b38" stroke-width="1"/>
+
+    <!-- Skills Match -->
+    <text x="20" y="110" font-family="monospace" font-size="11" font-weight="600" fill="#a0aec0">JAVA BACKEND READINESS</text>
+    <rect x="20" y="120" width="280" height="8" rx="4" fill="#202634"/>
+    <rect x="20" y="120" width="250" height="8" rx="4" fill="url(#r2wCopper)"/>
+    <text x="280" y="112" font-family="monospace" font-size="10" fill="#e09858" text-anchor="end">90%</text>
+
+    <text x="20" y="152" font-family="monospace" font-size="11" font-weight="600" fill="#a0aec0">ORIENTAÇÃO A OBJETOS &amp; PADRÕES</text>
+    <rect x="20" y="162" width="280" height="8" rx="4" fill="#202634"/>
+    <rect x="20" y="162" width="238" height="8" rx="4" fill="url(#r2wCopper)"/>
+    <text x="280" y="154" font-family="monospace" font-size="10" fill="#e09858" text-anchor="end">85%</text>
+
+    <text x="20" y="194" font-family="monospace" font-size="11" font-weight="600" fill="#a0aec0">ESTRUTURA DE DADOS &amp; ALGORITMOS</text>
+    <rect x="20" y="204" width="280" height="8" rx="4" fill="#202634"/>
+    <rect x="20" y="204" width="224" height="8" rx="4" fill="url(#r2wCopper)"/>
+    <text x="280" y="196" font-family="monospace" font-size="10" fill="#e09858" text-anchor="end">80%</text>
+
+    <!-- Checklist -->
+    <rect x="20" y="234" width="280" height="34" rx="6" fill="#1b202c" stroke="#2d3546" stroke-width="1"/>
+    <circle cx="38" cy="251" r="7" fill="#10b981"/>
+    <text x="38" y="255" font-size="9" fill="#000" text-anchor="middle">✓</text>
+    <text x="54" y="255" font-family="sans-serif" font-size="11" fill="#e2e8f0">Currículo Técnico Otimizado</text>
+
+    <rect x="20" y="278" width="280" height="34" rx="6" fill="#1b202c" stroke="#2d3546" stroke-width="1"/>
+    <circle cx="38" cy="295" r="7" fill="#10b981"/>
+    <text x="38" y="299" font-size="9" fill="#000" text-anchor="middle">✓</text>
+    <text x="54" y="299" font-family="sans-serif" font-size="11" fill="#e2e8f0">Simulação de Entrevista Aprovada</text>
+  </g>
+
+  <!-- Right: Technical Quiz & Code Assessment -->
+  <g transform="translate(360, 80)">
+    <rect width="416" height="346" rx="8" fill="#151922" stroke="#282f3f" stroke-width="1"/>
+    
+    <text x="24" y="36" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">AVALIAÇÃO TÉCNICA // JAVA &amp; ARQUITETURA</text>
+    <rect x="300" y="20" width="96" height="24" rx="4" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1"/>
+    <text x="348" y="36" font-family="monospace" font-size="10" font-weight="700" fill="#10b981" text-anchor="middle">TEMPO: 12:45</text>
+
+    <!-- Code Block -->
+    <rect x="24" y="58" width="372" height="150" rx="6" fill="#0d0f14" stroke="#252a36" stroke-width="1"/>
+    <text x="40" y="84" font-family="monospace" font-size="11" fill="#e09858">public class CandidateMatcher {</text>
+    <text x="56" y="104" font-family="monospace" font-size="11" fill="#8c97a8">@Autowired private CandidateRepository repo;</text>
+    <text x="56" y="124" font-family="monospace" font-size="11" fill="#38bdf8">public AssessmentResult evaluate(Candidate c) {</text>
+    <text x="72" y="144" font-family="monospace" font-size="11" fill="#a0aec0">boolean isReady = c.hasSkill("Java") &amp;&amp; c.isDedicated();</text>
+    <text x="72" y="164" font-family="monospace" font-size="11" fill="#10b981">return new AssessmentResult(isReady, Score.PERFECT);</text>
+    <text x="56" y="184" font-family="monospace" font-size="11" fill="#38bdf8">}</text>
+    <text x="40" y="200" font-family="monospace" font-size="11" fill="#e09858">}</text>
+
+    <!-- Metrics Cards -->
+    <rect x="24" y="224" width="176" height="54" rx="6" fill="#1c212c"/>
+    <text x="36" y="244" font-family="monospace" font-size="10" fill="#8c97a8">TESTES DE UNIDADE</text>
+    <text x="36" y="266" font-family="monospace" font-size="14" font-weight="700" fill="#10b981">24 / 24 PASSANDO</text>
+
+    <rect x="220" y="224" width="176" height="54" rx="6" fill="#1c212c"/>
+    <text x="232" y="244" font-family="monospace" font-size="10" fill="#8c97a8">COMPLEXIDADE</text>
+    <text x="232" y="266" font-family="monospace" font-size="14" font-weight="700" fill="#e09858">O(log n) OTIMIZADA</text>
+
+    <rect x="24" y="294" width="372" height="38" rx="6" fill="url(#r2wCopper)"/>
+    <text x="210" y="318" font-family="monospace" font-size="11" font-weight="800" fill="#0f1115" text-anchor="middle">SUBMETER RESPOSTA // GERAR CERTIFICADO</text>
+  </g>
+</svg>
