@@ -208,6 +208,14 @@ export const en = {
         stack: 'Next.js, React, TypeScript and Supabase with PostgreSQL'
       },
       {
+        id: 'proj-calculadora-metais',
+        title: 'Metal Calculator',
+        kind: 'Front end, Softcomp Sistemas',
+        desc: 'Works out the theoretical weight of 14 profiles in 30 materials for ERP quotes and sales, accepts inch fractions and runs entirely from the keyboard.',
+        stack: 'React, Vite, JavaScript and Python',
+        imageAlt: 'Theoretical weight calculator with metal profiles, a 3D technical sketch and dimension fields'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: 'Mobile, React Native',

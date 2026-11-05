@@ -208,6 +208,14 @@ export const pt = {
         stack: 'Next.js, React, TypeScript e Supabase com PostgreSQL'
       },
       {
+        id: 'proj-calculadora-metais',
+        title: 'Calculadora de Metais',
+        kind: 'Front-end, Softcomp Sistemas',
+        desc: 'Calcula o peso teórico de 14 perfis em 30 materiais para cotações e vendas no ERP, aceita frações em polegadas e funciona inteira pelo teclado.',
+        stack: 'React, Vite, JavaScript e Python',
+        imageAlt: 'Calculadora de peso teórico com os perfis de metal, o esquema técnico em 3D e os campos de dimensão'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: 'Mobile, React Native',

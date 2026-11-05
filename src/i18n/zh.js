@@ -208,6 +208,14 @@ export const zh = {
         stack: 'Next.js、React、TypeScript 和 Supabase（PostgreSQL）'
       },
       {
+        id: 'proj-calculadora-metais',
+        title: '金属重量计算器',
+        kind: '前端，Softcomp Sistemas',
+        desc: '为 ERP 报价和销售计算 14 种型材、30 种材料的理论重量，支持英寸分数输入，可完全用键盘操作。',
+        stack: 'React、Vite、JavaScript 和 Python',
+        imageAlt: '理论重量计算器，显示金属型材、3D 技术示意图和尺寸输入框'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: '移动端，React Native',

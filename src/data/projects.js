@@ -20,6 +20,13 @@ export const PROJECTS = [
   { id: 'proj-monitor-sefaz' },
   { id: 'proj-softcomp-changelog' },
   {
+    id: 'proj-calculadora-metais',
+    img: '/img/calculadora.jpg',
+    imgW: 1440,
+    imgH: 900,
+    codeUrl: 'https://github.com/bieleckydev/calculadora_metais'
+  },
+  {
     id: 'proj-heavy',
     codeUrl: 'https://github.com/bieleckydev/heavy.io'
   },
