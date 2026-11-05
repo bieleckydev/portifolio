@@ -79,7 +79,7 @@ export default function Skills() {
                           isSelected ? 'active' : ''
                         }`}
                         aria-expanded={isHovered}
-                        aria-label={`Inspecionar ${skill.name}`}
+                        aria-label={`${t.skills.inspectAria} ${skill.name}`}
                       >
                         <span className="floating-tag-indicator" aria-hidden="true"></span>
                         <span className="floating-tag-name">{skill.name}</span>

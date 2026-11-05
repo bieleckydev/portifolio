@@ -6,7 +6,9 @@ export const pt = {
     projects: 'Projetos',
     contact: 'Contato',
     themeToggle: 'Alternar tema',
-    menuToggle: 'Abrir menu de navegação'
+    menuToggle: 'Abrir menu de navegação',
+    mainNav: 'Navegação principal',
+    whatsapp: 'Conversar pelo WhatsApp'
   },
   hero: {
     tagline: 'Portfólio // Dev Java & Software',
@@ -55,6 +57,7 @@ export const pt = {
     inspectorTag: 'INSPEÇÃO DE EXPERIÊNCIA',
     inspectorContext: 'Projeto / Contexto:',
     inspectorBtn: 'Ver Projetos Relacionados',
+    inspectAria: 'Ver detalhes de',
     viewHorizontal: 'Carrossel Horizontal',
     viewGrid: 'Grade',
     scrollHint: 'Role na horizontal ou use as setas para explorar as categorias',

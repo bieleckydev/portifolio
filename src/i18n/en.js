@@ -6,7 +6,9 @@ export const en = {
     projects: 'Projects',
     contact: 'Contact',
     themeToggle: 'Toggle theme',
-    menuToggle: 'Open navigation menu'
+    menuToggle: 'Open navigation menu',
+    mainNav: 'Main navigation',
+    whatsapp: 'Chat on WhatsApp'
   },
   hero: {
     tagline: 'Portfolio // Java & Software Dev',
@@ -55,6 +57,7 @@ export const en = {
     inspectorTag: 'EXPERIENCE INSPECTOR',
     inspectorContext: 'Project / Context:',
     inspectorBtn: 'View Related Projects',
+    inspectAria: 'Show details for',
     viewHorizontal: 'Horizontal Carousel',
     viewGrid: 'Grid View',
     scrollHint: 'Scroll horizontally or use arrows to explore skill categories',

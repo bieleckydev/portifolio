@@ -16,7 +16,7 @@ export default function Navbar({
         <a href="#" className="logo" id="header-logo" onClick={onCloseMobileMenu}>
           bielecky<span>.dev</span>
         </a>
-        <nav className="navbar" id="main-nav" aria-label="Navegação principal">
+        <nav className="navbar" id="main-nav" aria-label={t.nav.mainNav}>
           <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`} id="nav-links-list">
             <li>
               <a href="#sobre" onClick={onCloseMobileMenu}>

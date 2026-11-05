@@ -6,7 +6,9 @@ export const zh = {
     projects: '项目',
     contact: '联系',
     themeToggle: '切换主题',
-    menuToggle: '打开导航菜单'
+    menuToggle: '打开导航菜单',
+    mainNav: '主导航',
+    whatsapp: '通过 WhatsApp 联系'
   },
   hero: {
     tagline: '个人作品集 // Java 与软件工程',
@@ -55,6 +57,7 @@ export const zh = {
     inspectorTag: '技能实践检视器',
     inspectorContext: '关联项目 / 背景:',
     inspectorBtn: '查看相关项目',
+    inspectAria: '查看详情：',
     viewHorizontal: '横向轮播',
     viewGrid: '网格视图',
     scrollHint: '横向滚动或使用箭头探索各技术分类',
