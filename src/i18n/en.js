@@ -13,7 +13,7 @@ export const en = {
   },
   hero: {
     lead: 'Software engineer in training. I built the point-of-sale system Adega do Dino runs on today.',
-    facts: 'Software Engineering student in São Bernardo do Campo, Brazil. Looking for an internship or a junior role.',
+    facts: 'Junior developer at Softcomp Sistemas, working with AI every day. Software Engineering student in São Bernardo do Campo, Brazil.',
     cta: 'Get in touch',
     projects: 'See projects'
   },

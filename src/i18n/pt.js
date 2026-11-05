@@ -13,7 +13,7 @@ export const pt = {
   },
   hero: {
     lead: 'Engenheiro de software em formação. Construí o sistema de caixa que a Adega do Dino usa hoje.',
-    facts: 'Estudante de Engenharia de Software em São Bernardo do Campo, SP. Procuro estágio ou vaga júnior.',
+    facts: 'Desenvolvedor júnior na Softcomp Sistemas, onde uso IA no dia a dia. Estudo Engenharia de Software em São Bernardo do Campo, SP.',
     cta: 'Falar comigo',
     projects: 'Ver projetos'
   },

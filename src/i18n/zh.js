@@ -13,7 +13,7 @@ export const zh = {
   },
   hero: {
     lead: '正在成长的软件工程师。我开发了 Adega do Dino 烤肉店正在使用的收银系统。',
-    facts: '软件工程在读，现居巴西圣贝尔纳多-杜坎普。正在寻找实习或初级开发职位。',
+    facts: 'Softcomp Sistemas 初级开发工程师，日常工作中大量使用 AI。软件工程在读，现居巴西圣贝尔纳多-杜坎普。',
     cta: '联系我',
     projects: '查看项目'
   },
