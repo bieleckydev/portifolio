@@ -67,172 +67,60 @@ export const zh = {
     ],
     signRole: '软件工程在读'
   },
-  skills: {
-    title: '技术专长',
-    subtitle:
-      '将鼠标悬停在浮动标签上，即可查看该项技术在真实项目中的实践总结。',
-    inspectAria: '查看详情：',
-    viewHorizontal: '横向轮播',
-    viewGrid: '网格视图',
-    scrollHint: '横向滚动或使用箭头探索各技术分类',
-    categories: [
+  experience: {
+    title: '经历',
+    skillsTitle: '技能',
+    groups: [
       {
-        id: 'skills-linguagens',
-        title: '编程语言与逻辑',
-        icon: 'fas fa-code',
-        skills: [
+        label: '工作',
+        rows: [
           {
-            id: 'skill-java',
-            name: 'Java',
-            project: '加密货币交易模拟平台 & 学术核心',
-            summary:
-              '高健壮性后端开发、面向对象设计（OOP）、金融交易业务逻辑建模及高可靠性算法实现。',
-            featured: true
+            name: '服务与运营，Adega do Dino',
+            detail: '在客流量很大的烤肉店负责前厅服务，维护库存表格，并协助餐厅的广告宣传。',
+            value: '近期'
           },
           {
-            id: 'skill-sql',
-            name: 'SQL 与数据建模',
-            project: '餐厅 POS 收银管理系统',
-            summary:
-              '结构化 SQL 查询构建、关系型库存数据建模、销售记录持久化与满足 ACID 的事务一致性。',
-            featured: true
-          },
-          {
-            id: 'skill-python',
-            name: 'Python',
-            project: '自动化脚本与数据处理',
-            summary:
-              '文件处理自动化脚本开发、日常学术任务自动化及基础数值数据处理算法。',
+            name: '电脑组装与调校',
+            detail: '个人实践：组装、稳定性测试和散热管理。',
+            value: '2024 至 2025'
           }
         ]
       },
       {
-        id: 'skills-ferramentas',
-        title: '开发工具与集成环境',
-        icon: 'fas fa-tools',
-        skills: [
-          {
-            id: 'skill-intellij',
-            name: 'IntelliJ IDEA',
-            project: 'Java 生态与后端开发',
-            summary:
-              '首选开发 IDE，用于深度代码调试、类重构、单元测试执行与内存分析监控。',
-            featured: true
-          },
-          {
-            id: 'skill-git',
-            name: 'Git & GitHub',
-            project: '所有工程的版本控制',
-            summary:
-              '语义化版本控制、分支管理、公共开源仓库文档化维护（Caixa Adega, OTIS, Feira Online）与协作。',
-            featured: true
-          },
-          {
-            id: 'skill-vscode',
-            name: 'VS Code',
-            project: '数字菜单与前端工程',
-            summary:
-              '移动端优先界面快速原型开发、轻量布局排版与现代 Web 组件敏捷编辑。',
-          }
-        ]
-      },
-      {
-        id: 'skills-web',
-        title: 'Web 开发与 POS 系统',
-        icon: 'fas fa-laptop-code',
-        skills: [
-          {
-            id: 'skill-pos',
-            name: 'POS 收银系统架构',
-            project: 'Adega POS 收银系统 (生产环境运行)',
-            summary:
-              '面向餐饮业的完整 Web POS 方案，包含动态税费与服务费核算、快速交班结账及热敏小票报表打印对接。',
-            featured: true
-          },
-          {
-            id: 'skill-mobile-first',
-            name: '移动端优先架构',
-            project: 'Dino 餐厅电子菜单 & OTIS',
-            summary:
-              '极速秒开的响应式 Web 界面，专为高客流量与订单高峰下的触控操作优化。',
-            featured: true
-          },
-          {
-            id: 'skill-apis',
-            name: 'API 接口集成',
-            project: '异步数据通信与表单服务',
-            summary:
-              '异步 HTTP 通信、严格的前端数据载荷校验及高容错网络请求处理。',
-          }
-        ]
-      },
-      {
-        id: 'skills-hardware-metodologias',
-        title: '硬件工程与敏捷流程',
-        icon: 'fas fa-microchip',
-        skills: [
-          {
-            id: 'skill-hardware',
-            name: '高性能计算硬件',
-            project: '独立实践 2024-2025',
-            summary:
-              '热管理架构、高阶电脑硬件装配、安全超频调校、稳定性基准评测与极端负载压力测试。',
-            featured: true
-          },
-          {
-            id: 'skill-agile',
-            name: '敏捷项目管理 (Trello)',
-            project: '迭代规划与任务跟踪',
-            summary:
-              '产品待办列表梳理、看板任务拆分、风险阻碍跟进与增量式迭代交付。',
-          },
-          {
-            id: 'skill-office',
-            name: '数据与库存运营管理',
-            project: 'Adega do Dino 餐饮业务运营',
-            summary:
-              '动态库存核算表、运营成本自动化分析及物料标准化盘点。',
-          },
-          {
-            id: 'skill-idiomas',
-            name: '专业英语',
-            project: '官方技术文档与 RFC 规范',
-            summary:
-              '熟练阅读英文技术 API 文档、Java 架构规范手册、设计模式及全球技术社区讨论。',
-          }
+        label: '教育',
+        rows: [
+          { name: '软件工程学士', value: '在读' },
+          { name: '技术英语', detail: '阅读技术文档和规范。' }
         ]
       }
-    ]
-  },
-  experience: {
-    title: '工作经历',
-    viewHorizontal: '横向路线图',
-    viewVertical: '纵向列表',
-    scrollHint: '横向滚动或使用箭头探索履历历程',
-    items: [
+    ],
+    skills: [
       {
-        id: 'exp-adega',
-        date: '近期经历',
-        title: '运营管理与客户服务',
-        company: 'Churrascaria Adega do Dino 餐厅',
-        details: [
-          '在高客流餐饮环境下主导客户服务与日常运营，展现出高压环境下的良好沟通协作与抗压能力。',
-          '设计并维护内部库存及营运数据动态表格，运用逻辑思维提升数据检索与管理效率。',
-          '协助规划数字化宣传、公告发布及线上菜单更新。'
-        ],
-        tags: ['人际沟通', '团队协作', '数据管理']
+        label: '编程语言',
+        rows: [
+          { name: 'Java', value: 'Aurum Banking 与课程项目' },
+          { name: 'SQL', value: '收银系统的库存与销售' },
+          { name: 'JavaScript', value: '收银、菜单、OTIS 和 Feira' },
+          { name: 'Kotlin', value: 'kcal.io' },
+          { name: 'Python', value: '自动化脚本' }
+        ]
       },
       {
-        id: 'exp-hardware',
-        date: '2024年11月 - 2025年',
-        title: '计算硬件与系统专员',
-        company: '独立技术实践',
-        details: [
-          '定制化组装、配置及压力测试高性能计算机工作站。',
-          '深度优化操作系统、微调固件及优化系统散热架构。',
-          '构建面向高负载计算与极高稳定性的底层硬件基础设施。'
-        ],
-        tags: ['系统调优', 'PC架构', '故障诊断']
+        label: '系统',
+        rows: [
+          { name: 'ESC/POS 热敏打印', value: '收银系统' },
+          { name: '移动端界面', value: '电子菜单' },
+          { name: 'API 集成', value: '表单与服务' }
+        ]
+      },
+      {
+        label: '工具',
+        rows: [
+          { name: 'Git 和 GitHub', value: '所有项目' },
+          { name: 'IntelliJ IDEA', value: 'Java 项目' },
+          { name: 'VS Code', value: '前端' },
+          { name: 'Trello', value: '交付规划' }
+        ]
       }
     ]
   },
@@ -318,19 +206,6 @@ export const zh = {
       '检测到网络波动。您也可以直接点击下方的“直接发送邮件”按钮。',
     directDivider: '或通过其他直接渠道',
     directEmailBtn: '直接发送邮件'
-  },
-  telemetry: {
-    tag: 'TEL // HUD',
-    coords: '23°41\'S 46°33\'W',
-    scroll: 'SCROLL',
-    sections: {
-      hero: '首页',
-      sobre: '关于',
-      habilidades: '技能',
-      experiencia: '经历',
-      projetos: '项目',
-      contato: '联系'
-    }
   },
   footer: {
     copyright: 'Eduardo Mota Bielecky da Silva Mello.',

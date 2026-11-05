@@ -67,172 +67,60 @@ export const pt = {
     ],
     signRole: 'Estudante de Engenharia de Software'
   },
-  skills: {
-    title: 'Habilidades Técnicas',
-    subtitle:
-      'Passe o cursor sobre as tags flutuantes para inspecionar o resumo da experiência prática em projetos.',
-    inspectAria: 'Ver detalhes de',
-    viewHorizontal: 'Carrossel Horizontal',
-    viewGrid: 'Grade',
-    scrollHint: 'Role na horizontal ou use as setas para explorar as categorias',
-    categories: [
+  experience: {
+    title: 'Experiência',
+    skillsTitle: 'Habilidades',
+    groups: [
       {
-        id: 'skills-linguagens',
-        title: 'Linguagens & Lógica',
-        icon: 'fas fa-code',
-        skills: [
+        label: 'Trabalho',
+        rows: [
           {
-            id: 'skill-java',
-            name: 'Java',
-            project: 'Corretora Cripto & Projetos Acadêmicos',
-            summary:
-              'Desenvolvimento backend robusto, modelagem orientada a objetos (POO), lógica de transações financeiras e algoritmos de alta integridade.',
-            featured: true
+            name: 'Atendimento e operações, Adega do Dino',
+            detail: 'Atendimento num salão de muito movimento, planilhas de estoque e apoio nos anúncios da casa.',
+            value: 'Recente'
           },
           {
-            id: 'skill-sql',
-            name: 'SQL & Modelagem',
-            project: 'Sistema de Caixa POS Adega',
-            summary:
-              'Construção de consultas estruturadas, modelagem relacional de estoque, persistência de vendas e histórico financeiro com consistência transacional.',
-            featured: true
-          },
-          {
-            id: 'skill-python',
-            name: 'Python',
-            project: 'Automação & Scripts de Dados',
-            summary:
-              'Criação de rotinas para manipulação de arquivos, automação de tarefas acadêmicas e algoritmos iniciais de processamento numérico.',
+            name: 'Montagem e ajuste de computadores',
+            detail: 'Prática independente: montagem, testes de estabilidade e gestão térmica.',
+            value: '2024 a 2025'
           }
         ]
       },
       {
-        id: 'skills-ferramentas',
-        title: 'Ferramentas & Ambientes',
-        icon: 'fas fa-tools',
-        skills: [
-          {
-            id: 'skill-intellij',
-            name: 'IntelliJ IDEA',
-            project: 'Ecossistema Java & Backend',
-            summary:
-              'Ambiente primário de desenvolvimento para depuração minuciosa, refatoração de classes, execução de testes e monitoramento de memória.',
-            featured: true
-          },
-          {
-            id: 'skill-git',
-            name: 'Git & GitHub',
-            project: 'Controle de Versão dos Projetos',
-            summary:
-              'Versionamento semântico, fluxo de branches, documentação de repositórios públicos (Caixa Adega, OTIS, Feira Online) e colaboração.',
-            featured: true
-          },
-          {
-            id: 'skill-vscode',
-            name: 'VS Code',
-            project: 'Cardápio Digital & Frontends',
-            summary:
-              'Desenvolvimento ágil de interfaces mobile-first, prototipagem rápida de layouts e edição de componentes web.',
-          }
-        ]
-      },
-      {
-        id: 'skills-web',
-        title: 'Desenvolvimento Web & POS',
-        icon: 'fas fa-laptop-code',
-        skills: [
-          {
-            id: 'skill-pos',
-            name: 'Sistemas POS / Caixa',
-            project: 'Sistema Caixa Adega (Em Produção)',
-            summary:
-              'Solução completa para restaurante com cálculo dinâmico de taxas, conciliação e integração para impressão térmica de comprovantes e relatórios.',
-            featured: true
-          },
-          {
-            id: 'skill-mobile-first',
-            name: 'Arquitetura Mobile-First',
-            project: 'Cardápio Digital Dino & OTIS',
-            summary:
-              'Interfaces responsivas de carregamento instantâneo, adaptadas para operação tátil rápida sob alto volume de clientes e pedidos.',
-            featured: true
-          },
-          {
-            id: 'skill-apis',
-            name: 'Integração de APIs',
-            project: 'Formulários & Serviços Assíncronos',
-            summary:
-              'Comunicação HTTP assíncrona, validação rigorosa de payloads client-side e tratamento resiliente de respostas e erros.',
-          }
-        ]
-      },
-      {
-        id: 'skills-hardware-metodologias',
-        title: 'Hardware & Engenharia Operacional',
-        icon: 'fas fa-microchip',
-        skills: [
-          {
-            id: 'skill-hardware',
-            name: 'Hardware de Alta Performance',
-            project: 'Prática Independente 2024-2025',
-            summary:
-              'Dimensionamento térmico, montagem de setups computacionais avançados, overclocking seguro, análise de estabilidade e testes sob estresse severo.',
-            featured: true
-          },
-          {
-            id: 'skill-agile',
-            name: 'Metodologias Ágeis (Trello)',
-            project: 'Organização de Entregas & Sprints',
-            summary:
-              'Gestão de backlog, divisão de entregas em cartões kanban, acompanhamento de bloqueios e fluxo iterativo de desenvolvimento.',
-          },
-          {
-            id: 'skill-office',
-            name: 'Gestão de Dados & Estoque',
-            project: 'Operações Adega do Dino',
-            summary:
-              'Estruturação de planilhas dinâmicas para controle de estoque, cálculo de custos operacionais e padronização de inventário.',
-          },
-          {
-            id: 'skill-idiomas',
-            name: 'Inglês Técnico',
-            project: 'Documentações Oficiais & RFCs',
-            summary:
-              'Leitura fluente de documentações técnicas de APIs, manuais de arquitetura Java, padrões de projeto e comunidades globais de software.',
-          }
+        label: 'Formação',
+        rows: [
+          { name: 'Bacharelado em Engenharia de Software', value: 'Em andamento' },
+          { name: 'Inglês técnico', detail: 'Leitura de documentação e especificações.' }
         ]
       }
-    ]
-  },
-  experience: {
-    title: 'Experiência Profissional',
-    viewHorizontal: 'Trilha Horizontal',
-    viewVertical: 'Lista Vertical',
-    scrollHint: 'Role na horizontal ou use as setas para navegar pela trajetória',
-    items: [
+    ],
+    skills: [
       {
-        id: 'exp-adega',
-        date: 'Experiência Recente',
-        title: 'Atendimento e Operações',
-        company: 'Churrascaria Adega do Dino',
-        details: [
-          'Gestão de atendimento ao cliente em ambiente de alto volume, demonstrando grande capacidade de comunicação e trabalho sob pressão.',
-          'Desenvolvimento e manutenção de planilhas para controle de estoque e organização de dados internos, aplicando raciocínio lógico e gestão de informações.',
-          'Auxílio na comunicação digital e estruturação de anúncios da unidade.'
-        ],
-        tags: ['Comunicação', 'Trabalho em Equipe', 'Organização de Dados']
+        label: 'Linguagens',
+        rows: [
+          { name: 'Java', value: 'Aurum Banking e faculdade' },
+          { name: 'SQL', value: 'Estoque e vendas do caixa' },
+          { name: 'JavaScript', value: 'Caixa, cardápio, OTIS e Feira' },
+          { name: 'Kotlin', value: 'kcal.io' },
+          { name: 'Python', value: 'Scripts de automação' }
+        ]
       },
       {
-        id: 'exp-hardware',
-        date: 'Nov 2024 - 2025',
-        title: 'Especialista em Hardware',
-        company: 'Prática Independente',
-        details: [
-          'Montagem, configuração e testes de sistemas computacionais avançados.',
-          'Otimização de sistemas operacionais e gestão de componentes térmicos.',
-          'Infraestrutura de hardware com foco em processamento intensivo e estabilidade.'
-        ],
-        tags: ['Otimização de Sistemas', 'Arquitetura de PCs', 'Diagnóstico']
+        label: 'Sistemas',
+        rows: [
+          { name: 'Impressão térmica ESC/POS', value: 'Sistema de caixa' },
+          { name: 'Interfaces para celular', value: 'Cardápio Digital' },
+          { name: 'Integração com APIs', value: 'Formulários e serviços' }
+        ]
+      },
+      {
+        label: 'Ferramentas',
+        rows: [
+          { name: 'Git e GitHub', value: 'Todos os projetos' },
+          { name: 'IntelliJ IDEA', value: 'Projetos em Java' },
+          { name: 'VS Code', value: 'Front-end' },
+          { name: 'Trello', value: 'Organização de entregas' }
+        ]
       }
     ]
   },
@@ -318,19 +206,6 @@ export const pt = {
       'Houve uma oscilação na rede. Você também pode usar o botão "Enviar E-mail Direto" abaixo.',
     directDivider: 'OU CANAIS DIRETOS',
     directEmailBtn: 'Enviar E-mail Direto'
-  },
-  telemetry: {
-    tag: 'TEL // HUD',
-    coords: '23°41\'S 46°33\'W',
-    scroll: 'SCROLL',
-    sections: {
-      hero: 'INÍCIO',
-      sobre: 'SOBRE',
-      habilidades: 'SKILLS',
-      experiencia: 'HISTÓRICO',
-      projetos: 'PROJETOS',
-      contato: 'CONTATO'
-    }
   },
   footer: {
     copyright: 'Eduardo Mota Bielecky da Silva Mello.',

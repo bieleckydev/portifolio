@@ -5,7 +5,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import CaseStudy from './components/CaseStudy';
 import About from './components/About';
-import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -57,7 +56,6 @@ function AppContent() {
         <CaseStudy />
         <Projects />
         <About />
-        <Skills />
         <Experience />
         <Contact />
       </main>

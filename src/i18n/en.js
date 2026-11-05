@@ -67,172 +67,60 @@ export const en = {
     ],
     signRole: 'Software Engineering student'
   },
-  skills: {
-    title: 'Technical Skills',
-    subtitle:
-      'Hover over the floating tags to inspect practical project experience and architectural summaries.',
-    inspectAria: 'Show details for',
-    viewHorizontal: 'Horizontal Carousel',
-    viewGrid: 'Grid View',
-    scrollHint: 'Scroll horizontally or use arrows to explore skill categories',
-    categories: [
+  experience: {
+    title: 'Experience',
+    skillsTitle: 'Skills',
+    groups: [
       {
-        id: 'skills-linguagens',
-        title: 'Languages & Logic',
-        icon: 'fas fa-code',
-        skills: [
+        label: 'Work',
+        rows: [
           {
-            id: 'skill-java',
-            name: 'Java',
-            project: 'Crypto Exchange & Academic Core',
-            summary:
-              'Robust backend development, object-oriented design (OOP), financial transaction business rules, and high-integrity algorithms.',
-            featured: true
+            name: 'Service and operations, Adega do Dino',
+            detail: 'Front of house in a busy steakhouse, stock spreadsheets and help with the restaurant’s ads.',
+            value: 'Recent'
           },
           {
-            id: 'skill-sql',
-            name: 'SQL & Data Modeling',
-            project: 'POS Cash Register System',
-            summary:
-              'Structured queries, relational inventory modeling, sales persistence, and transaction audit trails with ACID consistency.',
-            featured: true
-          },
-          {
-            id: 'skill-python',
-            name: 'Python',
-            project: 'Automation & Data Scripts',
-            summary:
-              'Automated file processing routines, academic task automations, and foundational numerical data algorithms.',
+            name: 'Building and tuning computers',
+            detail: 'Independent practice: assembly, stability testing and thermal management.',
+            value: '2024 to 2025'
           }
         ]
       },
       {
-        id: 'skills-ferramentas',
-        title: 'Tools & Environments',
-        icon: 'fas fa-tools',
-        skills: [
-          {
-            id: 'skill-intellij',
-            name: 'IntelliJ IDEA',
-            project: 'Java Ecosystem & Backend',
-            summary:
-              'Primary development IDE for in-depth debugging, class refactoring, unit test execution, and memory profile inspection.',
-            featured: true
-          },
-          {
-            id: 'skill-git',
-            name: 'Git & GitHub',
-            project: 'Version Control on All Projects',
-            summary:
-              'Semantic versioning, branch management, public repository documentation (Caixa Adega, OTIS, Feira Online), and collaboration.',
-            featured: true
-          },
-          {
-            id: 'skill-vscode',
-            name: 'VS Code',
-            project: 'Digital Menu & Web Frontends',
-            summary:
-              'Agile prototyping of mobile-first interfaces, rapid layout engineering, and modern web component editing.',
-          }
-        ]
-      },
-      {
-        id: 'skills-web',
-        title: 'Web Development & POS',
-        icon: 'fas fa-laptop-code',
-        skills: [
-          {
-            id: 'skill-pos',
-            name: 'POS Cashier Systems',
-            project: 'Adega POS System (In Production)',
-            summary:
-              'End-to-end restaurant POS with dynamic fee calculation, quick register closing, and thermal receipt/report printing integration.',
-            featured: true
-          },
-          {
-            id: 'skill-mobile-first',
-            name: 'Mobile-First Architecture',
-            project: 'Dino Digital Menu & OTIS',
-            summary:
-              'Instant-load responsive web apps optimized for fast touchscreen operations under peak customer order volumes.',
-            featured: true
-          },
-          {
-            id: 'skill-apis',
-            name: 'API Integrations',
-            project: 'Forms & Asynchronous Endpoints',
-            summary:
-              'Asynchronous HTTP networking, strict client-side payload validation, and resilient error recovery patterns.',
-          }
-        ]
-      },
-      {
-        id: 'skills-hardware-metodologias',
-        title: 'Hardware & Systems Engineering',
-        icon: 'fas fa-microchip',
-        skills: [
-          {
-            id: 'skill-hardware',
-            name: 'High-Performance Hardware',
-            project: 'Independent Practice 2024-2025',
-            summary:
-              'Thermal dynamics, high-end PC assembly, safe overclocking, stability benchmarking, and stress diagnostic workflows.',
-            featured: true
-          },
-          {
-            id: 'skill-agile',
-            name: 'Agile Workflows (Trello)',
-            project: 'Sprint & Delivery Management',
-            summary:
-              'Backlog grooming, kanban task breakdown, impediment tracking, and iterative release cadences.',
-          },
-          {
-            id: 'skill-office',
-            name: 'Data & Inventory Operations',
-            project: 'Adega do Dino Business Operations',
-            summary:
-              'Dynamic spreadsheets for stock tracking, operating cost analysis, and catalog standardization.',
-          },
-          {
-            id: 'skill-idiomas',
-            name: 'Technical English',
-            project: 'Official Docs & RFC Standards',
-            summary:
-              'Fluent reading of technical API documentation, Java architecture manuals, design patterns, and global dev forums.',
-          }
+        label: 'Education',
+        rows: [
+          { name: 'BSc in Software Engineering', value: 'In progress' },
+          { name: 'Technical English', detail: 'Reading documentation and specifications.' }
         ]
       }
-    ]
-  },
-  experience: {
-    title: 'Professional Experience',
-    viewHorizontal: 'Horizontal Roadmap',
-    viewVertical: 'Vertical List',
-    scrollHint: 'Scroll horizontally or use arrows to navigate career milestones',
-    items: [
+    ],
+    skills: [
       {
-        id: 'exp-adega',
-        date: 'Recent Experience',
-        title: 'Customer Operations & Management',
-        company: 'Churrascaria Adega do Dino',
-        details: [
-          'Customer service operations in a high-volume restaurant environment, demonstrating strong interpersonal communication under peak pressure.',
-          'Creation and management of dynamic spreadsheets for stock auditing and operational data organization.',
-          'Assistance in local digital announcements, menu updates, and customer communications.'
-        ],
-        tags: ['Communication', 'Teamwork', 'Data Management']
+        label: 'Languages',
+        rows: [
+          { name: 'Java', value: 'Aurum Banking and university' },
+          { name: 'SQL', value: 'Till stock and sales' },
+          { name: 'JavaScript', value: 'Till, menu, OTIS and Feira' },
+          { name: 'Kotlin', value: 'kcal.io' },
+          { name: 'Python', value: 'Automation scripts' }
+        ]
       },
       {
-        id: 'exp-hardware',
-        date: 'Nov 2024 - 2025',
-        title: 'Hardware & Systems Specialist',
-        company: 'Independent Practice',
-        details: [
-          'Custom assembly, BIOS configuration, and stress testing of advanced computing workstations.',
-          'Operating system optimization, firmware tuning, and thermal dissipation management.',
-          'Hardware infrastructure built for sustained high-intensity computation and zero downtime.'
-        ],
-        tags: ['System Optimization', 'PC Architecture', 'Diagnostics']
+        label: 'Systems',
+        rows: [
+          { name: 'ESC/POS thermal printing', value: 'Point-of-sale system' },
+          { name: 'Mobile interfaces', value: 'Digital Menu' },
+          { name: 'API integration', value: 'Forms and services' }
+        ]
+      },
+      {
+        label: 'Tools',
+        rows: [
+          { name: 'Git and GitHub', value: 'Every project' },
+          { name: 'IntelliJ IDEA', value: 'Java projects' },
+          { name: 'VS Code', value: 'Front end' },
+          { name: 'Trello', value: 'Planning deliveries' }
+        ]
       }
     ]
   },
@@ -318,19 +206,6 @@ export const en = {
       'Network glitch detected. You can also use the "Send Direct Email" button below.',
     directDivider: 'OR DIRECT CHANNELS',
     directEmailBtn: 'Send Direct Email'
-  },
-  telemetry: {
-    tag: 'TEL // HUD',
-    coords: '23°41\'S 46°33\'W',
-    scroll: 'SCROLL',
-    sections: {
-      hero: 'START',
-      sobre: 'ABOUT',
-      habilidades: 'SKILLS',
-      experiencia: 'HISTORY',
-      projetos: 'PROJECTS',
-      contato: 'CONTACT'
-    }
   },
   footer: {
     copyright: 'Eduardo Mota Bielecky da Silva Mello.',
