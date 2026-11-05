@@ -10,7 +10,6 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
-import ScrollProgressHUD from './components/ScrollProgressHUD';
 
 function AppContent() {
   const lenisRef = useRef(null);
@@ -138,8 +137,6 @@ function AppContent() {
   return (
     <div id="portfolio-app">
 
-      {/* Indicador de Progresso de Rolagem */}
-      <ScrollProgressHUD />
 
       <Navbar
         isScrolled={isScrolled}

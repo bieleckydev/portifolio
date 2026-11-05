@@ -1635,37 +1635,6 @@ html.lenis, html.lenis body {
 }
 
 /* =========================================
-   BARRA DE PROGRESSO DE SCROLL SUPERIOR
-   ========================================= */
-.scroll-progress-track {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background: transparent;
-    z-index: 9999;
-    pointer-events: none;
-}
-
-.scroll-progress-bar {
-    height: 100%;
-    background: linear-gradient(90deg, var(--silver-dark), var(--copper));
-    position: relative;
-    transition: width 0.08s linear;
-}
-
-.scroll-progress-glow {
-    position: absolute;
-    right: 0;
-    top: -2px;
-    width: 8px;
-    height: 7px;
-    background: var(--copper);
-    border-radius: 50%;
-}
-
-/* =========================================
    HUD DE TELEMETRIA LATERAL (Charles Leclerc)
    ========================================= */
 .telemetry-hud {
