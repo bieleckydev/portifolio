@@ -282,18 +282,13 @@ export const TRANSLATIONS = {
           architecture: 'Arquitetura Web • Impressão Térmica ESC/POS • WebSocket',
           desc: 'Sistema de Ponto de Venda web focado em acessibilidade e alta performance, desenvolvido para restaurante em operação real. Conta com cálculo dinâmico de taxas, fechamento ágil e integração direta para impressão térmica de recibos e relatórios.',
           statusBadge: 'Em Produção',
-          icon: 'fas fa-cash-register',
-          img: '/img/caixa-adega.svg',
-          featured: true,
           keyTech: [
             { name: 'JavaScript ES6+', icon: 'fab fa-js', role: 'Motor de Caixa' },
             { name: 'Hardware ESC/POS', icon: 'fas fa-print', role: 'Impressão Térmica' },
             { name: 'REST & Webhooks', icon: 'fas fa-network-wired', role: 'Integrações' },
             { name: 'CSS3 Grid / Flex', icon: 'fab fa-css3-alt', role: 'Layout Tátil' }
           ],
-          tags: ['Web App', 'Sistema POS', 'Impressão Térmica', 'JavaScript'],
-          liveUrl: 'https://caixa-adega-bay.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/caixa_adega'
+          tags: ['Web App', 'Sistema POS', 'Impressão Térmica', 'JavaScript']
         },
         {
           id: 'proj-cardapio-digital',
@@ -302,18 +297,13 @@ export const TRANSLATIONS = {
           architecture: 'SPA Leve • 60 FPS • Carregamento Instantâneo',
           desc: 'Cardápio digital mobile-first com design moderno, arquitetura leve e alta performance para a Adega e Churrascaria do Dino. Focado na experiência do cliente, incluindo visualização refinada de cortes nobres e fluxo de pedidos ágil.',
           statusBadge: 'Adega do Dino',
-          icon: 'fas fa-utensils',
-          img: '/img/cardapio.jpg',
-          featured: true,
           keyTech: [
             { name: 'Mobile-First UX', icon: 'fas fa-mobile-alt', role: 'Interface Tátil' },
             { name: 'JavaScript Modular', icon: 'fab fa-js', role: 'Carrinho Reativo' },
             { name: 'CSS3 Custom Tokens', icon: 'fab fa-css3-alt', role: 'Design System' },
             { name: 'HTML5 Semântico', icon: 'fab fa-html5', role: 'Acessibilidade' }
           ],
-          tags: ['Frontend', 'Mobile-first', 'UI / UX', 'JavaScript'],
-          liveUrl: 'https://cardapio-one-ochre.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/cardapio'
+          tags: ['Frontend', 'Mobile-first', 'UI / UX', 'JavaScript']
         },
         {
           id: 'proj-cripto',
@@ -322,17 +312,13 @@ export const TRANSLATIONS = {
           architecture: 'Orientação a Objetos • Casamento de Ordens • Validações',
           desc: 'Plataforma para simulação e gestão de ativos digitais desenvolvida com rigor acadêmico em Engenharia de Software. Possui motor de simulação de carteira, validação transacional e interface funcional intuitiva.',
           statusBadge: 'Core Backend',
-          icon: 'fas fa-chart-line',
-          img: '/img/cripto.svg',
-          featured: true,
           keyTech: [
             { name: 'Java (JDK)', icon: 'fab fa-java', role: 'POO & Lógica Core' },
             { name: 'Estrutura de Dados', icon: 'fas fa-cubes', role: 'Livro de Ofertas' },
             { name: 'Casamento de Ordens', icon: 'fas fa-microchip', role: 'Algoritmos' },
             { name: 'Controle Transacional', icon: 'fas fa-shield-alt', role: 'Gestão de Saldo' }
           ],
-          tags: ['Java', 'POO', 'FinTech', 'Estrutura de Dados'],
-          codeUrl: 'https://github.com/JoaoRicardoSOC/aurum-banking'
+          tags: ['Java', 'POO', 'FinTech', 'Estrutura de Dados']
         },
         {
           id: 'proj-otis',
@@ -341,16 +327,13 @@ export const TRANSLATIONS = {
           architecture: 'Dashboard Responsivo • Gestão de Status • Deploy Vercel',
           desc: 'Plataforma e sistema corporativo desenvolvidos com foco em interface de usuário amigável, arquitetura limpa e monitoramento operacional. Projeto completo hospedado e disponível para acesso online.',
           statusBadge: 'Deploy Ativo',
-          img: '/img/otis.jpg',
           keyTech: [
             { name: 'JavaScript', icon: 'fab fa-js', role: 'Interatividade' },
             { name: 'CSS3 Moderno', icon: 'fab fa-css3-alt', role: 'Layout Dashboard' },
             { name: 'UI / UX Design', icon: 'fas fa-desktop', role: 'Painel Intuitivo' },
             { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: 'CI / CD' }
           ],
-          tags: ['Web App', 'Dashboard', 'Frontend', 'Vercel'],
-          liveUrl: 'https://sistema-otis-puce.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/Sistema-OTIS'
+          tags: ['Web App', 'Dashboard', 'Frontend', 'Vercel']
         },
         {
           id: 'proj-feira',
@@ -359,16 +342,13 @@ export const TRANSLATIONS = {
           architecture: 'Catálogo de Produtos • Carrinho Dinâmico • Checkout',
           desc: 'Plataforma digital para ambiente de feira online, permitindo interatividade ágil, seleção de produtos frescos e experiência de e-commerce aos usuários.',
           statusBadge: 'Deploy Ativo',
-          img: '/img/feira.jpg',
           keyTech: [
             { name: 'JavaScript Assíncrono', icon: 'fab fa-js', role: 'Lógica de Carrinho' },
             { name: 'HTML5 Semântico', icon: 'fab fa-html5', role: 'Catálogo Grid' },
             { name: 'CSS3 Responsivo', icon: 'fab fa-css3-alt', role: 'Interface' },
             { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: 'Hospedagem' }
           ],
-          tags: ['E-commerce', 'Web', 'Carrinho de Compras'],
-          liveUrl: 'https://feira-online-liart.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/FEIRA-ONLINE'
+          tags: ['E-commerce', 'Web', 'Carrinho de Compras']
         },
         {
           id: 'proj-ready2work',
@@ -377,16 +357,13 @@ export const TRANSLATIONS = {
           architecture: 'Simulador de Entrevista • Match de Competências • Guias',
           desc: 'Aplicação focada no preparo para o mercado de tecnologia, oferecendo simuladores práticos de avaliação técnica e auxílio estruturado à empregabilidade de futuros engenheiros.',
           statusBadge: 'Open Source',
-          icon: 'fas fa-briefcase',
-          img: '/img/ready2work.svg',
           keyTech: [
             { name: 'Java / Backend', icon: 'fab fa-java', role: 'Trilha Técnica' },
             { name: 'JavaScript Web', icon: 'fab fa-js', role: 'Interface' },
             { name: 'Git & Open Source', icon: 'fab fa-github', role: 'Repositório' },
             { name: 'Metodologias Ágeis', icon: 'fas fa-tasks', role: 'Planejamento' }
           ],
-          tags: ['App', 'Mercado Tech', 'Java', 'Empregabilidade'],
-          codeUrl: 'https://github.com/edubielecky/ready2work'
+          tags: ['App', 'Mercado Tech', 'Java', 'Empregabilidade']
         },
         {
           id: 'proj-kcal',
@@ -395,18 +372,13 @@ export const TRANSLATIONS = {
           architecture: 'Rastreamento Calórico • Metas de Macros • Interface Reativa',
           desc: 'Aplicação web para monitoramento nutricional e déficit/superávit calórico diário. Permite aos usuários calcular necessidades energéticas basais, registrar refeições diárias, acompanhar metas personalizadas de macronutrientes (proteínas, carboidratos e gorduras) com visualização em tempo real.',
           statusBadge: 'Web App',
-          icon: 'fas fa-fire-flame-curved',
-          img: '/img/kcal.svg',
-          featured: true,
           keyTech: [
             { name: 'JavaScript ES6+', icon: 'fab fa-js', role: 'Motor Reativo' },
             { name: 'Cálculo de Macros', icon: 'fas fa-calculator', role: 'Balanço Energético' },
             { name: 'CSS3 Design System', icon: 'fab fa-css3-alt', role: 'UI / UX Telemetria' },
             { name: 'Deploy Vercel', icon: 'fas fa-cloud', role: 'Hospedagem & CI/CD' }
           ],
-          tags: ['Web App', 'Nutrição', 'Fitness', 'Macronutrientes'],
-          liveUrl: 'https://kcalio-amber.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/kcal.io'
+          tags: ['Web App', 'Nutrição', 'Fitness', 'Macronutrientes']
         },
         {
           id: 'proj-guia-cidadao',
@@ -415,17 +387,13 @@ export const TRANSLATIONS = {
           architecture: 'Triagem Rápida • Motor de Elegibilidade • Acesso Institucional',
           desc: 'Plataforma digital voltada à inclusão social e cidadania ativa com ferramenta de Triagem Rápida em 1 minuto sem cadastro prévio. Analisa critérios socioeconômicos e identifica programas e benefícios públicos aos quais o cidadão tem direito, contando também com portal multiperfil de autenticação segura para cidadãos e colaboradores.',
           statusBadge: 'Repositório',
-          icon: 'fas fa-id-card',
-          img: '/img/guia-cidadao.svg',
-          featured: true,
           keyTech: [
             { name: 'JavaScript Modular', icon: 'fab fa-js', role: 'Fluxo de Triagem' },
             { name: 'Regras de Elegibilidade', icon: 'fas fa-shield-alt', role: 'Motor de Decisão' },
             { name: 'Acesso Multiperfil', icon: 'fas fa-users-cog', role: 'Cidadão & Colaborador' },
             { name: 'CSS3 / Acessibilidade', icon: 'fab fa-css3-alt', role: 'Design Cívico Inclusivo' }
           ],
-          tags: ['Cidadania', 'Benefícios Sociais', 'Triagem Rápida', 'Acessibilidade'],
-          codeUrl: 'https://github.com/edubielecky/guia_cidadao'
+          tags: ['Cidadania', 'Benefícios Sociais', 'Triagem Rápida', 'Acessibilidade']
         }
       ]
     },
@@ -751,18 +719,13 @@ export const TRANSLATIONS = {
           architecture: 'Web Architecture • ESC/POS Thermal Printing • WebSockets',
           desc: 'High-performance web Point-of-Sale built for restaurant operations in active production. Features dynamic tax/tip calculation, rapid balance closing, and direct integration with thermal receipt and report printers.',
           statusBadge: 'In Production',
-          icon: 'fas fa-cash-register',
-          img: '/img/caixa-adega.svg',
-          featured: true,
           keyTech: [
             { name: 'JavaScript ES6+', icon: 'fab fa-js', role: 'Cashier Core Engine' },
             { name: 'Hardware ESC/POS', icon: 'fas fa-print', role: 'Thermal Printing' },
             { name: 'REST & Webhooks', icon: 'fas fa-network-wired', role: 'Integrations' },
             { name: 'CSS3 Grid / Flex', icon: 'fab fa-css3-alt', role: 'Touch UI' }
           ],
-          tags: ['Web App', 'POS System', 'Thermal Printing', 'JavaScript'],
-          liveUrl: 'https://caixa-adega-bay.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/caixa_adega'
+          tags: ['Web App', 'POS System', 'Thermal Printing', 'JavaScript']
         },
         {
           id: 'proj-cardapio-digital',
@@ -771,18 +734,13 @@ export const TRANSLATIONS = {
           architecture: 'Lightweight SPA • 60 FPS • Instant Asset Loading',
           desc: 'Mobile-first digital menu with sleek responsive design, lightweight architecture, and instant load times for Adega e Churrascaria do Dino. Optimized for high-conversion dining experiences and smooth ordering.',
           statusBadge: 'Adega do Dino',
-          icon: 'fas fa-utensils',
-          img: '/img/cardapio.jpg',
-          featured: true,
           keyTech: [
             { name: 'Mobile-First UX', icon: 'fas fa-mobile-alt', role: 'Touch Interface' },
             { name: 'Modular JavaScript', icon: 'fab fa-js', role: 'Reactive Cart' },
             { name: 'CSS3 Custom Tokens', icon: 'fab fa-css3-alt', role: 'Design System' },
             { name: 'Semantic HTML5', icon: 'fab fa-html5', role: 'Accessibility' }
           ],
-          tags: ['Frontend', 'Mobile-first', 'UI / UX', 'JavaScript'],
-          liveUrl: 'https://cardapio-one-ochre.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/cardapio'
+          tags: ['Frontend', 'Mobile-first', 'UI / UX', 'JavaScript']
         },
         {
           id: 'proj-cripto',
@@ -791,17 +749,13 @@ export const TRANSLATIONS = {
           architecture: 'OOP Architecture • Order Matching Engine • Balance Auditing',
           desc: 'Academic software engineering platform simulating digital asset trading, portfolio balances, and educational investment pathways with robust business logic and algorithmic order matching.',
           statusBadge: 'Core Backend',
-          icon: 'fas fa-chart-line',
-          img: '/img/cripto.svg',
-          featured: true,
           keyTech: [
             { name: 'Java (JDK)', icon: 'fab fa-java', role: 'OOP & Core Logic' },
             { name: 'Data Structures', icon: 'fas fa-cubes', role: 'Order Book Bookkeeping' },
             { name: 'Order Matching', icon: 'fas fa-microchip', role: 'Algorithmic Engine' },
             { name: 'Transaction Control', icon: 'fas fa-shield-alt', role: 'Balance Validation' }
           ],
-          tags: ['Java', 'OOP', 'FinTech', 'Data Structures'],
-          codeUrl: 'https://github.com/JoaoRicardoSOC/aurum-banking'
+          tags: ['Java', 'OOP', 'FinTech', 'Data Structures']
         },
         {
           id: 'proj-otis',
@@ -810,16 +764,13 @@ export const TRANSLATIONS = {
           architecture: 'Responsive Dashboard • State Management • Vercel CI/CD',
           desc: 'Enterprise web application and operational dashboard engineered with clean architecture, user-friendly control surfaces, and continuous deployment.',
           statusBadge: 'Live Deploy',
-          img: '/img/otis.jpg',
           keyTech: [
             { name: 'JavaScript', icon: 'fab fa-js', role: 'Interactivity' },
             { name: 'Modern CSS3', icon: 'fab fa-css3-alt', role: 'Dashboard Layout' },
             { name: 'UI / UX Design', icon: 'fas fa-desktop', role: 'Intuitive Views' },
             { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: 'CI / CD Pipeline' }
           ],
-          tags: ['Web App', 'Dashboard', 'Frontend', 'Vercel'],
-          liveUrl: 'https://sistema-otis-puce.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/Sistema-OTIS'
+          tags: ['Web App', 'Dashboard', 'Frontend', 'Vercel']
         },
         {
           id: 'proj-feira',
@@ -828,16 +779,13 @@ export const TRANSLATIONS = {
           architecture: 'Product Catalog • Dynamic Cart • Order Flow',
           desc: 'Interactive digital marketplace simulating open-air farmers market shopping with streamlined product inspection and smooth e-commerce ordering.',
           statusBadge: 'Live Deploy',
-          img: '/img/feira.jpg',
           keyTech: [
             { name: 'Async JavaScript', icon: 'fab fa-js', role: 'Cart State Logic' },
             { name: 'Semantic HTML5', icon: 'fab fa-html5', role: 'Catalog Grid' },
             { name: 'Responsive CSS3', icon: 'fab fa-css3-alt', role: 'Fluid Layout' },
             { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: 'Cloud Hosting' }
           ],
-          tags: ['E-commerce', 'Web', 'Shopping Cart'],
-          liveUrl: 'https://feira-online-liart.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/FEIRA-ONLINE'
+          tags: ['E-commerce', 'Web', 'Shopping Cart']
         },
         {
           id: 'proj-ready2work',
@@ -846,16 +794,13 @@ export const TRANSLATIONS = {
           architecture: 'Technical Assessment • Candidate Match • Career Pathways',
           desc: 'Job-readiness utility application designed to prepare engineering students and junior developers for technical interviews and corporate hiring pipelines.',
           statusBadge: 'Open Source',
-          icon: 'fas fa-briefcase',
-          img: '/img/ready2work.svg',
           keyTech: [
             { name: 'Java / Backend', icon: 'fab fa-java', role: 'Technical Tracks' },
             { name: 'JavaScript Web', icon: 'fab fa-js', role: 'Interactive View' },
             { name: 'Git & Open Source', icon: 'fab fa-github', role: 'Public Repo' },
             { name: 'Agile Best Practices', icon: 'fas fa-tasks', role: 'Planning' }
           ],
-          tags: ['App', 'Tech Career', 'Java', 'Employability'],
-          codeUrl: 'https://github.com/edubielecky/ready2work'
+          tags: ['App', 'Tech Career', 'Java', 'Employability']
         },
         {
           id: 'proj-kcal',
@@ -864,18 +809,13 @@ export const TRANSLATIONS = {
           architecture: 'Calorie Tracking • Daily Macro Targets • Reactive HUD',
           desc: 'Web application designed for daily nutritional tracking and caloric balance management. Allows users to compute basal metabolic targets, log meals, track customized macronutrient breakdowns (protein, carbs, fats), and monitor daily nutritional progress with an intuitive, responsive interface.',
           statusBadge: 'Web App',
-          icon: 'fas fa-fire-flame-curved',
-          img: '/img/kcal.svg',
-          featured: true,
           keyTech: [
             { name: 'Modern JavaScript', icon: 'fab fa-js', role: 'Reactive Core Engine' },
             { name: 'Macro Computation', icon: 'fas fa-calculator', role: 'Caloric Balance' },
             { name: 'CSS3 Design System', icon: 'fab fa-css3-alt', role: 'Telemetry UI / UX' },
             { name: 'Vercel Deployment', icon: 'fas fa-cloud', role: 'Continuous Delivery' }
           ],
-          tags: ['Web App', 'Nutrition', 'Fitness', 'Macronutrients'],
-          liveUrl: 'https://kcalio-amber.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/kcal.io'
+          tags: ['Web App', 'Nutrition', 'Fitness', 'Macronutrients']
         },
         {
           id: 'proj-guia-cidadao',
@@ -884,17 +824,13 @@ export const TRANSLATIONS = {
           architecture: 'Quick Screening • Eligibility Engine • Institutional Portal',
           desc: 'Civic engagement and public assistance platform featuring a 60-second Quick Screening tool requiring no prior registration. Automatically assesses socioeconomic criteria to identify public assistance benefits and grants that citizens qualify for, alongside dual-role authentication for citizens and public servants.',
           statusBadge: 'Repository',
-          icon: 'fas fa-id-card',
-          img: '/img/guia-cidadao.svg',
-          featured: true,
           keyTech: [
             { name: 'Modular JavaScript', icon: 'fab fa-js', role: 'Screening Workflow' },
             { name: 'Eligibility Engine', icon: 'fas fa-shield-alt', role: 'Decision Algorithm' },
             { name: 'Multi-Role Access', icon: 'fas fa-users-cog', role: 'Citizen & Staff Portal' },
             { name: 'CSS3 / Accessibility', icon: 'fab fa-css3-alt', role: 'Inclusive Civic Design' }
           ],
-          tags: ['Civic Tech', 'Social Benefits', 'Quick Triage', 'Accessibility'],
-          codeUrl: 'https://github.com/edubielecky/guia_cidadao'
+          tags: ['Civic Tech', 'Social Benefits', 'Quick Triage', 'Accessibility']
         }
       ]
     },
@@ -1219,18 +1155,13 @@ export const TRANSLATIONS = {
           architecture: 'Web架构 • ESC/POS热敏小票打印 • WebSockets',
           desc: '专为餐饮场景设计的高性能 Web 收银台（POS）系统，目前在真实门店稳定运行。具备动态税费/小费计算、高速交班结账及直连热敏小票打印机功能。',
           statusBadge: '生产环境运行中',
-          icon: 'fas fa-cash-register',
-          img: '/img/caixa-adega.svg',
-          featured: true,
           keyTech: [
             { name: 'JavaScript ES6+', icon: 'fab fa-js', role: '收银核心引擎' },
             { name: 'ESC/POS 硬件', icon: 'fas fa-print', role: '热敏打印驱动' },
             { name: 'REST & Webhooks', icon: 'fas fa-network-wired', role: '系统集成' },
             { name: 'CSS3 Grid / Flex', icon: 'fab fa-css3-alt', role: '触控交互界面' }
           ],
-          tags: ['Web 应用', 'POS 系统', '热敏打印', 'JavaScript'],
-          liveUrl: 'https://caixa-adega-bay.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/caixa_adega'
+          tags: ['Web 应用', 'POS 系统', '热敏打印', 'JavaScript']
         },
         {
           id: 'proj-cardapio-digital',
@@ -1239,18 +1170,13 @@ export const TRANSLATIONS = {
           architecture: '轻量单页应用 • 60 FPS • 毫秒级响应',
           desc: '移动端优先的现代化电子菜单，具备极轻量的架构和毫秒级响应，专为 Adega e Churrascaria do Dino 烤肉餐厅定制打造，大幅提升顾客点餐体验。',
           statusBadge: 'Adega do Dino 专供',
-          icon: 'fas fa-utensils',
-          img: '/img/cardapio.jpg',
-          featured: true,
           keyTech: [
             { name: '移动优先 UX', icon: 'fas fa-mobile-alt', role: '触控交互' },
             { name: '模块化 JavaScript', icon: 'fab fa-js', role: '响应式购物车' },
             { name: 'CSS3 自定义变量', icon: 'fab fa-css3-alt', role: '设计系统' },
             { name: '语义化 HTML5', icon: 'fab fa-html5', role: '无障碍访问' }
           ],
-          tags: ['前端开发', '移动优先', 'UI / UX', 'JavaScript'],
-          liveUrl: 'https://cardapio-one-ochre.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/cardapio'
+          tags: ['前端开发', '移动优先', 'UI / UX', 'JavaScript']
         },
         {
           id: 'proj-cripto',
@@ -1259,17 +1185,13 @@ export const TRANSLATIONS = {
           architecture: '面向对象架构 • 撮合引擎 • 账户平衡审计',
           desc: '大学软件工程核心研发项目，模拟数字资产交易平台，涵盖多币种资产配置、撮合交易算法及教学投资路径，业务逻辑与数据校验严谨。',
           statusBadge: '后端核心',
-          icon: 'fas fa-chart-line',
-          img: '/img/cripto.svg',
-          featured: true,
           keyTech: [
             { name: 'Java (JDK)', icon: 'fab fa-java', role: '面向对象与核心逻辑' },
             { name: '数据结构', icon: 'fas fa-cubes', role: '订单簿管理' },
             { name: '撮合算法', icon: 'fas fa-microchip', role: '订单撮合引擎' },
             { name: '事务控制', icon: 'fas fa-shield-alt', role: '资金与余额校验' }
           ],
-          tags: ['Java', '面向对象', '金融科技', '数据结构'],
-          codeUrl: 'https://github.com/JoaoRicardoSOC/aurum-banking'
+          tags: ['Java', '面向对象', '金融科技', '数据结构']
         },
         {
           id: 'proj-otis',
@@ -1278,16 +1200,13 @@ export const TRANSLATIONS = {
           architecture: '响应式看板 • 状态管理 • Vercel CI/CD',
           desc: '注重友好人机交互界面的综合管理与企业看板平台。采用清晰的分层架构，完整部署并支持公网在线访问。',
           statusBadge: '在线运行',
-          img: '/img/otis.jpg',
           keyTech: [
             { name: 'JavaScript', icon: 'fab fa-js', role: '动态交互' },
             { name: '现代 CSS3', icon: 'fab fa-css3-alt', role: '看板布局' },
             { name: 'UI / UX 设计', icon: 'fas fa-desktop', role: '直观视图' },
             { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: 'CI / CD 流水线' }
           ],
-          tags: ['Web 应用', '企业看板', '前端开发', 'Vercel'],
-          liveUrl: 'https://sistema-otis-puce.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/Sistema-OTIS'
+          tags: ['Web 应用', '企业看板', '前端开发', 'Vercel']
         },
         {
           id: 'proj-feira',
@@ -1296,16 +1215,13 @@ export const TRANSLATIONS = {
           architecture: '商品目录 • 动态购物车 • 结算流程',
           desc: '模拟线下集市选购与便捷电商下单流程的数字化交易平台，具备高效的商品展示、过滤及购物车结算状态逻辑。',
           statusBadge: '在线运行',
-          img: '/img/feira.jpg',
           keyTech: [
             { name: '异步 JavaScript', icon: 'fab fa-js', role: '购物车状态' },
             { name: '语义化 HTML5', icon: 'fab fa-html5', role: '商品网格' },
             { name: '响应式 CSS3', icon: 'fab fa-css3-alt', role: '流式布局' },
             { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: '云端部署' }
           ],
-          tags: ['电子商务', 'Web 应用', '购物车'],
-          liveUrl: 'https://feira-online-liart.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/FEIRA-ONLINE'
+          tags: ['电子商务', 'Web 应用', '购物车']
         },
         {
           id: 'proj-ready2work',
@@ -1314,16 +1230,13 @@ export const TRANSLATIONS = {
           architecture: '技能评估测试 • 候选人匹配 • 学习指南',
           desc: '旨在帮助计算机专业学生和初级工程师准备技术面试、评估专业技能并提升就业竞争力的实用平台。',
           statusBadge: '开源项目',
-          icon: 'fas fa-briefcase',
-          img: '/img/ready2work.svg',
           keyTech: [
             { name: 'Java / 后端', icon: 'fab fa-java', role: '技术题库模块' },
             { name: 'Web 前端', icon: 'fab fa-js', role: '交互界面' },
             { name: 'Git & 开源', icon: 'fab fa-github', role: '公开仓库' },
             { name: '敏捷实践', icon: 'fas fa-tasks', role: '项目规划' }
           ],
-          tags: ['应用程序', '职场就业', 'Java', '面试准备'],
-          codeUrl: 'https://github.com/edubielecky/ready2work'
+          tags: ['应用程序', '职场就业', 'Java', '面试准备']
         },
         {
           id: 'proj-kcal',
@@ -1332,18 +1245,13 @@ export const TRANSLATIONS = {
           architecture: '卡路里追踪 • 宏量营养素目标 • 响应式交互',
           desc: '专为每日营养摄入监控与热量平衡管理设计的网页应用。用户可计算基础能量代谢需求，记录日常膳食，设定蛋白质、碳水化合物与脂肪的个性化目标，并通过直观的仪表盘实时监控营养达成率。',
           statusBadge: 'Web 应用',
-          icon: 'fas fa-fire-flame-curved',
-          img: '/img/kcal.svg',
-          featured: true,
           keyTech: [
             { name: '现代 JavaScript', icon: 'fab fa-js', role: '响应式核心引擎' },
             { name: '营养计量算法', icon: 'fas fa-calculator', role: '能量平衡计算' },
             { name: 'CSS3 设计系统', icon: 'fab fa-css3-alt', role: 'UI / UX 界面设计' },
             { name: 'Vercel 部署', icon: 'fas fa-cloud', role: '持续集成与发布' }
           ],
-          tags: ['网页应用', '营养管理', '健身追踪', '宏量营养素'],
-          liveUrl: 'https://kcalio-amber.vercel.app/',
-          codeUrl: 'https://github.com/edubielecky/kcal.io'
+          tags: ['网页应用', '营养管理', '健身追踪', '宏量营养素']
         },
         {
           id: 'proj-guia-cidadao',
@@ -1352,17 +1260,13 @@ export const TRANSLATIONS = {
           architecture: '快速筛查 • 资格判定算法 • 机构协同门户',
           desc: '面向社会救助与公民权益的民生数字化平台。提供无需预先注册的1分钟快速筛查流程，智能分析家庭经济与社会条件，识别用户有权申请的政府福利与公共援助项目；同时具备面向居民与机构工作人员的双角色安全门户。',
           statusBadge: '代码仓库',
-          icon: 'fas fa-id-card',
-          img: '/img/guia-cidadao.svg',
-          featured: true,
           keyTech: [
             { name: '模块化 JavaScript', icon: 'fab fa-js', role: '智能筛查流程' },
             { name: '资格评定算法', icon: 'fas fa-shield-alt', role: '福利判定引擎' },
             { name: '多权限系统', icon: 'fas fa-users-cog', role: '居民与协作端门户' },
             { name: 'CSS3 / 无障碍设计', icon: 'fab fa-css3-alt', role: '包容性民生交互' }
           ],
-          tags: ['民生科技', '社会救助', '快速筛查', '无障碍体验'],
-          codeUrl: 'https://github.com/edubielecky/guia_cidadao'
+          tags: ['民生科技', '社会救助', '快速筛查', '无障碍体验']
         }
       ]
     },
