@@ -106,14 +106,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      {/* Indicador Arquitetural de Scroll (Charles Leclerc Inspired) */}
-      <a href="#sobre" className="hero-scroll-cue" aria-label={t.hero.explore}>
-        <span className="scroll-cue-text">{t.hero.explore}</span>
-        <div className="scroll-cue-indicator">
-          <span className="scroll-cue-runner"></span>
-        </div>
-      </a>
     </section>
   );
 }

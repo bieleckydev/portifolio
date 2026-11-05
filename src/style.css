@@ -1815,55 +1815,6 @@ html.lenis, html.lenis body {
 }
 
 /* =========================================
-   HERO SCROLL CUE
-   ========================================= */
-.hero-scroll-cue {
-    position: absolute;
-    bottom: 24px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--text-muted);
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    transition: color var(--transition-fast);
-    z-index: 10;
-}
-
-.hero-scroll-cue:hover {
-    color: var(--copper);
-}
-
-.scroll-cue-indicator {
-    width: 1px;
-    height: 34px;
-    background: var(--card-border);
-    position: relative;
-    overflow: hidden;
-}
-
-.scroll-cue-runner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 12px;
-    background: var(--copper);
-    animation: scrollCueAnim 2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
-}
-
-@keyframes scrollCueAnim {
-    0% { transform: translateY(-100%); }
-    60% { transform: translateY(280%); }
-    100% { transform: translateY(280%); }
-}
-
-/* =========================================
    ANIMAÇÕES REVEAL SUAVE (GPU Accelerated)
    ========================================= */
 /* O estado escondido só existe quando o sistema aceita movimento;
@@ -3180,9 +3131,7 @@ body.light-mode .pinned-edge-vignette-right {
         padding: 0.75rem 1.25rem;
     }
 
-    .hero-scroll-cue {
-        display: none;
-    }
+    
 
     /* About Section Mobile */
     .about-text {

@@ -23,8 +23,7 @@ export const zh = {
     contactBtn: '立即联系',
     projectsBtn: '浏览项目',
     connect: '社交连接:',
-    caption: '圣保罗 // 巴西',
-    explore: '向下探索'
+    caption: '圣保罗 // 巴西'
   },
   about: {
     title: '关于我',

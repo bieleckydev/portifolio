@@ -23,8 +23,7 @@ export const pt = {
     contactBtn: 'Entrar em Contato',
     projectsBtn: 'Ver Projetos',
     connect: 'Conectar:',
-    caption: 'SP // BRASIL',
-    explore: 'EXPLORAR'
+    caption: 'SP // BRASIL'
   },
   about: {
     title: 'Sobre Mim',
