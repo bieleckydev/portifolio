@@ -51,7 +51,6 @@ export const zh = {
       { label: '技术', value: 'JavaScript、WebSocket 和 ESC/POS 指令' },
       { label: '状态', value: '已在餐厅投入使用' }
     ],
-    live: '打开系统',
     imageAlt: 'Adega do Dino 收银系统的入口界面，可选择收银、服务员和统计角色',
     caption: '系统在手机上的入口界面。'
   },

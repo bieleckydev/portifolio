@@ -2,8 +2,6 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import './CaseStudy.css';
 
-const LIVE_URL = 'https://caixa-adega-bay.vercel.app/';
-
 export default function CaseStudy() {
   const { t } = useLanguage();
   const c = t.caseStudy;
@@ -27,11 +25,6 @@ export default function CaseStudy() {
           ))}
         </dl>
 
-        <p className="case__actions" data-reveal style={{ '--i': 3 }}>
-          <a className="button" href={LIVE_URL} target="_blank" rel="noreferrer">
-            {c.live}
-          </a>
-        </p>
       </div>
 
       <div className="split__stage case__stage">

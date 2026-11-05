@@ -51,7 +51,6 @@ export const en = {
       { label: 'Stack', value: 'JavaScript, WebSocket and ESC/POS commands' },
       { label: 'Status', value: 'In production at the restaurant' }
     ],
-    live: 'Open the system',
     imageAlt: 'Entry screen of the Adega do Dino point-of-sale system with the Cashier, Waiter and Statistics roles',
     caption: 'The system’s entry screen on a phone.'
   },

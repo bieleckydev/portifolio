@@ -51,7 +51,6 @@ export const pt = {
       { label: 'Tecnologia', value: 'JavaScript, WebSocket e comandos ESC/POS' },
       { label: 'Situação', value: 'Em produção no restaurante' }
     ],
-    live: 'Abrir o sistema',
     imageAlt: 'Tela de entrada do sistema de caixa da Adega do Dino com os perfis Caixa, Garçom e Estatísticas',
     caption: 'Tela de entrada do sistema, no celular.'
   },

@@ -3,6 +3,7 @@
  * Os textos traduzidos ficam em src/i18n, em projects.items, ligados pelo id.
  * A ordem deste array define a ordem da lista "Outros projetos".
  * caseStudy: o projeto que ganha seção própria e sai da lista.
+ *   O sistema de caixa está em produção num restaurante: nunca publique o link dele aqui.
  * img/imgW/imgH: tela real do projeto; sem imagem, o painel mostra o nome em texto.
  */
 export const PROJECTS = [
@@ -12,7 +13,6 @@ export const PROJECTS = [
     img: '/img/caixa-adega.jpg',
     imgW: 860,
     imgH: 1864,
-    liveUrl: 'https://caixa-adega-bay.vercel.app/',
     codeUrl: 'https://github.com/edubielecky/caixa_adega'
   },
   {
