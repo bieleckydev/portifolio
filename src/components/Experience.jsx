@@ -80,12 +80,6 @@ export default function Experience() {
                 <span className="hud-mobile-label">Deslize ou role</span>
               </div>
 
-              <div className="pinned-counter-badge" id="experience-counter">
-                <span className="current">
-                  {String(Math.min(experiences.length, currentIndex + 1)).padStart(2, '0')}
-                </span>{' '}
-                / <span>{String(experiences.length).padStart(2, '0')}</span>
-              </div>
 
               <button
                 type="button"
@@ -136,9 +130,6 @@ export default function Experience() {
                     </div>
 
                     <div className="pinned-exp-header">
-                      <span className="pinned-exp-index">
-                        0{index + 1} // CARREIRA
-                      </span>
                       <span className="pinned-exp-date">{exp.date}</span>
                     </div>
 
@@ -182,9 +173,6 @@ export default function Experience() {
             </div>
 
             <div className="pinned-footer-meta">
-              <span>
-                {Math.round(scrollProgress)}% // TRAJETÓRIA PROFISSIONAL
-              </span>
 
               <div className="pinned-nav-arrows">
                 <button

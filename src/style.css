@@ -3084,21 +3084,6 @@ body.light-mode .pinned-stage-veil-bottom {
     50% { transform: translateX(5px); opacity: 1; }
 }
 
-.pinned-counter-badge {
-    font-family: var(--font-mono);
-    font-size: 0.82rem;
-    font-weight: 700;
-    color: var(--text-muted);
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    padding: 0.35rem 0.7rem;
-    border-radius: var(--border-radius-sm);
-}
-
-.pinned-counter-badge .current {
-    color: var(--copper);
-}
-
 .pinned-mode-toggle {
     display: inline-flex;
     align-items: center;
@@ -3454,13 +3439,6 @@ body.light-mode .pinned-edge-vignette-right {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0.8rem;
-}
-
-.pinned-exp-index {
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    font-weight: 700;
-    color: var(--copper);
 }
 
 .pinned-exp-date {
@@ -3828,10 +3806,7 @@ body.light-mode .pinned-edge-vignette-right {
         font-size: 0.72rem;
     }
 
-    .pinned-counter-badge {
-        padding: 0.28rem 0.6rem;
-        font-size: 0.78rem;
-    }
+    
 
     .pinned-mode-toggle {
         padding: 0.35rem 0.65rem;

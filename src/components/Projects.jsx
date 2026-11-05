@@ -80,12 +80,6 @@ export default function Projects() {
                   <span className="hud-mobile-label">Deslize ou role</span>
                 </div>
 
-                <div className="pinned-counter-badge" id="projects-counter">
-                  <span className="current">
-                    {String(Math.min(filteredProjects.length, currentIndex + 1)).padStart(2, '0')}
-                  </span>{' '}
-                  / <span>{String(filteredProjects.length).padStart(2, '0')}</span>
-                </div>
 
                 <button
                   type="button"
@@ -196,9 +190,6 @@ export default function Projects() {
               </div>
 
               <div className="pinned-footer-meta">
-                <span>
-                  {Math.round(scrollProgress)}% // EXPLORANDO PROJETOS
-                </span>
 
                 <div className="pinned-nav-arrows">
                   <button
