@@ -9,18 +9,6 @@
     width: min(100%, 680px);
     padding: clamp(28px, 5vw, 64px) clamp(24px, 5vw, 64px) clamp(48px, 6vw, 80px);
     background: var(--sheet);
-    /* borda de baixo destacada da impressora */
-    clip-path: polygon(
-        0 0, 100% 0, 100% calc(100% - 12px),
-        97.5% 100%, 95% calc(100% - 12px), 92.5% 100%, 90% calc(100% - 12px), 87.5% 100%,
-        85% calc(100% - 12px), 82.5% 100%, 80% calc(100% - 12px), 77.5% 100%, 75% calc(100% - 12px),
-        72.5% 100%, 70% calc(100% - 12px), 67.5% 100%, 65% calc(100% - 12px), 62.5% 100%,
-        60% calc(100% - 12px), 57.5% 100%, 55% calc(100% - 12px), 52.5% 100%, 50% calc(100% - 12px),
-        47.5% 100%, 45% calc(100% - 12px), 42.5% 100%, 40% calc(100% - 12px), 37.5% 100%,
-        35% calc(100% - 12px), 32.5% 100%, 30% calc(100% - 12px), 27.5% 100%, 25% calc(100% - 12px),
-        22.5% 100%, 20% calc(100% - 12px), 17.5% 100%, 15% calc(100% - 12px), 12.5% 100%,
-        10% calc(100% - 12px), 7.5% 100%, 5% calc(100% - 12px), 2.5% 100%, 0 calc(100% - 12px)
-    );
 }
 
 .about__head {
