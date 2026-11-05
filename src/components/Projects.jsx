@@ -3,6 +3,7 @@ import { usePinnedHorizontalScroll } from '../hooks/usePinnedHorizontalScroll';
 import { useLanguage } from '../context/LanguageContext';
 import ProjectCard from './ProjectCard';
 import GitHubActivity from './GitHubActivity';
+import { getLocalizedProjects } from '../data/projects';
 
 // Deterministic category mapping based on project ID
 const PROJECT_CATEGORIES = {
@@ -22,7 +23,7 @@ export default function Projects() {
   const [viewMode, setViewMode] = useState('horizontal'); // 'horizontal' or 'grid'
   const [githubActivityData, setGithubActivityData] = useState(null);
 
-  const allProjects = useMemo(() => t.projects?.items || [], [t.projects]);
+  const allProjects = useMemo(() => getLocalizedProjects(t.projects?.items), [t.projects]);
 
   // Robust category matcher
   const isProjectInFilter = (project, filter) => {
