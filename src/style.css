@@ -1141,7 +1141,6 @@ ul {
     font-family: var(--font-mono);
     font-size: 0.74rem;
     background: var(--bg-subtle);
-    border-left: 2.5px solid var(--copper);
     padding: 0.4rem 0.65rem;
     border-radius: 0 var(--border-radius-sm) var(--border-radius-sm) 0;
     margin-bottom: 0.85rem;
@@ -2411,7 +2410,6 @@ html.lenis, html.lenis body {
     align-items: center;
     gap: 0.5rem;
     padding-top: 0.45rem;
-    border-top: 1px dashed var(--card-border);
     font-size: 0.72rem;
     color: var(--text-muted);
 }
