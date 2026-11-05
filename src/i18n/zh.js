@@ -3,6 +3,7 @@ export const zh = {
     projects: '项目',
     about: '关于',
     experience: '经历',
+    courses: '课程',
     contact: '联系',
     menu: '菜单',
     close: '关闭',
@@ -158,6 +159,16 @@ export const zh = {
         ]
       }
     ]
+  },
+  courses: {
+    title: '课程与证书',
+    lead: '共 {total} 张证书，来自 Alura、FIAP 和 Santander Open Academy，大多获得于 2026 年。证书名称保留原文（葡萄牙语或英语）。',
+    link: '在领英查看证书',
+    groups: {
+      ai: '结合 AI 的软件工程',
+      dev: '开发与基础',
+      business: '管理、产品与沟通'
+    }
   },
   projects: {
     title: '其他项目',

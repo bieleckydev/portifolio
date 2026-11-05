@@ -3,6 +3,7 @@ export const pt = {
     projects: 'Projetos',
     about: 'Sobre',
     experience: 'Experiência',
+    courses: 'Cursos',
     contact: 'Contato',
     menu: 'Menu',
     close: 'Fechar',
@@ -158,6 +159,16 @@ export const pt = {
         ]
       }
     ]
+  },
+  courses: {
+    title: 'Cursos e certificações',
+    lead: '{total} certificados da Alura, da FIAP e da Santander Open Academy, quase todos de 2026.',
+    link: 'Ver credenciais no LinkedIn',
+    groups: {
+      ai: 'Engenharia de software com IA',
+      dev: 'Desenvolvimento e fundamentos',
+      business: 'Gestão, produto e comunicação'
+    }
   },
   projects: {
     title: 'Outros projetos',

@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import CaseStudy from './components/CaseStudy';
 import About from './components/About';
 import Experience from './components/Experience';
+import Courses from './components/Courses';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -23,6 +24,7 @@ function AppContent() {
         <Projects />
         <About />
         <Experience />
+        <Courses />
         <Contact />
       </main>
 
