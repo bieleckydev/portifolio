@@ -85,7 +85,7 @@ export const en = {
     paragraphs: [
       'I am a Software Engineering student living in São Bernardo do Campo, Brazil.',
       'At Adega do Dino I worked the floor of a busy steakhouse and kept the stock spreadsheets. The point-of-sale system the restaurant uses today was written for that routine.',
-      'I work from back end to app: Java, JavaScript and TypeScript, Kotlin on Android, Python and SQL. I pick the tool for the problem and learn whatever is missing.',
+      'I work from back end to app: TypeScript with React and Node.js, Java, Python, React Native and Kotlin on mobile, and SQL databases. I pick the tool for the problem and learn whatever is missing.',
       'Away from code I build and tune computers. I like stress-testing for stability, managing heat and understanding what happens under the hood.',
       'I am looking for an internship or a junior role where I can learn from a team and ship software people actually use.'
     ],
@@ -122,28 +122,38 @@ export const en = {
       {
         label: 'Languages',
         rows: [
-          { name: 'Java', value: 'Aurum Banking and university' },
-          { name: 'SQL', value: 'Till stock and sales' },
+          { name: 'TypeScript', value: 'Softcomp Dashboard, SEFAZ Monitor, Changelog and heavy.io' },
           { name: 'JavaScript', value: 'Till, menu, OTIS and Feira' },
-          { name: 'TypeScript', value: 'heavy.io, a strength-training app' },
+          { name: 'Java', value: 'Aurum Banking and university' },
+          { name: 'Python', value: 'Softcomp Dashboard, Ready 2 Work and automation' },
           { name: 'Kotlin', value: 'kcal.io' },
-          { name: 'Python', value: 'Ready 2 Work and automation' }
+          { name: 'SQL', value: 'SQLite, PostgreSQL and Oracle' }
         ]
       },
       {
-        label: 'Systems',
+        label: 'Front end, back end and mobile',
         rows: [
+          { name: 'React and Next.js', value: 'Dashboard, SEFAZ Monitor and Changelog' },
+          { name: 'Node.js with Express and Fastify', value: 'Softcomp Dashboard and SEFAZ Monitor' },
+          { name: 'React Native with Expo', value: 'heavy.io' },
+          { name: 'Tailwind and CSS', value: 'Softcomp Dashboard and websites' },
+          { name: 'Supabase and Firebase', value: 'Changelog and heavy.io' }
+        ]
+      },
+      {
+        label: 'Infrastructure and integrations',
+        rows: [
+          { name: 'Nginx, systemd and GitHub Actions', value: 'Dashboard and Monitor deploys' },
+          { name: 'Vercel', value: 'Changelog, menu, OTIS and Feira' },
           { name: 'ESC/POS thermal printing', value: 'Point-of-sale system' },
-          { name: 'Mobile interfaces', value: 'Digital Menu' },
-          { name: 'API integration', value: 'Forms and services' }
+          { name: 'ERP and API integration', value: 'Softcomp Dashboard and SEFAZ Monitor' }
         ]
       },
       {
         label: 'Tools',
         rows: [
           { name: 'Git and GitHub', value: 'Every project' },
-          { name: 'IntelliJ IDEA', value: 'Java projects' },
-          { name: 'VS Code', value: 'Front end' },
+          { name: 'VS Code and IntelliJ IDEA', value: 'Every day' },
           { name: 'Trello', value: 'Planning deliveries' }
         ]
       }

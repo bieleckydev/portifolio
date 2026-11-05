@@ -85,7 +85,7 @@ export const pt = {
     paragraphs: [
       'Sou estudante de Engenharia de Software e moro em São Bernardo do Campo, SP.',
       'Na Adega do Dino cuidei do atendimento num salão de muito movimento e das planilhas de estoque. O sistema de caixa que a casa usa hoje foi escrito para essa rotina.',
-      'Trabalho do back-end ao app: Java, JavaScript e TypeScript, Kotlin no Android, Python e SQL. Escolho a ferramenta pelo problema e aprendo a que faltar.',
+      'Trabalho do back-end ao app: TypeScript com React e Node.js, Java, Python, React Native e Kotlin no celular, e bancos SQL. Escolho a ferramenta pelo problema e aprendo a que faltar.',
       'Fora do código, monto e ajusto computadores. Gosto de testar estabilidade, cuidar da parte térmica e entender o que acontece por baixo dos panos.',
       'Procuro um estágio ou uma vaga júnior em que eu aprenda com um time e entregue software que alguém usa de verdade.'
     ],
@@ -122,28 +122,38 @@ export const pt = {
       {
         label: 'Linguagens',
         rows: [
-          { name: 'Java', value: 'Aurum Banking e faculdade' },
-          { name: 'SQL', value: 'Estoque e vendas do caixa' },
+          { name: 'TypeScript', value: 'Painel Softcomp, Monitor SEFAZ, Changelog e heavy.io' },
           { name: 'JavaScript', value: 'Caixa, cardápio, OTIS e Feira' },
-          { name: 'TypeScript', value: 'heavy.io, app de musculação' },
+          { name: 'Java', value: 'Aurum Banking e faculdade' },
+          { name: 'Python', value: 'Painel Softcomp, Ready 2 Work e automações' },
           { name: 'Kotlin', value: 'kcal.io' },
-          { name: 'Python', value: 'Ready 2 Work e automações' }
+          { name: 'SQL', value: 'SQLite, PostgreSQL e Oracle' }
         ]
       },
       {
-        label: 'Sistemas',
+        label: 'Front-end, back-end e mobile',
         rows: [
+          { name: 'React e Next.js', value: 'Painel, Monitor SEFAZ e Changelog' },
+          { name: 'Node.js com Express e Fastify', value: 'Painel Softcomp e Monitor SEFAZ' },
+          { name: 'React Native com Expo', value: 'heavy.io' },
+          { name: 'Tailwind e CSS', value: 'Painel Softcomp e sites' },
+          { name: 'Supabase e Firebase', value: 'Changelog e heavy.io' }
+        ]
+      },
+      {
+        label: 'Infraestrutura e integrações',
+        rows: [
+          { name: 'Nginx, systemd e GitHub Actions', value: 'Deploy do Painel e do Monitor' },
+          { name: 'Vercel', value: 'Changelog, cardápio, OTIS e Feira' },
           { name: 'Impressão térmica ESC/POS', value: 'Sistema de caixa' },
-          { name: 'Interfaces para celular', value: 'Cardápio Digital' },
-          { name: 'Integração com APIs', value: 'Formulários e serviços' }
+          { name: 'Integração com ERP e APIs', value: 'Painel Softcomp e Monitor SEFAZ' }
         ]
       },
       {
         label: 'Ferramentas',
         rows: [
           { name: 'Git e GitHub', value: 'Todos os projetos' },
-          { name: 'IntelliJ IDEA', value: 'Projetos em Java' },
-          { name: 'VS Code', value: 'Front-end' },
+          { name: 'VS Code e IntelliJ IDEA', value: 'Dia a dia' },
           { name: 'Trello', value: 'Organização de entregas' }
         ]
       }

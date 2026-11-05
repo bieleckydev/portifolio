@@ -85,7 +85,7 @@ export const zh = {
     paragraphs: [
       '我是软件工程专业的学生，住在巴西圣保罗州的圣贝尔纳多-杜坎普。',
       '我曾在 Adega do Dino 烤肉店负责繁忙的前厅服务，并维护库存表格。餐厅现在使用的收银系统，就是为这套日常流程编写的。',
-      '从后端到移动应用我都做：Java、JavaScript 和 TypeScript、Android 上的 Kotlin、Python 和 SQL。我根据问题选择工具，缺什么就学什么。',
+      '从后端到移动应用我都做：TypeScript 搭配 React 和 Node.js、Java、Python、移动端的 React Native 和 Kotlin，以及 SQL 数据库。我根据问题选择工具，缺什么就学什么。',
       '写代码之外，我喜欢组装和调校电脑：做稳定性测试、管理散热，弄清楚底层到底发生了什么。',
       '我在寻找实习或初级职位，希望在团队中学习，交付真正有人在用的软件。'
     ],
@@ -122,28 +122,38 @@ export const zh = {
       {
         label: '编程语言',
         rows: [
-          { name: 'Java', value: 'Aurum Banking 与课程项目' },
-          { name: 'SQL', value: '收银系统的库存与销售' },
+          { name: 'TypeScript', value: 'Softcomp 面板、SEFAZ 监控、更新日志和 heavy.io' },
           { name: 'JavaScript', value: '收银、菜单、OTIS 和 Feira' },
-          { name: 'TypeScript', value: 'heavy.io 力量训练应用' },
+          { name: 'Java', value: 'Aurum Banking 与课程项目' },
+          { name: 'Python', value: 'Softcomp 面板、Ready 2 Work 与自动化' },
           { name: 'Kotlin', value: 'kcal.io' },
-          { name: 'Python', value: 'Ready 2 Work 与自动化脚本' }
+          { name: 'SQL', value: 'SQLite、PostgreSQL 和 Oracle' }
         ]
       },
       {
-        label: '系统',
+        label: '前端、后端与移动端',
         rows: [
+          { name: 'React 和 Next.js', value: '面板、SEFAZ 监控和更新日志' },
+          { name: 'Node.js（Express、Fastify）', value: 'Softcomp 面板和 SEFAZ 监控' },
+          { name: 'React Native（Expo）', value: 'heavy.io' },
+          { name: 'Tailwind 和 CSS', value: 'Softcomp 面板和网站' },
+          { name: 'Supabase 和 Firebase', value: '更新日志和 heavy.io' }
+        ]
+      },
+      {
+        label: '基础设施与集成',
+        rows: [
+          { name: 'Nginx、systemd 和 GitHub Actions', value: '面板和监控的部署' },
+          { name: 'Vercel', value: '更新日志、菜单、OTIS 和 Feira' },
           { name: 'ESC/POS 热敏打印', value: '收银系统' },
-          { name: '移动端界面', value: '电子菜单' },
-          { name: 'API 集成', value: '表单与服务' }
+          { name: 'ERP 与 API 集成', value: 'Softcomp 面板和 SEFAZ 监控' }
         ]
       },
       {
         label: '工具',
         rows: [
           { name: 'Git 和 GitHub', value: '所有项目' },
-          { name: 'IntelliJ IDEA', value: 'Java 项目' },
-          { name: 'VS Code', value: '前端' },
+          { name: 'VS Code 和 IntelliJ IDEA', value: '日常使用' },
           { name: 'Trello', value: '交付规划' }
         ]
       }
