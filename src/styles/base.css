@@ -189,3 +189,81 @@ html {
         text-decoration-thickness: 2px;
     }
 }
+
+/* =========================================
+   Palco dividido
+   À esquerda, a coluna de leitura rola. À direita, o palco fica parado
+   enquanto a seção passa e mostra a peça que prova o que o texto diz.
+   ========================================= */
+.split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    min-height: calc(100svh - var(--header-h));
+}
+
+.split__read {
+    min-width: 0;
+    padding: clamp(56px, 7vw, 112px) var(--gutter);
+}
+
+.split__stage {
+    position: sticky;
+    top: var(--header-h);
+    height: calc(100svh - var(--header-h));
+    min-width: 0;
+    display: grid;
+    place-items: center;
+    padding: clamp(24px, 3vw, 48px);
+    background: var(--counter);
+    overflow: hidden;
+}
+
+/* Seções que quebram o palco e usam a largura toda */
+.full {
+    padding: var(--section-gap) var(--gutter);
+}
+
+@media (max-width: 900px) {
+    .split {
+        grid-template-columns: minmax(0, 1fr);
+        min-height: 0;
+    }
+
+    .split__read {
+        padding-block: 72px 40px;
+    }
+
+    .split__stage {
+        position: relative;
+        top: auto;
+        height: auto;
+        min-height: 0;
+        padding: 32px var(--gutter);
+    }
+
+    .full {
+        padding-block: 96px;
+    }
+}
+
+/* =========================================
+   Entrada das seções
+   Título, texto e imagem sobem em sequência, uma vez, quando a seção aparece.
+   O estado escondido só existe com JavaScript ativo e movimento permitido.
+   ========================================= */
+@media (prefers-reduced-motion: no-preference) {
+    .js [data-reveal] {
+        opacity: 0;
+        transform: translateY(20px);
+        transition:
+            opacity var(--dur-enter) var(--ease-out),
+            transform var(--dur-enter) var(--ease-out);
+        transition-delay: calc(var(--i, 0) * 70ms);
+    }
+
+    .js .is-in [data-reveal],
+    .js [data-reveal].is-in {
+        opacity: 1;
+        transform: none;
+    }
+}
