@@ -101,8 +101,9 @@ export const pt = {
           { name: 'Java', value: 'Aurum Banking e faculdade' },
           { name: 'SQL', value: 'Estoque e vendas do caixa' },
           { name: 'JavaScript', value: 'Caixa, cardápio, OTIS e Feira' },
+          { name: 'TypeScript', value: 'heavy.io, app de musculação' },
           { name: 'Kotlin', value: 'kcal.io' },
-          { name: 'Python', value: 'Scripts de automação' }
+          { name: 'Python', value: 'Ready 2 Work e automações' }
         ]
       },
       {
@@ -178,7 +179,7 @@ export const pt = {
         title: 'Ready 2 Work',
         kind: 'Carreira',
         desc: 'Preparação para o mercado de tecnologia, com simulados de avaliação técnica.',
-        stack: 'JavaScript'
+        stack: 'JavaScript e Python'
       },
       {
         id: 'proj-guia-cidadao',

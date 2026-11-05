@@ -101,8 +101,9 @@ export const en = {
           { name: 'Java', value: 'Aurum Banking and university' },
           { name: 'SQL', value: 'Till stock and sales' },
           { name: 'JavaScript', value: 'Till, menu, OTIS and Feira' },
+          { name: 'TypeScript', value: 'heavy.io, a strength-training app' },
           { name: 'Kotlin', value: 'kcal.io' },
-          { name: 'Python', value: 'Automation scripts' }
+          { name: 'Python', value: 'Ready 2 Work and automation' }
         ]
       },
       {
@@ -178,7 +179,7 @@ export const en = {
         title: 'Ready 2 Work',
         kind: 'Careers',
         desc: 'Preparation for the tech job market, with practice technical assessments.',
-        stack: 'JavaScript'
+        stack: 'JavaScript and Python'
       },
       {
         id: 'proj-guia-cidadao',

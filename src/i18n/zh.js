@@ -101,8 +101,9 @@ export const zh = {
           { name: 'Java', value: 'Aurum Banking 与课程项目' },
           { name: 'SQL', value: '收银系统的库存与销售' },
           { name: 'JavaScript', value: '收银、菜单、OTIS 和 Feira' },
+          { name: 'TypeScript', value: 'heavy.io 力量训练应用' },
           { name: 'Kotlin', value: 'kcal.io' },
-          { name: 'Python', value: '自动化脚本' }
+          { name: 'Python', value: 'Ready 2 Work 与自动化脚本' }
         ]
       },
       {
@@ -178,7 +179,7 @@ export const zh = {
         title: 'Ready 2 Work',
         kind: '求职',
         desc: '帮助进入科技行业的准备平台，提供技术测评模拟。',
-        stack: 'JavaScript'
+        stack: 'JavaScript 和 Python'
       },
       {
         id: 'proj-guia-cidadao',
