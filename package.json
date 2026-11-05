@@ -4,10 +4,10 @@
   "description": "Portfólio de Eduardo Mota Bielecky da Silva Mello",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0 --port 3000",
+    "dev": "vite",
     "build": "vite build",
     "lint": "vite build",
-    "preview": "vite preview --host 0.0.0.0 --port 3000"
+    "preview": "vite preview"
   },
   "dependencies": {
     "lenis": "^1.3.26",
