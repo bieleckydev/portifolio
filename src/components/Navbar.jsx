@@ -1,69 +1,82 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import LanguageSwitcher from './LanguageSwitcher';
+import './Navbar.css';
 
-export default function Navbar({
-  isScrolled,
-  mobileMenuOpen,
-  onToggleMobileMenu,
-  onCloseMobileMenu,
-}) {
+export default function Navbar() {
   const { t } = useLanguage();
+  const [open, setOpen] = useState(false);
+
+  // Fecha o menu do celular com Esc e ao voltar para a largura de desktop
+  useEffect(() => {
+    if (!open) return undefined;
+    const onKey = (e) => e.key === 'Escape' && setOpen(false);
+    const wide = window.matchMedia('(min-width: 901px)');
+    const onWide = () => wide.matches && setOpen(false);
+    window.addEventListener('keydown', onKey);
+    wide.addEventListener('change', onWide);
+    return () => {
+      window.removeEventListener('keydown', onKey);
+      wide.removeEventListener('change', onWide);
+    };
+  }, [open]);
+
+  const close = () => setOpen(false);
+
+  const links = [
+    { href: '#projetos', label: t.nav.projects },
+    { href: '#sobre', label: t.nav.about },
+    { href: '#experiencia', label: t.nav.experience }
+  ];
 
   return (
-    <header id="main-header" className={`header ${isScrolled ? 'scrolled' : ''}`}>
-      <div className="container">
-        <a href="#" className="logo" id="header-logo" onClick={onCloseMobileMenu}>
-          bielecky<span>.dev</span>
+    <header className="site-header">
+      <a href="#inicio" className="site-header__name" onClick={close} aria-label={t.nav.home}>
+        Eduardo Bielecky
+      </a>
+
+      <nav className="site-header__nav" aria-label={t.nav.mainNav}>
+        <ul className="site-header__links">
+          {links.map((link) => (
+            <li key={link.href}>
+              <a href={link.href}>{link.label}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      <div className="site-header__end">
+        <LanguageSwitcher className="site-header__langs" id="lang-desktop" />
+        <a href="#contato" className="button site-header__cta">
+          {t.nav.contact}
         </a>
-        <nav className="navbar" id="main-nav" aria-label={t.nav.mainNav}>
-          <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`} id="nav-links-list">
-            <li>
-              <a href="#sobre" onClick={onCloseMobileMenu}>
-                {t.nav.about}
-              </a>
-            </li>
-            <li>
-              <a href="#habilidades" onClick={onCloseMobileMenu}>
-                {t.nav.skills}
-              </a>
-            </li>
-            <li>
-              <a href="#experiencia" onClick={onCloseMobileMenu}>
-                {t.nav.experience}
-              </a>
-            </li>
-            <li>
-              <a href="#projetos" onClick={onCloseMobileMenu}>
-                {t.nav.projects}
-              </a>
-            </li>
-            <li>
-              <a href="#contato" onClick={onCloseMobileMenu}>
-                {t.nav.contact}
-              </a>
-            </li>
-            <li className="mobile-lang-item">
-              <LanguageSwitcher id="mobile-lang-switcher" />
-            </li>
-          </ul>
+        <button
+          type="button"
+          className="site-header__menu"
+          aria-expanded={open}
+          aria-controls="mobile-menu"
+          onClick={() => setOpen((v) => !v)}
+        >
+          {open ? t.nav.close : t.nav.menu}
+        </button>
+      </div>
 
-          <div className="nav-controls" id="nav-controls-group">
-            <LanguageSwitcher className="desktop-lang-switcher" id="desktop-lang-switcher" />
-
-            <button
-              id="hamburger-btn"
-              className={`hamburger ${mobileMenuOpen ? 'toggle' : ''}`}
-              aria-label={t.nav.menuToggle}
-              onClick={onToggleMobileMenu}
-              type="button"
-            >
-              <span className="bar"></span>
-              <span className="bar"></span>
-              <span className="bar"></span>
-            </button>
-          </div>
-        </nav>
+      <div id="mobile-menu" className="mobile-menu" hidden={!open}>
+        <ul>
+          {links.map((link) => (
+            <li key={link.href}>
+              <a href={link.href} onClick={close}>
+                {link.label}
+              </a>
+            </li>
+          ))}
+          <li>
+            <a href="#contato" onClick={close}>
+              {t.nav.contact}
+            </a>
+          </li>
+        </ul>
+        <LanguageSwitcher className="mobile-menu__langs" id="lang-mobile" />
       </div>
     </header>
   );

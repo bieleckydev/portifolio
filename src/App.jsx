@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useEffect } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -11,27 +11,6 @@ import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 
 function AppContent() {
-  // Header scroll state
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  // Mobile menu state
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-
-  // Handle header scroll
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   // High-performance IntersectionObserver Reveal Animations (zero layout thrashing)
   useEffect(() => {
     const observerCallback = (entries, observer) => {
@@ -65,24 +44,9 @@ function AppContent() {
     };
   }, []);
 
-  const toggleMobileMenu = useCallback(() => {
-    setMobileMenuOpen((prev) => !prev);
-  }, []);
-
-  const closeMobileMenu = useCallback(() => {
-    setMobileMenuOpen(false);
-  }, []);
-
   return (
     <div id="portfolio-app">
-
-
-      <Navbar
-        isScrolled={isScrolled}
-        mobileMenuOpen={mobileMenuOpen}
-        onToggleMobileMenu={toggleMobileMenu}
-        onCloseMobileMenu={closeMobileMenu}
-      />
+      <Navbar />
 
       <main id="main-portfolio-content">
         <Hero />

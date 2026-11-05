@@ -1,11 +1,12 @@
 export const zh = {
   nav: {
-    about: '关于',
-    skills: '技能',
-    experience: '经历',
     projects: '项目',
+    about: '关于',
+    experience: '经历',
     contact: '联系',
-    menuToggle: '打开导航菜单',
+    menu: '菜单',
+    close: '关闭',
+    home: 'Eduardo Bielecky，回到顶部',
     mainNav: '主导航',
     whatsapp: '通过 WhatsApp 联系'
   },

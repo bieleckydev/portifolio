@@ -1,11 +1,12 @@
 export const en = {
   nav: {
-    about: 'About',
-    skills: 'Skills',
-    experience: 'Experience',
     projects: 'Projects',
+    about: 'About',
+    experience: 'Experience',
     contact: 'Contact',
-    menuToggle: 'Open navigation menu',
+    menu: 'Menu',
+    close: 'Close',
+    home: 'Eduardo Bielecky, back to top',
     mainNav: 'Main navigation',
     whatsapp: 'Chat on WhatsApp'
   },
