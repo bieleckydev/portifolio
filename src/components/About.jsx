@@ -9,7 +9,6 @@ export default function About() {
 
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <div className="section-header reveal">
-          <span className="section-label">{t.about.label}</span>
           <h2 className="section-title" id="about-heading">
             {t.about.title}
           </h2>

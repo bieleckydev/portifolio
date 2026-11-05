@@ -70,7 +70,6 @@ export default function Projects() {
             {/* Header Fixo no Topo */}
             <div className="pinned-stage-header">
               <div className="pinned-stage-titles">
-                <span className="pinned-stage-label">{t.projects.label}</span>
                 <h2 className="pinned-stage-h2">{t.projects.title}</h2>
               </div>
 
@@ -230,7 +229,6 @@ export default function Projects() {
              ======================================================= */
           <div className="container" style={{ position: 'relative', zIndex: 1, padding: '4rem 1.5rem' }}>
             <div className="section-header reveal">
-              <span className="section-label">{t.projects.label}</span>
               <h2 className="section-title" id="projects-heading">
                 {t.projects.title}
               </h2>

@@ -11,7 +11,6 @@ export const en = {
     whatsapp: 'Chat on WhatsApp'
   },
   hero: {
-    tagline: 'Portfolio // Java & Software Dev',
     nameFirst: 'Eduardo Mota',
     nameLast: 'Bielecky da Silva Mello',
     roles: [
@@ -32,7 +31,6 @@ export const en = {
     m2: 'ROBUST BACKEND • RESILIENCE • SPRING FRAMEWORK • SQL • ALGORITHMS & DATA STRUCTURES • SÃO PAULO, BR •'
   },
   about: {
-    label: '01 // Journey',
     title: 'About Me',
     p1: 'I am a Bachelor student in <strong>Software Engineering</strong> residing in São Bernardo do Campo, SP, Brazil. I maintain a pragmatic, goal-driven mindset with dedication to software architectural patterns, clean coding practices, and resilient backend systems.',
     p2: 'Beyond the Java development ecosystem, I am a passionate enthusiast of <strong>high-performance computer hardware</strong> (system building, thermal optimization, stress analysis) and automotive engineering. I enjoy understanding how hardware and software work together under the hood.',
@@ -47,7 +45,6 @@ export const en = {
     focusSub: 'Backend & Systems'
   },
   skills: {
-    label: '02 // Competencies',
     title: 'Technical Skills',
     subtitle:
       'Hover over the floating tags to inspect practical project experience and architectural summaries.',
@@ -202,7 +199,6 @@ export const en = {
     ]
   },
   experience: {
-    label: '03 // Career',
     title: 'Professional Experience',
     viewHorizontal: 'Horizontal Roadmap',
     viewVertical: 'Vertical List',
@@ -235,7 +231,6 @@ export const en = {
     ]
   },
   projects: {
-    label: '04 // Portfolio',
     title: 'Featured Projects',
     subtitle:
       'Software solutions engineered with architectural rigor, modularity, and real-world production utility.',
@@ -396,7 +391,6 @@ export const en = {
     ]
   },
   contact: {
-    label: '05 // Connect',
     title: "Let's Connect",
     description:
       'I am available for software engineering internships, junior Java developer positions, and technical collaborations. Enter your email below or reach out directly.',

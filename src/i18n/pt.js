@@ -11,7 +11,6 @@ export const pt = {
     whatsapp: 'Conversar pelo WhatsApp'
   },
   hero: {
-    tagline: 'Portfólio // Dev Java & Software',
     nameFirst: 'Eduardo Mota',
     nameLast: 'Bielecky da Silva Mello',
     roles: [
@@ -32,7 +31,6 @@ export const pt = {
     m2: 'BACKEND ROBUSTO • RESILIÊNCIA • SPRING FRAMEWORK • SQL • ALGORITMOS & ESTRUTURAS • SÃO PAULO, BR •'
   },
   about: {
-    label: '01 // Trajetória',
     title: 'Sobre Mim',
     p1: 'Sou estudante de Bacharelado em <strong>Engenharia de Software</strong> e resido em São Bernardo do Campo, SP. Tenho um perfil pragmático, focado em metas e dedicação contínua ao aprendizado de padrões de arquitetura, boas práticas de código e desenvolvimento backend robusto.',
     p2: 'Além do ecossistema de programação Java, sou entusiasta de <strong>hardware de alta performance</strong> (montagem, gerenciamento térmico e otimização de sistemas computacionais) e engenharia automotiva. Gosto de compreender profundamente o funcionamento e o desempenho por baixo dos panos.',
@@ -47,7 +45,6 @@ export const pt = {
     focusSub: 'Backend & Soluções'
   },
   skills: {
-    label: '02 // Competências',
     title: 'Habilidades Técnicas',
     subtitle:
       'Passe o cursor sobre as tags flutuantes para inspecionar o resumo da experiência prática em projetos.',
@@ -202,7 +199,6 @@ export const pt = {
     ]
   },
   experience: {
-    label: '03 // Carreira',
     title: 'Experiência Profissional',
     viewHorizontal: 'Trilha Horizontal',
     viewVertical: 'Lista Vertical',
@@ -235,7 +231,6 @@ export const pt = {
     ]
   },
   projects: {
-    label: '04 // Portfólio',
     title: 'Projetos em Destaque',
     subtitle:
       'Soluções de software desenvolvidas com rigor técnico, arquitetura modular e aplicação prática no mundo real.',
@@ -396,7 +391,6 @@ export const pt = {
     ]
   },
   contact: {
-    label: '05 // Conexão',
     title: 'Vamos Conversar?',
     description:
       'Estou disponível para oportunidades de estágio e projetos em Engenharia de Software e Java. Envie seu e-mail abaixo ou conecte-se diretamente através das minhas redes.',

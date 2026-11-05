@@ -47,9 +47,6 @@ export default function Hero() {
     <section id="hero" className="hero">
       <div className="container hero-container fade-in">
         <div className="hero-content" id="hero-content-block">
-          <span className="hero-tagline" id="hero-greeting">
-            {t.hero.tagline}
-          </span>
           <h1 className="name" id="hero-main-name">
             {t.hero.nameFirst} <br />
             {t.hero.nameLast}

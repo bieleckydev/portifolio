@@ -163,27 +163,6 @@ ul {
     margin-bottom: 3.5rem;
 }
 
-.section-label {
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: var(--copper);
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.6rem;
-    margin-bottom: 0.75rem;
-}
-
-.section-label::before {
-    content: '';
-    display: inline-block;
-    width: 12px;
-    height: 2px;
-    background-color: var(--copper);
-}
-
 .section-title {
     font-size: 2.25rem;
     font-weight: 700;
@@ -194,10 +173,6 @@ ul {
 
 .text-center {
     text-align: center;
-}
-
-.text-center .section-label {
-    justify-content: center;
 }
 
 /* =========================================
@@ -472,26 +447,6 @@ ul {
 
 .hero-content {
     max-width: 650px;
-}
-
-.hero-tagline {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.6rem;
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--copper);
-    margin-bottom: 1.25rem;
-}
-
-.hero-tagline::before {
-    content: '';
-    width: 8px;
-    height: 8px;
-    background-color: var(--copper);
-    display: inline-block;
 }
 
 .name {
@@ -3088,14 +3043,6 @@ body.light-mode .pinned-stage-veil-bottom {
     gap: 0.2rem;
 }
 
-.pinned-stage-label {
-    font-family: var(--font-mono);
-    font-size: 0.78rem;
-    color: var(--copper);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
 .pinned-stage-h2 {
     font-size: clamp(1.4rem, 2.5vw, 2.2rem);
     font-weight: 700;
@@ -3672,7 +3619,6 @@ body.light-mode .pinned-edge-vignette-right {
         letter-spacing: -0.02em;
     }
 
-
     /* Navbar & Gaveta Mobile */
     .header {
         height: 4.2rem;
@@ -3864,9 +3810,7 @@ body.light-mode .pinned-edge-vignette-right {
         width: 100%;
     }
 
-    .pinned-stage-label {
-        font-size: 0.7rem;
-    }
+    
 
     .pinned-stage-h2 {
         font-size: 1.25rem;
@@ -4107,5 +4051,4 @@ body.light-mode .pinned-edge-vignette-right {
         grid-template-columns: 1fr;
     }
 }
-
 

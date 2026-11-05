@@ -30,7 +30,6 @@ export default function Skills() {
 
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <div className="section-header reveal">
-          <span className="section-label">{t.skills.label}</span>
           <h2 className="section-title" id="skills-heading">
             {t.skills.title}
           </h2>

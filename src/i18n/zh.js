@@ -11,7 +11,6 @@ export const zh = {
     whatsapp: '通过 WhatsApp 联系'
   },
   hero: {
-    tagline: '个人作品集 // Java 与软件工程',
     nameFirst: 'Eduardo Mota',
     nameLast: 'Bielecky da Silva Mello',
     roles: [
@@ -32,7 +31,6 @@ export const zh = {
     m2: '高健壮性后端 • 高可用架构 • SPRING 框架 • SQL • 算法与数据结构 • 巴西圣保罗 •'
   },
   about: {
-    label: '01 // 个人履历',
     title: '关于我',
     p1: '我是<strong>软件工程</strong>学士学位在读学生，现居巴西圣保罗州圣贝尔纳多-杜坎普。我具有务实、目标导向的工程师特质，专注于软件设计模式、整洁代码规范以及高健壮性后端系统构建。',
     p2: '除 Java 编程生态外，我热衷于<strong>高性能计算机硬件</strong>（系统装配、热管理优化与超频稳定性测试）与汽车工程。我追求深入探究底层系统机理与极致运行性能。',
@@ -47,7 +45,6 @@ export const zh = {
     focusSub: '后端架构与系统研发'
   },
   skills: {
-    label: '02 // 专业技能',
     title: '技术专长',
     subtitle:
       '将鼠标悬停在浮动标签上，即可查看该项技术在真实项目中的实践总结。',
@@ -202,7 +199,6 @@ export const zh = {
     ]
   },
   experience: {
-    label: '03 // 职业经历',
     title: '工作经历',
     viewHorizontal: '横向路线图',
     viewVertical: '纵向列表',
@@ -235,7 +231,6 @@ export const zh = {
     ]
   },
   projects: {
-    label: '04 // 作品集',
     title: '精选重点项目',
     subtitle: '秉持软件工程严谨性、模块化架构与真实生产实用价值构建的项目。',
     accessBtn: '在线体验',
@@ -395,7 +390,6 @@ export const zh = {
     ]
   },
   contact: {
-    label: '05 // 建立连接',
     title: '期待与您交流',
     description:
       '我目前正在寻找软件工程实习或 Java 初级开发岗位机会。您可以在下方直接留下邮箱，或通过社交网络与我取得联系。',

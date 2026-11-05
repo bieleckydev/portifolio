@@ -10,7 +10,6 @@ export default function Contact() {
 
       <div className="container reveal" id="contact-container" style={{ position: 'relative', zIndex: 1 }}>
         <div className="contact-box minimal-card" id="contact-card">
-          <span className="section-label">{t.contact.label}</span>
           <h2 className="section-title" id="contact-heading" style={{ marginBottom: '1.25rem' }}>
             {t.contact.title}
           </h2>
