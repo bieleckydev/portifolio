@@ -45,8 +45,6 @@
     --border-radius-lg: 8px;
 }
 
-
-
 /* =========================================
    RESETS E BASE
    ========================================= */
@@ -1590,136 +1588,6 @@ html.lenis, html.lenis body {
 }
 
 /* =========================================
-   HUD DE TELEMETRIA LATERAL (Charles Leclerc)
-   ========================================= */
-.telemetry-hud {
-    position: fixed;
-    right: 24px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 900;
-    display: flex;
-    flex-direction: column;
-    gap: 1.1rem;
-    pointer-events: auto;
-}
-
-.telemetry-header {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-
-.telemetry-tag {
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
-    color: var(--copper);
-    letter-spacing: 0.15em;
-    font-weight: 600;
-}
-
-.telemetry-coords {
-    font-family: var(--font-mono);
-    font-size: 0.6rem;
-    color: var(--text-subtle);
-    letter-spacing: 0.05em;
-}
-
-.telemetry-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
-}
-
-.telemetry-btn {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    padding: 0.3rem 0;
-    color: var(--text-muted);
-    transition: all var(--transition-fast);
-}
-
-.telemetry-dot {
-    width: 6px;
-    height: 6px;
-    background: var(--card-border);
-    transform: rotate(45deg);
-    transition: all var(--transition-fast);
-}
-
-.telemetry-num {
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    color: var(--text-subtle);
-    transition: color var(--transition-fast);
-}
-
-.telemetry-label {
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.08em;
-    opacity: 0;
-    transform: translateX(-6px);
-    transition: all var(--transition-fast);
-    pointer-events: none;
-}
-
-.telemetry-btn:hover .telemetry-label,
-.telemetry-btn.active .telemetry-label {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-.telemetry-btn.active .telemetry-dot {
-    background: var(--copper);
-    transform: scale(1.35) rotate(45deg);
-}
-
-.telemetry-btn.active .telemetry-num {
-    color: var(--copper);
-    font-weight: 600;
-}
-
-.telemetry-btn.active .telemetry-label {
-    color: var(--text-color);
-}
-
-.telemetry-footer {
-    border-top: 1px solid var(--card-border);
-    padding-top: 0.75rem;
-}
-
-.telemetry-stat {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-}
-
-.stat-label {
-    font-family: var(--font-mono);
-    font-size: 0.6rem;
-    color: var(--text-subtle);
-    letter-spacing: 0.1em;
-}
-
-.stat-value {
-    font-family: var(--font-mono);
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: var(--copper);
-}
-
-@media (max-width: 1200px) {
-    .telemetry-hud {
-        display: none;
-    }
-}
-
-/* =========================================
    TIMELINE COM PROCESSO DE SCROLL DINÂMICO
    ========================================= */
 .timeline-progress-line {
@@ -2354,7 +2222,6 @@ html.lenis, html.lenis body {
     border-radius: 4px;
 }
 
-
 @keyframes skeleton-shimmer {
     0% {
         background-position: 200% 0;
@@ -2458,8 +2325,6 @@ html.lenis, html.lenis body {
     pointer-events: none;
     z-index: 12;
 }
-
-
 
 /* Cabeçalho do Palco Pinned */
 .pinned-stage-header {
@@ -2599,8 +2464,6 @@ html.lenis, html.lenis body {
     mask-image: linear-gradient(to left, black 25%, transparent 100%);
     -webkit-mask-image: linear-gradient(to left, black 25%, transparent 100%);
 }
-
-
 
 .pinned-stage-track {
     display: flex;
