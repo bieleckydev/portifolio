@@ -11,7 +11,7 @@ export const zh = {
     whatsapp: '通过 WhatsApp 联系'
   },
   hero: {
-    lead: '正在成长的 Java 开发者。我开发了 Adega do Dino 烤肉店正在使用的收银系统。',
+    lead: '正在成长的软件工程师。我开发了 Adega do Dino 烤肉店正在使用的收银系统。',
     facts: '软件工程在读，现居巴西圣贝尔纳多-杜坎普。正在寻找实习或初级开发职位。',
     cta: '联系我',
     projects: '查看项目'
@@ -61,7 +61,7 @@ export const zh = {
     paragraphs: [
       '我是软件工程专业的学生，住在巴西圣保罗州的圣贝尔纳多-杜坎普。',
       '我曾在 Adega do Dino 烤肉店负责繁忙的前厅服务，并维护库存表格。餐厅现在使用的收银系统，就是为这套日常流程编写的。',
-      '我专注于 Java 和后端：面向对象设计、SQL，以及必须把账算对的业务规则。',
+      '从后端到移动应用我都做：Java、JavaScript 和 TypeScript、Android 上的 Kotlin、Python 和 SQL。我根据问题选择工具，缺什么就学什么。',
       '写代码之外，我喜欢组装和调校电脑：做稳定性测试、管理散热，弄清楚底层到底发生了什么。',
       '我在寻找实习或初级职位，希望在团队中学习，交付真正有人在用的软件。'
     ],
@@ -190,7 +190,7 @@ export const zh = {
     ]
   },
   contact: {
-    promptA: '在招 Java 实习生或初级开发吗？',
+    promptA: '在招软件开发实习生或初级开发吗？',
     promptB: '留下你的邮箱，我会回复。',
     label: '你的邮箱',
     placeholder: 'name@company.com',
@@ -211,7 +211,7 @@ export const zh = {
       title: '联系请求',
       lines: [
         ['寻找', '实习或初级职位'],
-        ['语言', 'Java'],
+        ['技术栈', '后端、前端、移动端'],
         ['专业', '软件工程'],
         ['城市', '巴西圣贝尔纳多']
       ],

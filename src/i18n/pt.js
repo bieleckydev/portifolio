@@ -11,7 +11,7 @@ export const pt = {
     whatsapp: 'Conversar pelo WhatsApp'
   },
   hero: {
-    lead: 'Desenvolvedor Java em formação. Construí o sistema de caixa que a Adega do Dino usa hoje.',
+    lead: 'Engenheiro de software em formação. Construí o sistema de caixa que a Adega do Dino usa hoje.',
     facts: 'Estudante de Engenharia de Software em São Bernardo do Campo, SP. Procuro estágio ou vaga júnior.',
     cta: 'Falar comigo',
     projects: 'Ver projetos'
@@ -61,7 +61,7 @@ export const pt = {
     paragraphs: [
       'Sou estudante de Engenharia de Software e moro em São Bernardo do Campo, SP.',
       'Na Adega do Dino cuidei do atendimento num salão de muito movimento e das planilhas de estoque. O sistema de caixa que a casa usa hoje foi escrito para essa rotina.',
-      'Meu foco é Java e back-end: orientação a objetos, SQL e regras de negócio que precisam fechar a conta certa.',
+      'Trabalho do back-end ao app: Java, JavaScript e TypeScript, Kotlin no Android, Python e SQL. Escolho a ferramenta pelo problema e aprendo a que faltar.',
       'Fora do código, monto e ajusto computadores. Gosto de testar estabilidade, cuidar da parte térmica e entender o que acontece por baixo dos panos.',
       'Procuro um estágio ou uma vaga júnior em que eu aprenda com um time e entregue software que alguém usa de verdade.'
     ],
@@ -190,7 +190,7 @@ export const pt = {
     ]
   },
   contact: {
-    promptA: 'Tem uma vaga de estágio ou júnior em Java?',
+    promptA: 'Tem uma vaga de estágio ou júnior em desenvolvimento?',
     promptB: 'Deixe seu e-mail que eu respondo.',
     label: 'Seu e-mail',
     placeholder: 'nome@empresa.com',
@@ -211,7 +211,7 @@ export const pt = {
       title: 'PEDIDO DE CONTATO',
       lines: [
         ['Procura', 'Estágio ou júnior'],
-        ['Linguagem', 'Java'],
+        ['Stack', 'Back, front e mobile'],
         ['Formação', 'Eng. de Software'],
         ['Cidade', 'S. B. do Campo, SP']
       ],

@@ -11,7 +11,7 @@ export const en = {
     whatsapp: 'Chat on WhatsApp'
   },
   hero: {
-    lead: 'Java developer in training. I built the point-of-sale system Adega do Dino runs on today.',
+    lead: 'Software engineer in training. I built the point-of-sale system Adega do Dino runs on today.',
     facts: 'Software Engineering student in São Bernardo do Campo, Brazil. Looking for an internship or a junior role.',
     cta: 'Get in touch',
     projects: 'See projects'
@@ -61,7 +61,7 @@ export const en = {
     paragraphs: [
       'I am a Software Engineering student living in São Bernardo do Campo, Brazil.',
       'At Adega do Dino I worked the floor of a busy steakhouse and kept the stock spreadsheets. The point-of-sale system the restaurant uses today was written for that routine.',
-      'My focus is Java and back end: object-oriented design, SQL and business rules that have to get the bill right.',
+      'I work from back end to app: Java, JavaScript and TypeScript, Kotlin on Android, Python and SQL. I pick the tool for the problem and learn whatever is missing.',
       'Away from code I build and tune computers. I like stress-testing for stability, managing heat and understanding what happens under the hood.',
       'I am looking for an internship or a junior role where I can learn from a team and ship software people actually use.'
     ],
@@ -190,7 +190,7 @@ export const en = {
     ]
   },
   contact: {
-    promptA: 'Hiring a Java intern or junior?',
+    promptA: 'Hiring a software intern or junior?',
     promptB: 'Leave your email and I will reply.',
     label: 'Your email',
     placeholder: 'name@company.com',
@@ -211,7 +211,7 @@ export const en = {
       title: 'CONTACT REQUEST',
       lines: [
         ['Looking for', 'Intern or junior'],
-        ['Language', 'Java'],
+        ['Stack', 'Back, front, mobile'],
         ['Studying', 'Software Eng.'],
         ['City', 'S. B. do Campo, BR']
       ],
