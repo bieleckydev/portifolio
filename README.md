@@ -25,10 +25,17 @@ public/img/        imagens servidas estaticamente
 src/
   components/      seções e componentes da página
   context/         contexto de idioma (LanguageProvider)
+  data/            dados fixos dos projetos (links, imagens, categorias)
   hooks/           hooks de scroll e parallax
-  i18n/            textos traduzidos e dados dos projetos
+  i18n/            textos traduzidos, um arquivo por idioma (pt, en, zh)
   services/        acesso à API do GitHub
   App.jsx          composição da página
   main.jsx         ponto de entrada
   style.css        estilos globais
 ```
+
+## Adicionar um projeto
+
+1. Inclua o projeto em `src/data/projects.js` (id, imagem, links, categorias).
+2. Adicione os textos com o mesmo `id` em `projects.items` de `src/i18n/pt.js`, `en.js` e `zh.js`.
+3. Coloque a imagem em `public/img/`.
