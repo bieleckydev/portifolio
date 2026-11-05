@@ -5,18 +5,6 @@ import ProjectCard from './ProjectCard';
 import GitHubActivity from './GitHubActivity';
 import { getLocalizedProjects } from '../data/projects';
 
-// Deterministic category mapping based on project ID
-const PROJECT_CATEGORIES = {
-  'proj-caixa-adega': ['POS', 'FRONTEND'],
-  'proj-cardapio-digital': ['FRONTEND'],
-  'proj-cripto': ['JAVA'],
-  'proj-otis': ['FRONTEND'],
-  'proj-feira': ['FRONTEND'],
-  'proj-ready2work': ['JAVA'],
-  'proj-kcal': ['FRONTEND'],
-  'proj-guia-cidadao': ['FRONTEND']
-};
-
 export default function Projects() {
   const { t } = useLanguage();
   const [selectedFilter, setSelectedFilter] = useState('ALL');
@@ -27,7 +15,7 @@ export default function Projects() {
 
   const isProjectInFilter = (project, filter) => {
     if (filter === 'ALL') return true;
-    return (PROJECT_CATEGORIES[project.id] || []).includes(filter);
+    return (project.categories || []).includes(filter);
   };
 
   // Filtered projects list
