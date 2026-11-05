@@ -1869,42 +1869,6 @@ html.lenis, html.lenis body {
 }
 
 /* =========================================
-   VELOCITY MARQUEE (Charles Leclerc Style)
-   ========================================= */
-.velocity-marquee-wrapper {
-    overflow: hidden;
-    width: 100%;
-    padding: 1.15rem 0;
-    background: var(--bg-subtle);
-    border-top: 1px solid var(--card-border);
-    border-bottom: 1px solid var(--card-border);
-    position: relative;
-    user-select: none;
-    pointer-events: none;
-}
-
-.velocity-marquee-inner {
-    display: flex;
-    white-space: nowrap;
-    will-change: transform;
-}
-
-.marquee-content {
-    font-family: var(--font-mono);
-    font-size: 0.9rem;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--silver);
-    padding-right: 2rem;
-    display: inline-block;
-}
-
-body.light-mode .marquee-content {
-    color: var(--text-muted);
-}
-
-/* =========================================
    TIMELINE COM PROCESSO DE SCROLL DINÂMICO
    ========================================= */
 .timeline-progress-line {
@@ -3280,81 +3244,6 @@ body.light-mode .pinned-edge-vignette-right {
 }
 .hud-desktop-label {
     display: inline;
-}
-
-/* =========================================
-   PONTE ATMOSFÉRICA ENTRE SEÇÕES HORIZONTAIS
-   (Cross-fade suave e Blur entre Experiência e Projetos)
-   ========================================= */
-.horizontal-section-transition-bridge {
-    position: relative;
-    width: 100%;
-    padding: 0.5rem 0;
-    background: var(--bg-color);
-    overflow: hidden;
-    z-index: 3;
-}
-
-.bridge-ambient-glow {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: min(90vw, 880px);
-    height: 70px;
-    background: radial-gradient(ellipse at center, var(--copper-subtle) 0%, rgba(200, 122, 72, 0.05) 50%, transparent 80%);
-    filter: blur(30px);
-    pointer-events: none;
-    z-index: 0;
-}
-
-.horizontal-section-transition-bridge .velocity-marquee-wrapper {
-    background: transparent;
-    border-top: 1px solid rgba(200, 122, 72, 0.18);
-    border-bottom: 1px solid rgba(200, 122, 72, 0.18);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-}
-
-/* Animação Suave com Cross-Fade e Desfoque ao Alternar Modos */
-.pinned-stage-viewport,
-.projects-grid,
-.experience-vertical-timeline {
-    animation: stageModeFadeBlur 0.42s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-
-@keyframes stageModeFadeBlur {
-    0% {
-        opacity: 0;
-        filter: blur(6px);
-        transform: translateY(6px);
-    }
-    100% {
-        opacity: 1;
-        filter: blur(0px);
-        transform: translateY(0);
-    }
-}
-
-/* Acessibilidade para Usuários com Redução de Movimento */
-@media (prefers-reduced-motion: reduce) {
-    .pinned-card-item,
-    .pinned-exp-card {
-        filter: none !important;
-        transform: none !important;
-        transition: opacity 0.2s ease !important;
-    }
-
-    .pinned-stage-viewport,
-    .projects-grid,
-    .experience-vertical-timeline {
-        animation: none !important;
-    }
-
-    .pinned-edge-vignette {
-        backdrop-filter: none !important;
-        -webkit-backdrop-filter: none !important;
-    }
 }
 
 /* =========================================

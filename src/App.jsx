@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Lenis from 'lenis';
-import { LanguageProvider, useLanguage } from './context/LanguageContext';
+import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -11,11 +11,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import ScrollProgressHUD from './components/ScrollProgressHUD';
-import VelocityMarquee from './components/VelocityMarquee';
 
 function AppContent() {
   const lenisRef = useRef(null);
-  const { t } = useLanguage();
 
   // Header scroll state
   const [isScrolled, setIsScrolled] = useState(false);
@@ -154,26 +152,9 @@ function AppContent() {
       <main id="main-portfolio-content">
         <Hero />
 
-        {/* Marquee de Velocidade Reativa ao Scroll (Charles Leclerc Style) */}
-        <VelocityMarquee
-          text={t.marquees.m1}
-          speed={1.0}
-        />
-
         <About />
         <Skills />
         <Experience />
-
-        {/* Ponte Atmosférica com Cross-Fade e Desfoque entre as Seções Horizontais */}
-        <div className="horizontal-section-transition-bridge" aria-hidden="true">
-          <div className="bridge-ambient-glow"></div>
-          <VelocityMarquee
-            text={t.marquees.m2}
-            reverse={true}
-            speed={0.9}
-          />
-        </div>
-
         <Projects />
         <Contact />
       </main>

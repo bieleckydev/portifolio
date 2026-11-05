@@ -26,10 +26,6 @@ export const en = {
     caption: 'SP // BRAZIL',
     explore: 'EXPLORE'
   },
-  marquees: {
-    m1: 'EDUARDO MOTA • SOFTWARE ENGINEERING • JAVA DEVELOPER • HIGH PERFORMANCE COMPUTING • CLEAN ARCHITECTURE •',
-    m2: 'ROBUST BACKEND • RESILIENCE • SPRING FRAMEWORK • SQL • ALGORITHMS & DATA STRUCTURES • SÃO PAULO, BR •'
-  },
   about: {
     title: 'About Me',
     p1: 'I am a Bachelor student in <strong>Software Engineering</strong> residing in São Bernardo do Campo, SP, Brazil. I maintain a pragmatic, goal-driven mindset with dedication to software architectural patterns, clean coding practices, and resilient backend systems.',

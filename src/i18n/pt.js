@@ -26,10 +26,6 @@ export const pt = {
     caption: 'SP // BRASIL',
     explore: 'EXPLORAR'
   },
-  marquees: {
-    m1: 'EDUARDO MOTA • ENGENHARIA DE SOFTWARE • DESENVOLVEDOR JAVA • HIGH PERFORMANCE COMPUTING • ARQUITETURA LIMPA •',
-    m2: 'BACKEND ROBUSTO • RESILIÊNCIA • SPRING FRAMEWORK • SQL • ALGORITMOS & ESTRUTURAS • SÃO PAULO, BR •'
-  },
   about: {
     title: 'Sobre Mim',
     p1: 'Sou estudante de Bacharelado em <strong>Engenharia de Software</strong> e resido em São Bernardo do Campo, SP. Tenho um perfil pragmático, focado em metas e dedicação contínua ao aprendizado de padrões de arquitetura, boas práticas de código e desenvolvimento backend robusto.',
