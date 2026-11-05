@@ -16,7 +16,7 @@ export default function Hero() {
         <p className="t-lead hero__lead" data-reveal style={{ '--i': 1 }}>
           {h.lead}
         </p>
-        <p className="hero__facts muted" data-reveal style={{ '--i': 2 }}>
+        <p className="hero__facts" data-reveal style={{ '--i': 2 }}>
           {h.facts}
         </p>
         <div className="hero__actions" data-reveal style={{ '--i': 3 }}>
