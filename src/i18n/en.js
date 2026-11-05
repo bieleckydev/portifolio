@@ -49,9 +49,6 @@ export const en = {
     subtitle:
       'Hover over the floating tags to inspect practical project experience and architectural summaries.',
     realAppBadge: 'Real-World App',
-    inspectorTag: 'EXPERIENCE INSPECTOR',
-    inspectorContext: 'Project / Context:',
-    inspectorBtn: 'View Related Projects',
     inspectAria: 'Show details for',
     viewHorizontal: 'Horizontal Carousel',
     viewGrid: 'Grid View',
@@ -251,7 +248,6 @@ export const en = {
       badge: 'GitHub Telemetry',
       title: 'Latest Repository Activity',
       subtitle: 'Real-time telemetry via GitHub REST API — star counts, forks, and latest commit timelines.',
-      liveStatus: 'API Synchronized',
       reposTracked: 'Connected Repos',
       totalStars: 'GitHub Stars',
       totalForks: 'Total Forks',

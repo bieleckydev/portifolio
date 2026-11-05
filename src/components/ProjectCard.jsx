@@ -188,7 +188,7 @@ export default function ProjectCard({
           )}
           {project.statusBadge && (
             <span className="project-status-pill">
-              <span className="status-dot"></span> {project.statusBadge}
+              {project.statusBadge}
             </span>
           )}
         </div>

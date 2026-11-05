@@ -49,9 +49,6 @@ export const zh = {
     subtitle:
       '将鼠标悬停在浮动标签上，即可查看该项技术在真实项目中的实践总结。',
     realAppBadge: '真实项目应用',
-    inspectorTag: '技能实践检视器',
-    inspectorContext: '关联项目 / 背景:',
-    inspectorBtn: '查看相关项目',
     inspectAria: '查看详情：',
     viewHorizontal: '横向轮播',
     viewGrid: '网格视图',
@@ -250,7 +247,6 @@ export const zh = {
       badge: 'GitHub 动态遥测',
       title: '开源仓库最新动态',
       subtitle: '通过 GitHub REST API 实时监控项目仓库 — Star 标星数、Forks 及最新 Commit 提交记录。',
-      liveStatus: 'API 实时同步',
       reposTracked: '已连接仓库',
       totalStars: 'GitHub 标星数',
       totalForks: '派生 Fork 数',

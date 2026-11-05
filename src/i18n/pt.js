@@ -49,9 +49,6 @@ export const pt = {
     subtitle:
       'Passe o cursor sobre as tags flutuantes para inspecionar o resumo da experiência prática em projetos.',
     realAppBadge: 'Aplicação Real',
-    inspectorTag: 'INSPEÇÃO DE EXPERIÊNCIA',
-    inspectorContext: 'Projeto / Contexto:',
-    inspectorBtn: 'Ver Projetos Relacionados',
     inspectAria: 'Ver detalhes de',
     viewHorizontal: 'Carrossel Horizontal',
     viewGrid: 'Grade',
@@ -251,7 +248,6 @@ export const pt = {
       badge: 'Telemetria GitHub',
       title: 'Atividade Recente nos Repositórios',
       subtitle: 'Sincronização em tempo real via GitHub REST API com contagem de estrelas, forks e histórico do último commit.',
-      liveStatus: 'API Sincronizada',
       reposTracked: 'Repositórios Conectados',
       totalStars: 'Estrelas no GitHub',
       totalForks: 'Forks Registrados',

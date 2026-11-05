@@ -30,7 +30,6 @@ export default function GitHubActivity({ projects = [], onDataLoaded }) {
         title: 'Atividade Recente nos Repositórios',
         subtitle:
           'Sincronização em tempo real via GitHub REST API com contagem de estrelas, forks e histórico do último commit.',
-        liveStatus: 'API Sincronizada',
         reposTracked: 'Repositórios Conectados',
         totalStars: 'Estrelas no GitHub',
         totalForks: 'Forks Registrados',
@@ -99,15 +98,6 @@ export default function GitHubActivity({ projects = [], onDataLoaded }) {
       {/* Top Header & Telemetry Status */}
       <div className="github-activity-header">
         <div className="github-header-info">
-          <div className="github-badge-row">
-            <span className="github-live-badge">
-              <span className="live-pulse-dot" aria-hidden="true"></span>
-              {tActivity.liveStatus}
-            </span>
-            <span className="github-cache-pill" title={tActivity.cachedNotice}>
-              <i className="fas fa-shield-halved"></i> REST v3
-            </span>
-          </div>
           <h3 className="github-activity-title">
             <i className="fab fa-github github-title-icon"></i>
             {tActivity.title}
@@ -265,7 +255,7 @@ export default function GitHubActivity({ projects = [], onDataLoaded }) {
                     </span>
                   ) : (
                     <span className="github-status-pill pill-active">
-                      <span className="status-mini-dot"></span> Online
+                      Online
                     </span>
                   )}
                 </div>

@@ -883,147 +883,6 @@ ul {
 }
 
 /* =========================================
-   PAINEL HUD DE TELEMETRIA / INSPECTOR
-   ========================================= */
-.skill-inspector-hud {
-    margin-top: 2rem;
-    background: var(--bg-subtle);
-    border: 1px solid var(--card-border);
-    border-left: 3px solid var(--copper);
-    border-radius: var(--border-radius-md);
-    padding: 1.5rem 1.75rem;
-    transition: all var(--transition-fast);
-}
-
-.inspector-badge-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 0.85rem;
-}
-
-.inspector-tag-id {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.12em;
-    color: var(--copper);
-    font-weight: 600;
-}
-
-.inspector-pulse {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: var(--copper);
-    box-shadow: 0 0 8px var(--copper);
-    animation: pulseGlow 1.8s infinite;
-}
-
-@keyframes pulseGlow {
-    0%, 100% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.4); opacity: 0.5; }
-}
-
-.inspector-badge {
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
-    color: var(--text-muted);
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    padding: 0.2rem 0.5rem;
-    border-radius: var(--border-radius-sm);
-}
-
-.inspector-content-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2rem;
-}
-
-.inspector-main {
-    flex: 1;
-}
-
-.inspector-title {
-    font-size: 1.35rem;
-    font-weight: 700;
-    color: var(--text-color);
-    letter-spacing: -0.02em;
-    margin-bottom: 0.35rem;
-}
-
-.inspector-project {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-family: var(--font-mono);
-    font-size: 0.82rem;
-    color: var(--copper);
-    margin-bottom: 0.65rem;
-}
-
-.inspector-project strong {
-    color: var(--text-color);
-    font-weight: 600;
-}
-
-.inspector-summary {
-    font-size: 0.95rem;
-    line-height: 1.65;
-    color: var(--text-muted);
-    margin: 0;
-}
-
-.inspector-actions {
-    display: flex;
-    align-items: center;
-    align-self: center;
-}
-
-.inspector-link-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--text-color);
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    padding: 0.65rem 1rem;
-    border-radius: var(--border-radius-sm);
-    text-decoration: none;
-    transition: all var(--transition-fast);
-    white-space: nowrap;
-}
-
-.inspector-link-btn:hover {
-    color: var(--copper);
-    border-color: var(--copper);
-    transform: translateX(2px);
-}
-
-@media (max-width: 768px) {
-    .inspector-content-row {
-        flex-direction: column;
-        gap: 1.25rem;
-    }
-
-    .inspector-actions {
-        align-self: flex-start;
-    }
-
-    /* No mobile, o HUD inferior fornece a experiência primária de leitura do resumo */
-    .floating-tag-popover {
-        display: none;
-    }
-}
-
-/* =========================================
    EXPERIÊNCIA PROFISSIONAL (Linha Arquitetural)
    ========================================= */
 .timeline {
@@ -1307,15 +1166,6 @@ ul {
     gap: 0.35rem;
     backdrop-filter: blur(8px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-}
-
-.status-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: #10b981;
-    box-shadow: 0 0 6px #10b981;
-    animation: pulseGlow 1.8s infinite;
 }
 
 /* Conteúdo do Card */
@@ -2336,18 +2186,6 @@ body.light-mode .marquee-content {
    GITHUB LIVE REPOSITORY TELEMETRY & ACTIVITY
    ========================================= */
 
-@keyframes pulse-green {
-    0% {
-        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
-    }
-    70% {
-        box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
-    }
-}
-
 /* Live Telemetry Pill on ProjectCard */
 .project-github-live-strip {
     display: flex;
@@ -2421,50 +2259,6 @@ body.light-mode .marquee-content {
 
 .github-header-info {
     max-width: 720px;
-}
-
-.github-badge-row {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    margin-bottom: 0.6rem;
-}
-
-.github-live-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    background: rgba(16, 185, 129, 0.12);
-    border: 1px solid rgba(16, 185, 129, 0.3);
-    color: #10b981;
-    font-size: 0.72rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.6px;
-    padding: 0.2rem 0.65rem;
-    border-radius: 20px;
-}
-
-.live-pulse-dot {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: #10b981;
-    display: inline-block;
-    animation: pulse-green 2s infinite;
-}
-
-.github-cache-pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    background: var(--bg-subtle);
-    border: 1px solid var(--card-border);
-    color: var(--text-muted);
-    font-size: 0.72rem;
-    padding: 0.2rem 0.55rem;
-    border-radius: 20px;
-    font-family: var(--font-mono);
 }
 
 .github-activity-title {
@@ -2719,14 +2513,6 @@ body.light-mode .marquee-content {
     background: var(--card-bg);
     color: var(--text-muted);
     border: 1px solid var(--card-border);
-}
-
-.status-mini-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #10b981;
-    display: inline-block;
 }
 
 /* Card Metrics Row */
@@ -3732,36 +3518,17 @@ body.light-mode .pinned-edge-vignette-right {
         min-height: 42px;
     }
 
-    .skill-inspector-hud {
-        margin-top: 1.5rem;
-        padding: 1.35rem 1.15rem;
-        border-radius: var(--border-radius-md);
-    }
+    
 
-    .inspector-content-row {
-        flex-direction: column;
-        gap: 1.15rem;
-    }
+    
 
-    .inspector-title {
-        font-size: 1.2rem;
-    }
+    
 
-    .inspector-summary {
-        font-size: 0.9rem;
-        line-height: 1.55;
-    }
+    
 
-    .inspector-actions {
-        width: 100%;
-    }
+    
 
-    .inspector-link-btn {
-        width: 100%;
-        justify-content: center;
-        min-height: 44px;
-        padding: 0.75rem 1rem;
-    }
+    
 
     /* Pinned Stage Mobile (Projetos & Experiência) */
     .hud-desktop-label {

@@ -109,36 +109,6 @@ export default function Skills() {
           ))}
         </div>
 
-        {/* Painel HUD de Telemetria de Competência Ativa */}
-        {activeSkill && (
-          <div className="skill-inspector-hud reveal" id="skill-inspector-panel">
-            <div className="inspector-badge-row">
-              <div className="inspector-tag-id">
-                <span className="inspector-pulse"></span>
-                <span>{t.skills.inspectorTag}</span>
-              </div>
-              <span className="inspector-badge">{activeSkill.badge}</span>
-            </div>
-
-            <div className="inspector-content-row">
-              <div className="inspector-main">
-                <h3 className="inspector-title">{activeSkill.name}</h3>
-                <div className="inspector-project">
-                  <i className="fas fa-diagram-project"></i>
-                  <span>{t.skills.inspectorContext} <strong>{activeSkill.project}</strong></span>
-                </div>
-                <p className="inspector-summary">{activeSkill.summary}</p>
-              </div>
-
-              <div className="inspector-actions">
-                <a href="#projetos" className="inspector-link-btn">
-                  <span>{t.skills.inspectorBtn}</span>
-                  <i className="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
     </section>
   );
