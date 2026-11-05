@@ -16,6 +16,12 @@
 }
 
 .work__row {
+    width: 100%;
+    border: 0;
+    background: none;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;

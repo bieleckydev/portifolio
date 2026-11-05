@@ -44,6 +44,9 @@ function ProjectMedia({ project }) {
 }
 
 function ProjectLinks({ project, labels }) {
+  if (!project.liveUrl && !project.codeUrl) {
+    return <p className="t-small muted work__private">{labels.privateCode}</p>;
+  }
   return (
     <p className="work__links">
       {project.liveUrl && (
@@ -87,13 +90,17 @@ export default function Projects() {
           {items.map((project) => {
             const active = project.id === activeId;
             const updated = updatedLabel(project);
+            const href = project.liveUrl || project.codeUrl;
+            // Projeto privado: sem link, a linha vira botão que só mostra o projeto no palco
+            const Row = href ? 'a' : 'button';
+            const rowProps = href
+              ? { href, target: '_blank', rel: 'noreferrer' }
+              : { type: 'button', onClick: () => setActiveId(project.id) };
             return (
               <li key={project.id} className={`work__item${active ? ' is-active' : ''}`}>
-                <a
+                <Row
                   className="work__row"
-                  href={project.liveUrl || project.codeUrl}
-                  target="_blank"
-                  rel="noreferrer"
+                  {...rowProps}
                   onMouseEnter={() => setActiveId(project.id)}
                   onFocus={() => setActiveId(project.id)}
                   aria-describedby={`${project.id}-desc`}
@@ -103,7 +110,7 @@ export default function Projects() {
                     {project.kind}
                     {updated && <span className="work__updated"> · {updated}</span>}
                   </span>
-                </a>
+                </Row>
 
                 {/* No celular cada projeto mostra a tela e o texto na própria lista */}
                 <div className="work__inline">
