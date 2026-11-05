@@ -30,10 +30,10 @@ export default function About() {
           ))}
         </div>
 
-        <footer className="about__sign">
+        <div className="about__sign">
           <p className="t-lead about__name">Eduardo Mota Bielecky da Silva Mello</p>
           <p className="t-small muted">{a.signRole}</p>
-        </footer>
+        </div>
       </article>
     </section>
   );
