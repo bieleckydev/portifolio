@@ -137,7 +137,6 @@ function AppContent() {
 
   return (
     <div id="portfolio-app">
-      <div className="ambient-bg" id="ambient-backdrop"></div>
 
       {/* Indicador de Progresso de Rolagem */}
       <ScrollProgressHUD />
