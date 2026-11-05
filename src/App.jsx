@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
+import { useSectionReveal } from './hooks/useSectionReveal';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -11,6 +12,8 @@ import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 
 function AppContent() {
+  useSectionReveal();
+
   // High-performance IntersectionObserver Reveal Animations (zero layout thrashing)
   useEffect(() => {
     const observerCallback = (entries, observer) => {
