@@ -130,3 +130,62 @@ html {
 .measure {
     max-width: var(--measure);
 }
+
+/* =========================================
+   Botões: cor chapada, canto reto, um formato só
+   ========================================= */
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    min-height: 48px;
+    padding: 0 1.5rem;
+    border: 0;
+    border-radius: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: var(--step-body);
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform var(--dur-press) var(--ease-out), background-color var(--dur-fast) ease;
+}
+
+.button--accent {
+    background: var(--accent);
+    color: var(--on-accent);
+}
+
+.button:active {
+    transform: scale(0.97);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .button:hover {
+        background: #333330;
+    }
+
+    .button--accent:hover {
+        background: var(--accent-press);
+    }
+}
+
+/* Link de texto com sublinhado que responde ao mouse */
+.text-link {
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-thickness var(--dur-fast) ease, color var(--dur-fast) ease;
+}
+
+.text-link:active {
+    color: var(--accent);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .text-link:hover {
+        text-decoration-thickness: 2px;
+    }
+}
