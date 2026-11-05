@@ -2233,87 +2233,6 @@ html.lenis, html.lenis body {
 }
 
 /* HUD KPI Counters */
-.github-stats-hud {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 1rem;
-    margin: 1.5rem 0;
-}
-
-.github-hud-card {
-    background: var(--bg-subtle);
-    border: 1px solid var(--card-border);
-    border-radius: var(--border-radius-md);
-    padding: 1rem 1.15rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    transition: var(--transition-fast);
-}
-
-.github-hud-card:hover {
-    border-color: var(--card-border-hover);
-}
-
-.hud-icon-wrap {
-    width: 42px;
-    height: 42px;
-    border-radius: var(--border-radius-sm);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.15rem;
-    flex-shrink: 0;
-}
-
-.hud-icon-repos {
-    background: var(--copper-subtle);
-    color: var(--copper);
-}
-
-.hud-icon-stars {
-    background: rgba(245, 158, 11, 0.12);
-    color: #f59e0b;
-}
-
-.hud-icon-forks {
-    background: rgba(99, 102, 241, 0.12);
-    color: #818cf8;
-}
-
-.hud-icon-clock {
-    background: rgba(16, 185, 129, 0.12);
-    color: #10b981;
-}
-
-.hud-content {
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-}
-
-.hud-value {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--text-color);
-    font-family: var(--font-mono);
-    line-height: 1.2;
-}
-
-.hud-commit-time {
-    font-size: 0.95rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.hud-label {
-    font-size: 0.72rem;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-top: 0.2rem;
-}
 
 /* Language Filter Chips */
 .github-lang-filter-bar {
@@ -2645,17 +2564,9 @@ body.light-mode .skeleton-line {
         margin-top: 2.5rem;
     }
 
-    .github-stats-hud {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    
 
     .github-cards-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 480px) {
-    .github-stats-hud {
         grid-template-columns: 1fr;
     }
 }

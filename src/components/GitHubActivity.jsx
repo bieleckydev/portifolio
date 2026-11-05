@@ -30,10 +30,6 @@ export default function GitHubActivity({ projects = [], onDataLoaded }) {
         title: 'Atividade Recente nos Repositórios',
         subtitle:
           'Sincronização em tempo real via GitHub REST API com contagem de estrelas, forks e histórico do último commit.',
-        reposTracked: 'Repositórios Conectados',
-        totalStars: 'Estrelas no GitHub',
-        totalForks: 'Forks Registrados',
-        latestCommit: 'Último Commit Global',
         refreshBtn: 'Atualizar Dados',
         refreshing: 'Sincronizando...',
         viewRepo: 'Repositório',
@@ -118,59 +114,6 @@ export default function GitHubActivity({ projects = [], onDataLoaded }) {
           ></i>
           <span>{isRefreshing ? tActivity.refreshing : tActivity.refreshBtn}</span>
         </button>
-      </div>
-
-      {/* KPI Stats Ribbon */}
-      <div className="github-stats-hud">
-        <div className="github-hud-card">
-          <div className="hud-icon-wrap hud-icon-repos">
-            <i className="fas fa-code-branch"></i>
-          </div>
-          <div className="hud-content">
-            <span className="hud-value">
-              {activity ? activity.reposTrackedCount : 6}
-            </span>
-            <span className="hud-label">{tActivity.reposTracked}</span>
-          </div>
-        </div>
-
-        <div className="github-hud-card">
-          <div className="hud-icon-wrap hud-icon-stars">
-            <i className="fas fa-star"></i>
-          </div>
-          <div className="hud-content">
-            <span className="hud-value">
-              {activity ? activity.totalStars : 0}
-            </span>
-            <span className="hud-label">{tActivity.totalStars}</span>
-          </div>
-        </div>
-
-        <div className="github-hud-card">
-          <div className="hud-icon-wrap hud-icon-forks">
-            <i className="fas fa-code-fork"></i>
-          </div>
-          <div className="hud-content">
-            <span className="hud-value">
-              {activity ? activity.totalForks : 0}
-            </span>
-            <span className="hud-label">{tActivity.totalForks}</span>
-          </div>
-        </div>
-
-        <div className="github-hud-card hud-card-commit">
-          <div className="hud-icon-wrap hud-icon-clock">
-            <i className="fas fa-clock-rotate-left"></i>
-          </div>
-          <div className="hud-content">
-            <span className="hud-value hud-commit-time">
-              {activity?.latestOverallCommit?.date
-                ? formatRelativeTime(activity.latestOverallCommit.date, language)
-                : 'Recente'}
-            </span>
-            <span className="hud-label">{tActivity.latestCommit}</span>
-          </div>
-        </div>
       </div>
 
       {/* Language Filter Tabs */}
