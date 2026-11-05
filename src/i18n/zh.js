@@ -25,6 +25,31 @@ export const zh = {
     connect: '社交连接:',
     caption: '圣保罗 // 巴西'
   },
+  pos: {
+    label: '收银系统演示',
+    keysLabel: '向订单添加菜品',
+    add: '添加',
+    service: '收取 10% 服务费',
+    clear: '清空订单',
+    caption: '收银计算演示，菜品和价格均为示例。',
+    shop: 'ADEGA DO DINO',
+    sub: '巴西烤肉店',
+    table: '12 号桌',
+    empty: '尚未添加菜品',
+    subtotal: '小计',
+    serviceLine: '服务费 10%',
+    total: '合计',
+    notFiscal: '非税务发票',
+    thanks: '感谢光临',
+    items: [
+      { id: 'picanha', name: '牛臀盖肉 400 克', price: 89.9 },
+      { id: 'fraldinha', name: '牛腹肉 400 克', price: 69.9 },
+      { id: 'linguica', name: '托斯卡纳香肠', price: 24.9 },
+      { id: 'farofa', name: '自制木薯粉', price: 12 },
+      { id: 'cerveja', name: '啤酒 600 毫升', price: 14.9 },
+      { id: 'refri', name: '罐装汽水', price: 7 }
+    ]
+  },
   about: {
     title: '关于我',
     p1: '我是<strong>软件工程</strong>学士学位在读学生，现居巴西圣保罗州圣贝尔纳多-杜坎普。我具有务实、目标导向的工程师特质，专注于软件设计模式、整洁代码规范以及高健壮性后端系统构建。',

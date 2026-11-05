@@ -25,6 +25,31 @@ export const en = {
     connect: 'Connect:',
     caption: 'SP // BRAZIL'
   },
+  pos: {
+    label: 'Point-of-sale demo',
+    keysLabel: 'Add item to the order',
+    add: 'Add',
+    service: 'Charge 10% service',
+    clear: 'Clear order',
+    caption: 'A demo of the till’s maths. Items and prices are examples.',
+    shop: 'ADEGA DO DINO',
+    sub: 'Steakhouse',
+    table: 'TABLE 12',
+    empty: 'No items yet',
+    subtotal: 'Subtotal',
+    serviceLine: 'Service 10%',
+    total: 'TOTAL',
+    notFiscal: 'NOT A TAX RECEIPT',
+    thanks: 'Thank you for coming',
+    items: [
+      { id: 'picanha', name: 'Picanha 400 g', price: 89.9 },
+      { id: 'fraldinha', name: 'Flank steak 400 g', price: 69.9 },
+      { id: 'linguica', name: 'Tuscan sausage', price: 24.9 },
+      { id: 'farofa', name: 'House farofa', price: 12 },
+      { id: 'cerveja', name: 'Beer 600 ml', price: 14.9 },
+      { id: 'refri', name: 'Soft drink can', price: 7 }
+    ]
+  },
   about: {
     title: 'About Me',
     p1: 'I am a Bachelor student in <strong>Software Engineering</strong> residing in São Bernardo do Campo, SP, Brazil. I maintain a pragmatic, goal-driven mindset with dedication to software architectural patterns, clean coding practices, and resilient backend systems.',

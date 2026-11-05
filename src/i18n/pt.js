@@ -25,6 +25,31 @@ export const pt = {
     connect: 'Conectar:',
     caption: 'SP // BRASIL'
   },
+  pos: {
+    label: 'Demonstração do sistema de caixa',
+    keysLabel: 'Lançar item no pedido',
+    add: 'Lançar',
+    service: 'Cobrar serviço de 10%',
+    clear: 'Limpar pedido',
+    caption: 'Demonstração do cálculo do caixa. Itens e preços são de exemplo.',
+    shop: 'ADEGA DO DINO',
+    sub: 'Churrascaria',
+    table: 'MESA 12',
+    empty: 'Nenhum item lançado',
+    subtotal: 'Subtotal',
+    serviceLine: 'Serviço 10%',
+    total: 'TOTAL',
+    notFiscal: 'NÃO É DOCUMENTO FISCAL',
+    thanks: 'Obrigado pela preferência',
+    items: [
+      { id: 'picanha', name: 'Picanha 400 g', price: 89.9 },
+      { id: 'fraldinha', name: 'Fraldinha 400 g', price: 69.9 },
+      { id: 'linguica', name: 'Linguiça toscana', price: 24.9 },
+      { id: 'farofa', name: 'Farofa da casa', price: 12 },
+      { id: 'cerveja', name: 'Cerveja 600 ml', price: 14.9 },
+      { id: 'refri', name: 'Refrigerante lata', price: 7 }
+    ]
+  },
   about: {
     title: 'Sobre Mim',
     p1: 'Sou estudante de Bacharelado em <strong>Engenharia de Software</strong> e resido em São Bernardo do Campo, SP. Tenho um perfil pragmático, focado em metas e dedicação contínua ao aprendizado de padrões de arquitetura, boas práticas de código e desenvolvimento backend robusto.',
