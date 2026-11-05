@@ -8,7 +8,7 @@
     --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
 
-    /* Transições & Curvas de Aceleração Ultra-Fluidas (Inspiradas no Charles Leclerc / Apple) */
+    /* Curvas de aceleração e durações das transições */
     --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
     --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
     --ease-in-out-smooth: cubic-bezier(0.65, 0, 0.35, 1);
@@ -2255,7 +2255,7 @@ footer {
 
 /* =========================================
    SCROLL HORIZONTAL PINNED (DIRIGIDO PELO SCROLL DO MOUSE)
-   Padrão Awwwards / Apple / Locomotive:
+   Como funciona:
    A página fixa a seção na tela (sticky 100vh) e a rolagem
    vertical do mouse desliza o conteúdo na horizontal.
    ========================================= */
