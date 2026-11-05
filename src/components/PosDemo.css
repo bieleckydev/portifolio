@@ -172,7 +172,7 @@
 .pos__rule {
     height: 0;
     margin: 8px 0;
-    border-top: 1px dashed currentColor;
+    border-top: 1px dashed currentColor; /* taste-skill-ignore: linha impressa do cupom */
 }
 
 .pos__total {

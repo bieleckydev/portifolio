@@ -117,7 +117,7 @@
     right: 0;
     padding: 8px var(--gutter) 28px;
     background: var(--paper);
-    box-shadow: 0 18px 30px -18px rgba(21, 21, 21, 0.35);
+    box-shadow: 0 18px 30px -18px rgba(21, 21, 21, 0.35); /* taste-skill-ignore: o menu aberto flutua sobre a página */
 }
 
 .mobile-menu[hidden] {
