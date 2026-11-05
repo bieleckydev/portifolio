@@ -13,6 +13,7 @@ export default function Footer() {
           <li><a href="#projetos">{t.nav.projects}</a></li>
           <li><a href="#sobre">{t.nav.about}</a></li>
           <li><a href="#experiencia">{t.nav.experience}</a></li>
+          <li><a href="#cursos">{t.nav.courses}</a></li>
           <li><a href="#contato">{t.nav.contact}</a></li>
         </ul>
         <ul className="site-footer__links site-footer__links--end">
