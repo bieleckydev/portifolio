@@ -23,9 +23,7 @@ export default function Footer() {
       </div>
 
       <p className="site-footer__name" aria-hidden="true">
-        Eduardo Mota Bielecky
-        <br />
-        da Silva Mello
+        Eduardo Bielecky
       </p>
 
       <p className="t-small site-footer__legal">
