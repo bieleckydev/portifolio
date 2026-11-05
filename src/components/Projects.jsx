@@ -3,18 +3,7 @@ import { usePinnedHorizontalScroll } from '../hooks/usePinnedHorizontalScroll';
 import { useLanguage } from '../context/LanguageContext';
 import ProjectCard from './ProjectCard';
 import GitHubActivity from './GitHubActivity';
-
-// Deterministic category mapping based on project ID
-const PROJECT_CATEGORIES = {
-  'proj-caixa-adega': ['POS', 'FRONTEND'],
-  'proj-cardapio-digital': ['FRONTEND'],
-  'proj-cripto': ['JAVA'],
-  'proj-otis': ['FRONTEND'],
-  'proj-feira': ['FRONTEND'],
-  'proj-ready2work': ['JAVA'],
-  'proj-kcal': ['FRONTEND'],
-  'proj-guia-cidadao': ['FRONTEND']
-};
+import { getLocalizedProjects } from '../data/projects';
 
 export default function Projects() {
   const { t } = useLanguage();
@@ -22,42 +11,11 @@ export default function Projects() {
   const [viewMode, setViewMode] = useState('horizontal'); // 'horizontal' or 'grid'
   const [githubActivityData, setGithubActivityData] = useState(null);
 
-  const allProjects = useMemo(() => t.projects?.items || [], [t.projects]);
+  const allProjects = useMemo(() => getLocalizedProjects(t.projects?.items), [t.projects]);
 
-  // Robust category matcher
   const isProjectInFilter = (project, filter) => {
     if (filter === 'ALL') return true;
-    const cats = PROJECT_CATEGORIES[project.id];
-    if (cats && cats.includes(filter)) return true;
-
-    // Fallback detection based on tags and tech
-    if (filter === 'JAVA') {
-      return (
-        project.id.includes('cripto') ||
-        project.id.includes('ready2work') ||
-        (project.tags && project.tags.some((tag) => tag.toLowerCase().includes('java'))) ||
-        (project.keyTech && project.keyTech.some((k) => k.name && k.name.toLowerCase().includes('java')))
-      );
-    }
-    if (filter === 'POS') {
-      return (
-        project.id.includes('caixa') ||
-        (project.tags && project.tags.some((tag) => tag.toLowerCase().includes('pos')))
-      );
-    }
-    if (filter === 'FRONTEND') {
-      return (
-        project.id.includes('cardapio') ||
-        project.id.includes('otis') ||
-        project.id.includes('feira') ||
-        (project.tags &&
-          project.tags.some((tag) => {
-            const low = tag.toLowerCase();
-            return low.includes('front') || low.includes('mobile') || low.includes('ui');
-          }))
-      );
-    }
-    return false;
+    return (project.categories || []).includes(filter);
   };
 
   // Filtered projects list
