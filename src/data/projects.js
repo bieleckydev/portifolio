@@ -24,6 +24,7 @@ export const PROJECTS = [
     img: '/img/calculadora.jpg',
     imgW: 1440,
     imgH: 900,
+    liveUrl: 'https://calculadora-metais.vercel.app/',
     codeUrl: 'https://github.com/bieleckydev/calculadora_metais'
   },
   {
