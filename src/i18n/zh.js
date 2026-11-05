@@ -57,17 +57,15 @@ export const zh = {
   },
   about: {
     title: '关于我',
-    p1: '我是<strong>软件工程</strong>学士学位在读学生，现居巴西圣保罗州圣贝尔纳多-杜坎普。我具有务实、目标导向的工程师特质，专注于软件设计模式、整洁代码规范以及高健壮性后端系统构建。',
-    p2: '除 Java 编程生态外，我热衷于<strong>高性能计算机硬件</strong>（系统装配、热管理优化与超频稳定性测试）与汽车工程。我追求深入探究底层系统机理与极致运行性能。',
-    educationTitle: '学历背景',
-    educationDegree: '软件工程',
-    educationSub: '全日制本科在读',
-    locationTitle: '所在地区',
-    locationPlace: '圣贝尔纳多-杜坎普, 圣保罗',
-    locationSub: '大圣保罗都市圈',
-    focusTitle: '求职方向',
-    focusTarget: 'Java 后端实习 / 初级工程师',
-    focusSub: '后端架构与系统研发'
+    photoAlt: 'Eduardo Bielecky 的照片',
+    paragraphs: [
+      '我是软件工程专业的学生，住在巴西圣保罗州的圣贝尔纳多-杜坎普。',
+      '我曾在 Adega do Dino 烤肉店负责繁忙的前厅服务，并维护库存表格。餐厅现在使用的收银系统，就是为这套日常流程编写的。',
+      '我专注于 Java 和后端：面向对象设计、SQL，以及必须把账算对的业务规则。',
+      '写代码之外，我喜欢组装和调校电脑：做稳定性测试、管理散热，弄清楚底层到底发生了什么。',
+      '我在寻找实习或初级职位，希望在团队中学习，交付真正有人在用的软件。'
+    ],
+    signRole: '软件工程在读'
   },
   skills: {
     title: '技术专长',

@@ -56,18 +56,16 @@ export const pt = {
     caption: 'Tela de entrada do sistema, no celular.'
   },
   about: {
-    title: 'Sobre Mim',
-    p1: 'Sou estudante de Bacharelado em <strong>Engenharia de Software</strong> e resido em São Bernardo do Campo, SP. Tenho um perfil pragmático, focado em metas e dedicação contínua ao aprendizado de padrões de arquitetura, boas práticas de código e desenvolvimento backend robusto.',
-    p2: 'Além do ecossistema de programação Java, sou entusiasta de <strong>hardware de alta performance</strong> (montagem, gerenciamento térmico e otimização de sistemas computacionais) e engenharia automotiva. Gosto de compreender profundamente o funcionamento e o desempenho por baixo dos panos.',
-    educationTitle: 'Formação',
-    educationDegree: 'Engenharia de Software',
-    educationSub: 'Bacharelado em andamento',
-    locationTitle: 'Localização',
-    locationPlace: 'São Bernardo do Campo, SP',
-    locationSub: 'Região Metropolitana',
-    focusTitle: 'Foco Profissional',
-    focusTarget: 'Estágio / Dev Java Jr',
-    focusSub: 'Backend & Soluções'
+    title: 'Sobre mim',
+    photoAlt: 'Retrato de Eduardo Bielecky',
+    paragraphs: [
+      'Sou estudante de Engenharia de Software e moro em São Bernardo do Campo, SP.',
+      'Na Adega do Dino cuidei do atendimento num salão de muito movimento e das planilhas de estoque. O sistema de caixa que a casa usa hoje foi escrito para essa rotina.',
+      'Meu foco é Java e back-end: orientação a objetos, SQL e regras de negócio que precisam fechar a conta certa.',
+      'Fora do código, monto e ajusto computadores. Gosto de testar estabilidade, cuidar da parte térmica e entender o que acontece por baixo dos panos.',
+      'Procuro um estágio ou uma vaga júnior em que eu aprenda com um time e entregue software que alguém usa de verdade.'
+    ],
+    signRole: 'Estudante de Engenharia de Software'
   },
   skills: {
     title: 'Habilidades Técnicas',

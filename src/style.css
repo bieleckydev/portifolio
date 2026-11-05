@@ -230,64 +230,6 @@ ul {
 }
 
 /* =========================================
-   SOBRE MIM MINIMALISTA
-   ========================================= */
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-}
-
-.about-text p {
-    font-size: 1.05rem;
-    line-height: 1.8;
-    color: var(--text-muted);
-    margin-bottom: 1.5rem;
-}
-
-.about-text p strong {
-    color: var(--text-color);
-    font-weight: 600;
-}
-
-.personal-info {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    margin-top: 2.5rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--card-border);
-}
-
-.info-item {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-}
-
-.info-item-header {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--copper);
-}
-
-.info-item-header i {
-    font-size: 0.85rem;
-}
-
-.info-item span {
-    font-size: 0.95rem;
-    font-weight: 500;
-    color: var(--text-color);
-    line-height: 1.4;
-}
-
-/* =========================================
    HABILIDADES TÉCNICAS (Tags Flutuantes Interativas)
    ========================================= */
 .skills-subtitle {
@@ -929,20 +871,6 @@ footer {
 /* =========================================
    RESPONSIVIDADE
    ========================================= */
-@media (max-width: 900px) {
-    
-
-    
-
-    
-
-    
-
-    .personal-info {
-        grid-template-columns: 1fr;
-        gap: 1.25rem;
-    }
-}
 
 @media (max-width: 768px) {
     .section {
@@ -1481,24 +1409,12 @@ footer {
     
 
     /* About Section Mobile */
-    .about-text {
-        padding: 1.4rem 1.2rem;
-    }
 
-    .about-text p {
-        font-size: 0.94rem;
-        line-height: 1.62;
-    }
+    
 
-    .personal-info {
-        grid-template-columns: 1fr;
-        gap: 0.85rem;
-        margin-top: 1.4rem;
-    }
+    
 
-    .info-item {
-        padding: 0.9rem 1rem;
-    }
+    
 
     /* Skills Section Mobile */
     .skills-grid {

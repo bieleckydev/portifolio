@@ -1,49 +1,40 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
+import './About.css';
 
 export default function About() {
   const { t } = useLanguage();
+  const a = t.about;
 
   return (
-    <section id="sobre" className="section about">
-
-      <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-        <div className="section-header reveal">
-          <h2 className="section-title" id="about-heading">
-            {t.about.title}
+    <section id="sobre" className="full about" data-section aria-labelledby="about-title">
+      <article className="about__sheet" data-reveal>
+        <header className="about__head">
+          <img
+            className="about__photo"
+            src="/img/perfil.jpg"
+            alt={a.photoAlt}
+            width="200"
+            height="200"
+            loading="lazy"
+            decoding="async"
+          />
+          <h2 id="about-title" className="t-heading">
+            {a.title}
           </h2>
-        </div>
-        <div className="about-grid reveal" id="about-grid-content">
-          <div className="about-text minimal-card" id="about-card">
-            <p dangerouslySetInnerHTML={{ __html: t.about.p1 }} />
-            <p dangerouslySetInnerHTML={{ __html: t.about.p2 }} />
+        </header>
 
-            <div className="personal-info" id="about-personal-info">
-              <div className="info-item" id="info-formacao">
-                <div className="info-item-header">
-                  <i className="fas fa-graduation-cap"></i> {t.about.educationTitle}
-                </div>
-                <span>{t.about.educationDegree}</span>
-                <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{t.about.educationSub}</span>
-              </div>
-              <div className="info-item" id="info-localizacao">
-                <div className="info-item-header">
-                  <i className="fas fa-map-marker-alt"></i> {t.about.locationTitle}
-                </div>
-                <span>{t.about.locationPlace}</span>
-                <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{t.about.locationSub}</span>
-              </div>
-              <div className="info-item" id="info-objetivo">
-                <div className="info-item-header">
-                  <i className="fas fa-bullseye"></i> {t.about.focusTitle}
-                </div>
-                <span>{t.about.focusTarget}</span>
-                <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{t.about.focusSub}</span>
-              </div>
-            </div>
-          </div>
+        <div className="about__letter">
+          {a.paragraphs.map((text) => (
+            <p key={text}>{text}</p>
+          ))}
         </div>
-      </div>
+
+        <footer className="about__sign">
+          <p className="t-lead about__name">Eduardo Mota Bielecky da Silva Mello</p>
+          <p className="t-small muted">{a.signRole}</p>
+        </footer>
+      </article>
     </section>
   );
 }

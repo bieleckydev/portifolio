@@ -56,18 +56,16 @@ export const en = {
     caption: 'The system’s entry screen on a phone.'
   },
   about: {
-    title: 'About Me',
-    p1: 'I am a Bachelor student in <strong>Software Engineering</strong> residing in São Bernardo do Campo, SP, Brazil. I maintain a pragmatic, goal-driven mindset with dedication to software architectural patterns, clean coding practices, and resilient backend systems.',
-    p2: 'Beyond the Java development ecosystem, I am a passionate enthusiast of <strong>high-performance computer hardware</strong> (system building, thermal optimization, stress analysis) and automotive engineering. I enjoy understanding how hardware and software work together under the hood.',
-    educationTitle: 'Education',
-    educationDegree: 'Software Engineering',
-    educationSub: 'B.S. in Progress',
-    locationTitle: 'Location',
-    locationPlace: 'São Bernardo do Campo, SP',
-    locationSub: 'Greater São Paulo, Brazil',
-    focusTitle: 'Professional Focus',
-    focusTarget: 'Internship / Jr Java Dev',
-    focusSub: 'Backend & Systems'
+    title: 'About me',
+    photoAlt: 'Portrait of Eduardo Bielecky',
+    paragraphs: [
+      'I am a Software Engineering student living in São Bernardo do Campo, Brazil.',
+      'At Adega do Dino I worked the floor of a busy steakhouse and kept the stock spreadsheets. The point-of-sale system the restaurant uses today was written for that routine.',
+      'My focus is Java and back end: object-oriented design, SQL and business rules that have to get the bill right.',
+      'Away from code I build and tune computers. I like stress-testing for stability, managing heat and understanding what happens under the hood.',
+      'I am looking for an internship or a junior role where I can learn from a team and ship software people actually use.'
+    ],
+    signRole: 'Software Engineering student'
   },
   skills: {
     title: 'Technical Skills',
