@@ -67,7 +67,9 @@ export default function QuickContactForm() {
       if (response.ok && (data.success === 'true' || data.success === true || !data.error)) {
         setStatus('success');
       } else {
-        setStatus('success');
+        setErrorMessage(t.contact.networkError);
+        setStatus('error');
+        triggerShake();
       }
     } catch (err) {
       console.error('API submission error:', err);
