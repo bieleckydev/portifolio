@@ -734,16 +734,6 @@ ul {
     background-color: var(--copper);
 }
 
-.floating-tag-badge {
-    font-size: 0.65rem;
-    letter-spacing: 0.05em;
-    padding: 0.15rem 0.35rem;
-    background: rgba(200, 122, 72, 0.08);
-    color: var(--copper);
-    border: 1px solid rgba(200, 122, 72, 0.25);
-    border-radius: 2px;
-}
-
 .floating-skill-tag:hover,
 .floating-tag-wrapper.is-hovered .floating-skill-tag,
 .floating-skill-tag.active {
@@ -826,39 +816,12 @@ ul {
     text-overflow: ellipsis;
 }
 
-.popover-badge {
-    font-family: var(--font-mono);
-    font-size: 0.62rem;
-    background: var(--bg-subtle);
-    border: 1px solid var(--card-border);
-    color: var(--text-subtle);
-    padding: 0.15rem 0.4rem;
-    border-radius: 2px;
-    white-space: nowrap;
-}
-
 .popover-summary {
     font-size: 0.85rem;
     line-height: 1.55;
     color: var(--text-color);
     margin: 0 0 0.65rem 0;
     font-weight: 400;
-}
-
-.popover-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: var(--font-mono);
-    font-size: 0.68rem;
-    color: var(--text-muted);
-}
-
-.popover-hint {
-    color: var(--copper);
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
 }
 
 /* =========================================

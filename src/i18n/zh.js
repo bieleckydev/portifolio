@@ -44,7 +44,6 @@ export const zh = {
     title: '技术专长',
     subtitle:
       '将鼠标悬停在浮动标签上，即可查看该项技术在真实项目中的实践总结。',
-    realAppBadge: '真实项目应用',
     inspectAria: '查看详情：',
     viewHorizontal: '横向轮播',
     viewGrid: '网格视图',
@@ -61,7 +60,6 @@ export const zh = {
             project: '加密货币交易模拟平台 & 学术核心',
             summary:
               '高健壮性后端开发、面向对象设计（OOP）、金融交易业务逻辑建模及高可靠性算法实现。',
-            badge: '核心技术栈',
             featured: true
           },
           {
@@ -70,7 +68,6 @@ export const zh = {
             project: '餐厅 POS 收银管理系统',
             summary:
               '结构化 SQL 查询构建、关系型库存数据建模、销售记录持久化与满足 ACID 的事务一致性。',
-            badge: '数据库',
             featured: true
           },
           {
@@ -79,7 +76,6 @@ export const zh = {
             project: '自动化脚本与数据处理',
             summary:
               '文件处理自动化脚本开发、日常学术任务自动化及基础数值数据处理算法。',
-            badge: '进阶中'
           }
         ]
       },
@@ -94,7 +90,6 @@ export const zh = {
             project: 'Java 生态与后端开发',
             summary:
               '首选开发 IDE，用于深度代码调试、类重构、单元测试执行与内存分析监控。',
-            badge: '主要 IDE',
             featured: true
           },
           {
@@ -103,7 +98,6 @@ export const zh = {
             project: '所有工程的版本控制',
             summary:
               '语义化版本控制、分支管理、公共开源仓库文档化维护（Caixa Adega, OTIS, Feira Online）与协作。',
-            badge: '版本控制',
             featured: true
           },
           {
@@ -112,7 +106,6 @@ export const zh = {
             project: '数字菜单与前端工程',
             summary:
               '移动端优先界面快速原型开发、轻量布局排版与现代 Web 组件敏捷编辑。',
-            badge: '生产力工具'
           }
         ]
       },
@@ -127,7 +120,6 @@ export const zh = {
             project: 'Adega POS 收银系统 (生产环境运行)',
             summary:
               '面向餐饮业的完整 Web POS 方案，包含动态税费与服务费核算、快速交班结账及热敏小票报表打印对接。',
-            badge: '生产实战',
             featured: true
           },
           {
@@ -136,7 +128,6 @@ export const zh = {
             project: 'Dino 餐厅电子菜单 & OTIS',
             summary:
               '极速秒开的响应式 Web 界面，专为高客流量与订单高峰下的触控操作优化。',
-            badge: '交互与体验',
             featured: true
           },
           {
@@ -145,7 +136,6 @@ export const zh = {
             project: '异步数据通信与表单服务',
             summary:
               '异步 HTTP 通信、严格的前端数据载荷校验及高容错网络请求处理。',
-            badge: '接口集成'
           }
         ]
       },
@@ -160,7 +150,6 @@ export const zh = {
             project: '独立实践 2024-2025',
             summary:
               '热管理架构、高阶电脑硬件装配、安全超频调校、稳定性基准评测与极端负载压力测试。',
-            badge: '硬件专精',
             featured: true
           },
           {
@@ -169,7 +158,6 @@ export const zh = {
             project: '迭代规划与任务跟踪',
             summary:
               '产品待办列表梳理、看板任务拆分、风险阻碍跟进与增量式迭代交付。',
-            badge: '敏捷实践'
           },
           {
             id: 'skill-office',
@@ -177,7 +165,6 @@ export const zh = {
             project: 'Adega do Dino 餐饮业务运营',
             summary:
               '动态库存核算表、运营成本自动化分析及物料标准化盘点。',
-            badge: '运营管理'
           },
           {
             id: 'skill-idiomas',
@@ -185,7 +172,6 @@ export const zh = {
             project: '官方技术文档与 RFC 规范',
             summary:
               '熟练阅读英文技术 API 文档、Java 架构规范手册、设计模式及全球技术社区讨论。',
-            badge: '语言技能'
           }
         ]
       }

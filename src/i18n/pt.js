@@ -44,7 +44,6 @@ export const pt = {
     title: 'Habilidades Técnicas',
     subtitle:
       'Passe o cursor sobre as tags flutuantes para inspecionar o resumo da experiência prática em projetos.',
-    realAppBadge: 'Aplicação Real',
     inspectAria: 'Ver detalhes de',
     viewHorizontal: 'Carrossel Horizontal',
     viewGrid: 'Grade',
@@ -61,7 +60,6 @@ export const pt = {
             project: 'Corretora Cripto & Projetos Acadêmicos',
             summary:
               'Desenvolvimento backend robusto, modelagem orientada a objetos (POO), lógica de transações financeiras e algoritmos de alta integridade.',
-            badge: 'Core Stack',
             featured: true
           },
           {
@@ -70,7 +68,6 @@ export const pt = {
             project: 'Sistema de Caixa POS Adega',
             summary:
               'Construção de consultas estruturadas, modelagem relacional de estoque, persistência de vendas e histórico financeiro com consistência transacional.',
-            badge: 'Banco de Dados',
             featured: true
           },
           {
@@ -79,7 +76,6 @@ export const pt = {
             project: 'Automação & Scripts de Dados',
             summary:
               'Criação de rotinas para manipulação de arquivos, automação de tarefas acadêmicas e algoritmos iniciais de processamento numérico.',
-            badge: 'Em Evolução'
           }
         ]
       },
@@ -94,7 +90,6 @@ export const pt = {
             project: 'Ecossistema Java & Backend',
             summary:
               'Ambiente primário de desenvolvimento para depuração minuciosa, refatoração de classes, execução de testes e monitoramento de memória.',
-            badge: 'IDE Principal',
             featured: true
           },
           {
@@ -103,7 +98,6 @@ export const pt = {
             project: 'Controle de Versão dos Projetos',
             summary:
               'Versionamento semântico, fluxo de branches, documentação de repositórios públicos (Caixa Adega, OTIS, Feira Online) e colaboração.',
-            badge: 'Versionamento',
             featured: true
           },
           {
@@ -112,7 +106,6 @@ export const pt = {
             project: 'Cardápio Digital & Frontends',
             summary:
               'Desenvolvimento ágil de interfaces mobile-first, prototipagem rápida de layouts e edição de componentes web.',
-            badge: 'Produtividade'
           }
         ]
       },
@@ -127,7 +120,6 @@ export const pt = {
             project: 'Sistema Caixa Adega (Em Produção)',
             summary:
               'Solução completa para restaurante com cálculo dinâmico de taxas, conciliação e integração para impressão térmica de comprovantes e relatórios.',
-            badge: 'Produção Real',
             featured: true
           },
           {
@@ -136,7 +128,6 @@ export const pt = {
             project: 'Cardápio Digital Dino & OTIS',
             summary:
               'Interfaces responsivas de carregamento instantâneo, adaptadas para operação tátil rápida sob alto volume de clientes e pedidos.',
-            badge: 'UX / UI',
             featured: true
           },
           {
@@ -145,7 +136,6 @@ export const pt = {
             project: 'Formulários & Serviços Assíncronos',
             summary:
               'Comunicação HTTP assíncrona, validação rigorosa de payloads client-side e tratamento resiliente de respostas e erros.',
-            badge: 'Integrações'
           }
         ]
       },
@@ -160,7 +150,6 @@ export const pt = {
             project: 'Prática Independente 2024-2025',
             summary:
               'Dimensionamento térmico, montagem de setups computacionais avançados, overclocking seguro, análise de estabilidade e testes sob estresse severo.',
-            badge: 'Especialista',
             featured: true
           },
           {
@@ -169,7 +158,6 @@ export const pt = {
             project: 'Organização de Entregas & Sprints',
             summary:
               'Gestão de backlog, divisão de entregas em cartões kanban, acompanhamento de bloqueios e fluxo iterativo de desenvolvimento.',
-            badge: 'Processos'
           },
           {
             id: 'skill-office',
@@ -177,7 +165,6 @@ export const pt = {
             project: 'Operações Adega do Dino',
             summary:
               'Estruturação de planilhas dinâmicas para controle de estoque, cálculo de custos operacionais e padronização de inventário.',
-            badge: 'Operações'
           },
           {
             id: 'skill-idiomas',
@@ -185,7 +172,6 @@ export const pt = {
             project: 'Documentações Oficiais & RFCs',
             summary:
               'Leitura fluente de documentações técnicas de APIs, manuais de arquitetura Java, padrões de projeto e comunidades globais de software.',
-            badge: 'Comunicação'
           }
         ]
       }

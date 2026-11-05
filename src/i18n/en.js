@@ -44,7 +44,6 @@ export const en = {
     title: 'Technical Skills',
     subtitle:
       'Hover over the floating tags to inspect practical project experience and architectural summaries.',
-    realAppBadge: 'Real-World App',
     inspectAria: 'Show details for',
     viewHorizontal: 'Horizontal Carousel',
     viewGrid: 'Grid View',
@@ -61,7 +60,6 @@ export const en = {
             project: 'Crypto Exchange & Academic Core',
             summary:
               'Robust backend development, object-oriented design (OOP), financial transaction business rules, and high-integrity algorithms.',
-            badge: 'Core Stack',
             featured: true
           },
           {
@@ -70,7 +68,6 @@ export const en = {
             project: 'POS Cash Register System',
             summary:
               'Structured queries, relational inventory modeling, sales persistence, and transaction audit trails with ACID consistency.',
-            badge: 'Database',
             featured: true
           },
           {
@@ -79,7 +76,6 @@ export const en = {
             project: 'Automation & Data Scripts',
             summary:
               'Automated file processing routines, academic task automations, and foundational numerical data algorithms.',
-            badge: 'Growing'
           }
         ]
       },
@@ -94,7 +90,6 @@ export const en = {
             project: 'Java Ecosystem & Backend',
             summary:
               'Primary development IDE for in-depth debugging, class refactoring, unit test execution, and memory profile inspection.',
-            badge: 'Primary IDE',
             featured: true
           },
           {
@@ -103,7 +98,6 @@ export const en = {
             project: 'Version Control on All Projects',
             summary:
               'Semantic versioning, branch management, public repository documentation (Caixa Adega, OTIS, Feira Online), and collaboration.',
-            badge: 'Version Control',
             featured: true
           },
           {
@@ -112,7 +106,6 @@ export const en = {
             project: 'Digital Menu & Web Frontends',
             summary:
               'Agile prototyping of mobile-first interfaces, rapid layout engineering, and modern web component editing.',
-            badge: 'Productivity'
           }
         ]
       },
@@ -127,7 +120,6 @@ export const en = {
             project: 'Adega POS System (In Production)',
             summary:
               'End-to-end restaurant POS with dynamic fee calculation, quick register closing, and thermal receipt/report printing integration.',
-            badge: 'Live Production',
             featured: true
           },
           {
@@ -136,7 +128,6 @@ export const en = {
             project: 'Dino Digital Menu & OTIS',
             summary:
               'Instant-load responsive web apps optimized for fast touchscreen operations under peak customer order volumes.',
-            badge: 'UX / UI',
             featured: true
           },
           {
@@ -145,7 +136,6 @@ export const en = {
             project: 'Forms & Asynchronous Endpoints',
             summary:
               'Asynchronous HTTP networking, strict client-side payload validation, and resilient error recovery patterns.',
-            badge: 'Integrations'
           }
         ]
       },
@@ -160,7 +150,6 @@ export const en = {
             project: 'Independent Practice 2024-2025',
             summary:
               'Thermal dynamics, high-end PC assembly, safe overclocking, stability benchmarking, and stress diagnostic workflows.',
-            badge: 'Specialist',
             featured: true
           },
           {
@@ -169,7 +158,6 @@ export const en = {
             project: 'Sprint & Delivery Management',
             summary:
               'Backlog grooming, kanban task breakdown, impediment tracking, and iterative release cadences.',
-            badge: 'Methodologies'
           },
           {
             id: 'skill-office',
@@ -177,7 +165,6 @@ export const en = {
             project: 'Adega do Dino Business Operations',
             summary:
               'Dynamic spreadsheets for stock tracking, operating cost analysis, and catalog standardization.',
-            badge: 'Operations'
           },
           {
             id: 'skill-idiomas',
@@ -185,7 +172,6 @@ export const en = {
             project: 'Official Docs & RFC Standards',
             summary:
               'Fluent reading of technical API documentation, Java architecture manuals, design patterns, and global dev forums.',
-            badge: 'Language'
           }
         ]
       }

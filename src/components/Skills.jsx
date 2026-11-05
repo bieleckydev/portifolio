@@ -77,9 +77,6 @@ export default function Skills() {
                       >
                         <span className="floating-tag-indicator" aria-hidden="true"></span>
                         <span className="floating-tag-name">{skill.name}</span>
-                        {skill.badge && (
-                          <span className="floating-tag-badge">{skill.badge}</span>
-                        )}
                       </button>
 
                       {/* Micro-Popover Flutuante */}
@@ -92,14 +89,8 @@ export default function Skills() {
                           <span className="popover-project">
                             <i className="fas fa-folder-open"></i> {skill.project}
                           </span>
-                          <span className="popover-badge">{skill.badge}</span>
                         </div>
                         <p className="popover-summary">{skill.summary}</p>
-                        <div className="popover-footer">
-                          <span className="popover-hint">
-                            <i className="fas fa-check-circle"></i> {t.skills.realAppBadge}
-                          </span>
-                        </div>
                       </div>
                     </div>
                   );
