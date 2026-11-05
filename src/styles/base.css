@@ -53,7 +53,9 @@ h3 {
     text-wrap: balance;
 }
 
-p {
+p,
+li,
+dd {
     text-wrap: pretty;
 }
 
