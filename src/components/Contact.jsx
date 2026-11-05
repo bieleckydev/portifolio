@@ -42,8 +42,8 @@ export default function Contact() {
     },
     {
       label: 'GitHub',
-      value: 'edubielecky',
-      href: 'https://github.com/edubielecky'
+      value: 'bieleckydev',
+      href: 'https://github.com/bieleckydev'
     }
   ];
 

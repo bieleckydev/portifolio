@@ -9,12 +9,12 @@ const CACHE_TTL_MS = 15 * 60 * 1000; // 15 minutes TTL
 
 // Known baseline data used as instant fallback when offline or GitHub rate limit is hit
 const FALLBACK_REPO_DATA = {
-  'edubielecky/cardapio': {
-    owner: 'edubielecky',
+  'bieleckydev/cardapio': {
+    owner: 'bieleckydev',
     repo: 'cardapio',
     name: 'cardapio',
-    fullName: 'edubielecky/cardapio',
-    htmlUrl: 'https://github.com/edubielecky/cardapio',
+    fullName: 'bieleckydev/cardapio',
+    htmlUrl: 'https://github.com/bieleckydev/cardapio',
     stars: 0,
     forks: 0,
     language: 'JavaScript',
@@ -25,7 +25,7 @@ const FALLBACK_REPO_DATA = {
       message: 'Regras do buffet atualizadas',
       date: '2026-04-25T11:26:26Z',
       author: 'Eduardo Mota Bielecky',
-      url: 'https://github.com/edubielecky/cardapio/commit/c921185'
+      url: 'https://github.com/bieleckydev/cardapio/commit/c921185'
     }
   },
   'JoaoRicardoSOC/aurum-banking': {
@@ -47,12 +47,12 @@ const FALLBACK_REPO_DATA = {
       url: 'https://github.com/JoaoRicardoSOC/aurum-banking/commit/ae527e7'
     }
   },
-  'edubielecky/Sistema-OTIS': {
-    owner: 'edubielecky',
+  'bieleckydev/Sistema-OTIS': {
+    owner: 'bieleckydev',
     repo: 'Sistema-OTIS',
     name: 'Sistema-OTIS',
-    fullName: 'edubielecky/Sistema-OTIS',
-    htmlUrl: 'https://github.com/edubielecky/Sistema-OTIS',
+    fullName: 'bieleckydev/Sistema-OTIS',
+    htmlUrl: 'https://github.com/bieleckydev/Sistema-OTIS',
     stars: 0,
     forks: 0,
     language: 'JavaScript',
@@ -63,15 +63,15 @@ const FALLBACK_REPO_DATA = {
       message: 'Ajuste no scroll da página de dashboard para que o scroll fique apenas no conteúdo principal',
       date: '2025-11-06T12:26:10Z',
       author: 'Eduardo Mota Bielecky',
-      url: 'https://github.com/edubielecky/Sistema-OTIS/commit/46b1df4'
+      url: 'https://github.com/bieleckydev/Sistema-OTIS/commit/46b1df4'
     }
   },
-  'edubielecky/FEIRA-ONLINE': {
-    owner: 'edubielecky',
+  'bieleckydev/FEIRA-ONLINE': {
+    owner: 'bieleckydev',
     repo: 'FEIRA-ONLINE',
     name: 'FEIRA-ONLINE',
-    fullName: 'edubielecky/FEIRA-ONLINE',
-    htmlUrl: 'https://github.com/edubielecky/FEIRA-ONLINE',
+    fullName: 'bieleckydev/FEIRA-ONLINE',
+    htmlUrl: 'https://github.com/bieleckydev/FEIRA-ONLINE',
     stars: 0,
     forks: 0,
     language: 'JavaScript',
@@ -82,15 +82,15 @@ const FALLBACK_REPO_DATA = {
       message: 'recriei a página de detalhes do produto, resolvendo a tela em branco ao clicar nos produtos',
       date: '2025-10-14T22:09:26Z',
       author: 'Eduardo Mota Bielecky',
-      url: 'https://github.com/edubielecky/FEIRA-ONLINE/commit/137ee62'
+      url: 'https://github.com/bieleckydev/FEIRA-ONLINE/commit/137ee62'
     }
   },
-  'edubielecky/ready2work': {
-    owner: 'edubielecky',
+  'bieleckydev/ready2work': {
+    owner: 'bieleckydev',
     repo: 'ready2work',
     name: 'ready2work',
-    fullName: 'edubielecky/ready2work',
-    htmlUrl: 'https://github.com/edubielecky/ready2work',
+    fullName: 'bieleckydev/ready2work',
+    htmlUrl: 'https://github.com/bieleckydev/ready2work',
     stars: 0,
     forks: 0,
     language: 'JavaScript',
@@ -101,15 +101,15 @@ const FALLBACK_REPO_DATA = {
       message: 'fix: correção de imports para deploy',
       date: '2025-11-23T19:56:21Z',
       author: 'Eduardo Mota Bielecky',
-      url: 'https://github.com/edubielecky/ready2work/commit/6c2a1e1'
+      url: 'https://github.com/bieleckydev/ready2work/commit/6c2a1e1'
     }
   },
-  'edubielecky/caixa_adega': {
-    owner: 'edubielecky',
+  'bieleckydev/caixa_adega': {
+    owner: 'bieleckydev',
     repo: 'caixa_adega',
     name: 'caixa_adega',
-    fullName: 'edubielecky/caixa_adega',
-    htmlUrl: 'https://github.com/edubielecky/caixa_adega',
+    fullName: 'bieleckydev/caixa_adega',
+    htmlUrl: 'https://github.com/bieleckydev/caixa_adega',
     stars: 0,
     forks: 0,
     language: 'JavaScript',
@@ -120,15 +120,15 @@ const FALLBACK_REPO_DATA = {
       message: 'feat: arquitetura web e integração com impressão térmica ESC/POS',
       date: '2026-06-15T18:00:00Z',
       author: 'Eduardo Mota Bielecky',
-      url: 'https://github.com/edubielecky/caixa_adega'
+      url: 'https://github.com/bieleckydev/caixa_adega'
     }
   },
-  'edubielecky/kcal.io': {
-    owner: 'edubielecky',
+  'bieleckydev/kcal.io': {
+    owner: 'bieleckydev',
     repo: 'kcal.io',
     name: 'kcal.io',
-    fullName: 'edubielecky/kcal.io',
-    htmlUrl: 'https://github.com/edubielecky/kcal.io',
+    fullName: 'bieleckydev/kcal.io',
+    htmlUrl: 'https://github.com/bieleckydev/kcal.io',
     stars: 0,
     forks: 0,
     language: 'JavaScript',
@@ -139,15 +139,15 @@ const FALLBACK_REPO_DATA = {
       message: 'feat: motor de cálculo calórico, metas diárias de macronutrientes e interface responsiva',
       date: '2026-07-28T15:30:00Z',
       author: 'Eduardo Mota Bielecky',
-      url: 'https://github.com/edubielecky/kcal.io'
+      url: 'https://github.com/bieleckydev/kcal.io'
     }
   },
-  'edubielecky/guia_cidadao': {
-    owner: 'edubielecky',
+  'bieleckydev/guia_cidadao': {
+    owner: 'bieleckydev',
     repo: 'guia_cidadao',
     name: 'guia_cidadao',
-    fullName: 'edubielecky/guia_cidadao',
-    htmlUrl: 'https://github.com/edubielecky/guia_cidadao',
+    fullName: 'bieleckydev/guia_cidadao',
+    htmlUrl: 'https://github.com/bieleckydev/guia_cidadao',
     stars: 0,
     forks: 0,
     language: 'JavaScript',
@@ -158,7 +158,7 @@ const FALLBACK_REPO_DATA = {
       message: 'feat: fluxo de triagem rápida de benefícios sociais e acesso institucional',
       date: '2026-08-10T19:45:00Z',
       author: 'Eduardo Mota Bielecky',
-      url: 'https://github.com/edubielecky/guia_cidadao'
+      url: 'https://github.com/bieleckydev/guia_cidadao'
     }
   }
 };

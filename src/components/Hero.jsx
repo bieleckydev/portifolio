@@ -29,7 +29,7 @@ export default function Hero() {
         </div>
         <ul className="hero__social" data-reveal style={{ '--i': 4 }}>
           <li>
-            <a className="text-link" href="https://github.com/edubielecky" target="_blank" rel="noreferrer">
+            <a className="text-link" href="https://github.com/bieleckydev" target="_blank" rel="noreferrer">
               GitHub
             </a>
           </li>

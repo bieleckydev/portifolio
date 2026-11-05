@@ -13,7 +13,7 @@ export const PROJECTS = [
     img: '/img/caixa-adega.jpg',
     imgW: 860,
     imgH: 1864,
-    codeUrl: 'https://github.com/edubielecky/caixa_adega'
+    codeUrl: 'https://github.com/bieleckydev/caixa_adega'
   },
   // Softcomp Sistemas: repositórios privados e ferramentas internas, sem link público
   { id: 'proj-softcomp-painel' },
@@ -36,7 +36,7 @@ export const PROJECTS = [
     imgW: 860,
     imgH: 1864,
     liveUrl: 'https://cardapio-one-ochre.vercel.app/',
-    codeUrl: 'https://github.com/edubielecky/cardapio'
+    codeUrl: 'https://github.com/bieleckydev/cardapio'
   },
   {
     id: 'proj-cripto',
@@ -48,7 +48,7 @@ export const PROJECTS = [
     imgW: 1280,
     imgH: 634,
     liveUrl: 'https://sistema-otis-puce.vercel.app/',
-    codeUrl: 'https://github.com/edubielecky/Sistema-OTIS'
+    codeUrl: 'https://github.com/bieleckydev/Sistema-OTIS'
   },
   {
     id: 'proj-kcal',
@@ -56,7 +56,7 @@ export const PROJECTS = [
     imgW: 1440,
     imgH: 900,
     liveUrl: 'https://kcalio-amber.vercel.app/',
-    codeUrl: 'https://github.com/edubielecky/kcal.io'
+    codeUrl: 'https://github.com/bieleckydev/kcal.io'
   },
   {
     id: 'proj-feira',
@@ -64,15 +64,15 @@ export const PROJECTS = [
     imgW: 1280,
     imgH: 634,
     liveUrl: 'https://feira-online-liart.vercel.app/',
-    codeUrl: 'https://github.com/edubielecky/FEIRA-ONLINE'
+    codeUrl: 'https://github.com/bieleckydev/FEIRA-ONLINE'
   },
   {
     id: 'proj-ready2work',
-    codeUrl: 'https://github.com/edubielecky/ready2work'
+    codeUrl: 'https://github.com/bieleckydev/ready2work'
   },
   {
     id: 'proj-guia-cidadao',
-    codeUrl: 'https://github.com/edubielecky/guia_cidadao'
+    codeUrl: 'https://github.com/bieleckydev/guia_cidadao'
   }
 ];
 

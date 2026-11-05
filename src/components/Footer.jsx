@@ -18,7 +18,7 @@ export default function Footer() {
         </ul>
         <ul className="site-footer__links site-footer__links--end">
           <li><a href="mailto:eduardombielecky@gmail.com">eduardombielecky@gmail.com</a></li>
-          <li><a href="https://github.com/edubielecky" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="https://github.com/bieleckydev" target="_blank" rel="noreferrer">GitHub</a></li>
           <li><a href="https://www.linkedin.com/in/bielecky/" target="_blank" rel="noreferrer">LinkedIn</a></li>
         </ul>
       </div>
