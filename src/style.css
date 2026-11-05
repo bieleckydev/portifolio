@@ -2196,21 +2196,25 @@ body.light-mode .section-watermark {
 /* =========================================
    ANIMAÇÕES REVEAL SUAVE (GPU Accelerated)
    ========================================= */
-.reveal {
-    opacity: 0;
-    transform: translateY(26px);
-    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-    will-change: opacity, transform;
-    backface-visibility: hidden;
-}
+/* O estado escondido só existe quando o sistema aceita movimento;
+   com "reduzir movimento" o conteúdo já nasce visível. */
+@media (prefers-reduced-motion: no-preference) {
+    .reveal {
+        opacity: 0;
+        transform: translateY(26px);
+        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        will-change: opacity, transform;
+        backface-visibility: hidden;
+    }
 
-.reveal.active {
-    opacity: 1;
-    transform: translateY(0);
-}
+    .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+    }
 
-.fade-in {
-    animation: fadeIn 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    .fade-in {
+        animation: fadeIn 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
 }
 
 @keyframes fadeIn {
