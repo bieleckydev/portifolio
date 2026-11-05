@@ -1,6 +1,6 @@
 # Portfólio — Eduardo Bielecky
 
-Portfólio pessoal de Eduardo Mota Bielecky da Silva Mello, estudante de Engenharia de Software e desenvolvedor Java.
+Portfólio pessoal de Eduardo Mota Bielecky da Silva Mello, estudante de Engenharia de Software. Trabalha com Java, JavaScript, TypeScript, Kotlin e Python.
 
 O visual vem do cupom térmico do sistema de caixa que ele construiu para a Adega do Dino: papel branco-frio, tinta preta e o vermelho da impressão em duas cores. No topo da página, uma demonstração do caixa lança itens e imprime o cupom com subtotal, serviço e total.
 
