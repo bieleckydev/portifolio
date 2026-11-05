@@ -9,7 +9,7 @@ export const PROJECTS = [
     id: 'proj-caixa-adega',
     categories: ['POS', 'FRONTEND'],
     icon: 'fas fa-cash-register',
-    img: '/img/caixa-adega.svg',
+    img: '/img/caixa-adega.jpg',
     featured: true,
     liveUrl: 'https://caixa-adega-bay.vercel.app/',
     codeUrl: 'https://github.com/edubielecky/caixa_adega'
@@ -27,7 +27,6 @@ export const PROJECTS = [
     id: 'proj-cripto',
     categories: ['JAVA'],
     icon: 'fas fa-chart-line',
-    img: '/img/cripto.svg',
     featured: true,
     codeUrl: 'https://github.com/JoaoRicardoSOC/aurum-banking'
   },
@@ -49,14 +48,13 @@ export const PROJECTS = [
     id: 'proj-ready2work',
     categories: ['JAVA'],
     icon: 'fas fa-briefcase',
-    img: '/img/ready2work.svg',
     codeUrl: 'https://github.com/edubielecky/ready2work'
   },
   {
     id: 'proj-kcal',
     categories: ['FRONTEND'],
     icon: 'fas fa-fire-flame-curved',
-    img: '/img/kcal.svg',
+    img: '/img/kcal.jpg',
     featured: true,
     liveUrl: 'https://kcalio-amber.vercel.app/',
     codeUrl: 'https://github.com/edubielecky/kcal.io'
@@ -65,7 +63,6 @@ export const PROJECTS = [
     id: 'proj-guia-cidadao',
     categories: ['FRONTEND'],
     icon: 'fas fa-id-card',
-    img: '/img/guia-cidadao.svg',
     featured: true,
     codeUrl: 'https://github.com/edubielecky/guia_cidadao'
   }
