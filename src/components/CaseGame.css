@@ -1,0 +1,246 @@
+/* Minijogo "Turno no caixa": comanda do garçom, teclado de itens, conta e fechamento */
+.game {
+    display: grid;
+    gap: 18px;
+    width: 100%;
+    max-width: 640px;
+}
+
+.game__strong {
+    font-size: var(--step-body);
+    font-weight: 700;
+}
+
+.game__muted {
+    color: var(--muted);
+    font-weight: 400;
+}
+
+.game__bar {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+}
+
+.game__bar h3 {
+    flex: 1;
+}
+
+.game__clock {
+    font-size: var(--step-lead);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
+.game__link {
+    min-height: 44px;
+    padding: 0;
+    border: 0;
+    background: none;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+    cursor: pointer;
+}
+
+/* Comanda do garçom: papel no balcão */
+.game__ticket {
+    padding: 16px 18px;
+    background: var(--sheet);
+    font-family: var(--font-print);
+    font-size: var(--step-small);
+    line-height: 1.6;
+}
+
+.game__ticket .game__strong {
+    font-family: var(--font);
+}
+
+.game__lines {
+    margin: 6px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.game__desk {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 14px;
+}
+
+.game__keys {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    align-content: start;
+}
+
+.game__key {
+    min-height: 60px;
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 0;
+    background: var(--sheet);
+    font-size: var(--step-small);
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: left;
+    cursor: pointer;
+    transition: transform var(--dur-press) var(--ease-out), background-color var(--dur-fast) ease;
+}
+
+.game__key:active {
+    transform: scale(0.96);
+    background: #ecece6;
+}
+
+.game__key:disabled {
+    cursor: default;
+    color: var(--muted);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .game__key:not(:disabled):hover {
+        background: #fafaf7;
+    }
+}
+
+/* Conta em aberto */
+.game__bill {
+    display: grid;
+    align-content: start;
+    gap: 4px;
+    padding: 14px 16px;
+    background: var(--paper);
+    font-size: var(--step-small);
+}
+
+.game__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.game__minus {
+    display: inline-grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 0;
+    background: var(--counter);
+    cursor: pointer;
+    transition: transform var(--dur-press) var(--ease-out);
+}
+
+.game__minus:active {
+    transform: scale(0.92);
+}
+
+.game__subtotal {
+    margin-top: 8px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
+.game__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 20px;
+}
+
+.game__actions .button:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+}
+
+.game__feedback {
+    min-height: 1.6em;
+    font-weight: 700;
+}
+
+.game__feedback.is-ok {
+    color: var(--ink);
+}
+
+.game__feedback.is-bad {
+    color: var(--accent);
+}
+
+/* Cupom de fechamento do turno */
+.game__printer {
+    display: grid;
+    justify-items: center;
+}
+
+.game__slot {
+    width: min(100%, 340px);
+    height: 14px;
+    background: var(--ink);
+}
+
+.game__receipt {
+    width: min(calc(100% - 20px), 320px);
+    padding: 18px 16px 24px;
+    background: var(--sheet);
+    font-family: var(--font-print);
+    font-size: var(--step-small);
+    line-height: 1.6;
+    font-variant-numeric: tabular-nums;
+}
+
+.game__receipt h3 {
+    font-family: var(--font-print);
+    font-size: var(--step-small);
+}
+
+.game__center {
+    text-align: center;
+}
+
+.game__rule {
+    margin: 8px 0;
+    border-top: 1px dashed currentColor; /* taste-skill-ignore: linha impressa do cupom */
+}
+
+.game__total {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.game__verdict {
+    text-align: center;
+}
+
+.game--done .game__actions,
+.game__verdict + .game__actions {
+    justify-content: center;
+}
+
+/* A comanda nova chega e as linhas da conta saem impressas */
+@media (prefers-reduced-motion: no-preference) {
+    .game__ticket,
+    .game__line {
+        transition: opacity 260ms var(--ease-out), transform 260ms var(--ease-out);
+    }
+
+    @starting-style {
+        .game__ticket {
+            opacity: 0;
+            transform: translateX(16px);
+        }
+
+        .game__line {
+            opacity: 0;
+            transform: translateY(-6px);
+        }
+    }
+}
+
+@media (max-width: 520px) {
+    .game__desk {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}

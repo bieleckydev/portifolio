@@ -69,3 +69,21 @@
         max-height: none;
     }
 }
+
+.case__game-note {
+    max-width: 40ch;
+    margin-top: 12px;
+}
+
+/* Com o jogo aberto o palco pode rolar em telas baixas */
+.case__stage.is-playing {
+    place-items: start center;
+    overflow-y: auto;
+    scroll-margin-top: var(--header-h);
+}
+
+@media (max-width: 900px) {
+    .case__stage.is-playing {
+        overflow: visible;
+    }
+}
