@@ -1,69 +1,62 @@
 /**
  * Dados fixos dos projetos (iguais em todos os idiomas).
  * Os textos traduzidos ficam em src/i18n, em projects.items, ligados pelo id.
- * A ordem deste array define a ordem de exibição.
- * categories: filtros em que o projeto aparece (JAVA, POS, FRONTEND).
+ * A ordem deste array define a ordem da lista "Outros projetos".
+ * caseStudy: o projeto que ganha seção própria e sai da lista.
+ * img/imgW/imgH: tela real do projeto; sem imagem, o painel mostra o nome em texto.
  */
 export const PROJECTS = [
   {
     id: 'proj-caixa-adega',
-    categories: ['POS', 'FRONTEND'],
-    icon: 'fas fa-cash-register',
+    caseStudy: true,
     img: '/img/caixa-adega.jpg',
-    featured: true,
+    imgW: 860,
+    imgH: 1864,
     liveUrl: 'https://caixa-adega-bay.vercel.app/',
     codeUrl: 'https://github.com/edubielecky/caixa_adega'
   },
   {
     id: 'proj-cardapio-digital',
-    categories: ['FRONTEND'],
-    icon: 'fas fa-utensils',
     img: '/img/cardapio.jpg',
-    featured: true,
+    imgW: 860,
+    imgH: 1864,
     liveUrl: 'https://cardapio-one-ochre.vercel.app/',
     codeUrl: 'https://github.com/edubielecky/cardapio'
   },
   {
     id: 'proj-cripto',
-    categories: ['JAVA'],
-    icon: 'fas fa-chart-line',
-    featured: true,
     codeUrl: 'https://github.com/JoaoRicardoSOC/aurum-banking'
   },
   {
     id: 'proj-otis',
-    categories: ['FRONTEND'],
     img: '/img/otis.jpg',
+    imgW: 1280,
+    imgH: 634,
     liveUrl: 'https://sistema-otis-puce.vercel.app/',
     codeUrl: 'https://github.com/edubielecky/Sistema-OTIS'
   },
   {
+    id: 'proj-kcal',
+    img: '/img/kcal.jpg',
+    imgW: 1440,
+    imgH: 900,
+    liveUrl: 'https://kcalio-amber.vercel.app/',
+    codeUrl: 'https://github.com/edubielecky/kcal.io'
+  },
+  {
     id: 'proj-feira',
-    categories: ['FRONTEND'],
     img: '/img/feira.jpg',
+    imgW: 1280,
+    imgH: 634,
     liveUrl: 'https://feira-online-liart.vercel.app/',
     codeUrl: 'https://github.com/edubielecky/FEIRA-ONLINE'
   },
   {
     id: 'proj-ready2work',
-    categories: ['JAVA'],
-    icon: 'fas fa-briefcase',
     codeUrl: 'https://github.com/edubielecky/ready2work'
   },
   {
-    id: 'proj-kcal',
-    categories: ['FRONTEND'],
-    icon: 'fas fa-fire-flame-curved',
-    img: '/img/kcal.jpg',
-    featured: true,
-    liveUrl: 'https://kcalio-amber.vercel.app/',
-    codeUrl: 'https://github.com/edubielecky/kcal.io'
-  },
-  {
     id: 'proj-guia-cidadao',
-    categories: ['FRONTEND'],
-    icon: 'fas fa-id-card',
-    featured: true,
     codeUrl: 'https://github.com/edubielecky/guia_cidadao'
   }
 ];

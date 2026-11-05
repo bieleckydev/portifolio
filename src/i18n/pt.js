@@ -239,157 +239,67 @@ export const pt = {
     ]
   },
   projects: {
-    title: 'Projetos em Destaque',
-    subtitle:
-      'Soluções de software desenvolvidas com rigor técnico, arquitetura modular e aplicação prática no mundo real.',
-    accessBtn: 'Acessar Projeto',
-    codeBtn: 'Código Fonte',
-    keyTechLabel: 'Tecnologias-Chave',
-    architectureLabel: 'Arquitetura',
-    filterAll: 'Todos',
-    filterJava: 'Java & Backend',
-    filterPos: 'POS & Automação',
-    filterFrontend: 'Frontend & Mobile',
-    viewHorizontal: 'Pista Horizontal',
-    viewGrid: 'Grade',
-    scrollHint: 'Navegue na horizontal arrastando, rolando o mouse ou pelas setas',
-    prevBtn: 'Anterior',
-    nextBtn: 'Próximo',
-    githubActivity: {
-      badge: 'Telemetria GitHub',
-      title: 'Atividade Recente nos Repositórios',
-      subtitle: 'Sincronização em tempo real via GitHub REST API com contagem de estrelas, forks e histórico do último commit.',
-      refreshBtn: 'Atualizar Dados',
-      refreshing: 'Sincronizando...',
-      viewRepo: 'Repositório',
-      viewCommit: 'Ver Commit',
-      lastCommitLabel: 'Último Commit',
-      starsLabel: 'Estrelas',
-      branchLabel: 'Branch',
-      privateBadge: 'Repositório Privado',
-      syncedJustNow: 'Sincronizado agora mesmo',
-      cachedNotice: 'Cache local ativo para economia de requisições'
-    },
+    title: 'Outros projetos',
+    live: 'Ver online',
+    code: 'Ver código',
+    updated: 'atualizado {when}',
     items: [
       {
         id: 'proj-caixa-adega',
-        title: 'Sistema de Caixa POS',
-        category: 'Sistemas POS & Automação',
-        architecture: 'Arquitetura Web • Impressão Térmica ESC/POS • WebSocket',
-        desc: 'Sistema de Ponto de Venda web focado em acessibilidade e alta performance, desenvolvido para restaurante em operação real. Conta com cálculo dinâmico de taxas, fechamento ágil e integração direta para impressão térmica de recibos e relatórios.',
-        statusBadge: 'Em Produção',
-        keyTech: [
-          { name: 'JavaScript ES6+', icon: 'fab fa-js', role: 'Motor de Caixa' },
-          { name: 'Hardware ESC/POS', icon: 'fas fa-print', role: 'Impressão Térmica' },
-          { name: 'REST & Webhooks', icon: 'fas fa-network-wired', role: 'Integrações' },
-          { name: 'CSS3 Grid / Flex', icon: 'fab fa-css3-alt', role: 'Layout Tátil' }
-        ],
-        tags: ['Web App', 'Sistema POS', 'Impressão Térmica', 'JavaScript']
+        title: 'Sistema de caixa'
       },
       {
         id: 'proj-cardapio-digital',
-        title: 'Cardápio Digital Premium',
-        category: 'Frontend Mobile-First',
-        architecture: 'SPA Leve • 60 FPS • Carregamento Instantâneo',
-        desc: 'Cardápio digital mobile-first com design moderno, arquitetura leve e alta performance para a Adega e Churrascaria do Dino. Focado na experiência do cliente, incluindo visualização refinada de cortes nobres e fluxo de pedidos ágil.',
-        statusBadge: 'Adega do Dino',
-        keyTech: [
-          { name: 'Mobile-First UX', icon: 'fas fa-mobile-alt', role: 'Interface Tátil' },
-          { name: 'JavaScript Modular', icon: 'fab fa-js', role: 'Carrinho Reativo' },
-          { name: 'CSS3 Custom Tokens', icon: 'fab fa-css3-alt', role: 'Design System' },
-          { name: 'HTML5 Semântico', icon: 'fab fa-html5', role: 'Acessibilidade' }
-        ],
-        tags: ['Frontend', 'Mobile-first', 'UI / UX', 'JavaScript']
+        title: 'Cardápio Digital',
+        kind: 'Front-end, Adega do Dino',
+        desc: 'O cardápio que os clientes da Adega do Dino abrem no celular, com os cortes da casa e o pedido.',
+        stack: 'JavaScript, HTML e CSS',
+        imageAlt: 'Abertura do cardápio digital da Adega e Churrascaria do Dino'
       },
       {
         id: 'proj-cripto',
-        title: 'Simulador de Corretora Cripto (Aurum Banking)',
-        category: 'Engenharia Backend & FinTech',
-        architecture: 'Orientação a Objetos • Casamento de Ordens • Validações',
-        desc: 'Plataforma para simulação e gestão de ativos digitais desenvolvida com rigor acadêmico em Engenharia de Software. Possui motor de simulação de carteira, validação transacional e interface funcional intuitiva.',
-        statusBadge: 'Core Backend',
-        keyTech: [
-          { name: 'Java (JDK)', icon: 'fab fa-java', role: 'POO & Lógica Core' },
-          { name: 'Estrutura de Dados', icon: 'fas fa-cubes', role: 'Livro de Ofertas' },
-          { name: 'Casamento de Ordens', icon: 'fas fa-microchip', role: 'Algoritmos' },
-          { name: 'Controle Transacional', icon: 'fas fa-shield-alt', role: 'Gestão de Saldo' }
-        ],
-        tags: ['Java', 'POO', 'FinTech', 'Estrutura de Dados']
+        title: 'Aurum Banking',
+        kind: 'Java, em equipe',
+        desc: 'Simulador de corretora de criptomoedas: carteira, casamento de ordens e validação de saldo.',
+        stack: 'Java, orientação a objetos e Oracle'
       },
       {
         id: 'proj-otis',
         title: 'Sistema OTIS',
-        category: 'Dashboard Corporativo',
-        architecture: 'Dashboard Responsivo • Gestão de Status • Deploy Vercel',
-        desc: 'Plataforma e sistema corporativo desenvolvidos com foco em interface de usuário amigável, arquitetura limpa e monitoramento operacional. Projeto completo hospedado e disponível para acesso online.',
-        statusBadge: 'Deploy Ativo',
-        keyTech: [
-          { name: 'JavaScript', icon: 'fab fa-js', role: 'Interatividade' },
-          { name: 'CSS3 Moderno', icon: 'fab fa-css3-alt', role: 'Layout Dashboard' },
-          { name: 'UI / UX Design', icon: 'fas fa-desktop', role: 'Painel Intuitivo' },
-          { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: 'CI / CD' }
-        ],
-        tags: ['Web App', 'Dashboard', 'Frontend', 'Vercel']
-      },
-      {
-        id: 'proj-feira',
-        title: 'Feira Online',
-        category: 'Plataforma E-Commerce',
-        architecture: 'Catálogo de Produtos • Carrinho Dinâmico • Checkout',
-        desc: 'Plataforma digital para ambiente de feira online, permitindo interatividade ágil, seleção de produtos frescos e experiência de e-commerce aos usuários.',
-        statusBadge: 'Deploy Ativo',
-        keyTech: [
-          { name: 'JavaScript Assíncrono', icon: 'fab fa-js', role: 'Lógica de Carrinho' },
-          { name: 'HTML5 Semântico', icon: 'fab fa-html5', role: 'Catálogo Grid' },
-          { name: 'CSS3 Responsivo', icon: 'fab fa-css3-alt', role: 'Interface' },
-          { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: 'Hospedagem' }
-        ],
-        tags: ['E-commerce', 'Web', 'Carrinho de Compras']
-      },
-      {
-        id: 'proj-ready2work',
-        title: 'Ready 2 Work',
-        category: 'Plataforma de Carreira Tech',
-        architecture: 'Simulador de Entrevista • Match de Competências • Guias',
-        desc: 'Aplicação focada no preparo para o mercado de tecnologia, oferecendo simuladores práticos de avaliação técnica e auxílio estruturado à empregabilidade de futuros engenheiros.',
-        statusBadge: 'Open Source',
-        keyTech: [
-          { name: 'Java / Backend', icon: 'fab fa-java', role: 'Trilha Técnica' },
-          { name: 'JavaScript Web', icon: 'fab fa-js', role: 'Interface' },
-          { name: 'Git & Open Source', icon: 'fab fa-github', role: 'Repositório' },
-          { name: 'Metodologias Ágeis', icon: 'fas fa-tasks', role: 'Planejamento' }
-        ],
-        tags: ['App', 'Mercado Tech', 'Java', 'Empregabilidade']
+        kind: 'Front-end, painel',
+        desc: 'Painel de indicadores com prazos, custos e chamados por área, publicado na Vercel.',
+        stack: 'JavaScript e CSS',
+        imageAlt: 'Painel de indicadores do Sistema OTIS com gráficos de prazo e custo'
       },
       {
         id: 'proj-kcal',
         title: 'kcal.io',
-        category: 'Nutrição & Saúde Digital',
-        architecture: 'Rastreamento Calórico • Metas de Macros • Interface Reativa',
-        desc: 'Aplicação web para monitoramento nutricional e déficit/superávit calórico diário. Permite aos usuários calcular necessidades energéticas basais, registrar refeições diárias, acompanhar metas personalizadas de macronutrientes (proteínas, carboidratos e gorduras) com visualização em tempo real.',
-        statusBadge: 'Web App',
-        keyTech: [
-          { name: 'JavaScript ES6+', icon: 'fab fa-js', role: 'Motor Reativo' },
-          { name: 'Cálculo de Macros', icon: 'fas fa-calculator', role: 'Balanço Energético' },
-          { name: 'CSS3 Design System', icon: 'fab fa-css3-alt', role: 'UI / UX Telemetria' },
-          { name: 'Deploy Vercel', icon: 'fas fa-cloud', role: 'Hospedagem & CI/CD' }
-        ],
-        tags: ['Web App', 'Nutrição', 'Fitness', 'Macronutrientes']
+        kind: 'Android, Kotlin',
+        desc: 'App gratuito que recalcula o déficit ou superávit calórico com o gasto real medido pelo Health Connect.',
+        stack: 'Kotlin e Health Connect',
+        imageAlt: 'Página do kcal.io com a tela do app mostrando calorias ingeridas e macronutrientes'
+      },
+      {
+        id: 'proj-feira',
+        title: 'Feira Online',
+        kind: 'Front-end, loja',
+        desc: 'Loja que liga pequenos produtores a quem compra, com catálogo por categoria e carrinho.',
+        stack: 'JavaScript, HTML e CSS',
+        imageAlt: 'Página inicial da Feira Online com verduras e categorias de produtos'
+      },
+      {
+        id: 'proj-ready2work',
+        title: 'Ready 2 Work',
+        kind: 'Carreira',
+        desc: 'Preparação para o mercado de tecnologia, com simulados de avaliação técnica.',
+        stack: 'JavaScript'
       },
       {
         id: 'proj-guia-cidadao',
         title: 'GuiaCidadão',
-        category: 'Plataforma Cívica & Benefícios',
-        architecture: 'Triagem Rápida • Motor de Elegibilidade • Acesso Institucional',
-        desc: 'Plataforma digital voltada à inclusão social e cidadania ativa com ferramenta de Triagem Rápida em 1 minuto sem cadastro prévio. Analisa critérios socioeconômicos e identifica programas e benefícios públicos aos quais o cidadão tem direito, contando também com portal multiperfil de autenticação segura para cidadãos e colaboradores.',
-        statusBadge: 'Repositório',
-        keyTech: [
-          { name: 'JavaScript Modular', icon: 'fab fa-js', role: 'Fluxo de Triagem' },
-          { name: 'Regras de Elegibilidade', icon: 'fas fa-shield-alt', role: 'Motor de Decisão' },
-          { name: 'Acesso Multiperfil', icon: 'fas fa-users-cog', role: 'Cidadão & Colaborador' },
-          { name: 'CSS3 / Acessibilidade', icon: 'fab fa-css3-alt', role: 'Design Cívico Inclusivo' }
-        ],
-        tags: ['Cidadania', 'Benefícios Sociais', 'Triagem Rápida', 'Acessibilidade']
+        kind: 'Front-end, serviço público',
+        desc: 'Triagem de um minuto, sem cadastro, que aponta os benefícios públicos a que a pessoa tem direito.',
+        stack: 'JavaScript e CSS'
       }
     ]
   },

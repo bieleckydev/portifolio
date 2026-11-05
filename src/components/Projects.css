@@ -1,0 +1,184 @@
+/* Outros projetos: os nomes são o índice; o palco mostra o projeto em foco */
+.work__read {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work__title {
+    font-weight: 700;
+}
+
+.work__list {
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.work__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 4px 24px;
+    padding: 10px 0;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color var(--dur-fast) ease;
+}
+
+.work__item.is-active .work__row {
+    color: var(--ink);
+}
+
+.work__row:active .work__name {
+    transform: translateX(4px);
+}
+
+.work__name {
+    transition: transform var(--dur-press) var(--ease-out);
+}
+
+.work__meta {
+    color: var(--muted);
+}
+
+.work__desc {
+    max-width: 44ch;
+}
+
+.work__links {
+    display: flex;
+    gap: 24px;
+}
+
+.work__inline {
+    display: none;
+}
+
+/* Palco: um painel por projeto, empilhados, troca por opacidade */
+.work__stage {
+    display: grid;
+}
+
+.work__panel {
+    grid-area: 1 / 1;
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) auto;
+    gap: 24px;
+    width: 100%;
+    height: 100%;
+    max-width: 640px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity var(--dur-fast) ease, visibility 0s linear var(--dur-fast);
+}
+
+.work__panel.is-active {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity var(--dur-fast) ease;
+}
+
+.work__media {
+    display: grid;
+    place-items: center;
+    min-height: 0;
+}
+
+.work__img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    /* o palco tem a altura da tela; sobra espaço para a legenda embaixo */
+    max-height: calc(100svh - var(--header-h) - 300px);
+    object-fit: contain;
+}
+
+.work__panel.is-active .work__img {
+    animation: work-settle 600ms var(--ease-out);
+}
+
+@keyframes work-settle {
+    from {
+        transform: scale(1.03);
+    }
+}
+
+.work__caption {
+    display: grid;
+    gap: 8px;
+}
+
+.work__caption .work__links {
+    margin-top: 6px;
+}
+
+/* Projeto sem tela publicada: o nome em campo de tinta */
+.work__plate {
+    display: grid;
+    max-width: 560px;
+    align-content: end;
+    gap: 8px;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    max-height: 100%;
+    padding: clamp(20px, 3vw, 36px);
+    background: var(--ink);
+    color: var(--paper);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .work__panel.is-active .work__img {
+        animation: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .work__stage {
+        display: none;
+    }
+
+    .work__list {
+        display: grid;
+        gap: 48px;
+        margin-top: 32px;
+    }
+
+    .work__row {
+        color: var(--ink);
+        padding: 0;
+        order: 2;
+    }
+
+    .work__item {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .work__inline {
+        display: contents;
+    }
+
+    .work__inline > .work__img {
+        order: 1;
+        width: 100%;
+        max-height: none;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* sem tela publicada, o nome da lista já basta */
+    .work__inline > .work__plate {
+        display: none;
+    }
+
+    .work__inline > .work__img {
+        aspect-ratio: 16 / 10;
+    }
+
+    .work__inline > p {
+        order: 3;
+    }
+}

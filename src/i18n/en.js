@@ -239,157 +239,67 @@ export const en = {
     ]
   },
   projects: {
-    title: 'Featured Projects',
-    subtitle:
-      'Software solutions engineered with architectural rigor, modularity, and real-world production utility.',
-    accessBtn: 'Live Demo',
-    codeBtn: 'Source Code',
-    keyTechLabel: 'Key Technologies',
-    architectureLabel: 'Architecture',
-    filterAll: 'All',
-    filterJava: 'Java & Backend',
-    filterPos: 'POS & Automation',
-    filterFrontend: 'Frontend & Mobile',
-    viewHorizontal: 'Horizontal Runway',
-    viewGrid: 'Grid View',
-    scrollHint: 'Explore horizontally by dragging, scrolling mousewheel, or using arrows',
-    prevBtn: 'Previous',
-    nextBtn: 'Next',
-    githubActivity: {
-      badge: 'GitHub Telemetry',
-      title: 'Latest Repository Activity',
-      subtitle: 'Real-time telemetry via GitHub REST API — star counts, forks, and latest commit timelines.',
-      refreshBtn: 'Refresh Data',
-      refreshing: 'Syncing...',
-      viewRepo: 'Repository',
-      viewCommit: 'View Commit',
-      lastCommitLabel: 'Last Commit',
-      starsLabel: 'Stars',
-      branchLabel: 'Branch',
-      privateBadge: 'Private Repository',
-      syncedJustNow: 'Synchronized just now',
-      cachedNotice: 'Local cache active to preserve API rate limits'
-    },
+    title: 'Other projects',
+    live: 'Open site',
+    code: 'View code',
+    updated: 'updated {when}',
     items: [
       {
         id: 'proj-caixa-adega',
-        title: 'POS Cashier System',
-        category: 'POS & Commercial Automation',
-        architecture: 'Web Architecture • ESC/POS Thermal Printing • WebSockets',
-        desc: 'High-performance web Point-of-Sale built for restaurant operations in active production. Features dynamic tax/tip calculation, rapid balance closing, and direct integration with thermal receipt and report printers.',
-        statusBadge: 'In Production',
-        keyTech: [
-          { name: 'JavaScript ES6+', icon: 'fab fa-js', role: 'Cashier Core Engine' },
-          { name: 'Hardware ESC/POS', icon: 'fas fa-print', role: 'Thermal Printing' },
-          { name: 'REST & Webhooks', icon: 'fas fa-network-wired', role: 'Integrations' },
-          { name: 'CSS3 Grid / Flex', icon: 'fab fa-css3-alt', role: 'Touch UI' }
-        ],
-        tags: ['Web App', 'POS System', 'Thermal Printing', 'JavaScript']
+        title: 'Point of sale'
       },
       {
         id: 'proj-cardapio-digital',
-        title: 'Premium Digital Menu',
-        category: 'Mobile-First Frontend',
-        architecture: 'Lightweight SPA • 60 FPS • Instant Asset Loading',
-        desc: 'Mobile-first digital menu with sleek responsive design, lightweight architecture, and instant load times for Adega e Churrascaria do Dino. Optimized for high-conversion dining experiences and smooth ordering.',
-        statusBadge: 'Adega do Dino',
-        keyTech: [
-          { name: 'Mobile-First UX', icon: 'fas fa-mobile-alt', role: 'Touch Interface' },
-          { name: 'Modular JavaScript', icon: 'fab fa-js', role: 'Reactive Cart' },
-          { name: 'CSS3 Custom Tokens', icon: 'fab fa-css3-alt', role: 'Design System' },
-          { name: 'Semantic HTML5', icon: 'fab fa-html5', role: 'Accessibility' }
-        ],
-        tags: ['Frontend', 'Mobile-first', 'UI / UX', 'JavaScript']
+        title: 'Digital Menu',
+        kind: 'Front end, Adega do Dino',
+        desc: 'The menu Adega do Dino guests open on their phones, with the house cuts and ordering.',
+        stack: 'JavaScript, HTML and CSS',
+        imageAlt: 'Opening screen of the Adega do Dino digital menu'
       },
       {
         id: 'proj-cripto',
-        title: 'Crypto Brokerage Platform (Aurum Banking)',
-        category: 'Backend & FinTech Engine',
-        architecture: 'OOP Architecture • Order Matching Engine • Balance Auditing',
-        desc: 'Academic software engineering platform simulating digital asset trading, portfolio balances, and educational investment pathways with robust business logic and algorithmic order matching.',
-        statusBadge: 'Core Backend',
-        keyTech: [
-          { name: 'Java (JDK)', icon: 'fab fa-java', role: 'OOP & Core Logic' },
-          { name: 'Data Structures', icon: 'fas fa-cubes', role: 'Order Book Bookkeeping' },
-          { name: 'Order Matching', icon: 'fas fa-microchip', role: 'Algorithmic Engine' },
-          { name: 'Transaction Control', icon: 'fas fa-shield-alt', role: 'Balance Validation' }
-        ],
-        tags: ['Java', 'OOP', 'FinTech', 'Data Structures']
+        title: 'Aurum Banking',
+        kind: 'Java, team project',
+        desc: 'A crypto brokerage simulator: wallet, order matching and balance checks.',
+        stack: 'Java, object-oriented design and Oracle'
       },
       {
         id: 'proj-otis',
-        title: 'OTIS Enterprise Platform',
-        category: 'Corporate Dashboard',
-        architecture: 'Responsive Dashboard • State Management • Vercel CI/CD',
-        desc: 'Enterprise web application and operational dashboard engineered with clean architecture, user-friendly control surfaces, and continuous deployment.',
-        statusBadge: 'Live Deploy',
-        keyTech: [
-          { name: 'JavaScript', icon: 'fab fa-js', role: 'Interactivity' },
-          { name: 'Modern CSS3', icon: 'fab fa-css3-alt', role: 'Dashboard Layout' },
-          { name: 'UI / UX Design', icon: 'fas fa-desktop', role: 'Intuitive Views' },
-          { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: 'CI / CD Pipeline' }
-        ],
-        tags: ['Web App', 'Dashboard', 'Frontend', 'Vercel']
-      },
-      {
-        id: 'proj-feira',
-        title: 'Online Fair Market',
-        category: 'E-Commerce Platform',
-        architecture: 'Product Catalog • Dynamic Cart • Order Flow',
-        desc: 'Interactive digital marketplace simulating open-air farmers market shopping with streamlined product inspection and smooth e-commerce ordering.',
-        statusBadge: 'Live Deploy',
-        keyTech: [
-          { name: 'Async JavaScript', icon: 'fab fa-js', role: 'Cart State Logic' },
-          { name: 'Semantic HTML5', icon: 'fab fa-html5', role: 'Catalog Grid' },
-          { name: 'Responsive CSS3', icon: 'fab fa-css3-alt', role: 'Fluid Layout' },
-          { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: 'Cloud Hosting' }
-        ],
-        tags: ['E-commerce', 'Web', 'Shopping Cart']
-      },
-      {
-        id: 'proj-ready2work',
-        title: 'Ready 2 Work',
-        category: 'Tech Career Platform',
-        architecture: 'Technical Assessment • Candidate Match • Career Pathways',
-        desc: 'Job-readiness utility application designed to prepare engineering students and junior developers for technical interviews and corporate hiring pipelines.',
-        statusBadge: 'Open Source',
-        keyTech: [
-          { name: 'Java / Backend', icon: 'fab fa-java', role: 'Technical Tracks' },
-          { name: 'JavaScript Web', icon: 'fab fa-js', role: 'Interactive View' },
-          { name: 'Git & Open Source', icon: 'fab fa-github', role: 'Public Repo' },
-          { name: 'Agile Best Practices', icon: 'fas fa-tasks', role: 'Planning' }
-        ],
-        tags: ['App', 'Tech Career', 'Java', 'Employability']
+        title: 'OTIS System',
+        kind: 'Front end, dashboard',
+        desc: 'A dashboard of delivery times, costs and tickets by department, deployed on Vercel.',
+        stack: 'JavaScript and CSS',
+        imageAlt: 'OTIS dashboard with delivery time and cost charts'
       },
       {
         id: 'proj-kcal',
         title: 'kcal.io',
-        category: 'Digital Nutrition & Health',
-        architecture: 'Calorie Tracking • Daily Macro Targets • Reactive HUD',
-        desc: 'Web application designed for daily nutritional tracking and caloric balance management. Allows users to compute basal metabolic targets, log meals, track customized macronutrient breakdowns (protein, carbs, fats), and monitor daily nutritional progress with an intuitive, responsive interface.',
-        statusBadge: 'Web App',
-        keyTech: [
-          { name: 'Modern JavaScript', icon: 'fab fa-js', role: 'Reactive Core Engine' },
-          { name: 'Macro Computation', icon: 'fas fa-calculator', role: 'Caloric Balance' },
-          { name: 'CSS3 Design System', icon: 'fab fa-css3-alt', role: 'Telemetry UI / UX' },
-          { name: 'Vercel Deployment', icon: 'fas fa-cloud', role: 'Continuous Delivery' }
-        ],
-        tags: ['Web App', 'Nutrition', 'Fitness', 'Macronutrients']
+        kind: 'Android, Kotlin',
+        desc: 'A free app that recalculates your calorie deficit or surplus from the real expenditure Health Connect measures.',
+        stack: 'Kotlin and Health Connect',
+        imageAlt: 'kcal.io page showing the app with calories eaten and macronutrients'
+      },
+      {
+        id: 'proj-feira',
+        title: 'Feira Online',
+        kind: 'Front end, shop',
+        desc: 'A shop connecting small farmers with buyers, with a catalogue by category and a cart.',
+        stack: 'JavaScript, HTML and CSS',
+        imageAlt: 'Feira Online home page with greens and product categories'
+      },
+      {
+        id: 'proj-ready2work',
+        title: 'Ready 2 Work',
+        kind: 'Careers',
+        desc: 'Preparation for the tech job market, with practice technical assessments.',
+        stack: 'JavaScript'
       },
       {
         id: 'proj-guia-cidadao',
         title: 'GuiaCidadão',
-        category: 'Civic Platform & Social Benefits',
-        architecture: 'Quick Screening • Eligibility Engine • Institutional Portal',
-        desc: 'Civic engagement and public assistance platform featuring a 60-second Quick Screening tool requiring no prior registration. Automatically assesses socioeconomic criteria to identify public assistance benefits and grants that citizens qualify for, alongside dual-role authentication for citizens and public servants.',
-        statusBadge: 'Repository',
-        keyTech: [
-          { name: 'Modular JavaScript', icon: 'fab fa-js', role: 'Screening Workflow' },
-          { name: 'Eligibility Engine', icon: 'fas fa-shield-alt', role: 'Decision Algorithm' },
-          { name: 'Multi-Role Access', icon: 'fas fa-users-cog', role: 'Citizen & Staff Portal' },
-          { name: 'CSS3 / Accessibility', icon: 'fab fa-css3-alt', role: 'Inclusive Civic Design' }
-        ],
-        tags: ['Civic Tech', 'Social Benefits', 'Quick Triage', 'Accessibility']
+        kind: 'Front end, public service',
+        desc: 'A one-minute check, no sign-up, that shows which public benefits a person is entitled to.',
+        stack: 'JavaScript and CSS'
       }
     ]
   },

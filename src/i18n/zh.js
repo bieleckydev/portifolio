@@ -239,156 +239,67 @@ export const zh = {
     ]
   },
   projects: {
-    title: '精选重点项目',
-    subtitle: '秉持软件工程严谨性、模块化架构与真实生产实用价值构建的项目。',
-    accessBtn: '在线体验',
-    codeBtn: '查看源码',
-    keyTechLabel: '核心技术栈',
-    architectureLabel: '技术架构',
-    filterAll: '全部',
-    filterJava: 'Java 与后端',
-    filterPos: 'POS 与商业自动化',
-    filterFrontend: '前端与移动端',
-    viewHorizontal: '横向轨道',
-    viewGrid: '网格视图',
-    scrollHint: '可通过拖动、鼠标滚轮或箭头按键横向浏览项目',
-    prevBtn: '上一项',
-    nextBtn: '下一项',
-    githubActivity: {
-      badge: 'GitHub 动态遥测',
-      title: '开源仓库最新动态',
-      subtitle: '通过 GitHub REST API 实时监控项目仓库 — Star 标星数、Forks 及最新 Commit 提交记录。',
-      refreshBtn: '刷新动态',
-      refreshing: '同步中...',
-      viewRepo: '访问仓库',
-      viewCommit: '查看提交',
-      lastCommitLabel: '最新提交',
-      starsLabel: '标星',
-      branchLabel: '分支',
-      privateBadge: '私有保护仓库',
-      syncedJustNow: '刚刚完成同步',
-      cachedNotice: '本地缓存启用以降低 API 频次消耗'
-    },
+    title: '其他项目',
+    live: '在线查看',
+    code: '查看代码',
+    updated: '{when}更新',
     items: [
       {
         id: 'proj-caixa-adega',
-        title: 'POS 收银管理系统',
-        category: 'POS系统与商业自动化',
-        architecture: 'Web架构 • ESC/POS热敏小票打印 • WebSockets',
-        desc: '专为餐饮场景设计的高性能 Web 收银台（POS）系统，目前在真实门店稳定运行。具备动态税费/小费计算、高速交班结账及直连热敏小票打印机功能。',
-        statusBadge: '生产环境运行中',
-        keyTech: [
-          { name: 'JavaScript ES6+', icon: 'fab fa-js', role: '收银核心引擎' },
-          { name: 'ESC/POS 硬件', icon: 'fas fa-print', role: '热敏打印驱动' },
-          { name: 'REST & Webhooks', icon: 'fas fa-network-wired', role: '系统集成' },
-          { name: 'CSS3 Grid / Flex', icon: 'fab fa-css3-alt', role: '触控交互界面' }
-        ],
-        tags: ['Web 应用', 'POS 系统', '热敏打印', 'JavaScript']
+        title: '收银系统'
       },
       {
         id: 'proj-cardapio-digital',
-        title: '高端电子点餐菜单',
-        category: '移动优先前端',
-        architecture: '轻量单页应用 • 60 FPS • 毫秒级响应',
-        desc: '移动端优先的现代化电子菜单，具备极轻量的架构和毫秒级响应，专为 Adega e Churrascaria do Dino 烤肉餐厅定制打造，大幅提升顾客点餐体验。',
-        statusBadge: 'Adega do Dino 专供',
-        keyTech: [
-          { name: '移动优先 UX', icon: 'fas fa-mobile-alt', role: '触控交互' },
-          { name: '模块化 JavaScript', icon: 'fab fa-js', role: '响应式购物车' },
-          { name: 'CSS3 自定义变量', icon: 'fab fa-css3-alt', role: '设计系统' },
-          { name: '语义化 HTML5', icon: 'fab fa-html5', role: '无障碍访问' }
-        ],
-        tags: ['前端开发', '移动优先', 'UI / UX', 'JavaScript']
+        title: '电子菜单',
+        kind: '前端，Adega do Dino',
+        desc: 'Adega do Dino 的顾客在手机上打开的菜单，展示招牌肉品并可直接点单。',
+        stack: 'JavaScript、HTML 和 CSS',
+        imageAlt: 'Adega do Dino 烤肉店电子菜单的首页'
       },
       {
         id: 'proj-cripto',
-        title: 'Aurum Banking 加密资产交易模拟系统',
-        category: '后端架构与金融科技',
-        architecture: '面向对象架构 • 撮合引擎 • 账户平衡审计',
-        desc: '大学软件工程核心研发项目，模拟数字资产交易平台，涵盖多币种资产配置、撮合交易算法及教学投资路径，业务逻辑与数据校验严谨。',
-        statusBadge: '后端核心',
-        keyTech: [
-          { name: 'Java (JDK)', icon: 'fab fa-java', role: '面向对象与核心逻辑' },
-          { name: '数据结构', icon: 'fas fa-cubes', role: '订单簿管理' },
-          { name: '撮合算法', icon: 'fas fa-microchip', role: '订单撮合引擎' },
-          { name: '事务控制', icon: 'fas fa-shield-alt', role: '资金与余额校验' }
-        ],
-        tags: ['Java', '面向对象', '金融科技', '数据结构']
+        title: 'Aurum Banking',
+        kind: 'Java，团队项目',
+        desc: '加密货币交易所模拟器：钱包、订单撮合和余额校验。',
+        stack: 'Java、面向对象和 Oracle'
       },
       {
         id: 'proj-otis',
-        title: 'OTIS 企业运营平台',
-        category: '企业综合看板',
-        architecture: '响应式看板 • 状态管理 • Vercel CI/CD',
-        desc: '注重友好人机交互界面的综合管理与企业看板平台。采用清晰的分层架构，完整部署并支持公网在线访问。',
-        statusBadge: '在线运行',
-        keyTech: [
-          { name: 'JavaScript', icon: 'fab fa-js', role: '动态交互' },
-          { name: '现代 CSS3', icon: 'fab fa-css3-alt', role: '看板布局' },
-          { name: 'UI / UX 设计', icon: 'fas fa-desktop', role: '直观视图' },
-          { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: 'CI / CD 流水线' }
-        ],
-        tags: ['Web 应用', '企业看板', '前端开发', 'Vercel']
-      },
-      {
-        id: 'proj-feira',
-        title: '线上集市交易平台',
-        category: '电子商务平台',
-        architecture: '商品目录 • 动态购物车 • 结算流程',
-        desc: '模拟线下集市选购与便捷电商下单流程的数字化交易平台，具备高效的商品展示、过滤及购物车结算状态逻辑。',
-        statusBadge: '在线运行',
-        keyTech: [
-          { name: '异步 JavaScript', icon: 'fab fa-js', role: '购物车状态' },
-          { name: '语义化 HTML5', icon: 'fab fa-html5', role: '商品网格' },
-          { name: '响应式 CSS3', icon: 'fab fa-css3-alt', role: '流式布局' },
-          { name: 'Git & Vercel', icon: 'fab fa-git-alt', role: '云端部署' }
-        ],
-        tags: ['电子商务', 'Web 应用', '购物车']
-      },
-      {
-        id: 'proj-ready2work',
-        title: 'Ready 2 Work 就业助手',
-        category: '科技求职加速平台',
-        architecture: '技能评估测试 • 候选人匹配 • 学习指南',
-        desc: '旨在帮助计算机专业学生和初级工程师准备技术面试、评估专业技能并提升就业竞争力的实用平台。',
-        statusBadge: '开源项目',
-        keyTech: [
-          { name: 'Java / 后端', icon: 'fab fa-java', role: '技术题库模块' },
-          { name: 'Web 前端', icon: 'fab fa-js', role: '交互界面' },
-          { name: 'Git & 开源', icon: 'fab fa-github', role: '公开仓库' },
-          { name: '敏捷实践', icon: 'fas fa-tasks', role: '项目规划' }
-        ],
-        tags: ['应用程序', '职场就业', 'Java', '面试准备']
+        title: 'OTIS 系统',
+        kind: '前端，数据看板',
+        desc: '按部门展示交付周期、成本和工单的数据看板，部署在 Vercel 上。',
+        stack: 'JavaScript 和 CSS',
+        imageAlt: 'OTIS 数据看板，包含交付周期和成本图表'
       },
       {
         id: 'proj-kcal',
         title: 'kcal.io',
-        category: '数字营养与健康',
-        architecture: '卡路里追踪 • 宏量营养素目标 • 响应式交互',
-        desc: '专为每日营养摄入监控与热量平衡管理设计的网页应用。用户可计算基础能量代谢需求，记录日常膳食，设定蛋白质、碳水化合物与脂肪的个性化目标，并通过直观的仪表盘实时监控营养达成率。',
-        statusBadge: 'Web 应用',
-        keyTech: [
-          { name: '现代 JavaScript', icon: 'fab fa-js', role: '响应式核心引擎' },
-          { name: '营养计量算法', icon: 'fas fa-calculator', role: '能量平衡计算' },
-          { name: 'CSS3 设计系统', icon: 'fab fa-css3-alt', role: 'UI / UX 界面设计' },
-          { name: 'Vercel 部署', icon: 'fas fa-cloud', role: '持续集成与发布' }
-        ],
-        tags: ['网页应用', '营养管理', '健身追踪', '宏量营养素']
+        kind: 'Android，Kotlin',
+        desc: '免费应用，根据 Health Connect 记录的真实消耗重新计算热量缺口或盈余。',
+        stack: 'Kotlin 和 Health Connect',
+        imageAlt: 'kcal.io 页面，展示应用中的摄入热量和宏量营养素'
+      },
+      {
+        id: 'proj-feira',
+        title: 'Feira Online',
+        kind: '前端，网店',
+        desc: '连接小农户与买家的网店，按类别浏览商品并加入购物车。',
+        stack: 'JavaScript、HTML 和 CSS',
+        imageAlt: 'Feira Online 首页，展示蔬菜和商品类别'
+      },
+      {
+        id: 'proj-ready2work',
+        title: 'Ready 2 Work',
+        kind: '求职',
+        desc: '帮助进入科技行业的准备平台，提供技术测评模拟。',
+        stack: 'JavaScript'
       },
       {
         id: 'proj-guia-cidadao',
-        title: 'GuiaCidadão (公民指南)',
-        category: '民生平台与社会福利',
-        architecture: '快速筛查 • 资格判定算法 • 机构协同门户',
-        desc: '面向社会救助与公民权益的民生数字化平台。提供无需预先注册的1分钟快速筛查流程，智能分析家庭经济与社会条件，识别用户有权申请的政府福利与公共援助项目；同时具备面向居民与机构工作人员的双角色安全门户。',
-        statusBadge: '代码仓库',
-        keyTech: [
-          { name: '模块化 JavaScript', icon: 'fab fa-js', role: '智能筛查流程' },
-          { name: '资格评定算法', icon: 'fas fa-shield-alt', role: '福利判定引擎' },
-          { name: '多权限系统', icon: 'fas fa-users-cog', role: '居民与协作端门户' },
-          { name: 'CSS3 / 无障碍设计', icon: 'fab fa-css3-alt', role: '包容性民生交互' }
-        ],
-        tags: ['民生科技', '社会救助', '快速筛查', '无障碍体验']
+        title: 'GuiaCidadão',
+        kind: '前端，公共服务',
+        desc: '一分钟快速筛查，无需注册，告诉你可以申请哪些公共福利。',
+        stack: 'JavaScript 和 CSS'
       }
     ]
   },
