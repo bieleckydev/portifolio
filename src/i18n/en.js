@@ -41,6 +41,20 @@ export const en = {
       { id: 'refri', name: 'Soft drink can', price: 7 }
     ]
   },
+  caseStudy: {
+    title: 'The till behind Adega do Dino',
+    lead: 'A web point-of-sale system the restaurant uses to take orders, close bills and print receipts.',
+    rows: [
+      { label: 'Roles', value: 'Cashier, waiter and statistics, each with its own screen' },
+      { label: 'Checkout', value: 'Service and fee calculation, quick bill closing' },
+      { label: 'Printing', value: 'Receipts and reports on the thermal printer over ESC/POS' },
+      { label: 'Stack', value: 'JavaScript, WebSocket and ESC/POS commands' },
+      { label: 'Status', value: 'In production at the restaurant' }
+    ],
+    live: 'Open the system',
+    imageAlt: 'Entry screen of the Adega do Dino point-of-sale system with the Cashier, Waiter and Statistics roles',
+    caption: 'The system’s entry screen on a phone.'
+  },
   about: {
     title: 'About Me',
     p1: 'I am a Bachelor student in <strong>Software Engineering</strong> residing in São Bernardo do Campo, SP, Brazil. I maintain a pragmatic, goal-driven mindset with dedication to software architectural patterns, clean coding practices, and resilient backend systems.',

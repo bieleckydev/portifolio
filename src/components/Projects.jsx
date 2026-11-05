@@ -53,7 +53,7 @@ export default function Projects() {
   return (
     <>
       <section
-        id="projetos"
+        id="outros-projetos"
         ref={containerRef}
         className={`section projects ${viewMode === 'horizontal' ? 'pinned-scroll-wrapper' : ''}`}
         style={viewMode === 'horizontal' ? { height: containerHeight, padding: 0 } : {}}

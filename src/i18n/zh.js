@@ -41,6 +41,20 @@ export const zh = {
       { id: 'refri', name: '罐装汽水', price: 7 }
     ]
   },
+  caseStudy: {
+    title: 'Adega do Dino 的收银系统',
+    lead: '一套网页版收银系统，餐厅每天用它点单、结账并打印小票。',
+    rows: [
+      { label: '角色', value: '收银、服务员和统计，各有独立界面' },
+      { label: '结账', value: '自动计算费用，快速结账' },
+      { label: '打印', value: '通过 ESC/POS 在热敏打印机上打印小票和报表' },
+      { label: '技术', value: 'JavaScript、WebSocket 和 ESC/POS 指令' },
+      { label: '状态', value: '已在餐厅投入使用' }
+    ],
+    live: '打开系统',
+    imageAlt: 'Adega do Dino 收银系统的入口界面，可选择收银、服务员和统计角色',
+    caption: '系统在手机上的入口界面。'
+  },
   about: {
     title: '关于我',
     p1: '我是<strong>软件工程</strong>学士学位在读学生，现居巴西圣保罗州圣贝尔纳多-杜坎普。我具有务实、目标导向的工程师特质，专注于软件设计模式、整洁代码规范以及高健壮性后端系统构建。',

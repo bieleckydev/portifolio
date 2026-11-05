@@ -1,0 +1,74 @@
+/* O projeto em produção: o argumento à esquerda, a tela real do sistema à direita */
+.case__read {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.case__title {
+    max-width: 16ch;
+}
+
+.case__lead {
+    max-width: 32ch;
+    margin-top: 28px;
+}
+
+.case__facts {
+    display: grid;
+    gap: 18px;
+    max-width: 52ch;
+    margin-top: 48px;
+}
+
+.case__fact {
+    display: grid;
+    grid-template-columns: 9.5rem minmax(0, 1fr);
+    gap: 16px;
+    align-items: baseline;
+}
+
+.case__fact dt {
+    font-weight: 600;
+}
+
+.case__actions {
+    margin-top: 48px;
+}
+
+.case__shot {
+    display: grid;
+    gap: 14px;
+    justify-items: center;
+    height: 100%;
+    max-height: 760px;
+    margin: 0;
+}
+
+.case__shot img {
+    width: auto;
+    height: 100%;
+    max-height: calc(100% - 40px);
+    object-fit: contain;
+}
+
+@media (max-width: 900px) {
+    .case__fact {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 2px;
+    }
+
+    .case__facts {
+        margin-top: 36px;
+    }
+
+    .case__shot {
+        height: auto;
+    }
+
+    .case__shot img {
+        width: min(100%, 320px);
+        height: auto;
+        max-height: none;
+    }
+}

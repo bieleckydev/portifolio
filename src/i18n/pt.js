@@ -41,6 +41,20 @@ export const pt = {
       { id: 'refri', name: 'Refrigerante lata', price: 7 }
     ]
   },
+  caseStudy: {
+    title: 'O sistema de caixa da Adega do Dino',
+    lead: 'Um ponto de venda web que a casa usa para lançar pedidos, fechar contas e imprimir o cupom.',
+    rows: [
+      { label: 'Perfis', value: 'Caixa, garçom e estatísticas, cada um com a sua tela' },
+      { label: 'Fechamento', value: 'Cálculo de taxas e fechamento rápido da conta' },
+      { label: 'Impressão', value: 'Cupom e relatórios na impressora térmica, via ESC/POS' },
+      { label: 'Tecnologia', value: 'JavaScript, WebSocket e comandos ESC/POS' },
+      { label: 'Situação', value: 'Em produção no restaurante' }
+    ],
+    live: 'Abrir o sistema',
+    imageAlt: 'Tela de entrada do sistema de caixa da Adega do Dino com os perfis Caixa, Garçom e Estatísticas',
+    caption: 'Tela de entrada do sistema, no celular.'
+  },
   about: {
     title: 'Sobre Mim',
     p1: 'Sou estudante de Bacharelado em <strong>Engenharia de Software</strong> e resido em São Bernardo do Campo, SP. Tenho um perfil pragmático, focado em metas e dedicação contínua ao aprendizado de padrões de arquitetura, boas práticas de código e desenvolvimento backend robusto.',

@@ -3,6 +3,7 @@ import { LanguageProvider } from './context/LanguageContext';
 import { useSectionReveal } from './hooks/useSectionReveal';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import CaseStudy from './components/CaseStudy';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
@@ -53,11 +54,11 @@ function AppContent() {
 
       <main id="main-portfolio-content">
         <Hero />
-
+        <CaseStudy />
+        <Projects />
         <About />
         <Skills />
         <Experience />
-        <Projects />
         <Contact />
       </main>
 
