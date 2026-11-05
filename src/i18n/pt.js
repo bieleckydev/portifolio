@@ -5,7 +5,6 @@ export const pt = {
     experience: 'Experiência',
     projects: 'Projetos',
     contact: 'Contato',
-    themeToggle: 'Alternar tema',
     menuToggle: 'Abrir menu de navegação',
     mainNav: 'Navegação principal',
     whatsapp: 'Conversar pelo WhatsApp'

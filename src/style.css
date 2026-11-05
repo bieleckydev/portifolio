@@ -45,52 +45,7 @@
     --border-radius-lg: 8px;
 }
 
-/* =========================================
-   TEMA CLARO (Light Mode)
-   ========================================= */
-body.light-mode {
-    --bg-color: #f7f8fa;           /* Alabastro minimalista sólido */
-    --bg-subtle: #eeeff2;          /* Cinza claro sólido */
-    --card-bg: #ffffff;            /* Branco puro sólido */
-    --card-hover: #ffffff;
-    --card-border: #dfe2e6;        /* Borda cinza prata limpa */
-    --card-border-hover: #b8bec7;
-    
-    --text-color: #0f1216;         /* Preto grafite de alta legibilidade */
-    --text-muted: #5a6270;         /* Cinza chumbo */
-    --text-subtle: #8a92a0;
-    
-    --copper: #b45d27;             /* Cobre sofisticado para fundo claro */
-    --copper-hover: #9c4d1d;
-    --copper-dark: #813c12;
-    --copper-subtle: rgba(180, 93, 39, 0.08);
-    
-    --silver: #475569;
-    --silver-dark: #334155;
-    --silver-subtle: rgba(15, 23, 42, 0.04);
 
-    --nav-bg: rgba(247, 248, 250, 0.95);
-}
-
-body.dark-mode {
-    --bg-color: #0b0c0e;
-    --bg-subtle: #121418;
-    --card-bg: #15171c;
-    --card-hover: #1a1d23;
-    --card-border: #242831;
-    --card-border-hover: #3b4250;
-    --text-color: #f1f3f7;
-    --text-muted: #8b93a0;
-    --text-subtle: #80879a;
-    --copper: #c87a48;
-    --copper-hover: #db8b57;
-    --copper-dark: #a25c2e;
-    --copper-subtle: rgba(200, 122, 72, 0.12);
-    --silver: #cbd5e1;
-    --silver-dark: #64748b;
-    --silver-subtle: rgba(203, 213, 225, 0.08);
-    --nav-bg: rgba(11, 12, 14, 0.94);
-}
 
 /* =========================================
    RESETS E BASE
@@ -2399,15 +2354,6 @@ html.lenis, html.lenis body {
     border-radius: 4px;
 }
 
-body.light-mode .skeleton-line {
-    background: linear-gradient(
-        90deg,
-        rgba(0, 0, 0, 0.04) 25%,
-        rgba(0, 0, 0, 0.08) 50%,
-        rgba(0, 0, 0, 0.04) 75%
-    );
-    background-size: 200% 100%;
-}
 
 @keyframes skeleton-shimmer {
     0% {
@@ -2513,13 +2459,7 @@ body.light-mode .skeleton-line {
     z-index: 12;
 }
 
-body.light-mode .pinned-stage-veil-top {
-    background: linear-gradient(to bottom, var(--bg-color) 0%, rgba(246, 246, 248, 0.85) 45%, transparent 100%);
-}
 
-body.light-mode .pinned-stage-veil-bottom {
-    background: linear-gradient(to top, var(--bg-color) 0%, rgba(246, 246, 248, 0.85) 45%, transparent 100%);
-}
 
 /* Cabeçalho do Palco Pinned */
 .pinned-stage-header {
@@ -2660,13 +2600,7 @@ body.light-mode .pinned-stage-veil-bottom {
     -webkit-mask-image: linear-gradient(to left, black 25%, transparent 100%);
 }
 
-body.light-mode .pinned-edge-vignette-left {
-    background: linear-gradient(to right, var(--bg-color) 0%, rgba(246, 246, 248, 0.9) 45%, transparent 100%);
-}
 
-body.light-mode .pinned-edge-vignette-right {
-    background: linear-gradient(to left, var(--bg-color) 0%, rgba(246, 246, 248, 0.9) 45%, transparent 100%);
-}
 
 .pinned-stage-track {
     display: flex;

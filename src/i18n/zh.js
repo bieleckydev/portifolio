@@ -5,7 +5,6 @@ export const zh = {
     experience: '经历',
     projects: '项目',
     contact: '联系',
-    themeToggle: '切换主题',
     menuToggle: '打开导航菜单',
     mainNav: '主导航',
     whatsapp: '通过 WhatsApp 联系'

@@ -5,7 +5,6 @@ export const en = {
     experience: 'Experience',
     projects: 'Projects',
     contact: 'Contact',
-    themeToggle: 'Toggle theme',
     menuToggle: 'Open navigation menu',
     mainNav: 'Main navigation',
     whatsapp: 'Chat on WhatsApp'

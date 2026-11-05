@@ -72,12 +72,6 @@ function AppContent() {
     };
   }, []);
 
-  // Garantir tema escuro padrão definitivo
-  useEffect(() => {
-    document.body.classList.remove('light-mode');
-    document.body.classList.add('dark-mode');
-    localStorage.removeItem('theme');
-  }, []);
 
   // Handle header scroll
   useEffect(() => {
