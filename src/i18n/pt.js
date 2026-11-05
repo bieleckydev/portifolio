@@ -180,7 +180,7 @@ export const pt = {
     live: 'Ver online',
     code: 'Ver código',
     updated: 'atualizado {when}',
-    privateCode: 'Código privado da empresa',
+    privateCode: 'Código privado',
     items: [
       {
         id: 'proj-caixa-adega',

@@ -180,7 +180,7 @@ export const en = {
     live: 'Open site',
     code: 'View code',
     updated: 'updated {when}',
-    privateCode: 'Private company code',
+    privateCode: 'Private code',
     items: [
       {
         id: 'proj-caixa-adega',

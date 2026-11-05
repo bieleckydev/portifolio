@@ -103,63 +103,6 @@ const FALLBACK_REPO_DATA = {
       author: 'Eduardo Mota Bielecky',
       url: 'https://github.com/bieleckydev/ready2work/commit/6c2a1e1'
     }
-  },
-  'bieleckydev/caixa_adega': {
-    owner: 'bieleckydev',
-    repo: 'caixa_adega',
-    name: 'caixa_adega',
-    fullName: 'bieleckydev/caixa_adega',
-    htmlUrl: 'https://github.com/bieleckydev/caixa_adega',
-    stars: 0,
-    forks: 0,
-    language: 'JavaScript',
-    defaultBranch: 'main',
-    isPrivate: true,
-    lastCommit: {
-      sha: 'e91fa2b',
-      message: 'feat: arquitetura web e integração com impressão térmica ESC/POS',
-      date: '2026-06-15T18:00:00Z',
-      author: 'Eduardo Mota Bielecky',
-      url: 'https://github.com/bieleckydev/caixa_adega'
-    }
-  },
-  'bieleckydev/kcal.io': {
-    owner: 'bieleckydev',
-    repo: 'kcal.io',
-    name: 'kcal.io',
-    fullName: 'bieleckydev/kcal.io',
-    htmlUrl: 'https://github.com/bieleckydev/kcal.io',
-    stars: 0,
-    forks: 0,
-    language: 'JavaScript',
-    defaultBranch: 'main',
-    isPrivate: true,
-    lastCommit: {
-      sha: '7a8f9c1',
-      message: 'feat: motor de cálculo calórico, metas diárias de macronutrientes e interface responsiva',
-      date: '2026-07-28T15:30:00Z',
-      author: 'Eduardo Mota Bielecky',
-      url: 'https://github.com/bieleckydev/kcal.io'
-    }
-  },
-  'bieleckydev/guia_cidadao': {
-    owner: 'bieleckydev',
-    repo: 'guia_cidadao',
-    name: 'guia_cidadao',
-    fullName: 'bieleckydev/guia_cidadao',
-    htmlUrl: 'https://github.com/bieleckydev/guia_cidadao',
-    stars: 0,
-    forks: 0,
-    language: 'JavaScript',
-    defaultBranch: 'main',
-    isPrivate: true,
-    lastCommit: {
-      sha: '8f2d4e5',
-      message: 'feat: fluxo de triagem rápida de benefícios sociais e acesso institucional',
-      date: '2026-08-10T19:45:00Z',
-      author: 'Eduardo Mota Bielecky',
-      url: 'https://github.com/bieleckydev/guia_cidadao'
-    }
   }
 };
 

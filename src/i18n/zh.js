@@ -180,7 +180,7 @@ export const zh = {
     live: '在线查看',
     code: '查看代码',
     updated: '{when}更新',
-    privateCode: '公司内部代码，未公开',
+    privateCode: '代码未公开',
     items: [
       {
         id: 'proj-caixa-adega',

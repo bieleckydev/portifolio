@@ -4,6 +4,7 @@
  * A ordem deste array define a ordem da lista "Outros projetos".
  * caseStudy: o projeto que ganha seção própria e sai da lista.
  *   O sistema de caixa está em produção num restaurante: nunca publique o link dele aqui.
+ * codeUrl só para repositórios públicos; sem link, a lista mostra "Código privado".
  * img/imgW/imgH: tela real do projeto; sem imagem, o painel mostra o nome em texto.
  */
 export const PROJECTS = [
@@ -12,8 +13,7 @@ export const PROJECTS = [
     caseStudy: true,
     img: '/img/caixa-adega.jpg',
     imgW: 860,
-    imgH: 1864,
-    codeUrl: 'https://github.com/bieleckydev/caixa_adega'
+    imgH: 1864
   },
   // Softcomp Sistemas: repositórios privados e ferramentas internas, sem link público
   { id: 'proj-softcomp-painel' },
@@ -55,8 +55,7 @@ export const PROJECTS = [
     img: '/img/kcal.jpg',
     imgW: 1440,
     imgH: 900,
-    liveUrl: 'https://kcalio-amber.vercel.app/',
-    codeUrl: 'https://github.com/bieleckydev/kcal.io'
+    liveUrl: 'https://kcalio-amber.vercel.app/'
   },
   {
     id: 'proj-feira',
@@ -70,10 +69,7 @@ export const PROJECTS = [
     id: 'proj-ready2work',
     codeUrl: 'https://github.com/bieleckydev/ready2work'
   },
-  {
-    id: 'proj-guia-cidadao',
-    codeUrl: 'https://github.com/bieleckydev/guia_cidadao'
-  }
+  { id: 'proj-guia-cidadao' }
 ];
 
 /**
