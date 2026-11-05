@@ -100,6 +100,11 @@ export const en = {
         label: 'Work',
         rows: [
           {
+            name: 'Junior developer, Softcomp Sistemas',
+            detail: 'I build tools for the company and its clients with AI in my daily workflow: an executive dashboard, a SEFAZ monitor, the systems changelog and a metal weight calculator.',
+            value: 'Since Jun 2026'
+          },
+          {
             name: 'Service and operations, Adega do Dino',
             detail: 'Front of house in a busy steakhouse, stock spreadsheets and help with the restaurant’s ads.',
             value: 'Recent'

@@ -100,6 +100,11 @@ export const zh = {
         label: '工作',
         rows: [
           {
+            name: '初级开发工程师，Softcomp Sistemas',
+            detail: '日常借助 AI 为公司及客户开发工具：管理面板、SEFAZ 监控、系统更新日志和金属重量计算器。',
+            value: '2026 年 6 月至今'
+          },
+          {
             name: '服务与运营，Adega do Dino',
             detail: '在客流量很大的烤肉店负责前厅服务，维护库存表格，并协助餐厅的广告宣传。',
             value: '近期'

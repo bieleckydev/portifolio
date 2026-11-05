@@ -100,6 +100,11 @@ export const pt = {
         label: 'Trabalho',
         rows: [
           {
+            name: 'Desenvolvedor júnior, Softcomp Sistemas',
+            detail: 'Desenvolvo com IA no dia a dia ferramentas para a empresa e seus clientes: painel executivo, monitor da SEFAZ, changelog dos sistemas e calculadora de metais.',
+            value: 'Desde jun. de 2026'
+          },
+          {
             name: 'Atendimento e operações, Adega do Dino',
             detail: 'Atendimento num salão de muito movimento, planilhas de estoque e apoio nos anúncios da casa.',
             value: 'Recente'
