@@ -25,40 +25,9 @@ export default function Projects() {
 
   const allProjects = useMemo(() => getLocalizedProjects(t.projects?.items), [t.projects]);
 
-  // Robust category matcher
   const isProjectInFilter = (project, filter) => {
     if (filter === 'ALL') return true;
-    const cats = PROJECT_CATEGORIES[project.id];
-    if (cats && cats.includes(filter)) return true;
-
-    // Fallback detection based on tags and tech
-    if (filter === 'JAVA') {
-      return (
-        project.id.includes('cripto') ||
-        project.id.includes('ready2work') ||
-        (project.tags && project.tags.some((tag) => tag.toLowerCase().includes('java'))) ||
-        (project.keyTech && project.keyTech.some((k) => k.name && k.name.toLowerCase().includes('java')))
-      );
-    }
-    if (filter === 'POS') {
-      return (
-        project.id.includes('caixa') ||
-        (project.tags && project.tags.some((tag) => tag.toLowerCase().includes('pos')))
-      );
-    }
-    if (filter === 'FRONTEND') {
-      return (
-        project.id.includes('cardapio') ||
-        project.id.includes('otis') ||
-        project.id.includes('feira') ||
-        (project.tags &&
-          project.tags.some((tag) => {
-            const low = tag.toLowerCase();
-            return low.includes('front') || low.includes('mobile') || low.includes('ui');
-          }))
-      );
-    }
-    return false;
+    return (PROJECT_CATEGORIES[project.id] || []).includes(filter);
   };
 
   // Filtered projects list
