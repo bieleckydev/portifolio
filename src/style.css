@@ -56,6 +56,7 @@
 
 html {
     scroll-behavior: auto;
+    scroll-padding-top: 80px;
     font-size: 16px;
 }
 
@@ -1569,25 +1570,6 @@ footer {
 }
 
 /* =========================================
-   LENIS & SMOOTH SCROLL SUPPORT
-   ========================================= */
-html.lenis, html.lenis body {
-    height: auto;
-}
-
-.lenis.lenis-smooth {
-    scroll-behavior: auto !important;
-}
-
-.lenis.lenis-smooth [data-lenis-prevent] {
-    overscroll-behavior: contain;
-}
-
-.lenis.lenis-stopped {
-    overflow: hidden;
-}
-
-/* =========================================
    TIMELINE COM PROCESSO DE SCROLL DINÂMICO
    ========================================= */
 .timeline-progress-line {
@@ -1609,6 +1591,12 @@ html.lenis, html.lenis body {
 /* =========================================
    ANIMAÇÕES REVEAL SUAVE (GPU Accelerated)
    ========================================= */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
 /* O estado escondido só existe quando o sistema aceita movimento;
    com "reduzir movimento" o conteúdo já nasce visível. */
 @media (prefers-reduced-motion: no-preference) {

@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
-import Lenis from 'lenis';
+import React, { useState, useEffect, useCallback } from 'react';
 import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -12,65 +11,11 @@ import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 
 function AppContent() {
-  const lenisRef = useRef(null);
-
   // Header scroll state
   const [isScrolled, setIsScrolled] = useState(false);
 
   // Mobile menu state
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  // Initialize Lenis Momentum Smooth Scroll (Inspirado no Charles Leclerc & Awwwards sites)
-  useEffect(() => {
-    const lenis = new Lenis({
-      duration: 1.35,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      smoothWheel: true,
-      wheelMultiplier: 1.0,
-      touchMultiplier: 1.8,
-      infinite: false,
-    });
-
-    lenisRef.current = lenis;
-    window.__lenis = lenis;
-
-    function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    const animId = requestAnimationFrame(raf);
-
-    // Smooth scroll para todos os links internos de âncora
-    const handleAnchorClick = (e) => {
-      const anchor = e.target.closest('a[href^="#"]');
-      if (!anchor) return;
-      const href = anchor.getAttribute('href');
-      if (!href) return;
-
-      if (href === '#') {
-        e.preventDefault();
-        lenis.scrollTo(0, { duration: 1.3 });
-        return;
-      }
-
-      const targetEl = document.querySelector(href);
-      if (targetEl) {
-        e.preventDefault();
-        lenis.scrollTo(targetEl, { offset: -60, duration: 1.3 });
-      }
-    };
-
-    document.addEventListener('click', handleAnchorClick);
-
-    return () => {
-      cancelAnimationFrame(animId);
-      document.removeEventListener('click', handleAnchorClick);
-      if (window.__lenis === lenis) {
-        window.__lenis = null;
-      }
-      lenis.destroy();
-    };
-  }, []);
 
 
   // Handle header scroll
