@@ -161,6 +161,34 @@ export const zh = {
         title: '收银系统'
       },
       {
+        id: 'proj-softcomp-painel',
+        title: 'Softcomp 管理面板',
+        kind: '全栈，Softcomp Sistemas',
+        desc: '面向钢材切割行业的管理平台：销售管理看板、切割机自动排产和现金流，并与旧版 ERP 集成。',
+        stack: 'TypeScript、React、Node.js（Express 和 Fastify）、SQLite、Tailwind、Nginx 和 GitHub Actions'
+      },
+      {
+        id: 'proj-monitor-sefaz',
+        title: 'SEFAZ 监控',
+        kind: '全栈，Softcomp Sistemas',
+        desc: '实时监控巴西 27 个州的电子发票（NF-e）授权服务，故障时提示应切换的备用通道，并通过邮件通知团队。',
+        stack: 'TypeScript、React、Fastify、Vite、SQLite 和 systemd'
+      },
+      {
+        id: 'proj-softcomp-changelog',
+        title: 'Softcomp 更新日志',
+        kind: '全栈，Softcomp Sistemas',
+        desc: 'Softcomp ERP 各模块的版本说明，可按模块和类型筛选、搜索，并有支持上传图片的管理后台。',
+        stack: 'Next.js、React、TypeScript 和 Supabase（PostgreSQL）'
+      },
+      {
+        id: 'proj-heavy',
+        title: 'heavy.io',
+        kind: '移动端，React Native',
+        desc: '离线优先的力量训练应用：在手机上记录组数和重量、估算最大重量、同步 Health Connect，并用 AI 推荐替换动作。',
+        stack: 'TypeScript、React Native（Expo）、SQLite、Firebase 和 Gemini'
+      },
+      {
         id: 'proj-cardapio-digital',
         title: '电子菜单',
         kind: '前端，Adega do Dino',

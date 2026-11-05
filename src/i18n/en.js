@@ -161,6 +161,34 @@ export const en = {
         title: 'Point of sale'
       },
       {
+        id: 'proj-softcomp-painel',
+        title: 'Softcomp Dashboard',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'A management platform for the steel-cutting industry: executive sales dashboard, automatic scheduling of cutting machines and cash flow, integrated with the legacy ERP.',
+        stack: 'TypeScript, React, Node.js with Express and Fastify, SQLite, Tailwind, Nginx and GitHub Actions'
+      },
+      {
+        id: 'proj-monitor-sefaz',
+        title: 'SEFAZ Monitor',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'Tracks the electronic invoice (NF-e) authorizers of all 27 Brazilian states in real time, tells which fallback to use when one goes down and alerts the team by email.',
+        stack: 'TypeScript, React, Fastify, Vite, SQLite and systemd'
+      },
+      {
+        id: 'proj-softcomp-changelog',
+        title: 'Softcomp Changelog',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'Release notes for Softcomp’s ERP modules, with filters by module and type, search and an admin panel with image uploads.',
+        stack: 'Next.js, React, TypeScript and Supabase with PostgreSQL'
+      },
+      {
+        id: 'proj-heavy',
+        title: 'heavy.io',
+        kind: 'Mobile, React Native',
+        desc: 'An offline-first strength training app: stores sets and loads on the device, estimates one-rep max, syncs with Health Connect and suggests exercise swaps with AI.',
+        stack: 'TypeScript, React Native with Expo, SQLite, Firebase and Gemini'
+      },
+      {
         id: 'proj-cardapio-digital',
         title: 'Digital Menu',
         kind: 'Front end, Adega do Dino',

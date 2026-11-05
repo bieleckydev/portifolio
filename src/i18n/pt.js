@@ -161,6 +161,34 @@ export const pt = {
         title: 'Sistema de caixa'
       },
       {
+        id: 'proj-softcomp-painel',
+        title: 'Painel Softcomp',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'Plataforma de gestão para a indústria de corte de aço: painel executivo de vendas, programação automática das máquinas de corte e fluxo de caixa, integrada ao ERP legado.',
+        stack: 'TypeScript, React, Node.js com Express e Fastify, SQLite, Tailwind, Nginx e GitHub Actions'
+      },
+      {
+        id: 'proj-monitor-sefaz',
+        title: 'Monitor SEFAZ',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'Acompanha em tempo real os autorizadores de NF-e das 27 UFs, indica qual contingência usar quando a SEFAZ cai e avisa a equipe por e-mail.',
+        stack: 'TypeScript, React, Fastify, Vite, SQLite e systemd'
+      },
+      {
+        id: 'proj-softcomp-changelog',
+        title: 'Softcomp Changelog',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'Notas de versão dos módulos do ERP da Softcomp, com filtro por módulo e tipo, busca e painel administrativo com envio de imagens.',
+        stack: 'Next.js, React, TypeScript e Supabase com PostgreSQL'
+      },
+      {
+        id: 'proj-heavy',
+        title: 'heavy.io',
+        kind: 'Mobile, React Native',
+        desc: 'App de treino de força que funciona sem internet: guarda séries e cargas no aparelho, estima a carga máxima, sincroniza com o Health Connect e sugere troca de exercício com IA.',
+        stack: 'TypeScript, React Native com Expo, SQLite, Firebase e Gemini'
+      },
+      {
         id: 'proj-cardapio-digital',
         title: 'Cardápio Digital',
         kind: 'Front-end, Adega do Dino',

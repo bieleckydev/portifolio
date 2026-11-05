@@ -15,6 +15,14 @@ export const PROJECTS = [
     imgH: 1864,
     codeUrl: 'https://github.com/edubielecky/caixa_adega'
   },
+  // Softcomp Sistemas: repositórios privados e ferramentas internas, sem link público
+  { id: 'proj-softcomp-painel' },
+  { id: 'proj-monitor-sefaz' },
+  { id: 'proj-softcomp-changelog' },
+  {
+    id: 'proj-heavy',
+    codeUrl: 'https://github.com/bieleckydev/heavy.io'
+  },
   {
     id: 'proj-cardapio-digital',
     img: '/img/cardapio.jpg',
