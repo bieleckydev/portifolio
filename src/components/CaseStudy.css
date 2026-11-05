@@ -40,16 +40,13 @@
     display: grid;
     gap: 14px;
     justify-items: center;
-    height: 100%;
-    max-height: 760px;
     margin: 0;
 }
 
 .case__shot img {
     width: auto;
-    height: 100%;
-    max-height: calc(100% - 40px);
-    object-fit: contain;
+    height: calc(100svh - var(--header-h) - 150px);
+    max-height: 760px;
 }
 
 @media (max-width: 900px) {
