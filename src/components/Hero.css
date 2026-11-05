@@ -1,0 +1,51 @@
+/* Primeira tela: quem é e o que faz à esquerda, o caixa funcionando à direita */
+.hero__read {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__name {
+    max-width: 9ch;
+}
+
+.hero__lead {
+    max-width: 30ch;
+    margin-top: 36px;
+}
+
+.hero__facts {
+    max-width: 46ch;
+    margin-top: 20px;
+}
+
+.hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px 28px;
+    margin-top: 40px;
+}
+
+.hero__social {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+    padding: 0;
+    list-style: none;
+    font-size: var(--step-small);
+}
+
+.hero__stage {
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .hero__lead {
+        margin-top: 24px;
+    }
+
+    .hero__actions {
+        margin-top: 32px;
+    }
+}

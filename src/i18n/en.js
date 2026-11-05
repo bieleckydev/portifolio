@@ -11,19 +11,10 @@ export const en = {
     whatsapp: 'Chat on WhatsApp'
   },
   hero: {
-    nameFirst: 'Eduardo Mota',
-    nameLast: 'Bielecky da Silva Mello',
-    roles: [
-      'Software Engineering Student',
-      'Java Backend Developer',
-      'Hardware Enthusiast'
-    ],
-    summary:
-      'Seeking internship or junior opportunities focused on Java backend development. Dedicated to clean architecture, high performance, and robust software engineering.',
-    contactBtn: 'Get in Touch',
-    projectsBtn: 'View Projects',
-    connect: 'Connect:',
-    caption: 'SP // BRAZIL'
+    lead: 'Java developer in training. I built the point-of-sale system Adega do Dino runs on today.',
+    facts: 'Software Engineering student in São Bernardo do Campo, Brazil. Looking for an internship or a junior role.',
+    cta: 'Get in touch',
+    projects: 'See projects'
   },
   pos: {
     label: 'Point-of-sale demo',

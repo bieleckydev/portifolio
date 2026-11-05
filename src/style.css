@@ -230,178 +230,6 @@ ul {
 }
 
 /* =========================================
-   HERO SECTION MINIMALISTA
-   ========================================= */
-.hero {
-    min-height: 92vh;
-    display: flex;
-    align-items: center;
-    padding-top: 5rem;
-}
-
-.hero-container {
-    display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
-    align-items: center;
-    gap: 4rem;
-    width: 100%;
-}
-
-.hero-content {
-    max-width: 650px;
-}
-
-.name {
-    font-size: 3.5rem;
-    font-weight: 800;
-    line-height: 1.08;
-    letter-spacing: -0.04em;
-    color: var(--text-color);
-    margin-bottom: 1.25rem;
-}
-
-.role {
-    font-family: var(--font-mono);
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: var(--silver);
-    margin-bottom: 1.5rem;
-    min-height: 2rem;
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-}
-
-.cursor {
-    display: inline-block;
-    width: 8px;
-    height: 18px;
-    background-color: var(--copper);
-    animation: cursorBlink 0.9s infinite;
-}
-
-@keyframes cursorBlink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-}
-
-.summary {
-    font-size: 1.05rem;
-    line-height: 1.7;
-    color: var(--text-muted);
-    margin-bottom: 2.25rem;
-    max-width: 540px;
-}
-
-.cta-group {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 2.5rem;
-}
-
-.social-links-hero {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--card-border);
-}
-
-.social-label {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--text-subtle);
-    margin-right: 0.5rem;
-}
-
-.social-link-item {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 38px;
-    height: 38px;
-    border-radius: var(--border-radius-sm);
-    background: var(--bg-subtle);
-    border: 1px solid var(--card-border);
-    color: var(--text-muted);
-    font-size: 1.05rem;
-    transition: all var(--transition-fast);
-}
-
-.social-link-item:hover {
-    color: var(--copper);
-    border-color: var(--copper);
-    background: var(--card-bg);
-    transform: translateY(-2px);
-}
-
-/* Moldura Geométrica para Foto de Perfil */
-.hero-image {
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.image-frame {
-    position: relative;
-    width: 310px;
-    height: 370px;
-}
-
-.image-frame::before {
-    content: '';
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    width: 100%;
-    height: 100%;
-    border: 1px solid var(--copper);
-    border-radius: var(--border-radius-md);
-    z-index: 1;
-    pointer-events: none;
-    opacity: 0.7;
-    transition: transform var(--transition-fast);
-}
-
-.image-frame:hover::before {
-    transform: translate(3px, 3px);
-}
-
-.profile-img {
-    width: 100%;
-    height: 100%;
-    border-radius: var(--border-radius-md);
-    object-fit: cover;
-    position: relative;
-    z-index: 2;
-    border: 1px solid var(--card-border);
-    filter: grayscale(15%) contrast(105%);
-    transition: filter var(--transition-fast);
-}
-
-.image-frame:hover .profile-img {
-    filter: grayscale(0%) contrast(100%);
-}
-
-.image-caption {
-    position: absolute;
-    bottom: -15px;
-    right: -10px;
-    z-index: 3;
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    padding: 0.35rem 0.75rem;
-    background-color: var(--bg-subtle);
-    border: 1px solid var(--card-border);
-    color: var(--text-muted);
-    border-radius: var(--border-radius-sm);
-}
-
-/* =========================================
    SOBRE MIM MINIMALISTA
    ========================================= */
 .about-grid {
@@ -1476,39 +1304,20 @@ footer {
         transform: translateY(0);
     }
 
-    .fade-in {
-        animation: fadeIn 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
-    }
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(16px); }
-    to { opacity: 1; transform: translateY(0); }
+    
 }
 
 /* =========================================
    RESPONSIVIDADE
    ========================================= */
 @media (max-width: 900px) {
-    .hero-container {
-        grid-template-columns: 1fr;
-        text-align: left;
-        gap: 3rem;
-    }
+    
 
-    .hero-image {
-        order: -1;
-        justify-content: flex-start;
-    }
+    
 
-    .image-frame {
-        width: 240px;
-        height: 290px;
-    }
+    
 
-    .name {
-        font-size: 2.8rem;
-    }
+    
 
     .personal-info {
         grid-template-columns: 1fr;
@@ -1527,18 +1336,11 @@ footer {
 
     
 
-    .name {
-        font-size: 2.25rem;
-    }
+    
 
-    .role {
-        font-size: 1.1rem;
-    }
+    
 
-    .cta-group {
-        flex-direction: column;
-        gap: 0.75rem;
-    }
+    
 
     .contact-links {
         flex-direction: column;
@@ -2583,38 +2385,19 @@ footer {
     
 
     /* Hero Section Mobile */
-    .hero-container {
-        padding-top: 1rem;
-        gap: 2.25rem;
-    }
 
-    .hero-image {
-        order: -1;
-        justify-content: center;
-        width: 100%;
-    }
+    
 
-    .image-frame {
-        width: 200px;
-        height: 250px;
-        margin: 0 auto;
-    }
+    
 
     .greeting {
         font-size: 0.82rem;
         margin-bottom: 0.35rem;
     }
 
-    .name {
-        font-size: clamp(2.15rem, 8.5vw, 2.75rem);
-        line-height: 1.12;
-        margin-bottom: 0.4rem;
-    }
+    
 
-    .role {
-        font-size: 1.05rem;
-        margin-bottom: 1.15rem;
-    }
+    
 
     .hero-badges-row {
         gap: 0.45rem;
@@ -2626,18 +2409,9 @@ footer {
         padding: 0.28rem 0.65rem;
     }
 
-    .cta-group {
-        width: 100%;
-        gap: 0.75rem;
-    }
+    
 
-    .cta-group .btn {
-        width: 100%;
-        justify-content: center;
-        min-height: 48px;
-        font-size: 0.92rem;
-        padding: 0.75rem 1.25rem;
-    }
+    
 
     
 
@@ -2926,14 +2700,9 @@ footer {
 
 /* Telas Ultra-Compactas (iPhone SE, Galaxy A, 320px - 400px) */
 @media (max-width: 400px) {
-    .name {
-        font-size: 1.95rem;
-    }
+    
 
-    .image-frame {
-        width: 175px;
-        height: 220px;
-    }
+    
 
     .pinned-card-item,
     .pinned-exp-card {

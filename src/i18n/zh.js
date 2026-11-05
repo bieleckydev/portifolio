@@ -11,19 +11,10 @@ export const zh = {
     whatsapp: '通过 WhatsApp 联系'
   },
   hero: {
-    nameFirst: 'Eduardo Mota',
-    nameLast: 'Bielecky da Silva Mello',
-    roles: [
-      '软件工程专业学生',
-      'Java 后端开发者',
-      '高阶硬件与系统爱好者'
-    ],
-    summary:
-      '寻求 Java 后端实习或初级软件工程师岗位。专注于整洁架构、高性能计算与高可靠性业务系统。',
-    contactBtn: '立即联系',
-    projectsBtn: '浏览项目',
-    connect: '社交连接:',
-    caption: '圣保罗 // 巴西'
+    lead: '正在成长的 Java 开发者。我开发了 Adega do Dino 烤肉店正在使用的收银系统。',
+    facts: '软件工程在读，现居巴西圣贝尔纳多-杜坎普。正在寻找实习或初级开发职位。',
+    cta: '联系我',
+    projects: '查看项目'
   },
   pos: {
     label: '收银系统演示',

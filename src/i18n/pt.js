@@ -11,19 +11,10 @@ export const pt = {
     whatsapp: 'Conversar pelo WhatsApp'
   },
   hero: {
-    nameFirst: 'Eduardo Mota',
-    nameLast: 'Bielecky da Silva Mello',
-    roles: [
-      'Estudante de Engenharia de Software',
-      'Desenvolvedor Java',
-      'Entusiasta de Hardware'
-    ],
-    summary:
-      'Busco oportunidades como Estagiário ou Desenvolvedor Júnior com foco em Java. Compromisso com arquitetura limpa, alta performance e soluções eficientes.',
-    contactBtn: 'Entrar em Contato',
-    projectsBtn: 'Ver Projetos',
-    connect: 'Conectar:',
-    caption: 'SP // BRASIL'
+    lead: 'Desenvolvedor Java em formação. Construí o sistema de caixa que a Adega do Dino usa hoje.',
+    facts: 'Estudante de Engenharia de Software em São Bernardo do Campo, SP. Procuro estágio ou vaga júnior.',
+    cta: 'Falar comigo',
+    projects: 'Ver projetos'
   },
   pos: {
     label: 'Demonstração do sistema de caixa',
