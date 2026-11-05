@@ -6,7 +6,9 @@
 :root {
     /* Tipografia */
     --font-main: 'Schibsted Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    /* Mono só no cupom impresso; o resto da interface usa a fonte de texto */
+    --font-mono: var(--font-main);
+    --font-print: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
 
     /* Curvas de aceleração e durações das transições */
     --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
