@@ -1,13 +1,16 @@
-# Portfólio — Eduardo Mota
+# Portfólio — Eduardo Bielecky
 
 Portfólio pessoal de Eduardo Mota Bielecky da Silva Mello, estudante de Engenharia de Software e desenvolvedor Java.
+
+O visual vem do cupom térmico do sistema de caixa que ele construiu para a Adega do Dino: papel branco-frio, tinta preta e o vermelho da impressão em duas cores. No topo da página, uma demonstração do caixa lança itens e imprime o cupom com subtotal, serviço e total.
 
 ## Stack
 
 - [React 19](https://react.dev/) + [Vite](https://vite.dev/)
-- [Lenis](https://lenis.darkroom.engineering/) para rolagem suave
-- Integração com a API pública do GitHub (atividade dos repositórios)
-- Suporte a três idiomas: português, inglês e chinês
+- CSS puro, com um arquivo por componente e tokens em `src/styles/tokens.css`
+- Fontes: Schibsted Grotesk para o texto e IBM Plex Mono só no cupom impresso
+- API pública do GitHub para mostrar quando cada projeto público foi atualizado
+- Três idiomas: português, inglês e chinês
 
 ## Como rodar
 
@@ -21,21 +24,29 @@ bun run preview    # serve o build localmente
 ## Estrutura
 
 ```
-public/img/        imagens servidas estaticamente
+public/img/        telas reais dos projetos e a foto de perfil
 src/
-  components/      seções e componentes da página
+  components/      seções da página, cada uma com o próprio .css
   context/         contexto de idioma (LanguageProvider)
-  data/            dados fixos dos projetos (links, imagens, categorias)
-  hooks/           hooks de scroll e parallax
+  data/            dados fixos dos projetos (imagens e links)
+  hooks/           useSectionReveal: entrada das seções ao rolar
   i18n/            textos traduzidos, um arquivo por idioma (pt, en, zh)
   services/        acesso à API do GitHub
-  App.jsx          composição da página
+  styles/          tokens.css (cores, tipo, espaço, movimento) e base.css
+  App.jsx          ordem das seções
   main.jsx         ponto de entrada
-  style.css        estilos globais
 ```
+
+## Regras visuais
+
+- Cinco tamanhos de texto, definidos em `tokens.css`. Não crie um sexto.
+- Uma cor de destaque (`--accent`), só no botão principal e no total do cupom.
+- Sem sombras, gradientes, bordas finas ou rótulos acima dos títulos. Superfícies se separam por tom.
+- A fonte mono aparece só dentro do cupom.
+- Toda animação usa transform e opacity e respeita "reduzir movimento".
 
 ## Adicionar um projeto
 
-1. Inclua o projeto em `src/data/projects.js` (id, imagem, links, categorias).
-2. Adicione os textos com o mesmo `id` em `projects.items` de `src/i18n/pt.js`, `en.js` e `zh.js`.
-3. Coloque a imagem em `public/img/`.
+1. Inclua o projeto em `src/data/projects.js` (id, imagem com largura e altura, links).
+2. Adicione os textos com o mesmo `id` em `projects.items` de `src/i18n/pt.js`, `en.js` e `zh.js` (`title`, `kind`, `desc`, `stack` e `imageAlt` se houver imagem).
+3. Coloque a tela real do projeto em `public/img/`. Sem imagem, o painel mostra o nome em texto.
