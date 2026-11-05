@@ -785,8 +785,6 @@ ul {
                 transform 0.2s cubic-bezier(0.16, 1, 0.3, 1),
                 visibility 0.2s;
     z-index: 100;
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
 }
 
 /* Seta discreta apontando para a tag */
@@ -1124,7 +1122,6 @@ ul {
     font-size: 0.72rem;
     color: #f1f5f9;
     background: rgba(15, 17, 21, 0.85);
-    backdrop-filter: blur(8px);
     border: 1px solid rgba(255, 255, 255, 0.12);
     padding: 0.25rem 0.65rem;
     border-radius: var(--border-radius-sm);
@@ -1151,7 +1148,6 @@ ul {
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
-    backdrop-filter: blur(8px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -1999,8 +1995,6 @@ html.lenis, html.lenis body {
         top: 4.5rem;
         flex-direction: column;
         background: var(--nav-bg);
-        backdrop-filter: blur(16px);
-        -webkit-backdrop-filter: blur(16px);
         width: 100%;
         padding: 2rem;
         border-bottom: 1px solid var(--card-border);
@@ -2730,8 +2724,6 @@ body.light-mode .skeleton-line {
     right: 0;
     height: clamp(28px, 4.5vh, 52px);
     background: linear-gradient(to bottom, var(--bg-color) 0%, rgba(11, 12, 14, 0.65) 45%, transparent 100%);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
     mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
     -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
     pointer-events: none;
@@ -2745,8 +2737,6 @@ body.light-mode .skeleton-line {
     right: 0;
     height: clamp(28px, 4.5vh, 52px);
     background: linear-gradient(to top, var(--bg-color) 0%, rgba(11, 12, 14, 0.65) 45%, transparent 100%);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
     mask-image: linear-gradient(to top, black 0%, transparent 100%);
     -webkit-mask-image: linear-gradient(to top, black 0%, transparent 100%);
     pointer-events: none;
@@ -2889,8 +2879,6 @@ body.light-mode .pinned-stage-veil-bottom {
 .pinned-edge-vignette-left {
     left: 0;
     background: linear-gradient(to right, var(--bg-color) 0%, rgba(11, 12, 14, 0.85) 45%, transparent 100%);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
     mask-image: linear-gradient(to right, black 25%, transparent 100%);
     -webkit-mask-image: linear-gradient(to right, black 25%, transparent 100%);
 }
@@ -2898,8 +2886,6 @@ body.light-mode .pinned-stage-veil-bottom {
 .pinned-edge-vignette-right {
     right: 0;
     background: linear-gradient(to left, var(--bg-color) 0%, rgba(11, 12, 14, 0.85) 45%, transparent 100%);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
     mask-image: linear-gradient(to left, black 25%, transparent 100%);
     -webkit-mask-image: linear-gradient(to left, black 25%, transparent 100%);
 }
