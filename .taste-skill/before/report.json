@@ -1,0 +1,2954 @@
+{
+ "url": "http://localhost:4789/",
+ "at": "2026-11-05T17:30:00.912Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.32,
+    0.43,
+    0.38,
+    0.51,
+    0.42,
+    0.85,
+    0.84,
+    0.75,
+    0.62,
+    0.77,
+    0.48,
+    0.34
+   ],
+   "motion": {
+    "elements": 80,
+    "css": 47,
+    "transitions": 22,
+    "scripted": 11,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 10279,
+     "screens": 11.4,
+     "words": 1805,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "perfil.jpg",
+      "cardapio.jpg",
+      "otis.jpg",
+      "feira.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "01",
+     "words": 1,
+     "chars": 2,
+     "lines": 1,
+     "size": 230.4,
+     "vw": 16,
+     "font": "JetBrains Mono",
+     "weight": 900,
+     "tracking": -0.001,
+     "leading": 0.8,
+     "upper": false,
+     "italic": false,
+     "mono": true,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.19,
+     "top": 41,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Eduardo Mota Bielecky da Silva Mello",
+     "words": 6,
+     "lines": 2,
+     "size": 56,
+     "font": "Inter"
+    },
+    "headings": [
+     {
+      "text": "01",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 230.4,
+      "vw": 16,
+      "font": "JetBrains Mono",
+      "weight": 900,
+      "tracking": -0.001,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 41,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "05",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 230.4,
+      "vw": 16,
+      "font": "JetBrains Mono",
+      "weight": 900,
+      "tracking": -0.001,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 55,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "02",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 230.4,
+      "vw": 16,
+      "font": "JetBrains Mono",
+      "weight": 900,
+      "tracking": -0.001,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 63,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Eduardo Mota Bielecky da Silva Mello",
+      "words": 6,
+      "chars": 36,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Inter",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 241,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Sobre Mim",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1035,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Habilidades Técnicas",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 1800,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Experiência Profissional",
+      "words": 2,
+      "chars": 24,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 2.4,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.014,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 3008,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Projetos em Destaque",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 2.4,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.014,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 4186,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos Conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.03,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.43,
+      "top": 9638,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.54,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.44,
+       "mono": true
+      },
+      {
+       "family": "monospace",
+       "share": 0.01,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      20,
+      22,
+      23,
+      35,
+      36,
+      56,
+      230
+     ],
+     "sizeCount": 15,
+     "notLoaded": [],
+     "body": {
+      "font": "JetBrains Mono",
+      "size": 14.4,
+      "leading": 1.65,
+      "weight": 700,
+      "tracking": 0.14,
+      "contrast": 12.4
+     },
+     "measureChars": 615,
+     "max": {
+      "size": 230.4,
+      "vw": 16,
+      "font": "JetBrains Mono",
+      "text": "01"
+     },
+     "monoShare": 0.45,
+     "monoProseShare": 0.44,
+     "monoFamilies": [
+      "JetBrains Mono",
+      "monospace"
+     ],
+     "monoSamples": [
+      "bielecky",
+      ".dev",
+      "Sobre",
+      "Habilidades",
+      "Experiência",
+      "Projetos"
+     ],
+     "microLabels": 22,
+     "microLabelShare": 0.032,
+     "microSamples": [
+      "Portfólio // Dev Java & Software",
+      "Conectar:",
+      "SP // BRASIL",
+      "01 // Trajetória",
+      "Formação",
+      "Localização"
+     ],
+     "upperShare": 0.22,
+     "centerShare": 0.07,
+     "smallText": 194
+    },
+    "eyebrows": [
+     {
+      "text": "Portfólio // Dev Java & Software",
+      "above": "Eduardo Mota Bielecky da Silva Mello",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 200
+     },
+     {
+      "text": "01 // Trajetória",
+      "above": "Sobre Mim",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 1002
+     },
+     {
+      "text": "02 // Competências",
+      "above": "Habilidades Técnicas",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 1767
+     },
+     {
+      "text": "05 // Conexão",
+      "above": "Vamos Conversar?",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 9604
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 230.4,
+      "top": 41
+     },
+     {
+      "text": "02",
+      "size": 230.4,
+      "top": 63
+     },
+     {
+      "text": "01",
+      "size": 13.1,
+      "top": 3022
+     },
+     {
+      "text": "02",
+      "size": 13.1,
+      "top": 3022
+     },
+     {
+      "text": "02",
+      "size": 13.1,
+      "top": 4201
+     },
+     {
+      "text": "08",
+      "size": 13.1,
+      "top": 4201
+     },
+     {
+      "text": "05",
+      "size": 230.4,
+      "top": 55
+     }
+    ],
+    "color": {
+     "bodyBg": "#0b0c0e",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.12,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b0c0e",
+       "top": 0,
+       "hsl": {
+        "h": 220,
+        "s": 0.12,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#15171c",
+       "top": 1134,
+       "hsl": {
+        "h": 223,
+        "s": 0.14,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8b93a0",
+       "share": 0.48
+      },
+      {
+       "color": "#f1f3f7",
+       "share": 0.21
+      },
+      {
+       "color": "#cbd5e1",
+       "share": 0.15
+      },
+      {
+       "color": "#c87a48",
+       "share": 0.11
+      },
+      {
+       "color": "#f1f5f9",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#121418",
+      "hsl": {
+       "h": 220,
+       "s": 0.14,
+       "l": 0.08
+      },
+      "fg": "#8b93a0"
+     },
+     "lowContrast": [
+      {
+       "text": "Todos (8)",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 12.2,
+       "fg": "#ffffff",
+       "bg": "#c87a48"
+      },
+      {
+       "text": "Acessar Projeto",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 12.8,
+       "fg": "#ffffff",
+       "bg": "#c87a48"
+      },
+      {
+       "text": "Acessar Projeto",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 12.8,
+       "fg": "#ffffff",
+       "bg": "#c87a48"
+      },
+      {
+       "text": "Acessar Projeto",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 12.8,
+       "fg": "#ffffff",
+       "bg": "#c87a48"
+      },
+      {
+       "text": "Acessar Projeto",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 12.8,
+       "fg": "#ffffff",
+       "bg": "#c87a48"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 44,
+     "inHero": 2,
+     "radius": 4,
+     "height": 41,
+     "withShadow": 2,
+     "withGradient": 0,
+     "mono": 32,
+     "upper": 1,
+     "heroLabels": [
+      "Entrar em Contato",
+      "Ver Projetos"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 23,
+     "shadowOverlay": 4,
+     "shadowSamples": [
+      "div#about-card.about-text.minimal-card → rgba(0, 0, 0, 0.05) 0px 1px 3px 0px",
+      "div#skills-linguagens.skill-category.minimal-card → rgba(0, 0, 0, 0.05) 0px 1px 3px 0px",
+      "button.floating-skill-tag.tag-featured → rgba(0, 0, 0, 0.25) 0px 4px 12px 0px, rgba(200, 122, 72, 0.12) 0px 0px 10px 0px",
+      "div#skills-ferramentas.skill-category.minimal-card → rgba(0, 0, 0, 0.05) 0px 1px 3px 0px"
+     ],
+     "gradients": 2,
+     "scrims": 16,
+     "gradientSamples": [
+      "div#ambient-backdrop.ambient-bg → radial-gradient(circle at 100% 0%, rgba(200, 122, 72, 0.12) 0%, rgba(0, 0, 0, 0) 40%), radial-gradient(circle ",
+      "div.bridge-ambient-glow → radial-gradient(rgba(200, 122, 72, 0.12) 0%, rgba(200, 122, 72, 0.05) 50%, rgba(0, 0, 0, 0) 80%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 35,
+     "hairlineSamples": [
+      "div#hero-social-links.social-links-hero 607px",
+      "div.velocity-marquee-wrapper 1440px",
+      "section#sobre.section.about 1440px",
+      "div#about-personal-info.personal-info 1010px",
+      "section#habilidades.section.skills 1440px"
+     ],
+     "outlinedBoxes": 46,
+     "dashed": 8,
+     "blurred": 16,
+     "roundedBoxes": 30,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 9,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1957
+      },
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 8005
+      },
+      {
+       "count": 8,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 8181
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.09
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 73,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter",
+     "jetbrains mono",
+     "font awesome 6 brands",
+     "font awesome 6 free"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 10279,
+    "margins": {
+     "left": 47,
+     "right": 15
+    },
+    "sections": [
+     {
+      "sel": "section#hero.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 828,
+      "words": 47,
+      "media": 1,
+      "middle": 136,
+      "heading": {
+       "text": "Eduardo Mota",
+       "size": 56,
+       "tag": "h1"
+      },
+      "left": 182,
+      "right": 229,
+      "textLeft": 182,
+      "textRight": 232,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#sobre.section.about",
+      "tag": "section",
+      "top": 891,
+      "height": 765,
+      "words": 118,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Sobre Mim",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 182,
+      "right": 253,
+      "textLeft": 182,
+      "textRight": 253,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#habilidades.section.skills",
+      "tag": "section",
+      "top": 1655,
+      "height": 1313,
+      "words": 129,
+      "media": 0,
+      "middle": 65,
+      "heading": {
+       "text": "Habilidades Técnicas",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 182,
+      "right": 211,
+      "textLeft": 182,
+      "textRight": 220,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#experiencia.section.experience",
+      "tag": "section",
+      "top": 2968,
+      "height": 1100,
+      "words": 152,
+      "media": 0,
+      "middle": 109,
+      "heading": {
+       "text": "Experiência Profissional",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 71,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "section#projetos.section.projects",
+      "tag": "section",
+      "top": 4147,
+      "height": 3584,
+      "words": 210,
+      "media": 8,
+      "middle": 1770,
+      "heading": {
+       "text": "Projetos em Destaque",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 0,
+      "textRight": 0,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "section.section.github-telemetry-section",
+      "tag": "section",
+      "top": 7731,
+      "height": 1705,
+      "words": 335,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Atividade Recente nos Repositórios",
+       "size": 23,
+       "tag": "h3"
+      },
+      "left": 215,
+      "right": 215,
+      "textLeft": 215,
+      "textRight": 232,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section.contact",
+      "tag": "section",
+      "top": 9436,
+      "height": 725,
+      "words": 42,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos Conversar?",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 413,
+      "right": 413,
+      "textLeft": 413,
+      "textRight": 413,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 9272,
+      "height": 332
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Eduardo Mota Bielecky da Silva Mello",
+      "size": 56,
+      "top": 241,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Sistemas POS & Automação",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Sistema de Caixa POS",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Arquitetura Web • Impressão Térmica ESC/POS • WebS",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Tecnologias-Chave",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Sistema POS",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Acessar Projeto",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Dashboard Corporativo",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "Dashboard Responsivo • Gestão de Status • Deploy V",
+      "side": "right",
+      "px": 0
+     }
+    ],
+    "edges": [
+     {
+      "x": 182,
+      "n": 7
+     },
+     {
+      "x": 213,
+      "n": 5
+     },
+     {
+      "x": 58,
+      "n": 3
+     },
+     {
+      "x": 239,
+      "n": 3
+     },
+     {
+      "x": 0,
+      "n": 1
+     },
+     {
+      "x": 321,
+      "n": 1
+     },
+     {
+      "x": 567,
+      "n": 1
+     },
+     {
+      "x": 606,
+      "n": 1
+     },
+     {
+      "x": 807,
+      "n": 1
+     },
+     {
+      "x": 976,
+      "n": 1
+     },
+     {
+      "x": 1292,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 25,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.11,
+    "voidBox": {
+     "x": 300,
+     "y": 660,
+     "w": 1140,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.31,
+    0.67,
+    0.8,
+    0.53,
+    0.53,
+    0.27,
+    0.07,
+    0.56,
+    0.92,
+    0.92,
+    0.8,
+    0.68
+   ],
+   "motion": {
+    "elements": 79,
+    "css": 46,
+    "transitions": 22,
+    "scripted": 11,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 11619,
+     "screens": 11.3,
+     "words": 1787,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "perfil.jpg",
+      "cardapio.jpg",
+      "otis.jpg",
+      "feira.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "01",
+     "words": 1,
+     "chars": 2,
+     "lines": 1,
+     "size": 120,
+     "vw": 15.6,
+     "font": "JetBrains Mono",
+     "weight": 900,
+     "tracking": -0.001,
+     "leading": 0.8,
+     "upper": false,
+     "italic": false,
+     "mono": true,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.19,
+     "top": 2,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Eduardo Mota Bielecky da Silva Mello",
+     "words": 6,
+     "lines": 2,
+     "size": 44,
+     "font": "Inter"
+    },
+    "headings": [
+     {
+      "text": "01",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 120,
+      "vw": 15.6,
+      "font": "JetBrains Mono",
+      "weight": 900,
+      "tracking": -0.001,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 2,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "05",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 120,
+      "vw": 15.6,
+      "font": "JetBrains Mono",
+      "weight": 900,
+      "tracking": -0.001,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 15,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "02",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 120,
+      "vw": 15.6,
+      "font": "JetBrains Mono",
+      "weight": 900,
+      "tracking": -0.001,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.19,
+      "top": 25,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Eduardo Mota Bielecky da Silva Mello",
+      "words": 6,
+      "chars": 36,
+      "lines": 2,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Inter",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 439,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Sobre Mim",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 33.6,
+      "vw": 4.4,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1109,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Habilidades Técnicas",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 33.6,
+      "vw": 4.4,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2002,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos Conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 33.6,
+      "vw": 4.4,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 10898,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.58,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.41,
+       "mono": true
+      },
+      {
+       "family": "monospace",
+       "share": 0.01,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      34,
+      44,
+      120
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 13.1,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": -0.012,
+      "contrast": 5.8
+     },
+     "measureChars": 615,
+     "max": {
+      "size": 120,
+      "vw": 15.6,
+      "font": "JetBrains Mono",
+      "text": "01"
+     },
+     "monoShare": 0.42,
+     "monoProseShare": 0.41,
+     "monoFamilies": [
+      "JetBrains Mono",
+      "monospace"
+     ],
+     "monoSamples": [
+      "bielecky",
+      ".dev",
+      "Sobre",
+      "Habilidades",
+      "Experiência",
+      "Projetos"
+     ],
+     "microLabels": 22,
+     "microLabelShare": 0.031,
+     "microSamples": [
+      "Portfólio // Dev Java & Software",
+      "Conectar:",
+      "SP // BRASIL",
+      "01 // Trajetória",
+      "Formação",
+      "Localização"
+     ],
+     "upperShare": 0.2,
+     "centerShare": 0.06,
+     "smallText": 192
+    },
+    "eyebrows": [
+     {
+      "text": "Portfólio // Dev Java & Software",
+      "above": "Eduardo Mota Bielecky da Silva Mello",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 397
+     },
+     {
+      "text": "01 // Trajetória",
+      "above": "Sobre Mim",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 1076
+     },
+     {
+      "text": "02 // Competências",
+      "above": "Habilidades Técnicas",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 1969
+     },
+     {
+      "text": "05 // Conexão",
+      "above": "Vamos Conversar?",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 10865
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 120,
+      "top": 2
+     },
+     {
+      "text": "02",
+      "size": 120,
+      "top": 25
+     },
+     {
+      "text": "01",
+      "size": 12.5,
+      "top": 3393
+     },
+     {
+      "text": "02",
+      "size": 12.5,
+      "top": 3393
+     },
+     {
+      "text": "01",
+      "size": 12.5,
+      "top": 4534
+     },
+     {
+      "text": "08",
+      "size": 12.5,
+      "top": 4534
+     },
+     {
+      "text": "05",
+      "size": 120,
+      "top": 15
+     }
+    ],
+    "color": {
+     "bodyBg": "#0b0c0e",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.12,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b0c0e",
+       "top": 0,
+       "hsl": {
+        "h": 220,
+        "s": 0.12,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#15171c",
+       "top": 1206,
+       "hsl": {
+        "h": 223,
+        "s": 0.14,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8b93a0",
+       "share": 0.52
+      },
+      {
+       "color": "#f1f3f7",
+       "share": 0.2
+      },
+      {
+       "color": "#cbd5e1",
+       "share": 0.14
+      },
+      {
+       "color": "#c87a48",
+       "share": 0.1
+      },
+      {
+       "color": "#f1f5f9",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#121418",
+      "hsl": {
+       "h": 220,
+       "s": 0.14,
+       "l": 0.08
+      },
+      "fg": "#8b93a0"
+     },
+     "lowContrast": [
+      {
+       "text": "Todos (8)",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 12,
+       "fg": "#ffffff",
+       "bg": "#c87a48"
+      },
+      {
+       "text": "Acessar Projeto",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 12.8,
+       "fg": "#ffffff",
+       "bg": "#c87a48"
+      },
+      {
+       "text": "Acessar Projeto",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 12.8,
+       "fg": "#ffffff",
+       "bg": "#c87a48"
+      },
+      {
+       "text": "Acessar Projeto",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 12.8,
+       "fg": "#ffffff",
+       "bg": "#c87a48"
+      },
+      {
+       "text": "Acessar Projeto",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 12.8,
+       "fg": "#ffffff",
+       "bg": "#c87a48"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 47,
+     "inHero": 5,
+     "radius": 4,
+     "height": 42,
+     "withShadow": 3,
+     "withGradient": 0,
+     "mono": 35,
+     "upper": 1,
+     "heroLabels": [
+      "PT",
+      "EN",
+      "中文",
+      "Entrar em Contato",
+      "Ver Projetos"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 23,
+     "shadowOverlay": 6,
+     "shadowSamples": [
+      "div#about-card.about-text.minimal-card → rgba(0, 0, 0, 0.05) 0px 1px 3px 0px",
+      "div#skills-linguagens.skill-category.minimal-card → rgba(0, 0, 0, 0.05) 0px 1px 3px 0px",
+      "button.floating-skill-tag.tag-featured → rgba(0, 0, 0, 0.25) 0px 4px 12px 0px, rgba(200, 122, 72, 0.12) 0px 0px 10px 0px",
+      "div#skills-ferramentas.skill-category.minimal-card → rgba(0, 0, 0, 0.05) 0px 1px 3px 0px"
+     ],
+     "gradients": 2,
+     "scrims": 16,
+     "gradientSamples": [
+      "div#ambient-backdrop.ambient-bg → radial-gradient(circle at 100% 0%, rgba(200, 122, 72, 0.12) 0%, rgba(0, 0, 0, 0) 40%), radial-gradient(circle ",
+      "div.bridge-ambient-glow → radial-gradient(rgba(200, 122, 72, 0.12) 0%, rgba(200, 122, 72, 0.05) 50%, rgba(0, 0, 0, 0) 80%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 37,
+     "hairlineSamples": [
+      "ul#nav-links-list.nav-links 768px",
+      "li.mobile-lang-item 728px",
+      "div#hero-social-links.social-links-hero 650px",
+      "div.velocity-marquee-wrapper 768px",
+      "section#sobre.section.about 768px"
+     ],
+     "outlinedBoxes": 46,
+     "dashed": 8,
+     "blurred": 16,
+     "roundedBoxes": 30,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 9,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 67,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter",
+     "jetbrains mono",
+     "font awesome 6 brands",
+     "font awesome 6 free"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 11619,
+    "margins": {
+     "left": 0,
+     "right": 0
+    },
+    "sections": [
+     {
+      "sel": "section#hero.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 942,
+      "words": 44,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Eduardo Mota",
+       "size": 44,
+       "tag": "h1"
+      },
+      "left": 19,
+      "right": 209,
+      "textLeft": 19,
+      "textRight": 209,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#sobre.section.about",
+      "tag": "section",
+      "top": 1005,
+      "height": 893,
+      "words": 118,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Sobre Mim",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 19,
+      "right": 52,
+      "textLeft": 19,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#habilidades.section.skills",
+      "tag": "section",
+      "top": 1898,
+      "height": 1424,
+      "words": 129,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Habilidades Técnicas",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 19,
+      "right": 46,
+      "textLeft": 19,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#experiencia.section.experience",
+      "tag": "section",
+      "top": 3322,
+      "height": 1063,
+      "words": 142,
+      "media": 0,
+      "middle": 27,
+      "heading": {
+       "text": "Experiência Profissional",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 18,
+      "textLeft": 18,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section#projetos.section.projects",
+      "tag": "section",
+      "top": 4464,
+      "height": 3089,
+      "words": 271,
+      "media": 8,
+      "middle": 1862,
+      "heading": {
+       "text": "Projetos em Destaque",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 0,
+      "textRight": 0,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section.section.github-telemetry-section",
+      "tag": "section",
+      "top": 7553,
+      "height": 3211,
+      "words": 335,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Atividade Recente nos Repositórios",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 38,
+      "right": 38,
+      "textLeft": 38,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section.contact",
+      "tag": "section",
+      "top": 10764,
+      "height": 709,
+      "words": 42,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos Conversar?",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 77,
+      "right": 77,
+      "textLeft": 77,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#main-footer",
+      "tag": "footer",
+      "top": 11473,
+      "height": 146,
+      "words": 14,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 19,
+      "right": 404,
+      "textLeft": 19,
+      "textRight": 404,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Eduardo Mota Bielecky da Silva Mello",
+      "size": 44,
+      "top": 439,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Sistemas POS & Automação",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Sistema de Caixa POS",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Arquitetura",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Sistema de Ponto de Venda web focado em acessibili",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Tecnologias-Chave",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "JavaScript ES6+",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Motor de Caixa",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "REST & Webhooks",
+      "side": "left",
+      "px": 0
+     }
+    ],
+    "edges": [
+     {
+      "x": 18,
+      "n": 8
+     },
+     {
+      "x": 35,
+      "n": 6
+     },
+     {
+      "x": 66,
+      "n": 5
+     },
+     {
+      "x": 0,
+      "n": 1
+     },
+     {
+      "x": 300,
+      "n": 1
+     },
+     {
+      "x": 424,
+      "n": 1
+     },
+     {
+      "x": 688,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.5,
+    0.71,
+    0.69,
+    0.86,
+    0.55,
+    0.37,
+    0.84,
+    0.08,
+    0.08,
+    0.49,
+    0.92,
+    0.92
+   ],
+   "motion": {
+    "elements": 78,
+    "css": 46,
+    "transitions": 21,
+    "scripted": 11,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 12630,
+     "screens": 15,
+     "words": 1787,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "perfil.jpg",
+      "cardapio.jpg",
+      "otis.jpg",
+      "feira.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "05",
+     "words": 1,
+     "chars": 2,
+     "lines": 1,
+     "size": 78,
+     "vw": 20,
+     "font": "JetBrains Mono",
+     "weight": 900,
+     "tracking": -0.002,
+     "leading": 0.8,
+     "upper": false,
+     "italic": false,
+     "mono": true,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.24,
+     "top": 13,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Eduardo Mota Bielecky da Silva Mello",
+     "words": 6,
+     "lines": 2,
+     "size": 31.2,
+     "font": "Inter"
+    },
+    "headings": [
+     {
+      "text": "05",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 78,
+      "vw": 20,
+      "font": "JetBrains Mono",
+      "weight": 900,
+      "tracking": -0.002,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.24,
+      "top": 13,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "02",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 78,
+      "vw": 20,
+      "font": "JetBrains Mono",
+      "weight": 900,
+      "tracking": -0.002,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.24,
+      "top": 20,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "01",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 78,
+      "vw": 20,
+      "font": "JetBrains Mono",
+      "weight": 900,
+      "tracking": -0.002,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": true,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.24,
+      "top": 23,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Eduardo Mota Bielecky da Silva Mello",
+      "words": 6,
+      "chars": 36,
+      "lines": 2,
+      "size": 31.2,
+      "vw": 8,
+      "font": "Inter",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 398,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Sobre Mim",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1057,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Habilidades Técnicas",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2136,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos Conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Inter",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.8,
+      "top": 11824,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Inter",
+       "share": 0.53,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.45,
+       "mono": true
+      },
+      {
+       "family": "monospace",
+       "share": 0.01,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 4,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      26,
+      31,
+      78
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Inter",
+      "size": 13.1,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": -0.012,
+      "contrast": 5.8
+     },
+     "measureChars": 615,
+     "max": {
+      "size": 78,
+      "vw": 20,
+      "font": "JetBrains Mono",
+      "text": "01"
+     },
+     "monoShare": 0.46,
+     "monoProseShare": 0.45,
+     "monoFamilies": [
+      "JetBrains Mono",
+      "monospace"
+     ],
+     "monoSamples": [
+      "bielecky",
+      ".dev",
+      "Sobre",
+      "Habilidades",
+      "Experiência",
+      "Projetos"
+     ],
+     "microLabels": 22,
+     "microLabelShare": 0.034,
+     "microSamples": [
+      "Portfólio // Dev Java & Software",
+      "Conectar:",
+      "SP // BRASIL",
+      "01 // Trajetória",
+      "Formação",
+      "Localização"
+     ],
+     "upperShare": 0.22,
+     "centerShare": 0.07,
+     "smallText": 187
+    },
+    "eyebrows": [
+     {
+      "text": "Portfólio // Dev Java & Software",
+      "above": "Eduardo Mota Bielecky da Silva Mello",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 356
+     },
+     {
+      "text": "01 // Trajetória",
+      "above": "Sobre Mim",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 1024
+     },
+     {
+      "text": "02 // Competências",
+      "above": "Habilidades Técnicas",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 2102
+     },
+     {
+      "text": "05 // Conexão",
+      "above": "Vamos Conversar?",
+      "upper": true,
+      "tracked": true,
+      "mono": true,
+      "pill": false,
+      "size": 12.8,
+      "top": 11791
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 78,
+      "top": 23
+     },
+     {
+      "text": "02",
+      "size": 78,
+      "top": 20
+     },
+     {
+      "text": "01",
+      "size": 12.5,
+      "top": 3902
+     },
+     {
+      "text": "02",
+      "size": 12.5,
+      "top": 3902
+     },
+     {
+      "text": "01",
+      "size": 12.5,
+      "top": 5118
+     },
+     {
+      "text": "08",
+      "size": 12.5,
+      "top": 5118
+     },
+     {
+      "text": "05",
+      "size": 78,
+      "top": 13
+     }
+    ],
+    "color": {
+     "bodyBg": "#0b0c0e",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.12,
+      "l": 0.05
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b0c0e",
+       "top": 0,
+       "hsl": {
+        "h": 220,
+        "s": 0.12,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#15171c",
+       "top": 1144,
+       "hsl": {
+        "h": 223,
+        "s": 0.14,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#121418",
+       "top": 3460,
+       "hsl": {
+        "h": 220,
+        "s": 0.14,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8b93a0",
+       "share": 0.47
+      },
+      {
+       "color": "#f1f3f7",
+       "share": 0.22
+      },
+      {
+       "color": "#cbd5e1",
+       "share": 0.16
+      },
+      {
+       "color": "#c87a48",
+       "share": 0.11
+      },
+      {
+       "color": "#f1f5f9",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#121418",
+      "hsl": {
+       "h": 220,
+       "s": 0.14,
+       "l": 0.08
+      },
+      "fg": "#8b93a0"
+     },
+     "lowContrast": [
+      {
+       "text": "Conectar:",
+       "ratio": 2.9,
+       "need": 4.5,
+       "size": 12,
+       "fg": "#555b68",
+       "bg": "#0b0c0e"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 47,
+     "inHero": 5,
+     "radius": 4,
+     "height": 42,
+     "withShadow": 3,
+     "withGradient": 0,
+     "mono": 35,
+     "upper": 1,
+     "heroLabels": [
+      "PT",
+      "EN",
+      "中文",
+      "Entrar em Contato",
+      "Ver Projetos"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 23,
+     "shadowOverlay": 6,
+     "shadowSamples": [
+      "div#about-card.about-text.minimal-card → rgba(0, 0, 0, 0.05) 0px 1px 3px 0px",
+      "div#skills-linguagens.skill-category.minimal-card → rgba(0, 0, 0, 0.05) 0px 1px 3px 0px",
+      "button.floating-skill-tag.tag-featured → rgba(0, 0, 0, 0.25) 0px 4px 12px 0px, rgba(200, 122, 72, 0.12) 0px 0px 10px 0px",
+      "div#skills-ferramentas.skill-category.minimal-card → rgba(0, 0, 0, 0.05) 0px 1px 3px 0px"
+     ],
+     "gradients": 2,
+     "scrims": 16,
+     "gradientSamples": [
+      "div#ambient-backdrop.ambient-bg → radial-gradient(circle at 100% 0%, rgba(200, 122, 72, 0.12) 0%, rgba(0, 0, 0, 0) 40%), radial-gradient(circle ",
+      "div.bridge-ambient-glow → radial-gradient(rgba(200, 122, 72, 0.12) 0%, rgba(200, 122, 72, 0.05) 50%, rgba(0, 0, 0, 0) 80%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 37,
+     "hairlineSamples": [
+      "ul#nav-links-list.nav-links 390px",
+      "li.mobile-lang-item 350px",
+      "div#hero-social-links.social-links-hero 352px",
+      "div.velocity-marquee-wrapper 390px",
+      "section#sobre.section.about 390px"
+     ],
+     "outlinedBoxes": 46,
+     "dashed": 8,
+     "blurred": 16,
+     "roundedBoxes": 31,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 8,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 8,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 8798
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.12
+     }
+    ],
+    "nav": {
+     "links": 6,
+     "fixed": true,
+     "height": 67,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "inter",
+     "jetbrains mono",
+     "font awesome 6 brands",
+     "font awesome 6 free"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 12630,
+    "margins": {
+     "left": 0,
+     "right": 0
+    },
+    "sections": [
+     {
+      "sel": "section#hero.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 890,
+      "words": 45,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Eduardo Mota",
+       "size": 31,
+       "tag": "h1"
+      },
+      "left": 19,
+      "right": 40,
+      "textLeft": 19,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#sobre.section.about",
+      "tag": "section",
+      "top": 953,
+      "height": 1079,
+      "words": 118,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Sobre Mim",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 19,
+      "right": 44,
+      "textLeft": 19,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#habilidades.section.skills",
+      "tag": "section",
+      "top": 2031,
+      "height": 1803,
+      "words": 129,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Habilidades Técnicas",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 19,
+      "right": 35,
+      "textLeft": 19,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#experiencia.section.experience",
+      "tag": "section",
+      "top": 3834,
+      "height": 1134,
+      "words": 137,
+      "media": 0,
+      "middle": 14,
+      "heading": {
+       "text": "Experiência Profissional",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 0,
+      "textLeft": 18,
+      "textRight": 0,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section#projetos.section.projects",
+      "tag": "section",
+      "top": 5047,
+      "height": 2925,
+      "words": 105,
+      "media": 8,
+      "middle": 1907,
+      "heading": {
+       "text": "Projetos em Destaque",
+       "size": 20,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 0,
+      "textRight": 0,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section.section.github-telemetry-section",
+      "tag": "section",
+      "top": 7972,
+      "height": 3693,
+      "words": 335,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Atividade Recente nos Repositórios",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 38,
+      "right": 38,
+      "textLeft": 38,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section.contact",
+      "tag": "section",
+      "top": 11665,
+      "height": 820,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#main-footer",
+      "tag": "footer",
+      "top": 12485,
+      "height": 146,
+      "words": 14,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 19,
+      "right": 26,
+      "textLeft": 19,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 11556,
+      "height": 976
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Eduardo Mota Bielecky da Silva Mello",
+      "size": 31,
+      "top": 398,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "// CARREIRA",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "Especialista em Hardware",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "Prática Independente",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "Montagem, configuração e testes de sistemas comput",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "Otimização de sistemas operacionais e gestão de co",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "Infraestrutura de hardware com foco em processamen",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "Otimização de Sistemas",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "Arquitetura de PCs",
+      "side": "right",
+      "px": 0
+     }
+    ],
+    "edges": [
+     {
+      "x": 18,
+      "n": 10
+     },
+     {
+      "x": 38,
+      "n": 5
+     },
+     {
+      "x": 66,
+      "n": 5
+     },
+     {
+      "x": 0,
+      "n": 1
+     },
+     {
+      "x": 233,
+      "n": 1
+     },
+     {
+      "x": 361,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 23,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "4 eyebrow/kicker label(s) above headings: \"Portfólio // Dev Java & Software\" above \"Eduardo Mota Bielecky da Silva Mello\"; \"01 // Trajetória\" above \"Sobre Mim\"; \"02 // Competências\" above \"Habilidades Técnicas\"; \"05 // Conexão\" above \"Vamos Conversar?\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "mono",
+   "width": 1440,
+   "message": "Monospace type outside code: JetBrains Mono, monospace — e.g. \"bielecky\", \".dev\", \"Sobre\", \"Habilidades\"",
+   "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\", \"02\", \"01\", \"02\", \"02\", \"08\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "22 tiny uppercase letter-spaced labels (e.g. \"Portfólio // Dev Java & Software\", \"Conectar:\", \"SP // BRASIL\", \"01 // Trajetória\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "2 gradient fill(s): div#ambient-backdrop.ambient-bg → radial-gradient(circle at 100% 0%, rgba(200, 122, 72, 0.12) 0%, rgba(0, 0, 0, 0) 40%), radial-gradient(circle  | div.bridge-ambient-glow → radial-gradient(rgba(200, 122, 72, 0.12) 0%, rgba(200, 122, 72, 0.05) 50%, rgba(0, 0, 0, 0) 80%)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "23 box-shadow(s) on elements at rest: div#about-card.about-text.minimal-card → rgba(0, 0, 0, 0.05) 0px 1px 3px 0px | div#skills-linguagens.skill-category.minimal-card → rgba(0, 0, 0, 0.05) 0px 1px 3px 0px | button.floating-skill-tag.tag-featured → rgba(0, 0, 0, 0.25) 0px 4px 12px 0px, rgba(200, 122, 72, 0.12) 0px 0px 10px 0px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "button-fx",
+   "width": 1440,
+   "message": "Buttons with shadow/glow.",
+   "fix": "Flat fill, one colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "35 thin rule(s)/divider line(s): div#hero-social-links.social-links-hero 607px | div.velocity-marquee-wrapper 1440px | section#sobre.section.about 1440px | div#about-personal-info.personal-info 1010px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "46 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "dashed",
+   "width": 1440,
+   "message": "8 dashed/dotted border(s).",
+   "fix": "Remove unless it is a real drop zone.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "16 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "3 row(s) of identical cards each topped with a small icon (4, 4, 8 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "palette-terracotta",
+   "width": 1440,
+   "message": "Terracotta / rust-orange accent (text #c87a48).",
+   "fix": "Use the accent from the drawn palette.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Todos (8)\" 3.3:1 needs 4.5:1; \"Acessar Projeto\" 3.3:1 needs 4.5:1; \"Acessar Projeto\" 3.3:1 needs 4.5:1; \"Acessar Projeto\" 3.3:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "15 different font sizes (10, 11, 12, 13, 14, 15, 17, 18, 20, 22, 23, 35, 36, 56, 230).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14.4px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 615 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch).",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "194 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 47px on the left, 15px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 1440,
+   "message": "8 text block(s) sit within 16px of the screen edge: \"Sistemas POS & Automação\" (0px from the left); \"Sistema de Caixa POS\" (0px from the left); \"Arquitetura Web • Impressão Té\" (0px from the left); \"Tecnologias-Chave\" (0px from the left)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 4 screens in a row: \"Projetos em Destaque\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 768,
+   "message": "The running text is a soft grey on its ground (5.8:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "late-title",
+   "width": 768,
+   "message": "The title is not readable 1.2s after the page loaded (it is at 0% opacity).",
+   "fix": "Put the headline in the HTML, painted on the first frame; the load sequence only adds arrival and is settled by 1.2s (references/motion.md, \"Load sequence in 1.2 seconds\"). No preloader, no gate, no waiting for the load event."
+  },
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 390,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid."
+  },
+  {
+   "level": "FAIL",
+   "id": "blank-gap",
+   "width": 390,
+   "message": "1 stretch(es) of the page hold nothing at all: 976px at 11556px (the screen is 844px tall).",
+   "fix": "Close the gap: a section gap is 120–240px on desktop and 72–112px on a phone. Look for a min-height: 100vh on a short section, an empty grid row, a hidden element still holding its space, or a reveal that never fired. A deliberate rest is a placed picture or colour field, not nothing."
+  },
+  {
+   "level": "FAIL",
+   "id": "reduced-hidden",
+   "width": 1440,
+   "message": "With reduced motion requested, 8 text block(s) on the first screen stay invisible: \"Portfólio // Dev Java & Software\", \"Eduardo Mota\", \"Bielecky da Silva Mello\", \"Busco oportunidades como Estagiário ou D\"",
+   "fix": "Put every hidden starting state inside @media (prefers-reduced-motion: no-preference); the reduced page is the finished page (references/motion.md §8)."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Eduardo\\Desktop\\exemplo\\portifolio\\.taste-skill\\before\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Eduardo\\Desktop\\exemplo\\portifolio\\.taste-skill\\before\\desktop-page-01.jpg",
+    "C:\\Users\\Eduardo\\Desktop\\exemplo\\portifolio\\.taste-skill\\before\\desktop-page-02.jpg",
+    "C:\\Users\\Eduardo\\Desktop\\exemplo\\portifolio\\.taste-skill\\before\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Eduardo\\Desktop\\exemplo\\portifolio\\.taste-skill\\before\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Eduardo\\Desktop\\exemplo\\portifolio\\.taste-skill\\before\\tablet-page-01.jpg",
+    "C:\\Users\\Eduardo\\Desktop\\exemplo\\portifolio\\.taste-skill\\before\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Eduardo\\Desktop\\exemplo\\portifolio\\.taste-skill\\before\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Eduardo\\Desktop\\exemplo\\portifolio\\.taste-skill\\before\\mobile-page-01.jpg",
+    "C:\\Users\\Eduardo\\Desktop\\exemplo\\portifolio\\.taste-skill\\before\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
