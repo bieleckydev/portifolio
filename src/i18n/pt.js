@@ -190,22 +190,33 @@ export const pt = {
     ]
   },
   contact: {
-    title: 'Vamos Conversar?',
-    description:
-      'Estou disponível para oportunidades de estágio e projetos em Engenharia de Software e Java. Envie seu e-mail abaixo ou conecte-se diretamente através das minhas redes.',
-    placeholder: 'Digite seu e-mail para contato...',
-    submitBtn: 'Conectar',
-    submittingBtn: 'Enviando',
-    successTitle: 'Contato Enviado',
-    successTextPrefix: 'Obrigado! Retornarei para ',
-    successTextSuffix: ' com brevidade.',
-    resetBtn: 'Enviar outro e-mail',
-    emptyError: 'Por favor, informe seu endereço de e-mail.',
-    invalidError: 'Por favor, informe um e-mail válido (ex: seu.nome@empresa.com).',
-    networkError:
-      'Houve uma oscilação na rede. Você também pode usar o botão "Enviar E-mail Direto" abaixo.',
-    directDivider: 'OU CANAIS DIRETOS',
-    directEmailBtn: 'Enviar E-mail Direto'
+    promptA: 'Tem uma vaga de estágio ou júnior em Java?',
+    promptB: 'Deixe seu e-mail que eu respondo.',
+    label: 'Seu e-mail',
+    placeholder: 'nome@empresa.com',
+    submit: 'Enviar',
+    submitting: 'Enviando',
+    hint: 'O endereço chega direto na minha caixa de entrada.',
+    successTitle: 'Recebido.',
+    successText: 'Vou responder em {email}.',
+    reset: 'Enviar outro e-mail',
+    emptyError: 'Escreva seu e-mail para eu poder responder.',
+    invalidError: 'Esse e-mail parece incompleto. Confira o @ e o domínio, como nome@empresa.com.',
+    networkError: 'Não consegui enviar agora. Escreva direto para eduardombielecky@gmail.com.',
+    emailLabel: 'E-mail',
+    copy: 'Copiar',
+    copied: 'Copiado',
+    subject: 'Contato pelo portfólio',
+    ticket: {
+      title: 'PEDIDO DE CONTATO',
+      lines: [
+        ['Procura', 'Estágio ou júnior'],
+        ['Linguagem', 'Java'],
+        ['Formação', 'Eng. de Software'],
+        ['Cidade', 'S. B. do Campo, SP']
+      ],
+      thanks: 'Obrigado pela visita'
+    }
   },
   footer: {
     copyright: 'Eduardo Mota Bielecky da Silva Mello.',

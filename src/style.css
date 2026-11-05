@@ -201,278 +201,6 @@ ul {
    ========================================= */
 
 /* =========================================
-   CONTATO MINIMALISTA
-   ========================================= */
-.contact-box {
-    max-width: 680px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 3.5rem 2rem;
-}
-
-.contact-text {
-    font-size: 1.05rem;
-    line-height: 1.7;
-    color: var(--text-muted);
-    margin-bottom: 2rem;
-}
-
-/* =========================================
-   FORMULÁRIO DE ENTRADA ÚNICA (Clean Single-Input Form)
-   ========================================= */
-.quick-contact-wrapper {
-    max-width: 520px;
-    margin: 0 auto 2.25rem auto;
-    width: 100%;
-}
-
-.single-input-form {
-    position: relative;
-    width: 100%;
-}
-
-.single-input-box {
-    display: flex;
-    align-items: center;
-    background: var(--bg-subtle);
-    border: 1px solid var(--card-border);
-    border-radius: var(--border-radius-md);
-    padding: 0.35rem 0.4rem 0.35rem 1rem;
-    transition: border-color var(--transition-fast), box-shadow var(--transition-fast), background-color var(--transition-fast);
-}
-
-.single-input-box:focus-within {
-    border-color: var(--copper);
-    background-color: var(--card-bg);
-}
-
-.single-input-form.has-error .single-input-box {
-    border-color: #ef4444;
-}
-
-.single-input-icon {
-    color: var(--copper);
-    font-size: 0.95rem;
-    margin-right: 0.75rem;
-    display: flex;
-    align-items: center;
-    opacity: 0.9;
-}
-
-.single-input-field {
-    flex: 1;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: var(--text-color);
-    font-family: var(--font-main);
-    font-size: 0.95rem;
-    min-width: 0;
-}
-
-.single-input-field::placeholder {
-    color: var(--text-subtle);
-    font-size: 0.9rem;
-}
-
-.single-input-btn {
-    background-color: var(--copper);
-    color: var(--bg-color);
-    border: 1px solid var(--copper);
-    border-radius: var(--border-radius-sm);
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    padding: 0.65rem 1.25rem;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: all var(--transition-fast);
-    white-space: nowrap;
-}
-
-.single-input-btn:hover:not(:disabled) {
-    background-color: var(--copper-hover);
-    border-color: var(--copper-hover);
-    transform: translateY(-1px);
-}
-
-.single-input-btn:disabled {
-    opacity: 0.75;
-    cursor: not-allowed;
-}
-
-.btn-spinner {
-    width: 12px;
-    height: 12px;
-    border: 2px solid rgba(255, 255, 255, 0.35);
-    border-top-color: #ffffff;
-    border-radius: 50%;
-    animation: btnSpin 0.6s linear infinite;
-    display: inline-block;
-}
-
-@keyframes btnSpin {
-    to { transform: rotate(360deg); }
-}
-
-/* Micro-vibração de erro sutil */
-.shake-animation {
-    animation: subtleInputShake 0.45s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-}
-
-@keyframes subtleInputShake {
-    10%, 90% { transform: translate3d(-1px, 0, 0); }
-    20%, 80% { transform: translate3d(2px, 0, 0); }
-    30%, 50%, 70% { transform: translate3d(-3px, 0, 0); }
-    40%, 60% { transform: translate3d(3px, 0, 0); }
-}
-
-.form-validation-message {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    color: #ef4444;
-    margin-top: 0.55rem;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    padding-left: 0.3rem;
-    animation: fadeInError 0.2s ease-out;
-}
-
-@keyframes fadeInError {
-    from { opacity: 0; transform: translateY(-4px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-/* Card de Confirmação com Animação Sutil */
-.form-confirmation-card {
-    background: var(--bg-subtle);
-    border: 1px solid var(--copper);
-    border-radius: var(--border-radius-md);
-    padding: 1.75rem 1.5rem;
-    animation: confirmationEnter 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-@keyframes confirmationEnter {
-    0% {
-        opacity: 0;
-        transform: translateY(12px) scale(0.97);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
-}
-
-.confirmation-icon-wrapper {
-    position: relative;
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    background: var(--copper-subtle);
-    border: 1px solid var(--copper);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--copper);
-    margin-bottom: 0.85rem;
-    animation: checkBounce 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-@keyframes checkBounce {
-    0% { transform: scale(0.5); opacity: 0; }
-    60% { transform: scale(1.15); }
-    100% { transform: scale(1); opacity: 1; }
-}
-
-.confirmation-icon {
-    font-size: 1.15rem;
-}
-
-.confirmation-title {
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: var(--text-color);
-    letter-spacing: -0.02em;
-    margin-bottom: 0.35rem;
-}
-
-.confirmation-text {
-    font-size: 0.92rem;
-    color: var(--text-muted);
-    line-height: 1.55;
-    margin-bottom: 1.25rem;
-    max-width: 420px;
-}
-
-.confirmation-text strong {
-    color: var(--copper);
-    word-break: break-all;
-}
-
-.confirmation-reset-btn {
-    background: transparent;
-    border: 1px solid var(--card-border);
-    color: var(--text-muted);
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    letter-spacing: 0.04em;
-    padding: 0.45rem 1rem;
-    border-radius: var(--border-radius-sm);
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    transition: all var(--transition-fast);
-}
-
-.confirmation-reset-btn:hover {
-    color: var(--copper);
-    border-color: var(--copper);
-    background-color: var(--card-bg);
-}
-
-/* Divisor de canais diretos */
-.contact-divider {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2.25rem 0 1.5rem 0;
-    position: relative;
-}
-
-.contact-divider::before,
-.contact-divider::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background-color: var(--card-border);
-}
-
-.contact-divider span {
-    padding: 0 1rem;
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    color: var(--text-subtle);
-    letter-spacing: 0.14em;
-}
-
-.contact-links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-/* =========================================
    FOOTER MINIMALISTA
    ========================================= */
 footer {
@@ -499,33 +227,6 @@ footer {
     font-family: var(--font-mono);
     font-size: 0.75rem;
     color: var(--text-subtle);
-}
-
-/* =========================================
-   WHATSAPP BUTTON (Elegante & Minimalista)
-   ========================================= */
-.whatsapp-btn {
-    position: fixed;
-    bottom: 28px;
-    right: 28px;
-    width: 48px;
-    height: 48px;
-    background-color: var(--card-bg);
-    color: var(--copper);
-    border: 1px solid var(--copper);
-    border-radius: var(--border-radius-sm);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.35rem;
-    z-index: 1000;
-    transition: all var(--transition-fast);
-}
-
-.whatsapp-btn:hover {
-    background-color: var(--copper);
-    color: var(--bg-color);
-    transform: translateY(-2px);
 }
 
 /* =========================================
@@ -577,9 +278,7 @@ footer {
 
     
 
-    .contact-links {
-        flex-direction: column;
-    }
+    
 
     .footer-content {
         flex-direction: column;
@@ -589,30 +288,6 @@ footer {
 }
 
 /* Language Switcher */
-
-@media (max-width: 540px) {
-    .single-input-box {
-        flex-direction: column;
-        align-items: stretch;
-        padding: 0.85rem;
-        gap: 0.75rem;
-    }
-
-    .single-input-icon {
-        display: none;
-    }
-
-    .single-input-field {
-        text-align: center;
-        padding: 0.4rem 0;
-    }
-
-    .single-input-btn {
-        width: 100%;
-        justify-content: center;
-        padding: 0.75rem;
-    }
-}
 
 /* =========================================
    RESPONSIVIDADE E DESIGN MOBILE PREMIUM
@@ -788,30 +463,12 @@ footer {
     
 
     /* Contact Section Mobile */
-    .contact-box {
-        padding: 1.75rem 1.15rem;
-    }
 
-    .contact-links {
-        flex-direction: column;
-        gap: 0.75rem;
-        width: 100%;
-    }
+    
 
-    .contact-links .btn {
-        width: 100%;
-        justify-content: center;
-        min-height: 48px;
-    }
+    
 
     /* Floating WhatsApp Mobile com Safe Area */
-    .whatsapp-btn {
-        bottom: calc(18px + env(safe-area-inset-bottom, 0px));
-        right: 18px;
-        width: 50px;
-        height: 50px;
-        font-size: 1.4rem;
-    }
 }
 
 /* Telas Ultra-Compactas (iPhone SE, Galaxy A, 320px - 400px) */

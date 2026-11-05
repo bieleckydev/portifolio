@@ -190,22 +190,33 @@ export const en = {
     ]
   },
   contact: {
-    title: "Let's Connect",
-    description:
-      'I am available for software engineering internships, junior Java developer positions, and technical collaborations. Enter your email below or reach out directly.',
-    placeholder: 'Enter your email for contact...',
-    submitBtn: 'Connect',
-    submittingBtn: 'Sending',
-    successTitle: 'Contact Sent',
-    successTextPrefix: 'Thank you! I will reply to ',
-    successTextSuffix: ' shortly.',
-    resetBtn: 'Send another email',
-    emptyError: 'Please enter your email address.',
-    invalidError: 'Please enter a valid email address (e.g., name@company.com).',
-    networkError:
-      'Network glitch detected. You can also use the "Send Direct Email" button below.',
-    directDivider: 'OR DIRECT CHANNELS',
-    directEmailBtn: 'Send Direct Email'
+    promptA: 'Hiring a Java intern or junior?',
+    promptB: 'Leave your email and I will reply.',
+    label: 'Your email',
+    placeholder: 'name@company.com',
+    submit: 'Send',
+    submitting: 'Sending',
+    hint: 'It goes straight to my inbox.',
+    successTitle: 'Got it.',
+    successText: 'I will reply to {email}.',
+    reset: 'Send another email',
+    emptyError: 'Type your email so I can reply.',
+    invalidError: 'That email looks incomplete. Check the @ and the domain, like name@company.com.',
+    networkError: 'It did not send just now. Write to eduardombielecky@gmail.com instead.',
+    emailLabel: 'Email',
+    copy: 'Copy',
+    copied: 'Copied',
+    subject: 'Contact from your portfolio',
+    ticket: {
+      title: 'CONTACT REQUEST',
+      lines: [
+        ['Looking for', 'Intern or junior'],
+        ['Language', 'Java'],
+        ['Studying', 'Software Eng.'],
+        ['City', 'S. B. do Campo, BR']
+      ],
+      thanks: 'Thanks for stopping by'
+    }
   },
   footer: {
     copyright: 'Eduardo Mota Bielecky da Silva Mello.',

@@ -190,22 +190,33 @@ export const zh = {
     ]
   },
   contact: {
-    title: '期待与您交流',
-    description:
-      '我目前正在寻找软件工程实习或 Java 初级开发岗位机会。您可以在下方直接留下邮箱，或通过社交网络与我取得联系。',
-    placeholder: '输入您的电子邮箱以保持联系...',
-    submitBtn: '发送',
-    submittingBtn: '发送中',
-    successTitle: '已成功发送',
-    successTextPrefix: '感谢您的关注！我将尽快向 ',
-    successTextSuffix: ' 发送回复。',
-    resetBtn: '发送其他邮箱',
-    emptyError: '请输入您的电子邮箱地址。',
-    invalidError: '请输入有效的邮箱格式（例如：name@company.com）。',
-    networkError:
-      '检测到网络波动。您也可以直接点击下方的“直接发送邮件”按钮。',
-    directDivider: '或通过其他直接渠道',
-    directEmailBtn: '直接发送邮件'
+    promptA: '在招 Java 实习生或初级开发吗？',
+    promptB: '留下你的邮箱，我会回复。',
+    label: '你的邮箱',
+    placeholder: 'name@company.com',
+    submit: '发送',
+    submitting: '发送中',
+    hint: '邮件会直接进入我的收件箱。',
+    successTitle: '已收到。',
+    successText: '我会回复到 {email}。',
+    reset: '再发一封',
+    emptyError: '请填写邮箱，方便我回复。',
+    invalidError: '这个邮箱好像不完整，请检查 @ 和域名，例如 name@company.com。',
+    networkError: '暂时没能发送，请直接写信到 eduardombielecky@gmail.com。',
+    emailLabel: '邮箱',
+    copy: '复制',
+    copied: '已复制',
+    subject: '来自作品集的联系',
+    ticket: {
+      title: '联系请求',
+      lines: [
+        ['寻找', '实习或初级职位'],
+        ['语言', 'Java'],
+        ['专业', '软件工程'],
+        ['城市', '巴西圣贝尔纳多']
+      ],
+      thanks: '感谢来访'
+    }
   },
   footer: {
     copyright: 'Eduardo Mota Bielecky da Silva Mello.',

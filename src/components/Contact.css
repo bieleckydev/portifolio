@@ -1,0 +1,226 @@
+/* Contato: uma pergunta, um campo e os canais diretos; no palco, o cupom do pedido */
+.contact__read {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
+}
+
+.contact__prompt {
+    max-width: 26ch;
+    font-weight: 600;
+}
+
+.contact__prompt span {
+    display: block;
+}
+
+/* Formulário de um campo */
+.contact-form {
+    max-width: 520px;
+}
+
+.contact-form__label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.contact-form__field {
+    display: flex;
+    align-items: stretch;
+    min-height: 64px;
+    background: var(--sheet);
+    box-shadow: inset 0 0 0 1px #c9c9c1;
+    transition: box-shadow var(--dur-fast) ease;
+}
+
+.contact-form__field:focus-within {
+    box-shadow: inset 0 0 0 2px var(--accent);
+}
+
+.contact-form__field.has-error {
+    box-shadow: inset 0 0 0 2px var(--accent);
+}
+
+.contact-form__field input {
+    flex: 1;
+    min-width: 0;
+    padding: 0 18px;
+    border: 0;
+    background: transparent;
+    font-size: var(--step-body);
+    outline: none;
+}
+
+.contact-form__field input::placeholder {
+    color: #76766f;
+}
+
+.contact-form__send {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px;
+    padding: 0 18px;
+    border: 0;
+    border-radius: 0;
+    background: var(--accent);
+    color: var(--on-accent);
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform var(--dur-press) var(--ease-out), background-color var(--dur-fast) ease;
+}
+
+.contact-form__send:active {
+    transform: scale(0.97);
+}
+
+.contact-form__send:disabled {
+    cursor: progress;
+    background: var(--accent-press);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .contact-form__send:hover {
+        background: var(--accent-press);
+    }
+}
+
+.contact-form__hint,
+.contact-form__error {
+    margin-top: 12px;
+}
+
+.contact-form__error {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.contact-form--done {
+    display: grid;
+    gap: 8px;
+}
+
+.contact-form__reset {
+    justify-self: start;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+/* Canais diretos */
+.contact__channels {
+    display: grid;
+    gap: 12px;
+    max-width: 520px;
+}
+
+.contact__channel {
+    display: grid;
+    grid-template-columns: 7rem minmax(0, 1fr);
+    align-items: baseline;
+    gap: 16px;
+}
+
+.contact__channel dd {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 16px;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.contact__copy {
+    min-height: 32px;
+    padding: 0 10px;
+    border: 0;
+    border-radius: 0;
+    background: var(--counter);
+    font-size: var(--step-small);
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform var(--dur-press) var(--ease-out);
+}
+
+.contact__copy:active {
+    transform: scale(0.95);
+}
+
+/* Cupom do pedido de contato (fragmento impresso, por isso usa a fonte de impressão) */
+.ticket {
+    display: grid;
+    justify-items: center;
+    width: min(100%, 340px);
+}
+
+.ticket__slot {
+    width: 100%;
+    height: 14px;
+    background: var(--ink);
+}
+
+.ticket__paper {
+    width: calc(100% - 20px);
+    padding: 20px 18px 34px;
+    background: var(--sheet);
+    font-family: var(--font-print);
+    font-size: var(--step-small);
+    line-height: 1.6;
+    clip-path: polygon(
+        0 0, 100% 0, 100% calc(100% - 8px),
+        95% 100%, 90% calc(100% - 8px), 85% 100%, 80% calc(100% - 8px), 75% 100%,
+        70% calc(100% - 8px), 65% 100%, 60% calc(100% - 8px), 55% 100%, 50% calc(100% - 8px),
+        45% 100%, 40% calc(100% - 8px), 35% 100%, 30% calc(100% - 8px), 25% 100%,
+        20% calc(100% - 8px), 15% 100%, 10% calc(100% - 8px), 5% 100%, 0 calc(100% - 8px)
+    );
+}
+
+.ticket__center {
+    text-align: center;
+}
+
+.ticket__strong {
+    font-weight: 600;
+}
+
+.ticket__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.ticket__row span:last-child {
+    text-align: right;
+}
+
+.ticket__rule {
+    margin: 8px 0;
+    border-top: 1px dashed currentColor;
+}
+
+.ticket__email {
+    color: var(--accent);
+    font-weight: 600;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+    .contact__read {
+        gap: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact__channel {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0;
+    }
+
+    .contact-form__send {
+        padding: 0 14px;
+    }
+}
