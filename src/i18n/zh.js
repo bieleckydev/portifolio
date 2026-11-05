@@ -219,7 +219,6 @@ export const zh = {
     }
   },
   footer: {
-    copyright: 'Eduardo Mota Bielecky da Silva Mello.',
-    note: '软件工程 // Java 与后端架构'
-  }
+    made: '于巴西圣贝尔纳多-杜坎普制作。'
+  },
 };

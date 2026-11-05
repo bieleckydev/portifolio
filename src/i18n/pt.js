@@ -219,7 +219,6 @@ export const pt = {
     }
   },
   footer: {
-    copyright: 'Eduardo Mota Bielecky da Silva Mello.',
-    note: 'Engenharia de Software // Java & Backend'
-  }
+    made: 'Feito em São Bernardo do Campo, SP.'
+  },
 };
