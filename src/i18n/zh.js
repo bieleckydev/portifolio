@@ -32,7 +32,6 @@ export const zh = {
     m2: '高健壮性后端 • 高可用架构 • SPRING 框架 • SQL • 算法与数据结构 • 巴西圣保罗 •'
   },
   about: {
-    watermark: '01',
     label: '01 // 个人履历',
     title: '关于我',
     p1: '我是<strong>软件工程</strong>学士学位在读学生，现居巴西圣保罗州圣贝尔纳多-杜坎普。我具有务实、目标导向的工程师特质，专注于软件设计模式、整洁代码规范以及高健壮性后端系统构建。',
@@ -48,7 +47,6 @@ export const zh = {
     focusSub: '后端架构与系统研发'
   },
   skills: {
-    watermark: '02',
     label: '02 // 专业技能',
     title: '技术专长',
     subtitle:
@@ -204,7 +202,6 @@ export const zh = {
     ]
   },
   experience: {
-    watermark: '03',
     label: '03 // 职业经历',
     title: '工作经历',
     viewHorizontal: '横向路线图',
@@ -238,7 +235,6 @@ export const zh = {
     ]
   },
   projects: {
-    watermark: '04',
     label: '04 // 作品集',
     title: '精选重点项目',
     subtitle: '秉持软件工程严谨性、模块化架构与真实生产实用价值构建的项目。',
@@ -399,7 +395,6 @@ export const zh = {
     ]
   },
   contact: {
-    watermark: '05',
     label: '05 // 建立连接',
     title: '期待与您交流',
     description:

@@ -32,7 +32,6 @@ export const en = {
     m2: 'ROBUST BACKEND • RESILIENCE • SPRING FRAMEWORK • SQL • ALGORITHMS & DATA STRUCTURES • SÃO PAULO, BR •'
   },
   about: {
-    watermark: '01',
     label: '01 // Journey',
     title: 'About Me',
     p1: 'I am a Bachelor student in <strong>Software Engineering</strong> residing in São Bernardo do Campo, SP, Brazil. I maintain a pragmatic, goal-driven mindset with dedication to software architectural patterns, clean coding practices, and resilient backend systems.',
@@ -48,7 +47,6 @@ export const en = {
     focusSub: 'Backend & Systems'
   },
   skills: {
-    watermark: '02',
     label: '02 // Competencies',
     title: 'Technical Skills',
     subtitle:
@@ -204,7 +202,6 @@ export const en = {
     ]
   },
   experience: {
-    watermark: '03',
     label: '03 // Career',
     title: 'Professional Experience',
     viewHorizontal: 'Horizontal Roadmap',
@@ -238,7 +235,6 @@ export const en = {
     ]
   },
   projects: {
-    watermark: '04',
     label: '04 // Portfolio',
     title: 'Featured Projects',
     subtitle:
@@ -400,7 +396,6 @@ export const en = {
     ]
   },
   contact: {
-    watermark: '05',
     label: '05 // Connect',
     title: "Let's Connect",
     description:

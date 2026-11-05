@@ -1,17 +1,12 @@
 import React from 'react';
-import { useSectionParallax } from '../hooks/useSectionParallax';
 import { useLanguage } from '../context/LanguageContext';
 import QuickContactForm from './QuickContactForm';
 
 export default function Contact() {
-  const { sectionRef, watermarkRef } = useSectionParallax(0.2);
   const { t } = useLanguage();
 
   return (
-    <section id="contato" className="section contact" ref={sectionRef}>
-      <span className="section-watermark" ref={watermarkRef} aria-hidden="true">
-        {t.contact.watermark}
-      </span>
+    <section id="contato" className="section contact">
 
       <div className="container reveal" id="contact-container" style={{ position: 'relative', zIndex: 1 }}>
         <div className="contact-box minimal-card" id="contact-card">

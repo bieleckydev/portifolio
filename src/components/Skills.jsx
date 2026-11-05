@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import { useSectionParallax } from '../hooks/useSectionParallax';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function Skills() {
-  const { sectionRef, watermarkRef } = useSectionParallax(0.15);
   const { t } = useLanguage();
   const categories = t.skills.categories;
 
@@ -28,10 +26,7 @@ export default function Skills() {
   };
 
   return (
-    <section id="habilidades" className="section skills" ref={sectionRef}>
-      <span className="section-watermark" ref={watermarkRef} aria-hidden="true">
-        {t.skills.watermark}
-      </span>
+    <section id="habilidades" className="section skills">
 
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <div className="section-header reveal">

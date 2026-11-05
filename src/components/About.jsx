@@ -1,17 +1,11 @@
 import React from 'react';
-import { useSectionParallax } from '../hooks/useSectionParallax';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function About() {
-  const { sectionRef, watermarkRef } = useSectionParallax(0.2);
   const { t } = useLanguage();
 
   return (
-    <section id="sobre" className="section about" ref={sectionRef}>
-      {/* Marca d'água técnica de rolagem */}
-      <span className="section-watermark" ref={watermarkRef} aria-hidden="true">
-        {t.about.watermark}
-      </span>
+    <section id="sobre" className="section about">
 
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <div className="section-header reveal">

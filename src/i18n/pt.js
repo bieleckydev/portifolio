@@ -32,7 +32,6 @@ export const pt = {
     m2: 'BACKEND ROBUSTO • RESILIÊNCIA • SPRING FRAMEWORK • SQL • ALGORITMOS & ESTRUTURAS • SÃO PAULO, BR •'
   },
   about: {
-    watermark: '01',
     label: '01 // Trajetória',
     title: 'Sobre Mim',
     p1: 'Sou estudante de Bacharelado em <strong>Engenharia de Software</strong> e resido em São Bernardo do Campo, SP. Tenho um perfil pragmático, focado em metas e dedicação contínua ao aprendizado de padrões de arquitetura, boas práticas de código e desenvolvimento backend robusto.',
@@ -48,7 +47,6 @@ export const pt = {
     focusSub: 'Backend & Soluções'
   },
   skills: {
-    watermark: '02',
     label: '02 // Competências',
     title: 'Habilidades Técnicas',
     subtitle:
@@ -204,7 +202,6 @@ export const pt = {
     ]
   },
   experience: {
-    watermark: '03',
     label: '03 // Carreira',
     title: 'Experiência Profissional',
     viewHorizontal: 'Trilha Horizontal',
@@ -238,7 +235,6 @@ export const pt = {
     ]
   },
   projects: {
-    watermark: '04',
     label: '04 // Portfólio',
     title: 'Projetos em Destaque',
     subtitle:
@@ -400,7 +396,6 @@ export const pt = {
     ]
   },
   contact: {
-    watermark: '05',
     label: '05 // Conexão',
     title: 'Vamos Conversar?',
     description:

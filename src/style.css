@@ -2100,30 +2100,6 @@ body.light-mode .marquee-content {
 }
 
 /* =========================================
-   MARCA D'ÁGUA PARALLAX ARQUITETURAL
-   ========================================= */
-.section-watermark {
-    position: absolute;
-    right: 4%;
-    top: 6%;
-    font-family: var(--font-mono);
-    font-size: clamp(7rem, 16vw, 15rem);
-    font-weight: 900;
-    line-height: 0.8;
-    color: var(--copper);
-    opacity: 0.04;
-    pointer-events: none;
-    user-select: none;
-    z-index: 0;
-    will-change: transform;
-}
-
-body.light-mode .section-watermark {
-    opacity: 0.055;
-    color: var(--text-color);
-}
-
-/* =========================================
    TIMELINE COM PROCESSO DE SCROLL DINÂMICO
    ========================================= */
 .timeline-progress-line {
@@ -3696,12 +3672,6 @@ body.light-mode .pinned-edge-vignette-right {
         letter-spacing: -0.02em;
     }
 
-    .section-watermark {
-        font-size: clamp(4.5rem, 20vw, 7.5rem);
-        opacity: 0.025;
-        right: 1.5%;
-        top: 1.5%;
-    }
 
     /* Navbar & Gaveta Mobile */
     .header {
