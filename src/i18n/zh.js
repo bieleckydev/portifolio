@@ -240,6 +240,14 @@ export const zh = {
         stack: 'TypeScript、Next.js、React、Supabase（PostgreSQL 与 RLS）、WAHA 对接 WhatsApp、Asterisk、Zod、Vitest、Playwright、Docker 和 GitHub Actions'
       },
       {
+        id: 'proj-expedicao',
+        title: '发货应用',
+        kind: '全栈，Softcomp Sistemas',
+        desc: '为带条码扫描器的 Android 手持终端重建 ERP 的发货模块：9 个功能模块，每次扫描都有提示、震动和提示音，业务规则在服务器端执行，ZPL 标签直接发送到斑马打印机。',
+        stack: 'TypeScript、React、Vite、TanStack Query、PWA、Node.js（Fastify）、SQL Server、PDFKit、ZPL 和 Vitest',
+        imageAlt: '手持终端上的应用首页，包含订单监控、收货、包裹、标签和开票等模块'
+      },
+      {
         id: 'proj-portal-colaborador',
         title: '员工门户',
         kind: '全栈，网站和应用',

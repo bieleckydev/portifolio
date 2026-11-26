@@ -35,6 +35,12 @@ export const PROJECTS = [
   },
   { id: 'proj-softcomp-crm' },
   {
+    id: 'proj-expedicao',
+    img: '/img/expedicao.png',
+    imgW: 224,
+    imgH: 480
+  },
+  {
     id: 'proj-portal-colaborador',
     img: '/img/portal-colaborador.png',
     imgW: 221,

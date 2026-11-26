@@ -240,6 +240,14 @@ export const en = {
         stack: 'TypeScript, Next.js, React, Supabase with PostgreSQL and RLS, WhatsApp via WAHA, Asterisk, Zod, Vitest, Playwright, Docker and GitHub Actions'
       },
       {
+        id: 'proj-expedicao',
+        title: 'Shipping App',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'A rebuild of an ERP’s shipping module for Android barcode scanners: 9 modules, a toast, vibration and beep on every scan, business rules on the server and ZPL labels sent straight to the Zebra printer.',
+        stack: 'TypeScript, React, Vite, TanStack Query, PWA, Node.js with Fastify, SQL Server, PDFKit, ZPL and Vitest',
+        imageAlt: 'App home screen on a scanner with modules for order monitoring, receiving, volumes, labels and invoicing'
+      },
+      {
         id: 'proj-portal-colaborador',
         title: 'Employee Portal',
         kind: 'Full stack, web and app',

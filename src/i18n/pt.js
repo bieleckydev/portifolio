@@ -240,6 +240,14 @@ export const pt = {
         stack: 'TypeScript, Next.js, React, Supabase com PostgreSQL e RLS, WhatsApp via WAHA, Asterisk, Zod, Vitest, Playwright, Docker e GitHub Actions'
       },
       {
+        id: 'proj-expedicao',
+        title: 'App de Expedição',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'Reconstrução do módulo de expedição de um ERP para coletores Android com leitor de código de barras: 9 módulos, retorno com toast, vibração e bip a cada leitura, regras no servidor e etiquetas em ZPL enviadas direto à impressora Zebra.',
+        stack: 'TypeScript, React, Vite, TanStack Query, PWA, Node.js com Fastify, SQL Server, PDFKit, ZPL e Vitest',
+        imageAlt: 'Tela inicial do app no coletor com os módulos de monitor de pedidos, recebimento, volumes, etiquetas e faturamento'
+      },
+      {
         id: 'proj-portal-colaborador',
         title: 'Portal do Colaborador',
         kind: 'Full stack, site e app',
