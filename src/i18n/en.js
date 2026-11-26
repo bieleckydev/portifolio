@@ -144,7 +144,7 @@ export const en = {
           { name: 'React Native with Expo', value: 'heavy.io and Employee Portal' },
           { name: 'Tailwind and CSS', value: 'Softcomp Dashboard and websites' },
           { name: 'Chart.js, MapLibre and Leaflet', value: 'Softcomp Dashboard and SEFAZ Monitor' },
-          { name: 'Supabase and Firebase', value: 'Portal, Warehouse, Changelog and heavy.io' },
+          { name: 'Supabase and Firebase', value: 'SoftcompCRM, Portal, Warehouse, Changelog and heavy.io' },
           { name: 'Software architecture', value: 'Warehouse: domain kept apart from the web layer' },
           { name: 'Accessibility (WCAG 2.1 AA)', value: 'Tax Reform Guide' }
         ]
@@ -157,7 +157,9 @@ export const en = {
           { name: 'Monorepo with pnpm and Turborepo', value: 'Employee Portal' },
           { name: 'Vercel', value: 'Changelog, menu, OTIS and Feira' },
           { name: 'ESC/POS thermal printing', value: 'Point-of-sale system' },
-          { name: 'ERP and API integration', value: 'Softcomp Dashboard and SEFAZ Monitor' },
+          { name: 'REST APIs, OpenAPI and ERP integration', value: 'SoftcompCRM, Dashboard and SEFAZ Monitor' },
+          { name: 'WhatsApp (WAHA) and Asterisk telephony', value: 'SoftcompCRM' },
+          { name: 'Docker', value: 'SoftcompCRM release images' },
           { name: 'Brazilian consumption tax (IBS, CBS, NF-e)', value: 'Tax Reform Guide and SEFAZ Monitor' }
         ]
       },
@@ -165,7 +167,7 @@ export const en = {
         label: 'Tools',
         rows: [
           { name: 'Git and GitHub', value: 'Every project' },
-          { name: 'Automated testing and Playwright', value: 'Warehouse, with 553 tests' },
+          { name: 'Testing with Vitest and Playwright', value: 'Warehouse, with 553 tests, and SoftcompCRM' },
           { name: 'VS Code and IntelliJ IDEA', value: 'Every day' },
           { name: 'Trello', value: 'Planning deliveries' }
         ]

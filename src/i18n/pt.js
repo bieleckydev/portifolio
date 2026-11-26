@@ -144,7 +144,7 @@ export const pt = {
           { name: 'React Native com Expo', value: 'heavy.io e Portal do Colaborador' },
           { name: 'Tailwind e CSS', value: 'Painel Softcomp e sites' },
           { name: 'Chart.js, MapLibre e Leaflet', value: 'Painel Softcomp e Monitor SEFAZ' },
-          { name: 'Supabase e Firebase', value: 'Portal, Almoxarifado, Changelog e heavy.io' },
+          { name: 'Supabase e Firebase', value: 'SoftcompCRM, Portal, Almoxarifado, Changelog e heavy.io' },
           { name: 'Arquitetura de software', value: 'Almoxarifado: domínio separado da camada web' },
           { name: 'Acessibilidade (WCAG 2.1 AA)', value: 'Guia da Reforma Tributária' }
         ]
@@ -157,7 +157,9 @@ export const pt = {
           { name: 'Monorepo com pnpm e Turborepo', value: 'Portal do Colaborador' },
           { name: 'Vercel', value: 'Changelog, cardápio, OTIS e Feira' },
           { name: 'Impressão térmica ESC/POS', value: 'Sistema de caixa' },
-          { name: 'Integração com ERP e APIs', value: 'Painel Softcomp e Monitor SEFAZ' },
+          { name: 'APIs REST, OpenAPI e integração com ERP', value: 'SoftcompCRM, Painel e Monitor SEFAZ' },
+          { name: 'WhatsApp (WAHA) e telefonia com Asterisk', value: 'SoftcompCRM' },
+          { name: 'Docker', value: 'Imagens de release do SoftcompCRM' },
           { name: 'Tributação do consumo (IBS, CBS e NF-e)', value: 'Guia da Reforma e Monitor SEFAZ' }
         ]
       },
@@ -165,7 +167,7 @@ export const pt = {
         label: 'Ferramentas',
         rows: [
           { name: 'Git e GitHub', value: 'Todos os projetos' },
-          { name: 'Testes automatizados e Playwright', value: 'Almoxarifado, com 553 testes' },
+          { name: 'Testes com Vitest e Playwright', value: 'Almoxarifado, com 553 testes, e SoftcompCRM' },
           { name: 'VS Code e IntelliJ IDEA', value: 'Dia a dia' },
           { name: 'Trello', value: 'Organização de entregas' }
         ]

@@ -144,7 +144,7 @@ export const zh = {
           { name: 'React Native（Expo）', value: 'heavy.io 和员工门户' },
           { name: 'Tailwind 和 CSS', value: 'Softcomp 面板和网站' },
           { name: 'Chart.js、MapLibre 和 Leaflet', value: 'Softcomp 面板和 SEFAZ 监控' },
-          { name: 'Supabase 和 Firebase', value: '员工门户、仓储系统、更新日志和 heavy.io' },
+          { name: 'Supabase 和 Firebase', value: 'SoftcompCRM、员工门户、仓储系统、更新日志和 heavy.io' },
           { name: '软件架构', value: '仓储系统：领域层与网页层分离' },
           { name: '无障碍（WCAG 2.1 AA）', value: '税制改革指南' }
         ]
@@ -157,7 +157,9 @@ export const zh = {
           { name: 'pnpm 与 Turborepo 单仓库', value: '员工门户' },
           { name: 'Vercel', value: '更新日志、菜单、OTIS 和 Feira' },
           { name: 'ESC/POS 热敏打印', value: '收银系统' },
-          { name: 'ERP 与 API 集成', value: 'Softcomp 面板和 SEFAZ 监控' },
+          { name: 'REST API、OpenAPI 与 ERP 集成', value: 'SoftcompCRM、面板和 SEFAZ 监控' },
+          { name: 'WhatsApp（WAHA）与 Asterisk 电话系统', value: 'SoftcompCRM' },
+          { name: 'Docker', value: 'SoftcompCRM 发布镜像' },
           { name: '消费税制（IBS、CBS、NF-e）', value: '税制改革指南和 SEFAZ 监控' }
         ]
       },
@@ -165,7 +167,7 @@ export const zh = {
         label: '工具',
         rows: [
           { name: 'Git 和 GitHub', value: '所有项目' },
-          { name: '自动化测试与 Playwright', value: '仓储系统，553 个测试' },
+          { name: 'Vitest 与 Playwright 测试', value: '仓储系统（553 个测试）和 SoftcompCRM' },
           { name: 'VS Code 和 IntelliJ IDEA', value: '日常使用' },
           { name: 'Trello', value: '交付规划' }
         ]
