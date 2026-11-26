@@ -143,7 +143,8 @@ export const zh = {
           { name: 'Node.js（Express、Fastify）', value: 'Softcomp 面板和 SEFAZ 监控' },
           { name: 'React Native（Expo）', value: 'heavy.io' },
           { name: 'Tailwind 和 CSS', value: 'Softcomp 面板和网站' },
-          { name: 'Supabase 和 Firebase', value: '更新日志和 heavy.io' }
+          { name: 'Supabase 和 Firebase', value: '更新日志和 heavy.io' },
+          { name: '无障碍（WCAG 2.1 AA）', value: '税制改革指南' }
         ]
       },
       {
@@ -152,7 +153,8 @@ export const zh = {
           { name: 'Nginx、systemd 和 GitHub Actions', value: '面板和监控的部署' },
           { name: 'Vercel', value: '更新日志、菜单、OTIS 和 Feira' },
           { name: 'ESC/POS 热敏打印', value: '收银系统' },
-          { name: 'ERP 与 API 集成', value: 'Softcomp 面板和 SEFAZ 监控' }
+          { name: 'ERP 与 API 集成', value: 'Softcomp 面板和 SEFAZ 监控' },
+          { name: '消费税制（IBS、CBS、NF-e）', value: '税制改革指南和 SEFAZ 监控' }
         ]
       },
       {

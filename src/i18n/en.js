@@ -143,7 +143,8 @@ export const en = {
           { name: 'Node.js with Express and Fastify', value: 'Softcomp Dashboard and SEFAZ Monitor' },
           { name: 'React Native with Expo', value: 'heavy.io' },
           { name: 'Tailwind and CSS', value: 'Softcomp Dashboard and websites' },
-          { name: 'Supabase and Firebase', value: 'Changelog and heavy.io' }
+          { name: 'Supabase and Firebase', value: 'Changelog and heavy.io' },
+          { name: 'Accessibility (WCAG 2.1 AA)', value: 'Tax Reform Guide' }
         ]
       },
       {
@@ -152,7 +153,8 @@ export const en = {
           { name: 'Nginx, systemd and GitHub Actions', value: 'Dashboard and Monitor deploys' },
           { name: 'Vercel', value: 'Changelog, menu, OTIS and Feira' },
           { name: 'ESC/POS thermal printing', value: 'Point-of-sale system' },
-          { name: 'ERP and API integration', value: 'Softcomp Dashboard and SEFAZ Monitor' }
+          { name: 'ERP and API integration', value: 'Softcomp Dashboard and SEFAZ Monitor' },
+          { name: 'Brazilian consumption tax (IBS, CBS, NF-e)', value: 'Tax Reform Guide and SEFAZ Monitor' }
         ]
       },
       {

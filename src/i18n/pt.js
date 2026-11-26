@@ -143,7 +143,8 @@ export const pt = {
           { name: 'Node.js com Express e Fastify', value: 'Painel Softcomp e Monitor SEFAZ' },
           { name: 'React Native com Expo', value: 'heavy.io' },
           { name: 'Tailwind e CSS', value: 'Painel Softcomp e sites' },
-          { name: 'Supabase e Firebase', value: 'Changelog e heavy.io' }
+          { name: 'Supabase e Firebase', value: 'Changelog e heavy.io' },
+          { name: 'Acessibilidade (WCAG 2.1 AA)', value: 'Guia da Reforma Tributária' }
         ]
       },
       {
@@ -152,7 +153,8 @@ export const pt = {
           { name: 'Nginx, systemd e GitHub Actions', value: 'Deploy do Painel e do Monitor' },
           { name: 'Vercel', value: 'Changelog, cardápio, OTIS e Feira' },
           { name: 'Impressão térmica ESC/POS', value: 'Sistema de caixa' },
-          { name: 'Integração com ERP e APIs', value: 'Painel Softcomp e Monitor SEFAZ' }
+          { name: 'Integração com ERP e APIs', value: 'Painel Softcomp e Monitor SEFAZ' },
+          { name: 'Tributação do consumo (IBS, CBS e NF-e)', value: 'Guia da Reforma e Monitor SEFAZ' }
         ]
       },
       {
