@@ -139,11 +139,12 @@ export const en = {
       {
         label: 'Front end, back end and mobile',
         rows: [
-          { name: 'React and Next.js', value: 'Dashboard, SEFAZ Monitor, Changelog and Employee Portal' },
+          { name: 'React and Next.js', value: 'Dashboard, SEFAZ Monitor, Changelog, Portal and Warehouse' },
           { name: 'Node.js with Express and Fastify', value: 'Softcomp Dashboard and SEFAZ Monitor' },
           { name: 'React Native with Expo', value: 'heavy.io and Employee Portal' },
           { name: 'Tailwind and CSS', value: 'Softcomp Dashboard and websites' },
-          { name: 'Supabase and Firebase', value: 'Employee Portal, Changelog and heavy.io' },
+          { name: 'Supabase and Firebase', value: 'Portal, Warehouse, Changelog and heavy.io' },
+          { name: 'Software architecture', value: 'Warehouse: domain kept apart from the web layer' },
           { name: 'Accessibility (WCAG 2.1 AA)', value: 'Tax Reform Guide' }
         ]
       },
@@ -163,6 +164,7 @@ export const en = {
         label: 'Tools',
         rows: [
           { name: 'Git and GitHub', value: 'Every project' },
+          { name: 'Automated testing and Playwright', value: 'Warehouse, with 553 tests' },
           { name: 'VS Code and IntelliJ IDEA', value: 'Every day' },
           { name: 'Trello', value: 'Planning deliveries' }
         ]

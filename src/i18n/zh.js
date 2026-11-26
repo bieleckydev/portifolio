@@ -139,11 +139,12 @@ export const zh = {
       {
         label: '前端、后端与移动端',
         rows: [
-          { name: 'React 和 Next.js', value: '面板、SEFAZ 监控、更新日志和员工门户' },
+          { name: 'React 和 Next.js', value: '面板、SEFAZ 监控、更新日志、员工门户和仓储系统' },
           { name: 'Node.js（Express、Fastify）', value: 'Softcomp 面板和 SEFAZ 监控' },
           { name: 'React Native（Expo）', value: 'heavy.io 和员工门户' },
           { name: 'Tailwind 和 CSS', value: 'Softcomp 面板和网站' },
-          { name: 'Supabase 和 Firebase', value: '员工门户、更新日志和 heavy.io' },
+          { name: 'Supabase 和 Firebase', value: '员工门户、仓储系统、更新日志和 heavy.io' },
+          { name: '软件架构', value: '仓储系统：领域层与网页层分离' },
           { name: '无障碍（WCAG 2.1 AA）', value: '税制改革指南' }
         ]
       },
@@ -163,6 +164,7 @@ export const zh = {
         label: '工具',
         rows: [
           { name: 'Git 和 GitHub', value: '所有项目' },
+          { name: '自动化测试与 Playwright', value: '仓储系统，553 个测试' },
           { name: 'VS Code 和 IntelliJ IDEA', value: '日常使用' },
           { name: 'Trello', value: '交付规划' }
         ]
