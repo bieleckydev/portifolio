@@ -130,7 +130,7 @@ export const en = {
         rows: [
           { name: 'TypeScript', value: 'Softcomp Dashboard, SEFAZ Monitor, Changelog and heavy.io' },
           { name: 'JavaScript', value: 'Till, menu, OTIS and Feira' },
-          { name: 'Java', value: 'Aurum Banking and university' },
+          { name: 'Java', value: 'Merlin Route Finder, Aurum Banking and university' },
           { name: 'Python', value: 'Softcomp Dashboard, Ready 2 Work and automation' },
           { name: 'Kotlin', value: 'kcal.io' },
           { name: 'SQL', value: 'SQL Server, PostgreSQL, SQLite and Oracle' }
@@ -143,6 +143,8 @@ export const en = {
           { name: 'Node.js with Express and Fastify', value: 'Softcomp Dashboard, SEFAZ Monitor and Shipping App' },
           { name: 'PWA for Android scanners', value: 'Shipping App' },
           { name: 'React Native with Expo', value: 'heavy.io and Employee Portal' },
+          { name: 'Java with JAX-RS and JDBC', value: 'Merlin Route Finder' },
+          { name: 'AI with Gemini and function calling', value: 'Merlin Route Finder and heavy.io' },
           { name: 'Tailwind and CSS', value: 'Softcomp Dashboard and websites' },
           { name: 'Chart.js, MapLibre and Leaflet', value: 'Softcomp Dashboard and SEFAZ Monitor' },
           { name: 'SVG and 3D without libraries', value: 'Metal Calculator' },

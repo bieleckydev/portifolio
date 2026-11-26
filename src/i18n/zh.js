@@ -130,7 +130,7 @@ export const zh = {
         rows: [
           { name: 'TypeScript', value: 'Softcomp 面板、SEFAZ 监控、更新日志和 heavy.io' },
           { name: 'JavaScript', value: '收银、菜单、OTIS 和 Feira' },
-          { name: 'Java', value: 'Aurum Banking 与课程项目' },
+          { name: 'Java', value: 'Merlin Route Finder、Aurum Banking 与课程项目' },
           { name: 'Python', value: 'Softcomp 面板、Ready 2 Work 与自动化' },
           { name: 'Kotlin', value: 'kcal.io' },
           { name: 'SQL', value: 'SQL Server、PostgreSQL、SQLite 和 Oracle' }
@@ -143,6 +143,8 @@ export const zh = {
           { name: 'Node.js（Express、Fastify）', value: 'Softcomp 面板、SEFAZ 监控和发货应用' },
           { name: '面向 Android 手持终端的 PWA', value: '发货应用' },
           { name: 'React Native（Expo）', value: 'heavy.io 和员工门户' },
+          { name: 'Java（JAX-RS 与 JDBC）', value: 'Merlin Route Finder' },
+          { name: 'Gemini 与函数调用', value: 'Merlin Route Finder 和 heavy.io' },
           { name: 'Tailwind 和 CSS', value: 'Softcomp 面板和网站' },
           { name: 'Chart.js、MapLibre 和 Leaflet', value: 'Softcomp 面板和 SEFAZ 监控' },
           { name: '不依赖库的 SVG 与 3D', value: '金属重量计算器' },

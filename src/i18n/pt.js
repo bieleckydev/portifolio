@@ -130,7 +130,7 @@ export const pt = {
         rows: [
           { name: 'TypeScript', value: 'Painel Softcomp, Monitor SEFAZ, Changelog e heavy.io' },
           { name: 'JavaScript', value: 'Caixa, cardápio, OTIS e Feira' },
-          { name: 'Java', value: 'Aurum Banking e faculdade' },
+          { name: 'Java', value: 'Merlin Route Finder, Aurum Banking e faculdade' },
           { name: 'Python', value: 'Painel Softcomp, Ready 2 Work e automações' },
           { name: 'Kotlin', value: 'kcal.io' },
           { name: 'SQL', value: 'SQL Server, PostgreSQL, SQLite e Oracle' }
@@ -143,6 +143,8 @@ export const pt = {
           { name: 'Node.js com Express e Fastify', value: 'Painel Softcomp, Monitor SEFAZ e App de Expedição' },
           { name: 'PWA para coletores Android', value: 'App de Expedição' },
           { name: 'React Native com Expo', value: 'heavy.io e Portal do Colaborador' },
+          { name: 'Java com JAX-RS e JDBC', value: 'Merlin Route Finder' },
+          { name: 'IA com Gemini e function calling', value: 'Merlin Route Finder e heavy.io' },
           { name: 'Tailwind e CSS', value: 'Painel Softcomp e sites' },
           { name: 'Chart.js, MapLibre e Leaflet', value: 'Painel Softcomp e Monitor SEFAZ' },
           { name: 'SVG e 3D sem bibliotecas', value: 'Calculadora de Metais' },
