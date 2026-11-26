@@ -196,8 +196,8 @@ export const pt = {
         id: 'proj-softcomp-painel',
         title: 'Painel Softcomp',
         kind: 'Full stack, Softcomp Sistemas',
-        desc: 'Plataforma de gestão para a indústria de corte de aço: painel executivo de vendas, programação automática das máquinas de corte e fluxo de caixa, integrada ao ERP legado.',
-        stack: 'TypeScript, React, Node.js com Express e Fastify, SQLite, Tailwind, Nginx e GitHub Actions'
+        desc: 'Gestão comercial e produção de uma indústria de corte de aço num só sistema, integrado ao ERP legado: vendas contra meta, mapa de clientes e análise regional, e programação automática do corte por máquina, galpão e turno. Fui o responsável de ponta a ponta, do banco ao deploy.',
+        stack: 'TypeScript, React, Vite, Tailwind, Chart.js, MapLibre, Node.js com Express e Fastify, SQLite, Redis, Zod, Nginx, systemd e GitHub Actions'
       },
       {
         id: 'proj-monitor-sefaz',

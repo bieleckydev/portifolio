@@ -196,8 +196,8 @@ export const en = {
         id: 'proj-softcomp-painel',
         title: 'Softcomp Dashboard',
         kind: 'Full stack, Softcomp Sistemas',
-        desc: 'A management platform for the steel-cutting industry: executive sales dashboard, automatic scheduling of cutting machines and cash flow, integrated with the legacy ERP.',
-        stack: 'TypeScript, React, Node.js with Express and Fastify, SQLite, Tailwind, Nginx and GitHub Actions'
+        desc: 'Sales and production for a steel-cutting plant in one system, integrated with the legacy ERP: sales against targets, a customer map and regional analysis, and automatic cutting schedules by machine, warehouse and shift. I owned it end to end, from database to deploy.',
+        stack: 'TypeScript, React, Vite, Tailwind, Chart.js, MapLibre, Node.js with Express and Fastify, SQLite, Redis, Zod, Nginx, systemd and GitHub Actions'
       },
       {
         id: 'proj-monitor-sefaz',

@@ -196,8 +196,8 @@ export const zh = {
         id: 'proj-softcomp-painel',
         title: 'Softcomp 管理面板',
         kind: '全栈，Softcomp Sistemas',
-        desc: '面向钢材切割行业的管理平台：销售管理看板、切割机自动排产和现金流，并与旧版 ERP 集成。',
-        stack: 'TypeScript、React、Node.js（Express 和 Fastify）、SQLite、Tailwind、Nginx 和 GitHub Actions'
+        desc: '把钢材切割企业的销售和生产管理整合进一个与旧版 ERP 对接的系统：销售与目标对比、客户地图和区域分析，以及按机器、厂房和班次自动排产。我从数据库到部署全程负责。',
+        stack: 'TypeScript、React、Vite、Tailwind、Chart.js、MapLibre、Node.js（Express 和 Fastify）、SQLite、Redis、Zod、Nginx、systemd 和 GitHub Actions'
       },
       {
         id: 'proj-monitor-sefaz',
