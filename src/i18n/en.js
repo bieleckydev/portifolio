@@ -12,35 +12,23 @@ export const en = {
     whatsapp: 'Chat on WhatsApp'
   },
   hero: {
-    lead: 'Software engineer in training. I built the point-of-sale system Adega do Dino runs on today.',
+    lead: 'Software engineer in training. I build web and mobile systems for industry, from the database to the deploy.',
     facts: 'Junior developer at Softcomp Sistemas, working with AI every day. Software Engineering student in São Bernardo do Campo, Brazil.',
     cta: 'Get in touch',
-    projects: 'See projects'
-  },
-  pos: {
-    label: 'Point-of-sale demo',
-    keysLabel: 'Add item to the order',
-    add: 'Add',
-    service: 'Charge 10% service',
-    clear: 'Clear order',
-    caption: 'A demo of the till’s maths. Items and prices are examples.',
-    shop: 'ADEGA DO DINO',
-    sub: 'Steakhouse',
-    table: 'TABLE 12',
-    empty: 'No items yet',
-    subtotal: 'Subtotal',
-    serviceLine: 'Service 10%',
-    total: 'TOTAL',
-    notFiscal: 'NOT A TAX RECEIPT',
-    thanks: 'Thank you for coming',
-    items: [
-      { id: 'picanha', name: 'Picanha 400 g', price: 89.9 },
-      { id: 'fraldinha', name: 'Flank steak 400 g', price: 69.9 },
-      { id: 'linguica', name: 'Tuscan sausage', price: 24.9 },
-      { id: 'farofa', name: 'House farofa', price: 12 },
-      { id: 'cerveja', name: 'Beer 600 ml', price: 14.9 },
-      { id: 'refri', name: 'Soft drink can', price: 7 }
-    ]
+    projects: 'See projects',
+    card: {
+      title: 'DEVELOPER CARD',
+      role: 'Role',
+      roleValue: 'Junior dev',
+      company: 'Company',
+      since: 'Since',
+      sinceValue: 'Jun 2026',
+      projects: 'Projects',
+      courses: 'Certificates',
+      stack: 'Stack',
+      stackValue: 'TS, React, Node, Java',
+      city: 'São Bernardo do Campo, BR'
+    }
   },
   caseStudy: {
     title: 'Theoretical Metal Weight Calculator',

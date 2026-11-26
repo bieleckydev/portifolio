@@ -1,4 +1,4 @@
-/* Primeira tela: quem é e o que faz à esquerda, o caixa funcionando à direita */
+/* Primeira tela: quem é e o que faz à esquerda, a ficha impressa como cupom à direita */
 .hero__read {
     display: flex;
     flex-direction: column;
@@ -38,6 +38,10 @@
 
 .hero__stage {
     align-items: center;
+}
+
+.hero__ticket {
+    width: min(100%, 380px);
 }
 
 @media (max-width: 900px) {

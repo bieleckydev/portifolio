@@ -1,11 +1,17 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import PosDemo from './PosDemo';
+import { PROJECTS } from '../data/projects';
+import { COURSE_GROUPS } from '../data/courses';
 import './Hero.css';
+
+// Contados dos próprios dados, para o cupom nunca ficar desatualizado
+const PROJECT_COUNT = PROJECTS.length;
+const COURSE_COUNT = COURSE_GROUPS.reduce((sum, group) => sum + group.items.length, 0);
 
 export default function Hero() {
   const { t } = useLanguage();
   const h = t.hero;
+  const card = h.card;
 
   return (
     <section id="inicio" className="split hero" data-section>
@@ -41,8 +47,43 @@ export default function Hero() {
         </ul>
       </div>
 
-      <div className="split__stage hero__stage" data-reveal style={{ '--i': 2 }}>
-        <PosDemo />
+      <div className="split__stage hero__stage">
+        {/* Ficha do desenvolvedor impressa como cupom */}
+        <div className="ticket hero__ticket" data-ui data-reveal style={{ '--i': 2 }}>
+          <div className="ticket__slot" aria-hidden="true" />
+          <div className="ticket__paper">
+            <p className="ticket__center ticket__strong">{card.title}</p>
+            <p className="ticket__center">Eduardo Bielecky</p>
+            <div className="ticket__rule" aria-hidden="true" />
+            <div className="ticket__row">
+              <span>{card.role}</span>
+              <span>{card.roleValue}</span>
+            </div>
+            <div className="ticket__row">
+              <span>{card.company}</span>
+              <span>Softcomp Sistemas</span>
+            </div>
+            <div className="ticket__row">
+              <span>{card.since}</span>
+              <span>{card.sinceValue}</span>
+            </div>
+            <div className="ticket__rule" aria-hidden="true" />
+            <div className="ticket__row">
+              <span>{card.projects}</span>
+              <span>{PROJECT_COUNT}</span>
+            </div>
+            <div className="ticket__row">
+              <span>{card.courses}</span>
+              <span>{COURSE_COUNT}</span>
+            </div>
+            <div className="ticket__row">
+              <span>{card.stack}</span>
+              <span>{card.stackValue}</span>
+            </div>
+            <div className="ticket__rule" aria-hidden="true" />
+            <p className="ticket__center">{card.city}</p>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -12,35 +12,23 @@ export const zh = {
     whatsapp: '通过 WhatsApp 联系'
   },
   hero: {
-    lead: '正在成长的软件工程师。我开发了 Adega do Dino 烤肉店正在使用的收银系统。',
+    lead: '正在成长的软件工程师。我为工业企业开发网页和移动系统，从数据库到部署全程负责。',
     facts: 'Softcomp Sistemas 初级开发工程师，日常工作中大量使用 AI。软件工程在读，现居巴西圣贝尔纳多-杜坎普。',
     cta: '联系我',
-    projects: '查看项目'
-  },
-  pos: {
-    label: '收银系统演示',
-    keysLabel: '向订单添加菜品',
-    add: '添加',
-    service: '收取 10% 服务费',
-    clear: '清空订单',
-    caption: '收银计算演示，菜品和价格均为示例。',
-    shop: 'ADEGA DO DINO',
-    sub: '巴西烤肉店',
-    table: '12 号桌',
-    empty: '尚未添加菜品',
-    subtotal: '小计',
-    serviceLine: '服务费 10%',
-    total: '合计',
-    notFiscal: '非税务发票',
-    thanks: '感谢光临',
-    items: [
-      { id: 'picanha', name: '牛臀盖肉 400 克', price: 89.9 },
-      { id: 'fraldinha', name: '牛腹肉 400 克', price: 69.9 },
-      { id: 'linguica', name: '托斯卡纳香肠', price: 24.9 },
-      { id: 'farofa', name: '自制木薯粉', price: 12 },
-      { id: 'cerveja', name: '啤酒 600 毫升', price: 14.9 },
-      { id: 'refri', name: '罐装汽水', price: 7 }
-    ]
+    projects: '查看项目',
+    card: {
+      title: '开发者名片',
+      role: '职位',
+      roleValue: '初级开发',
+      company: '公司',
+      since: '入职',
+      sinceValue: '2026 年 6 月',
+      projects: '项目',
+      courses: '证书',
+      stack: '技术栈',
+      stackValue: 'TS、React、Node、Java',
+      city: '巴西圣贝尔纳多-杜坎普'
+    }
   },
   caseStudy: {
     title: '金属理论重量计算器',

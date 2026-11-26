@@ -12,35 +12,23 @@ export const pt = {
     whatsapp: 'Conversar pelo WhatsApp'
   },
   hero: {
-    lead: 'Engenheiro de software em formação. Construí o sistema de caixa que a Adega do Dino usa hoje.',
+    lead: 'Engenheiro de software em formação. Faço sistemas web e mobile para a indústria, do banco de dados ao deploy.',
     facts: 'Desenvolvedor júnior na Softcomp Sistemas, onde uso IA no dia a dia. Estudo Engenharia de Software em São Bernardo do Campo, SP.',
     cta: 'Falar comigo',
-    projects: 'Ver projetos'
-  },
-  pos: {
-    label: 'Demonstração do sistema de caixa',
-    keysLabel: 'Lançar item no pedido',
-    add: 'Lançar',
-    service: 'Cobrar serviço de 10%',
-    clear: 'Limpar pedido',
-    caption: 'Demonstração do cálculo do caixa. Itens e preços são de exemplo.',
-    shop: 'ADEGA DO DINO',
-    sub: 'Churrascaria',
-    table: 'MESA 12',
-    empty: 'Nenhum item lançado',
-    subtotal: 'Subtotal',
-    serviceLine: 'Serviço 10%',
-    total: 'TOTAL',
-    notFiscal: 'NÃO É DOCUMENTO FISCAL',
-    thanks: 'Obrigado pela preferência',
-    items: [
-      { id: 'picanha', name: 'Picanha 400 g', price: 89.9 },
-      { id: 'fraldinha', name: 'Fraldinha 400 g', price: 69.9 },
-      { id: 'linguica', name: 'Linguiça toscana', price: 24.9 },
-      { id: 'farofa', name: 'Farofa da casa', price: 12 },
-      { id: 'cerveja', name: 'Cerveja 600 ml', price: 14.9 },
-      { id: 'refri', name: 'Refrigerante lata', price: 7 }
-    ]
+    projects: 'Ver projetos',
+    card: {
+      title: 'FICHA DO DESENVOLVEDOR',
+      role: 'Cargo',
+      roleValue: 'Dev júnior',
+      company: 'Empresa',
+      since: 'Desde',
+      sinceValue: 'jun. de 2026',
+      projects: 'Projetos',
+      courses: 'Certificados',
+      stack: 'Stack',
+      stackValue: 'TS, React, Node, Java',
+      city: 'São Bernardo do Campo, SP'
+    }
   },
   caseStudy: {
     title: 'Calculadora de Peso Teórico de Metais',
