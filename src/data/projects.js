@@ -34,6 +34,12 @@ export const PROJECTS = [
     imgH: 300
   },
   {
+    id: 'proj-portal-colaborador',
+    img: '/img/portal-colaborador.png',
+    imgW: 221,
+    imgH: 480
+  },
+  {
     id: 'proj-heavy',
     codeUrl: 'https://github.com/bieleckydev/heavy.io'
   },

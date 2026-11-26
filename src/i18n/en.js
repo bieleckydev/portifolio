@@ -226,6 +226,14 @@ export const en = {
         imageAlt: 'Opening page of the Tax Reform Guide, with the chapter menu on the left'
       },
       {
+        id: 'proj-portal-colaborador',
+        title: 'Employee Portal',
+        kind: 'Full stack, web and app',
+        desc: 'An HR website and app for a small manufacturer: each person signs in with their CPF and sees only their own payslips, requests and notices, enforced in the database itself with Row Level Security.',
+        stack: 'TypeScript, Next.js, React Native with Expo, Supabase with PostgreSQL, Tailwind and Turborepo',
+        imageAlt: 'App home screen on a phone with shortcuts to payslips, requests and notices and the latest payslip'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: 'Mobile, React Native',

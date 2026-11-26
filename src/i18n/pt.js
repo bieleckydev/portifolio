@@ -226,6 +226,14 @@ export const pt = {
         imageAlt: 'Abertura do Guia Fácil da Reforma Tributária, com o menu de capítulos à esquerda'
       },
       {
+        id: 'proj-portal-colaborador',
+        title: 'Portal do Colaborador',
+        kind: 'Full stack, site e app',
+        desc: 'Site e app de RH para uma indústria de pequeno porte: cada pessoa entra com CPF e só vê o que é dela, como holerites, solicitações e comunicados, com a proteção feita no próprio banco por Row Level Security.',
+        stack: 'TypeScript, Next.js, React Native com Expo, Supabase com PostgreSQL, Tailwind e Turborepo',
+        imageAlt: 'Tela inicial do app no celular com atalhos para holerites, solicitações e comunicados e o holerite do mês'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: 'Mobile, React Native',

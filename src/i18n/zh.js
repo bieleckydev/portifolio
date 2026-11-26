@@ -226,6 +226,14 @@ export const zh = {
         imageAlt: '税制改革指南首页，左侧为章节菜单'
       },
       {
+        id: 'proj-portal-colaborador',
+        title: '员工门户',
+        kind: '全栈，网站和应用',
+        desc: '为一家小型制造企业开发的人事网站和应用：每位员工用 CPF 登录，只能看到自己的工资单、申请和通知，权限由数据库的行级安全（RLS）保障。',
+        stack: 'TypeScript、Next.js、React Native（Expo）、Supabase（PostgreSQL）、Tailwind 和 Turborepo',
+        imageAlt: '手机应用首页，显示工资单、申请和通知的快捷入口以及本月工资单'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: '移动端，React Native',
