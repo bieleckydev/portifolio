@@ -133,14 +133,15 @@ export const pt = {
           { name: 'Java', value: 'Aurum Banking e faculdade' },
           { name: 'Python', value: 'Painel Softcomp, Ready 2 Work e automações' },
           { name: 'Kotlin', value: 'kcal.io' },
-          { name: 'SQL', value: 'SQLite, PostgreSQL e Oracle' }
+          { name: 'SQL', value: 'SQL Server, PostgreSQL, SQLite e Oracle' }
         ]
       },
       {
         label: 'Front-end, back-end e mobile',
         rows: [
           { name: 'React e Next.js', value: 'Painel, Monitor SEFAZ, Changelog, Portal e Almoxarifado' },
-          { name: 'Node.js com Express e Fastify', value: 'Painel Softcomp e Monitor SEFAZ' },
+          { name: 'Node.js com Express e Fastify', value: 'Painel Softcomp, Monitor SEFAZ e App de Expedição' },
+          { name: 'PWA para coletores Android', value: 'App de Expedição' },
           { name: 'React Native com Expo', value: 'heavy.io e Portal do Colaborador' },
           { name: 'Tailwind e CSS', value: 'Painel Softcomp e sites' },
           { name: 'Chart.js, MapLibre e Leaflet', value: 'Painel Softcomp e Monitor SEFAZ' },
@@ -156,7 +157,7 @@ export const pt = {
           { name: 'Segurança no banco (Row Level Security)', value: 'Portal do Colaborador' },
           { name: 'Monorepo com pnpm e Turborepo', value: 'Portal do Colaborador' },
           { name: 'Vercel', value: 'Changelog, cardápio, OTIS e Feira' },
-          { name: 'Impressão térmica ESC/POS', value: 'Sistema de caixa' },
+          { name: 'Impressão térmica (ESC/POS e ZPL)', value: 'Sistema de caixa e App de Expedição' },
           { name: 'APIs REST, OpenAPI e integração com ERP', value: 'SoftcompCRM, Painel e Monitor SEFAZ' },
           { name: 'WhatsApp (WAHA) e telefonia com Asterisk', value: 'SoftcompCRM' },
           { name: 'Docker', value: 'Imagens de release do SoftcompCRM' },
@@ -167,7 +168,7 @@ export const pt = {
         label: 'Ferramentas',
         rows: [
           { name: 'Git e GitHub', value: 'Todos os projetos' },
-          { name: 'Testes com Vitest e Playwright', value: 'Almoxarifado, com 553 testes, e SoftcompCRM' },
+          { name: 'Testes com Vitest e Playwright', value: 'Almoxarifado (553 testes), SoftcompCRM e Expedição' },
           { name: 'VS Code e IntelliJ IDEA', value: 'Dia a dia' },
           { name: 'Trello', value: 'Organização de entregas' }
         ]

@@ -133,14 +133,15 @@ export const en = {
           { name: 'Java', value: 'Aurum Banking and university' },
           { name: 'Python', value: 'Softcomp Dashboard, Ready 2 Work and automation' },
           { name: 'Kotlin', value: 'kcal.io' },
-          { name: 'SQL', value: 'SQLite, PostgreSQL and Oracle' }
+          { name: 'SQL', value: 'SQL Server, PostgreSQL, SQLite and Oracle' }
         ]
       },
       {
         label: 'Front end, back end and mobile',
         rows: [
           { name: 'React and Next.js', value: 'Dashboard, SEFAZ Monitor, Changelog, Portal and Warehouse' },
-          { name: 'Node.js with Express and Fastify', value: 'Softcomp Dashboard and SEFAZ Monitor' },
+          { name: 'Node.js with Express and Fastify', value: 'Softcomp Dashboard, SEFAZ Monitor and Shipping App' },
+          { name: 'PWA for Android scanners', value: 'Shipping App' },
           { name: 'React Native with Expo', value: 'heavy.io and Employee Portal' },
           { name: 'Tailwind and CSS', value: 'Softcomp Dashboard and websites' },
           { name: 'Chart.js, MapLibre and Leaflet', value: 'Softcomp Dashboard and SEFAZ Monitor' },
@@ -156,7 +157,7 @@ export const en = {
           { name: 'Database security (Row Level Security)', value: 'Employee Portal' },
           { name: 'Monorepo with pnpm and Turborepo', value: 'Employee Portal' },
           { name: 'Vercel', value: 'Changelog, menu, OTIS and Feira' },
-          { name: 'ESC/POS thermal printing', value: 'Point-of-sale system' },
+          { name: 'Thermal printing (ESC/POS and ZPL)', value: 'Point-of-sale system and Shipping App' },
           { name: 'REST APIs, OpenAPI and ERP integration', value: 'SoftcompCRM, Dashboard and SEFAZ Monitor' },
           { name: 'WhatsApp (WAHA) and Asterisk telephony', value: 'SoftcompCRM' },
           { name: 'Docker', value: 'SoftcompCRM release images' },
@@ -167,7 +168,7 @@ export const en = {
         label: 'Tools',
         rows: [
           { name: 'Git and GitHub', value: 'Every project' },
-          { name: 'Testing with Vitest and Playwright', value: 'Warehouse, with 553 tests, and SoftcompCRM' },
+          { name: 'Testing with Vitest and Playwright', value: 'Warehouse (553 tests), SoftcompCRM and Shipping App' },
           { name: 'VS Code and IntelliJ IDEA', value: 'Every day' },
           { name: 'Trello', value: 'Planning deliveries' }
         ]

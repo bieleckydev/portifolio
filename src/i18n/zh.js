@@ -133,14 +133,15 @@ export const zh = {
           { name: 'Java', value: 'Aurum Banking 与课程项目' },
           { name: 'Python', value: 'Softcomp 面板、Ready 2 Work 与自动化' },
           { name: 'Kotlin', value: 'kcal.io' },
-          { name: 'SQL', value: 'SQLite、PostgreSQL 和 Oracle' }
+          { name: 'SQL', value: 'SQL Server、PostgreSQL、SQLite 和 Oracle' }
         ]
       },
       {
         label: '前端、后端与移动端',
         rows: [
           { name: 'React 和 Next.js', value: '面板、SEFAZ 监控、更新日志、员工门户和仓储系统' },
-          { name: 'Node.js（Express、Fastify）', value: 'Softcomp 面板和 SEFAZ 监控' },
+          { name: 'Node.js（Express、Fastify）', value: 'Softcomp 面板、SEFAZ 监控和发货应用' },
+          { name: '面向 Android 手持终端的 PWA', value: '发货应用' },
           { name: 'React Native（Expo）', value: 'heavy.io 和员工门户' },
           { name: 'Tailwind 和 CSS', value: 'Softcomp 面板和网站' },
           { name: 'Chart.js、MapLibre 和 Leaflet', value: 'Softcomp 面板和 SEFAZ 监控' },
@@ -156,7 +157,7 @@ export const zh = {
           { name: '数据库安全（行级安全 RLS）', value: '员工门户' },
           { name: 'pnpm 与 Turborepo 单仓库', value: '员工门户' },
           { name: 'Vercel', value: '更新日志、菜单、OTIS 和 Feira' },
-          { name: 'ESC/POS 热敏打印', value: '收银系统' },
+          { name: '热敏打印（ESC/POS 和 ZPL）', value: '收银系统和发货应用' },
           { name: 'REST API、OpenAPI 与 ERP 集成', value: 'SoftcompCRM、面板和 SEFAZ 监控' },
           { name: 'WhatsApp（WAHA）与 Asterisk 电话系统', value: 'SoftcompCRM' },
           { name: 'Docker', value: 'SoftcompCRM 发布镜像' },
@@ -167,7 +168,7 @@ export const zh = {
         label: '工具',
         rows: [
           { name: 'Git 和 GitHub', value: '所有项目' },
-          { name: 'Vitest 与 Playwright 测试', value: '仓储系统（553 个测试）和 SoftcompCRM' },
+          { name: 'Vitest 与 Playwright 测试', value: '仓储系统（553 个测试）、SoftcompCRM 和发货应用' },
           { name: 'VS Code 和 IntelliJ IDEA', value: '日常使用' },
           { name: 'Trello', value: '交付规划' }
         ]
