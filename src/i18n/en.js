@@ -143,6 +143,7 @@ export const en = {
           { name: 'Node.js with Express and Fastify', value: 'Softcomp Dashboard and SEFAZ Monitor' },
           { name: 'React Native with Expo', value: 'heavy.io and Employee Portal' },
           { name: 'Tailwind and CSS', value: 'Softcomp Dashboard and websites' },
+          { name: 'Chart.js, MapLibre and Leaflet', value: 'Softcomp Dashboard and SEFAZ Monitor' },
           { name: 'Supabase and Firebase', value: 'Portal, Warehouse, Changelog and heavy.io' },
           { name: 'Software architecture', value: 'Warehouse: domain kept apart from the web layer' },
           { name: 'Accessibility (WCAG 2.1 AA)', value: 'Tax Reform Guide' }
@@ -151,7 +152,7 @@ export const en = {
       {
         label: 'Infrastructure and integrations',
         rows: [
-          { name: 'Nginx, systemd and GitHub Actions', value: 'Dashboard and Monitor deploys' },
+          { name: 'Nginx, systemd, Redis and GitHub Actions', value: 'Dashboard and Monitor deploys' },
           { name: 'Database security (Row Level Security)', value: 'Employee Portal' },
           { name: 'Monorepo with pnpm and Turborepo', value: 'Employee Portal' },
           { name: 'Vercel', value: 'Changelog, menu, OTIS and Feira' },
