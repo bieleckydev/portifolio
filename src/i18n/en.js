@@ -218,8 +218,9 @@ export const en = {
         id: 'proj-softcomp-changelog',
         title: 'Softcomp Changelog',
         kind: 'Full stack, Softcomp Sistemas',
-        desc: 'Release notes for Softcomp’s ERP modules, with filters by module and type, search and an admin panel with image uploads.',
-        stack: 'Next.js, React, TypeScript and Supabase with PostgreSQL'
+        desc: 'A public release notes portal for the ERP that replaced an internal spreadsheet: a timeline with search and module filters, an admin panel with drafts, publishing and edit history, and 181 records migrated from the spreadsheet.',
+        stack: 'TypeScript, Next.js, React, Supabase (PostgreSQL with RLS, Auth and Storage), GitHub Actions and Vercel',
+        imageAlt: 'Softcomp public changelog page with the timeline and the latest note'
       },
       {
         id: 'proj-calculadora-metais',

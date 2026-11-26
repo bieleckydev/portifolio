@@ -218,8 +218,9 @@ export const zh = {
         id: 'proj-softcomp-changelog',
         title: 'Softcomp 更新日志',
         kind: '全栈，Softcomp Sistemas',
-        desc: 'Softcomp ERP 各模块的版本说明，可按模块和类型筛选、搜索，并有支持上传图片的管理后台。',
-        stack: 'Next.js、React、TypeScript 和 Supabase（PostgreSQL）'
+        desc: '取代内部表格的 ERP 公开版本说明门户：带搜索和模块筛选的时间线，支持草稿、发布和编辑历史的管理后台，并从表格迁移了 181 条记录。',
+        stack: 'TypeScript、Next.js、React、Supabase（PostgreSQL 与 RLS、Auth、Storage）、GitHub Actions 和 Vercel',
+        imageAlt: 'Softcomp 公开更新日志页面，显示时间线和最新一条说明'
       },
       {
         id: 'proj-calculadora-metais',

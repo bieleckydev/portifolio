@@ -218,8 +218,9 @@ export const pt = {
         id: 'proj-softcomp-changelog',
         title: 'Softcomp Changelog',
         kind: 'Full stack, Softcomp Sistemas',
-        desc: 'Notas de versão dos módulos do ERP da Softcomp, com filtro por módulo e tipo, busca e painel administrativo com envio de imagens.',
-        stack: 'Next.js, React, TypeScript e Supabase com PostgreSQL'
+        desc: 'Portal público de notas de versão do ERP, que substituiu uma planilha interna: linha do tempo com busca e filtros por módulo, painel com rascunho, publicação e histórico de edições, e 181 registros migrados da planilha.',
+        stack: 'TypeScript, Next.js, React, Supabase (PostgreSQL com RLS, Auth e Storage), GitHub Actions e Vercel',
+        imageAlt: 'Página pública do changelog da Softcomp com a linha do tempo e a nota mais recente'
       },
       {
         id: 'proj-calculadora-metais',

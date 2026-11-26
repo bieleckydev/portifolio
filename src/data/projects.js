@@ -18,7 +18,12 @@ export const PROJECTS = [
   // Softcomp Sistemas: repositórios privados e ferramentas internas, sem link público
   { id: 'proj-softcomp-painel' },
   { id: 'proj-monitor-sefaz' },
-  { id: 'proj-softcomp-changelog' },
+  {
+    id: 'proj-softcomp-changelog',
+    img: '/img/changelog.png',
+    imgW: 1440,
+    imgH: 720
+  },
   {
     id: 'proj-calculadora-metais',
     img: '/img/calculadora.jpg',
