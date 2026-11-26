@@ -250,6 +250,13 @@ export const zh = {
         imageAlt: '手持终端上的应用首页，包含订单监控、收货、包裹、标签和开票等模块'
       },
       {
+        id: 'proj-fluxo-caixa',
+        title: '现金流',
+        kind: '全栈，Softcomp Sistemas',
+        desc: '与 TOTVS Protheus 集成的每日现金流，提供明细、汇总和预计与实际对比视图、银行余额以及 Excel 导出。BFF 隐藏 ERP 凭据，登录采用浏览器端加密密码、HttpOnly Cookie 中的 JWT 和访问审计。',
+        stack: 'TypeScript、React、Vite、Tailwind、Chart.js、TanStack Virtual、Node.js（Express）、Docker、Caddy 和 Protheus REST API'
+      },
+      {
         id: 'proj-portal-colaborador',
         title: '员工门户',
         kind: '全栈，网站和应用',

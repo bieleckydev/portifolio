@@ -250,6 +250,13 @@ export const pt = {
         imageAlt: 'Tela inicial do app no coletor com os módulos de monitor de pedidos, recebimento, volumes, etiquetas e faturamento'
       },
       {
+        id: 'proj-fluxo-caixa',
+        title: 'Fluxo de Caixa',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'Fluxo de caixa diário integrado ao TOTVS Protheus, com visão analítica, sintética e previsto x realizado, saldos bancários e exportação para Excel. Um BFF esconde as credenciais do ERP, e o login tem senha cifrada no navegador, JWT em cookie HttpOnly e auditoria.',
+        stack: 'TypeScript, React, Vite, Tailwind, Chart.js, TanStack Virtual, Node.js com Express, Docker, Caddy e APIs REST do Protheus'
+      },
+      {
         id: 'proj-portal-colaborador',
         title: 'Portal do Colaborador',
         kind: 'Full stack, site e app',

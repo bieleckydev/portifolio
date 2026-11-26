@@ -250,6 +250,13 @@ export const en = {
         imageAlt: 'App home screen on a scanner with modules for order monitoring, receiving, volumes, labels and invoicing'
       },
       {
+        id: 'proj-fluxo-caixa',
+        title: 'Cash Flow',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'A daily cash flow integrated with TOTVS Protheus, with detailed, summary and forecast vs actual views, bank balances and Excel export. A BFF hides the ERP credentials, and sign-in uses a password encrypted in the browser, a JWT in an HttpOnly cookie and an audit trail.',
+        stack: 'TypeScript, React, Vite, Tailwind, Chart.js, TanStack Virtual, Node.js with Express, Docker, Caddy and Protheus REST APIs'
+      },
+      {
         id: 'proj-portal-colaborador',
         title: 'Employee Portal',
         kind: 'Full stack, web and app',

@@ -40,6 +40,7 @@ export const PROJECTS = [
     imgW: 224,
     imgH: 480
   },
+  { id: 'proj-fluxo-caixa' },
   {
     id: 'proj-portal-colaborador',
     img: '/img/portal-colaborador.png',
