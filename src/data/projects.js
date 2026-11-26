@@ -59,51 +59,7 @@ export const PROJECTS = [
     imgW: 221,
     imgH: 480,
     codeUrl: 'https://github.com/bieleckydev/merlin-route-finder'
-  },
-  {
-    id: 'proj-heavy',
-    codeUrl: 'https://github.com/bieleckydev/heavy.io'
-  },
-  {
-    id: 'proj-cardapio-digital',
-    img: '/img/cardapio.jpg',
-    imgW: 860,
-    imgH: 1864,
-    liveUrl: 'https://cardapio-one-ochre.vercel.app/',
-    codeUrl: 'https://github.com/bieleckydev/cardapio'
-  },
-  {
-    id: 'proj-cripto',
-    codeUrl: 'https://github.com/JoaoRicardoSOC/aurum-banking'
-  },
-  {
-    id: 'proj-otis',
-    img: '/img/otis.jpg',
-    imgW: 1280,
-    imgH: 634,
-    liveUrl: 'https://sistema-otis-puce.vercel.app/',
-    codeUrl: 'https://github.com/bieleckydev/Sistema-OTIS'
-  },
-  {
-    id: 'proj-kcal',
-    img: '/img/kcal.jpg',
-    imgW: 1440,
-    imgH: 900,
-    liveUrl: 'https://kcalio-amber.vercel.app/'
-  },
-  {
-    id: 'proj-feira',
-    img: '/img/feira.jpg',
-    imgW: 1280,
-    imgH: 634,
-    liveUrl: 'https://feira-online-liart.vercel.app/',
-    codeUrl: 'https://github.com/bieleckydev/FEIRA-ONLINE'
-  },
-  {
-    id: 'proj-ready2work',
-    codeUrl: 'https://github.com/bieleckydev/ready2work'
-  },
-  { id: 'proj-guia-cidadao' }
+  }
 ];
 
 /**

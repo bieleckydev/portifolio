@@ -285,66 +285,6 @@ export const en = {
         stack: 'Java 21, JAX-RS with Jersey, JDBC, Oracle, React, Vite, Google Gemini and Docker',
         imageAlt: 'Interactive store map on a phone, with the route to the items on the shopping list'
       },
-      {
-        id: 'proj-heavy',
-        title: 'heavy.io',
-        kind: 'Mobile, React Native',
-        desc: 'An offline-first strength training app: stores sets and loads on the device, estimates one-rep max, syncs with Health Connect and suggests exercise swaps with AI.',
-        stack: 'TypeScript, React Native with Expo, SQLite, Firebase and Gemini'
-      },
-      {
-        id: 'proj-cardapio-digital',
-        title: 'Digital Menu',
-        kind: 'Front end, Adega do Dino',
-        desc: 'The menu Adega do Dino guests open on their phones, with the house cuts and ordering.',
-        stack: 'JavaScript, HTML and CSS',
-        imageAlt: 'Opening screen of the Adega do Dino digital menu'
-      },
-      {
-        id: 'proj-cripto',
-        title: 'Aurum Banking',
-        kind: 'Java, team project',
-        desc: 'A crypto brokerage simulator: wallet, order matching and balance checks.',
-        stack: 'Java, object-oriented design and Oracle'
-      },
-      {
-        id: 'proj-otis',
-        title: 'OTIS System',
-        kind: 'Front end, dashboard',
-        desc: 'A dashboard of delivery times, costs and tickets by department, deployed on Vercel.',
-        stack: 'JavaScript and CSS',
-        imageAlt: 'OTIS dashboard with delivery time and cost charts'
-      },
-      {
-        id: 'proj-kcal',
-        title: 'kcal.io',
-        kind: 'Android, Kotlin',
-        desc: 'A free app that recalculates your calorie deficit or surplus from the real expenditure Health Connect measures.',
-        stack: 'Kotlin and Health Connect',
-        imageAlt: 'kcal.io page showing the app with calories eaten and macronutrients'
-      },
-      {
-        id: 'proj-feira',
-        title: 'Feira Online',
-        kind: 'Front end, shop',
-        desc: 'A shop connecting small farmers with buyers, with a catalogue by category and a cart.',
-        stack: 'JavaScript, HTML and CSS',
-        imageAlt: 'Feira Online home page with greens and product categories'
-      },
-      {
-        id: 'proj-ready2work',
-        title: 'Ready 2 Work',
-        kind: 'Careers',
-        desc: 'Preparation for the tech job market, with practice technical assessments.',
-        stack: 'JavaScript and Python'
-      },
-      {
-        id: 'proj-guia-cidadao',
-        title: 'GuiaCidadão',
-        kind: 'Front end, public service',
-        desc: 'A one-minute check, no sign-up, that shows which public benefits a person is entitled to.',
-        stack: 'JavaScript and CSS'
-      }
     ]
   },
   contact: {

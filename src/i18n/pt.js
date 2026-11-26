@@ -285,66 +285,6 @@ export const pt = {
         stack: 'Java 21, JAX-RS com Jersey, JDBC, Oracle, React, Vite, Google Gemini e Docker',
         imageAlt: 'Planta interativa da loja no celular, com a rota até os itens do roteiro de compras'
       },
-      {
-        id: 'proj-heavy',
-        title: 'heavy.io',
-        kind: 'Mobile, React Native',
-        desc: 'App de treino de força que funciona sem internet: guarda séries e cargas no aparelho, estima a carga máxima, sincroniza com o Health Connect e sugere troca de exercício com IA.',
-        stack: 'TypeScript, React Native com Expo, SQLite, Firebase e Gemini'
-      },
-      {
-        id: 'proj-cardapio-digital',
-        title: 'Cardápio Digital',
-        kind: 'Front-end, Adega do Dino',
-        desc: 'O cardápio que os clientes da Adega do Dino abrem no celular, com os cortes da casa e o pedido.',
-        stack: 'JavaScript, HTML e CSS',
-        imageAlt: 'Abertura do cardápio digital da Adega e Churrascaria do Dino'
-      },
-      {
-        id: 'proj-cripto',
-        title: 'Aurum Banking',
-        kind: 'Java, em equipe',
-        desc: 'Simulador de corretora de criptomoedas: carteira, casamento de ordens e validação de saldo.',
-        stack: 'Java, orientação a objetos e Oracle'
-      },
-      {
-        id: 'proj-otis',
-        title: 'Sistema OTIS',
-        kind: 'Front-end, painel',
-        desc: 'Painel de indicadores com prazos, custos e chamados por área, publicado na Vercel.',
-        stack: 'JavaScript e CSS',
-        imageAlt: 'Painel de indicadores do Sistema OTIS com gráficos de prazo e custo'
-      },
-      {
-        id: 'proj-kcal',
-        title: 'kcal.io',
-        kind: 'Android, Kotlin',
-        desc: 'App gratuito que recalcula o déficit ou superávit calórico com o gasto real medido pelo Health Connect.',
-        stack: 'Kotlin e Health Connect',
-        imageAlt: 'Página do kcal.io com a tela do app mostrando calorias ingeridas e macronutrientes'
-      },
-      {
-        id: 'proj-feira',
-        title: 'Feira Online',
-        kind: 'Front-end, loja',
-        desc: 'Loja que liga pequenos produtores a quem compra, com catálogo por categoria e carrinho.',
-        stack: 'JavaScript, HTML e CSS',
-        imageAlt: 'Página inicial da Feira Online com verduras e categorias de produtos'
-      },
-      {
-        id: 'proj-ready2work',
-        title: 'Ready 2 Work',
-        kind: 'Carreira',
-        desc: 'Preparação para o mercado de tecnologia, com simulados de avaliação técnica.',
-        stack: 'JavaScript e Python'
-      },
-      {
-        id: 'proj-guia-cidadao',
-        title: 'GuiaCidadão',
-        kind: 'Front-end, serviço público',
-        desc: 'Triagem de um minuto, sem cadastro, que aponta os benefícios públicos a que a pessoa tem direito.',
-        stack: 'JavaScript e CSS'
-      }
     ]
   },
   contact: {

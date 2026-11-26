@@ -285,66 +285,6 @@ export const zh = {
         stack: 'Java 21、JAX-RS（Jersey）、JDBC、Oracle、React、Vite、Google Gemini 和 Docker',
         imageAlt: '手机上的门店交互平面图，显示前往购物清单商品的路线'
       },
-      {
-        id: 'proj-heavy',
-        title: 'heavy.io',
-        kind: '移动端，React Native',
-        desc: '离线优先的力量训练应用：在手机上记录组数和重量、估算最大重量、同步 Health Connect，并用 AI 推荐替换动作。',
-        stack: 'TypeScript、React Native（Expo）、SQLite、Firebase 和 Gemini'
-      },
-      {
-        id: 'proj-cardapio-digital',
-        title: '电子菜单',
-        kind: '前端，Adega do Dino',
-        desc: 'Adega do Dino 的顾客在手机上打开的菜单，展示招牌肉品并可直接点单。',
-        stack: 'JavaScript、HTML 和 CSS',
-        imageAlt: 'Adega do Dino 烤肉店电子菜单的首页'
-      },
-      {
-        id: 'proj-cripto',
-        title: 'Aurum Banking',
-        kind: 'Java，团队项目',
-        desc: '加密货币交易所模拟器：钱包、订单撮合和余额校验。',
-        stack: 'Java、面向对象和 Oracle'
-      },
-      {
-        id: 'proj-otis',
-        title: 'OTIS 系统',
-        kind: '前端，数据看板',
-        desc: '按部门展示交付周期、成本和工单的数据看板，部署在 Vercel 上。',
-        stack: 'JavaScript 和 CSS',
-        imageAlt: 'OTIS 数据看板，包含交付周期和成本图表'
-      },
-      {
-        id: 'proj-kcal',
-        title: 'kcal.io',
-        kind: 'Android，Kotlin',
-        desc: '免费应用，根据 Health Connect 记录的真实消耗重新计算热量缺口或盈余。',
-        stack: 'Kotlin 和 Health Connect',
-        imageAlt: 'kcal.io 页面，展示应用中的摄入热量和宏量营养素'
-      },
-      {
-        id: 'proj-feira',
-        title: 'Feira Online',
-        kind: '前端，网店',
-        desc: '连接小农户与买家的网店，按类别浏览商品并加入购物车。',
-        stack: 'JavaScript、HTML 和 CSS',
-        imageAlt: 'Feira Online 首页，展示蔬菜和商品类别'
-      },
-      {
-        id: 'proj-ready2work',
-        title: 'Ready 2 Work',
-        kind: '求职',
-        desc: '帮助进入科技行业的准备平台，提供技术测评模拟。',
-        stack: 'JavaScript 和 Python'
-      },
-      {
-        id: 'proj-guia-cidadao',
-        title: 'GuiaCidadão',
-        kind: '前端，公共服务',
-        desc: '一分钟快速筛查，无需注册，告诉你可以申请哪些公共福利。',
-        stack: 'JavaScript 和 CSS'
-      }
     ]
   },
   contact: {
