@@ -236,6 +236,13 @@ export const en = {
         imageAlt: 'App home screen on a phone with shortcuts to payslips, requests and notices and the latest payslip'
       },
       {
+        id: 'proj-almoxarifado',
+        title: 'Warehouse System',
+        kind: 'Full stack, metalworking plant',
+        desc: 'Replaces a metalworking plant’s stock spreadsheets with a platform whose balance can be trusted: receipts, withdrawals, requests and orders saved in atomic transactions, role-based access with an audit log and 553 automated tests.',
+        stack: 'TypeScript, Next.js, React, Tailwind, Zod, Zustand, TanStack Query, Firebase (Auth and Firestore), Playwright and Vercel'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: 'Mobile, React Native',

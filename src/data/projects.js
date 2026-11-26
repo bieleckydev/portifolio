@@ -39,6 +39,7 @@ export const PROJECTS = [
     imgW: 221,
     imgH: 480
   },
+  { id: 'proj-almoxarifado' },
   {
     id: 'proj-heavy',
     codeUrl: 'https://github.com/bieleckydev/heavy.io'

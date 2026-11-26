@@ -236,6 +236,13 @@ export const pt = {
         imageAlt: 'Tela inicial do app no celular com atalhos para holerites, solicitações e comunicados e o holerite do mês'
       },
       {
+        id: 'proj-almoxarifado',
+        title: 'Sistema de Almoxarifado',
+        kind: 'Full stack, indústria metalúrgica',
+        desc: 'Troca as planilhas de estoque de uma metalúrgica por uma plataforma com saldo confiável: entradas, baixas, requisições e pedidos gravados em transações atômicas, acesso por perfil com auditoria e 553 testes automatizados.',
+        stack: 'TypeScript, Next.js, React, Tailwind, Zod, Zustand, TanStack Query, Firebase (Auth e Firestore), Playwright e Vercel'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: 'Mobile, React Native',

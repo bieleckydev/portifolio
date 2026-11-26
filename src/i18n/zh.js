@@ -236,6 +236,13 @@ export const zh = {
         imageAlt: '手机应用首页，显示工资单、申请和通知的快捷入口以及本月工资单'
       },
       {
+        id: 'proj-almoxarifado',
+        title: '仓储管理系统',
+        kind: '全栈，金属加工厂',
+        desc: '用一个库存余额可信的平台取代金属加工厂的库存表格：入库、出库、领料和订单都以原子事务保存，按角色控制权限并记录审计日志，配有 553 个自动化测试。',
+        stack: 'TypeScript、Next.js、React、Tailwind、Zod、Zustand、TanStack Query、Firebase（Auth 和 Firestore）、Playwright 和 Vercel'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: '移动端，React Native',
