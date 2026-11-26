@@ -231,6 +231,13 @@ export const zh = {
         imageAlt: '税制改革指南首页，左侧为章节菜单'
       },
       {
+        id: 'proj-softcomp-crm',
+        title: 'SoftcompCRM',
+        kind: '全栈，Softcomp Sistemas',
+        desc: '基于开源 CRM 的分支，集成 AI 和 WhatsApp，为 Softcomp 的客户定制：同一老板旗下多家公司的销售漏斗合并展示、SDR 角色、以 OpenAPI 文档化的 ERP REST API，以及通过 Asterisk 由 AI 接听电话。',
+        stack: 'TypeScript、Next.js、React、Supabase（PostgreSQL 与 RLS）、WAHA 对接 WhatsApp、Asterisk、Zod、Vitest、Playwright、Docker 和 GitHub Actions'
+      },
+      {
         id: 'proj-portal-colaborador',
         title: '员工门户',
         kind: '全栈，网站和应用',

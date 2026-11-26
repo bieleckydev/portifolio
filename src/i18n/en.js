@@ -231,6 +231,13 @@ export const en = {
         imageAlt: 'Opening page of the Tax Reform Guide, with the chapter menu on the left'
       },
       {
+        id: 'proj-softcomp-crm',
+        title: 'SoftcompCRM',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'A fork of an open-source CRM with AI and WhatsApp, adapted for Softcomp’s clients: one pipeline for several companies of the same owner, an SDR role, a REST API for the ERP documented in OpenAPI and AI that answers calls through Asterisk.',
+        stack: 'TypeScript, Next.js, React, Supabase with PostgreSQL and RLS, WhatsApp via WAHA, Asterisk, Zod, Vitest, Playwright, Docker and GitHub Actions'
+      },
+      {
         id: 'proj-portal-colaborador',
         title: 'Employee Portal',
         kind: 'Full stack, web and app',

@@ -231,6 +231,13 @@ export const pt = {
         imageAlt: 'Abertura do Guia Fácil da Reforma Tributária, com o menu de capítulos à esquerda'
       },
       {
+        id: 'proj-softcomp-crm',
+        title: 'SoftcompCRM',
+        kind: 'Full stack, Softcomp Sistemas',
+        desc: 'Fork de um CRM open source com IA e WhatsApp, adaptado aos clientes da Softcomp: funil de várias empresas do mesmo dono numa tela, função SDR, API REST para o ERP documentada em OpenAPI e IA que atende ligações pelo Asterisk.',
+        stack: 'TypeScript, Next.js, React, Supabase com PostgreSQL e RLS, WhatsApp via WAHA, Asterisk, Zod, Vitest, Playwright, Docker e GitHub Actions'
+      },
+      {
         id: 'proj-portal-colaborador',
         title: 'Portal do Colaborador',
         kind: 'Full stack, site e app',

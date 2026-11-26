@@ -33,6 +33,7 @@ export const PROJECTS = [
     imgW: 480,
     imgH: 300
   },
+  { id: 'proj-softcomp-crm' },
   {
     id: 'proj-portal-colaborador',
     img: '/img/portal-colaborador.png',
