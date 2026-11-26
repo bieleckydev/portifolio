@@ -273,6 +273,14 @@ export const pt = {
         stack: 'TypeScript, Next.js, React, Tailwind, Zod, Zustand, TanStack Query, Firebase (Auth e Firestore), Playwright e Vercel'
       },
       {
+        id: 'proj-merlin',
+        title: 'Merlin Route Finder',
+        kind: 'Full stack, FIAP Challenge com a Leroy Merlin',
+        desc: 'App para lojas grandes, aberto por QR Code no corredor: busca tolerante a erros, planta da loja com rota até a gôndola e um assistente com Gemini que só cita produtos que existem e sugere substituto quando a prateleira está vazia. Feito em equipe de cinco; cuidei do back-end, da arquitetura e da interface.',
+        stack: 'Java 21, JAX-RS com Jersey, JDBC, Oracle, React, Vite, Google Gemini e Docker',
+        imageAlt: 'Planta interativa da loja no celular, com a rota até os itens do roteiro de compras'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: 'Mobile, React Native',

@@ -273,6 +273,14 @@ export const en = {
         stack: 'TypeScript, Next.js, React, Tailwind, Zod, Zustand, TanStack Query, Firebase (Auth and Firestore), Playwright and Vercel'
       },
       {
+        id: 'proj-merlin',
+        title: 'Merlin Route Finder',
+        kind: 'Full stack, FIAP Challenge with Leroy Merlin',
+        desc: 'An app for big-box stores, opened from a QR code in the aisle: typo-tolerant search, a store map with a route to the shelf and a Gemini assistant that only mentions products that exist and suggests a substitute when the shelf is empty. Built by a team of five; I handled the back end, architecture and interface.',
+        stack: 'Java 21, JAX-RS with Jersey, JDBC, Oracle, React, Vite, Google Gemini and Docker',
+        imageAlt: 'Interactive store map on a phone, with the route to the items on the shopping list'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: 'Mobile, React Native',

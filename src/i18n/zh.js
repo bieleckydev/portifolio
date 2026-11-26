@@ -273,6 +273,14 @@ export const zh = {
         stack: 'TypeScript、Next.js、React、Tailwind、Zod、Zustand、TanStack Query、Firebase（Auth 和 Firestore）、Playwright 和 Vercel'
       },
       {
+        id: 'proj-merlin',
+        title: 'Merlin Route Finder',
+        kind: '全栈，FIAP Challenge（与 Leroy Merlin 合作）',
+        desc: '面向大型门店的应用，在货架通道扫码即可打开：容错搜索、带路线的门店平面图，以及只推荐店内真实商品、货架缺货时给出替代品的 Gemini 助手。五人团队完成，我负责后端、架构和界面。',
+        stack: 'Java 21、JAX-RS（Jersey）、JDBC、Oracle、React、Vite、Google Gemini 和 Docker',
+        imageAlt: '手机上的门店交互平面图，显示前往购物清单商品的路线'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: '移动端，React Native',

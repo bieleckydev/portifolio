@@ -49,6 +49,13 @@ export const PROJECTS = [
   },
   { id: 'proj-almoxarifado' },
   {
+    id: 'proj-merlin',
+    img: '/img/merlin.png',
+    imgW: 221,
+    imgH: 480,
+    codeUrl: 'https://github.com/bieleckydev/merlin-route-finder'
+  },
+  {
     id: 'proj-heavy',
     codeUrl: 'https://github.com/bieleckydev/heavy.io'
   },
