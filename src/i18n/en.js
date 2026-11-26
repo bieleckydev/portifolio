@@ -201,8 +201,8 @@ export const en = {
         id: 'proj-monitor-sefaz',
         title: 'SEFAZ Monitor',
         kind: 'Full stack, Softcomp Sistemas',
-        desc: 'Tracks the electronic invoice (NF-e) authorizers of all 27 Brazilian states in real time, tells which fallback to use when one goes down and alerts the team by email.',
-        stack: 'TypeScript, React, Fastify, Vite, SQLite and systemd'
+        desc: 'Checks the 12 SEFAZ electronic invoice (NF-e) authorizers every 60 seconds and says which fallback to switch on when one fails. It also takes in ERP errors from each client and maps who is down. Data it could not read never shows as OK.',
+        stack: 'TypeScript, React, Vite, Tailwind, Node.js with Fastify, SQLite, Leaflet and systemd'
       },
       {
         id: 'proj-softcomp-changelog',

@@ -201,8 +201,8 @@ export const zh = {
         id: 'proj-monitor-sefaz',
         title: 'SEFAZ 监控',
         kind: '全栈，Softcomp Sistemas',
-        desc: '实时监控巴西 27 个州的电子发票（NF-e）授权服务，故障时提示应切换的备用通道，并通过邮件通知团队。',
-        stack: 'TypeScript、React、Fastify、Vite、SQLite 和 systemd'
+        desc: '每 60 秒检查 SEFAZ 的 12 个电子发票（NF-e）授权服务，出现故障时提示应启用的备用通道；同时接收各客户 ERP 的错误，在地图上显示哪些客户已离线。没读到的数据绝不会显示为正常。',
+        stack: 'TypeScript、React、Vite、Tailwind、Node.js（Fastify）、SQLite、Leaflet 和 systemd'
       },
       {
         id: 'proj-softcomp-changelog',

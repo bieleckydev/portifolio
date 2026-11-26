@@ -201,8 +201,8 @@ export const pt = {
         id: 'proj-monitor-sefaz',
         title: 'Monitor SEFAZ',
         kind: 'Full stack, Softcomp Sistemas',
-        desc: 'Acompanha em tempo real os autorizadores de NF-e das 27 UFs, indica qual contingência usar quando a SEFAZ cai e avisa a equipe por e-mail.',
-        stack: 'TypeScript, React, Fastify, Vite, SQLite e systemd'
+        desc: 'Vigia a cada 60 s os 12 autorizadores de NF-e da SEFAZ e diz qual contingência ativar quando um cai. Também recebe os erros do ERP de cada cliente e mostra em mapa quem está fora do ar. Dado que não foi lido nunca aparece como OK.',
+        stack: 'TypeScript, React, Vite, Tailwind, Node.js com Fastify, SQLite, Leaflet e systemd'
       },
       {
         id: 'proj-softcomp-changelog',
