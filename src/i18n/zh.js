@@ -216,6 +216,14 @@ export const zh = {
         imageAlt: '理论重量计算器，显示金属型材、3D 技术示意图和尺寸输入框'
       },
       {
+        id: 'proj-guia-reforma',
+        title: '税制改革指南',
+        kind: '前端，Softcomp Sistemas',
+        desc: '帮助钢铁企业理解巴西新的 IBS、CBS 税以及 2026 至 2033 年过渡期的指南，包含试行年模拟器、钢铁产业链计算示例，每条说明都附有官方来源。',
+        stack: '纯 HTML、CSS 和 JavaScript，无依赖；符合 WCAG 2.1 AA 无障碍标准',
+        imageAlt: '税制改革指南首页，左侧为章节菜单'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: '移动端，React Native',

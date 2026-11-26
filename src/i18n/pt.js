@@ -216,6 +216,14 @@ export const pt = {
         imageAlt: 'Calculadora de peso teórico com os perfis de metal, o esquema técnico em 3D e os campos de dimensão'
       },
       {
+        id: 'proj-guia-reforma',
+        title: 'Guia da Reforma Tributária',
+        kind: 'Front-end, Softcomp Sistemas',
+        desc: 'Guia para empresas do setor do aço entenderem IBS, CBS e a transição de 2026 a 2033, com simulador do ano de teste, exemplos de cálculo da cadeia do aço e cada afirmação ligada a uma fonte oficial.',
+        stack: 'HTML, CSS e JavaScript puros, sem dependências; acessível no padrão WCAG 2.1 AA',
+        imageAlt: 'Abertura do Guia Fácil da Reforma Tributária, com o menu de capítulos à esquerda'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: 'Mobile, React Native',

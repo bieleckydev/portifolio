@@ -28,6 +28,12 @@ export const PROJECTS = [
     codeUrl: 'https://github.com/bieleckydev/calculadora_metais'
   },
   {
+    id: 'proj-guia-reforma',
+    img: '/img/guia-reforma.png',
+    imgW: 480,
+    imgH: 300
+  },
+  {
     id: 'proj-heavy',
     codeUrl: 'https://github.com/bieleckydev/heavy.io'
   },

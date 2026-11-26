@@ -216,6 +216,14 @@ export const en = {
         imageAlt: 'Theoretical weight calculator with metal profiles, a 3D technical sketch and dimension fields'
       },
       {
+        id: 'proj-guia-reforma',
+        title: 'Tax Reform Guide',
+        kind: 'Front end, Softcomp Sistemas',
+        desc: 'A guide for steel companies to understand Brazil’s new IBS and CBS taxes and the 2026 to 2033 transition, with a test-year simulator, worked examples from the steel chain and every claim linked to an official source.',
+        stack: 'Plain HTML, CSS and JavaScript with no dependencies; WCAG 2.1 AA accessible',
+        imageAlt: 'Opening page of the Tax Reform Guide, with the chapter menu on the left'
+      },
+      {
         id: 'proj-heavy',
         title: 'heavy.io',
         kind: 'Mobile, React Native',
