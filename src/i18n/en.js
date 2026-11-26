@@ -44,13 +44,15 @@ export const en = {
   },
   caseStudy: {
     title: 'The till behind Adega do Dino',
-    lead: 'A web point-of-sale system the restaurant uses to take orders, close bills and print receipts.',
+    lead: 'A point of sale with real-time orders: the waiter takes the order on a phone at the table, and the till gets it instantly, closes the bill and prints the receipt.',
     rows: [
-      { label: 'Roles', value: 'Cashier, waiter and statistics, each with its own screen' },
-      { label: 'Checkout', value: 'Service and fee calculation, quick bill closing' },
-      { label: 'Printing', value: 'Receipts and reports on the thermal printer over ESC/POS' },
-      { label: 'Stack', value: 'JavaScript, WebSocket and ESC/POS commands' },
-      { label: 'Status', value: 'In production at the restaurant' }
+      { label: 'Till', value: 'Table map, searchable menu, bill splitting per person and a daily report in CSV' },
+      { label: 'Waiter', value: 'A phone app to pick the table and enter the order in a few taps' },
+      { label: 'Real time', value: 'Firebase Realtime Database keeps devices in sync, with optimistic updates on screen' },
+      { label: 'Printing', value: 'Receipts on an 80 mm thermal printer, straight from the browser' },
+      { label: 'Statistics', value: 'Revenue, average ticket, peak hours and performance per waiter' },
+      { label: 'Stack', value: 'React, TypeScript, Vite, Firebase, Chart.js and Vitest' },
+      { label: 'Status', value: 'In production at the restaurant; I am the only developer' }
     ],
     imageAlt: 'Entry screen of the Adega do Dino point-of-sale system with the Cashier, Waiter and Statistics roles',
     caption: 'The system’s entry screen on a phone.'

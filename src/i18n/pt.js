@@ -44,13 +44,15 @@ export const pt = {
   },
   caseStudy: {
     title: 'O sistema de caixa da Adega do Dino',
-    lead: 'Um ponto de venda web que a casa usa para lançar pedidos, fechar contas e imprimir o cupom.',
+    lead: 'PDV com comandas em tempo real: o garçom lança o pedido no celular, na mesa, e o caixa recebe na hora, fecha a conta e imprime o cupom.',
     rows: [
-      { label: 'Perfis', value: 'Caixa, garçom e estatísticas, cada um com a sua tela' },
-      { label: 'Fechamento', value: 'Cálculo de taxas e fechamento rápido da conta' },
-      { label: 'Impressão', value: 'Cupom e relatórios na impressora térmica, via ESC/POS' },
-      { label: 'Tecnologia', value: 'JavaScript, WebSocket e comandos ESC/POS' },
-      { label: 'Situação', value: 'Em produção no restaurante' }
+      { label: 'Caixa', value: 'Mapa de mesas, cardápio com busca, divisão da conta por pessoa e relatório do dia em CSV' },
+      { label: 'Garçom', value: 'App no celular para escolher a mesa e lançar o pedido em poucos toques' },
+      { label: 'Tempo real', value: 'Firebase Realtime Database sincroniza os aparelhos, com atualização otimista na tela' },
+      { label: 'Impressão', value: 'Cupom na impressora térmica de 80 mm, direto do navegador' },
+      { label: 'Estatísticas', value: 'Faturamento, ticket médio, horários de pico e desempenho por garçom' },
+      { label: 'Tecnologia', value: 'React, TypeScript, Vite, Firebase, Chart.js e Vitest' },
+      { label: 'Situação', value: 'Em produção no restaurante; sou o único desenvolvedor' }
     ],
     imageAlt: 'Tela de entrada do sistema de caixa da Adega do Dino com os perfis Caixa, Garçom e Estatísticas',
     caption: 'Tela de entrada do sistema, no celular.'

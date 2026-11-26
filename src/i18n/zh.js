@@ -44,13 +44,15 @@ export const zh = {
   },
   caseStudy: {
     title: 'Adega do Dino 的收银系统',
-    lead: '一套网页版收银系统，餐厅每天用它点单、结账并打印小票。',
+    lead: '实时点单的收银系统：服务员在桌边用手机点单，收银台立即收到，结账并打印小票。',
     rows: [
-      { label: '角色', value: '收银、服务员和统计，各有独立界面' },
-      { label: '结账', value: '自动计算费用，快速结账' },
-      { label: '打印', value: '通过 ESC/POS 在热敏打印机上打印小票和报表' },
-      { label: '技术', value: 'JavaScript、WebSocket 和 ESC/POS 指令' },
-      { label: '状态', value: '已在餐厅投入使用' }
+      { label: '收银', value: '餐桌地图、可搜索的菜单、按人分账，以及可导出 CSV 的当日报表' },
+      { label: '服务员', value: '手机应用，几下点击即可选桌并录入点单' },
+      { label: '实时', value: 'Firebase Realtime Database 同步各设备，界面采用乐观更新' },
+      { label: '打印', value: '直接从浏览器在 80 毫米热敏打印机上打印小票' },
+      { label: '统计', value: '营业额、客单价、高峰时段和各服务员业绩' },
+      { label: '技术', value: 'React、TypeScript、Vite、Firebase、Chart.js 和 Vitest' },
+      { label: '状态', value: '已在餐厅投入使用；我是唯一的开发者' }
     ],
     imageAlt: 'Adega do Dino 收银系统的入口界面，可选择收银、服务员和统计角色',
     caption: '系统在手机上的入口界面。'
