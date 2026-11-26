@@ -159,9 +159,10 @@ export const en = {
           { name: 'Monorepo with pnpm and Turborepo', value: 'Employee Portal' },
           { name: 'Vercel', value: 'Changelog, menu, OTIS and Feira' },
           { name: 'Thermal printing (ESC/POS and ZPL)', value: 'Point-of-sale system and Shipping App' },
-          { name: 'REST APIs, OpenAPI and ERP integration', value: 'SoftcompCRM, Dashboard and SEFAZ Monitor' },
+          { name: 'REST APIs, OpenAPI and ERP integration', value: 'SoftcompCRM, Dashboard, SEFAZ Monitor and Protheus in Cash Flow' },
+          { name: 'Web security (RSA-OAEP, bcrypt, JWT, rate limiting)', value: 'Cash Flow and Softcomp Dashboard' },
           { name: 'WhatsApp (WAHA) and Asterisk telephony', value: 'SoftcompCRM' },
-          { name: 'Docker', value: 'SoftcompCRM release images' },
+          { name: 'Docker and Caddy', value: 'Cash Flow deploy and SoftcompCRM images' },
           { name: 'Brazilian consumption tax (IBS, CBS, NF-e)', value: 'Tax Reform Guide and SEFAZ Monitor' }
         ]
       },

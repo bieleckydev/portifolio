@@ -159,9 +159,10 @@ export const pt = {
           { name: 'Monorepo com pnpm e Turborepo', value: 'Portal do Colaborador' },
           { name: 'Vercel', value: 'Changelog, cardápio, OTIS e Feira' },
           { name: 'Impressão térmica (ESC/POS e ZPL)', value: 'Sistema de caixa e App de Expedição' },
-          { name: 'APIs REST, OpenAPI e integração com ERP', value: 'SoftcompCRM, Painel e Monitor SEFAZ' },
+          { name: 'APIs REST, OpenAPI e integração com ERP', value: 'SoftcompCRM, Painel, Monitor SEFAZ e Protheus no Fluxo de Caixa' },
+          { name: 'Segurança web (RSA-OAEP, bcrypt, JWT, rate limit)', value: 'Fluxo de Caixa e Painel Softcomp' },
           { name: 'WhatsApp (WAHA) e telefonia com Asterisk', value: 'SoftcompCRM' },
-          { name: 'Docker', value: 'Imagens de release do SoftcompCRM' },
+          { name: 'Docker e Caddy', value: 'Deploy do Fluxo de Caixa e imagens do SoftcompCRM' },
           { name: 'Tributação do consumo (IBS, CBS e NF-e)', value: 'Guia da Reforma e Monitor SEFAZ' }
         ]
       },

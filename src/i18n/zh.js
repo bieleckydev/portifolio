@@ -159,9 +159,10 @@ export const zh = {
           { name: 'pnpm 与 Turborepo 单仓库', value: '员工门户' },
           { name: 'Vercel', value: '更新日志、菜单、OTIS 和 Feira' },
           { name: '热敏打印（ESC/POS 和 ZPL）', value: '收银系统和发货应用' },
-          { name: 'REST API、OpenAPI 与 ERP 集成', value: 'SoftcompCRM、面板和 SEFAZ 监控' },
+          { name: 'REST API、OpenAPI 与 ERP 集成', value: 'SoftcompCRM、面板、SEFAZ 监控和现金流中的 Protheus' },
+          { name: 'Web 安全（RSA-OAEP、bcrypt、JWT、限流）', value: '现金流和 Softcomp 面板' },
           { name: 'WhatsApp（WAHA）与 Asterisk 电话系统', value: 'SoftcompCRM' },
-          { name: 'Docker', value: 'SoftcompCRM 发布镜像' },
+          { name: 'Docker 和 Caddy', value: '现金流部署和 SoftcompCRM 镜像' },
           { name: '消费税制（IBS、CBS、NF-e）', value: '税制改革指南和 SEFAZ 监控' }
         ]
       },
