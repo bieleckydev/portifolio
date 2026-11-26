@@ -130,8 +130,8 @@ export const en = {
       {
         label: 'Languages',
         rows: [
-          { name: 'TypeScript', value: 'Softcomp Dashboard, SEFAZ Monitor, Changelog and heavy.io' },
-          { name: 'JavaScript', value: 'Till, menu, OTIS and Feira' },
+          { name: 'TypeScript', value: 'Point of sale, Softcomp Dashboard, SEFAZ Monitor, Changelog and heavy.io' },
+          { name: 'JavaScript', value: 'Calculator, menu, OTIS and Feira' },
           { name: 'Java', value: 'Merlin Route Finder, Aurum Banking and university' },
           { name: 'Python', value: 'Softcomp Dashboard, Ready 2 Work and automation' },
           { name: 'Kotlin', value: 'kcal.io' },
@@ -150,7 +150,7 @@ export const en = {
           { name: 'Tailwind and CSS', value: 'Softcomp Dashboard and websites' },
           { name: 'Chart.js, MapLibre and Leaflet', value: 'Softcomp Dashboard and SEFAZ Monitor' },
           { name: 'SVG and 3D without libraries', value: 'Metal Calculator' },
-          { name: 'Supabase and Firebase', value: 'SoftcompCRM, Portal, Warehouse, Changelog and heavy.io' },
+          { name: 'Supabase and Firebase', value: 'Point of sale, SoftcompCRM, Portal, Warehouse, Changelog and heavy.io' },
           { name: 'Software architecture', value: 'Warehouse: domain kept apart from the web layer' },
           { name: 'Accessibility (WCAG 2.1 AA)', value: 'Tax Reform Guide' }
         ]
@@ -162,7 +162,7 @@ export const en = {
           { name: 'Database security (Row Level Security)', value: 'Employee Portal' },
           { name: 'Monorepo with pnpm and Turborepo', value: 'Employee Portal' },
           { name: 'Vercel', value: 'Changelog, menu, OTIS and Feira' },
-          { name: 'Thermal printing (ESC/POS and ZPL)', value: 'Point-of-sale system and Shipping App' },
+          { name: 'Thermal printing (80 mm receipts and ZPL)', value: 'Point-of-sale system and Shipping App' },
           { name: 'REST APIs, OpenAPI and ERP integration', value: 'SoftcompCRM, Dashboard, SEFAZ Monitor and Protheus in Cash Flow' },
           { name: 'Web security (RSA-OAEP, bcrypt, JWT, rate limiting)', value: 'Cash Flow and Softcomp Dashboard' },
           { name: 'WhatsApp (WAHA) and Asterisk telephony', value: 'SoftcompCRM' },

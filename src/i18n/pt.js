@@ -130,8 +130,8 @@ export const pt = {
       {
         label: 'Linguagens',
         rows: [
-          { name: 'TypeScript', value: 'Painel Softcomp, Monitor SEFAZ, Changelog e heavy.io' },
-          { name: 'JavaScript', value: 'Caixa, cardápio, OTIS e Feira' },
+          { name: 'TypeScript', value: 'Sistema de caixa, Painel Softcomp, Monitor SEFAZ, Changelog e heavy.io' },
+          { name: 'JavaScript', value: 'Calculadora, cardápio, OTIS e Feira' },
           { name: 'Java', value: 'Merlin Route Finder, Aurum Banking e faculdade' },
           { name: 'Python', value: 'Painel Softcomp, Ready 2 Work e automações' },
           { name: 'Kotlin', value: 'kcal.io' },
@@ -150,7 +150,7 @@ export const pt = {
           { name: 'Tailwind e CSS', value: 'Painel Softcomp e sites' },
           { name: 'Chart.js, MapLibre e Leaflet', value: 'Painel Softcomp e Monitor SEFAZ' },
           { name: 'SVG e 3D sem bibliotecas', value: 'Calculadora de Metais' },
-          { name: 'Supabase e Firebase', value: 'SoftcompCRM, Portal, Almoxarifado, Changelog e heavy.io' },
+          { name: 'Supabase e Firebase', value: 'Sistema de caixa, SoftcompCRM, Portal, Almoxarifado, Changelog e heavy.io' },
           { name: 'Arquitetura de software', value: 'Almoxarifado: domínio separado da camada web' },
           { name: 'Acessibilidade (WCAG 2.1 AA)', value: 'Guia da Reforma Tributária' }
         ]
@@ -162,7 +162,7 @@ export const pt = {
           { name: 'Segurança no banco (Row Level Security)', value: 'Portal do Colaborador' },
           { name: 'Monorepo com pnpm e Turborepo', value: 'Portal do Colaborador' },
           { name: 'Vercel', value: 'Changelog, cardápio, OTIS e Feira' },
-          { name: 'Impressão térmica (ESC/POS e ZPL)', value: 'Sistema de caixa e App de Expedição' },
+          { name: 'Impressão térmica (cupom 80 mm e ZPL)', value: 'Sistema de caixa e App de Expedição' },
           { name: 'APIs REST, OpenAPI e integração com ERP', value: 'SoftcompCRM, Painel, Monitor SEFAZ e Protheus no Fluxo de Caixa' },
           { name: 'Segurança web (RSA-OAEP, bcrypt, JWT, rate limit)', value: 'Fluxo de Caixa e Painel Softcomp' },
           { name: 'WhatsApp (WAHA) e telefonia com Asterisk', value: 'SoftcompCRM' },

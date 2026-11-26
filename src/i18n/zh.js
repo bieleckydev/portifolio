@@ -130,8 +130,8 @@ export const zh = {
       {
         label: '编程语言',
         rows: [
-          { name: 'TypeScript', value: 'Softcomp 面板、SEFAZ 监控、更新日志和 heavy.io' },
-          { name: 'JavaScript', value: '收银、菜单、OTIS 和 Feira' },
+          { name: 'TypeScript', value: '收银系统、Softcomp 面板、SEFAZ 监控、更新日志和 heavy.io' },
+          { name: 'JavaScript', value: '计算器、菜单、OTIS 和 Feira' },
           { name: 'Java', value: 'Merlin Route Finder、Aurum Banking 与课程项目' },
           { name: 'Python', value: 'Softcomp 面板、Ready 2 Work 与自动化' },
           { name: 'Kotlin', value: 'kcal.io' },
@@ -150,7 +150,7 @@ export const zh = {
           { name: 'Tailwind 和 CSS', value: 'Softcomp 面板和网站' },
           { name: 'Chart.js、MapLibre 和 Leaflet', value: 'Softcomp 面板和 SEFAZ 监控' },
           { name: '不依赖库的 SVG 与 3D', value: '金属重量计算器' },
-          { name: 'Supabase 和 Firebase', value: 'SoftcompCRM、员工门户、仓储系统、更新日志和 heavy.io' },
+          { name: 'Supabase 和 Firebase', value: '收银系统、SoftcompCRM、员工门户、仓储系统、更新日志和 heavy.io' },
           { name: '软件架构', value: '仓储系统：领域层与网页层分离' },
           { name: '无障碍（WCAG 2.1 AA）', value: '税制改革指南' }
         ]
@@ -162,7 +162,7 @@ export const zh = {
           { name: '数据库安全（行级安全 RLS）', value: '员工门户' },
           { name: 'pnpm 与 Turborepo 单仓库', value: '员工门户' },
           { name: 'Vercel', value: '更新日志、菜单、OTIS 和 Feira' },
-          { name: '热敏打印（ESC/POS 和 ZPL）', value: '收银系统和发货应用' },
+          { name: '热敏打印（80 毫米小票和 ZPL）', value: '收银系统和发货应用' },
           { name: 'REST API、OpenAPI 与 ERP 集成', value: 'SoftcompCRM、面板、SEFAZ 监控和现金流中的 Protheus' },
           { name: 'Web 安全（RSA-OAEP、bcrypt、JWT、限流）', value: '现金流和 Softcomp 面板' },
           { name: 'WhatsApp（WAHA）与 Asterisk 电话系统', value: 'SoftcompCRM' },
