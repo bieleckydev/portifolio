@@ -1,8 +1,8 @@
 # Portfólio — Eduardo Bielecky
 
-Portfólio pessoal de Eduardo Mota Bielecky da Silva Mello, estudante de Engenharia de Software. Trabalha com Java, JavaScript, TypeScript, Kotlin e Python.
+Portfólio pessoal de Eduardo Mota Bielecky da Silva Mello, estudante de Engenharia de Software e desenvolvedor júnior na Softcomp Sistemas. Trabalha com TypeScript, React, Node.js, Java e Python.
 
-O visual vem do cupom térmico do sistema de caixa que ele construiu para a Adega do Dino: papel branco-frio, tinta preta e o vermelho da impressão em duas cores. No topo da página, uma demonstração do caixa lança itens e imprime o cupom com subtotal, serviço e total.
+O visual é de papel térmico: papel branco-frio, tinta preta e o vermelho da impressão em duas cores. No topo, a ficha do desenvolvedor aparece impressa como cupom; o projeto em destaque é a Calculadora de Peso Teórico de Metais. Ao todo o site mostra os mesmos 12 projetos da seção Projetos do LinkedIn: o destaque e mais 11 na lista.
 
 ## Stack
 
