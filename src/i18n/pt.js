@@ -43,44 +43,21 @@ export const pt = {
     ]
   },
   caseStudy: {
-    title: 'O sistema de caixa da Adega do Dino',
-    lead: 'PDV com comandas em tempo real: o garçom lança o pedido no celular, na mesa, e o caixa recebe na hora, fecha a conta e imprime o cupom.',
+    title: 'Calculadora de Peso Teórico de Metais',
+    lead: 'Calcula na hora o peso de uma peça de metal ou polímero e entrega a descrição comercial pronta para colar no pedido do ERP. Criei para a equipe de suporte da Softcomp e para cotação, vendas e PCP.',
     rows: [
-      { label: 'Caixa', value: 'Mapa de mesas, cardápio com busca, divisão da conta por pessoa e relatório do dia em CSV' },
-      { label: 'Garçom', value: 'App no celular para escolher a mesa e lançar o pedido em poucos toques' },
-      { label: 'Tempo real', value: 'Firebase Realtime Database sincroniza os aparelhos, com atualização otimista na tela' },
-      { label: 'Impressão', value: 'Cupom na impressora térmica de 80 mm, direto do navegador' },
-      { label: 'Estatísticas', value: 'Faturamento, ticket médio, horários de pico e desempenho por garçom' },
-      { label: 'Tecnologia', value: 'React, TypeScript, Vite, Firebase, Chart.js e Vitest' },
-      { label: 'Situação', value: 'Em produção no restaurante; sou o único desenvolvedor' }
+      { label: 'Geometrias', value: '14 formas industriais: chapas, bobinas, barras, tubos, buchas e perfis L, T, U e I/H' },
+      { label: 'Materiais', value: 'Mais de 30, entre aços, inox, alumínio, cobre, latão, titânio e polímeros' },
+      { label: 'Entrada', value: 'Aceita vírgula ou ponto e converte polegadas, como 1/2" ou 1 1/2, para milímetros' },
+      { label: 'Validação', value: 'Bloqueia peças impossíveis, como diâmetro interno maior que o externo' },
+      { label: 'Visualizador 3D', value: 'Feito do zero em SVG, sem bibliotecas: gira, dá zoom e desenha cada quadro em menos de 0,25 ms' },
+      { label: 'Testes', value: '35 testes das fórmulas, do conversor de polegadas e do motor 3D' },
+      { label: 'Tecnologia', value: 'React, Vite, JavaScript, CSS com design tokens e SVG' }
     ],
-    imageAlt: 'Tela de entrada do sistema de caixa da Adega do Dino com os perfis Caixa, Garçom e Estatísticas',
-    caption: 'Tela de entrada do sistema, no celular.'
-  },
-  caseGame: {
-    start: 'Assumir o caixa',
-    quit: 'Sair do caixa',
-    note: 'Feche cinco comandas no menor tempo. É uma simulação: nada vai para o sistema real.',
-    progress: 'Comanda {n} de {total}',
-    time: 'Tempo',
-    table: 'Mesa {n}',
-    counter: 'Balcão',
-    tableRule: 'cobra serviço de 10%',
-    counterRule: 'sem serviço',
-    bill: 'Conta',
-    empty: 'Lance os itens da comanda.',
-    removeOne: 'Tirar um',
-    closeWith: 'Fechar com 10%',
-    closeWithout: 'Fechar sem serviço',
-    right: 'Conta certa.',
-    wrongItems: 'Os itens não batem com a comanda.',
-    wrongService: 'A taxa de serviço ficou errada.',
-    summaryTitle: 'FECHAMENTO DO TURNO',
-    okMark: 'OK',
-    badMark: 'ERRO',
-    shiftTotal: 'TOTAL DO TURNO',
-    summary: '{ok} de {total} contas certas em {time}.',
-    again: 'Jogar de novo'
+    live: 'Abrir a calculadora',
+    code: 'Ver código',
+    imageAlt: 'Calculadora de peso teórico com os perfis de metal, o esquema técnico em 3D e os campos de dimensão',
+    caption: 'Tela da calculadora publicada.'
   },
   about: {
     title: 'Sobre mim',
@@ -199,10 +176,6 @@ export const pt = {
     privateCode: 'Código privado',
     items: [
       {
-        id: 'proj-caixa-adega',
-        title: 'Sistema de caixa'
-      },
-      {
         id: 'proj-softcomp-painel',
         title: 'Painel Softcomp',
         kind: 'Full stack, Softcomp Sistemas',
@@ -285,6 +258,14 @@ export const pt = {
         stack: 'Java 21, JAX-RS com Jersey, JDBC, Oracle, React, Vite, Google Gemini e Docker',
         imageAlt: 'Planta interativa da loja no celular, com a rota até os itens do roteiro de compras'
       },
+      {
+        id: 'proj-caixa-adega',
+        title: 'Sistema de caixa e comandas',
+        kind: 'Full stack, restaurante e adega',
+        desc: 'PDV com comandas em tempo real: o garçom lança o pedido no celular, na mesa, e o caixa recebe na hora, fecha a conta e imprime o cupom na térmica de 80 mm. Sou o único desenvolvedor.',
+        stack: 'React, TypeScript, Vite, Firebase, Chart.js e Vitest',
+        imageAlt: 'Tela de entrada do sistema de caixa com os perfis Caixa, Garçom e Estatísticas'
+      }
     ]
   },
   contact: {

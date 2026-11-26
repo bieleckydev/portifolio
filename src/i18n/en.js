@@ -43,44 +43,21 @@ export const en = {
     ]
   },
   caseStudy: {
-    title: 'The till behind Adega do Dino',
-    lead: 'A point of sale with real-time orders: the waiter takes the order on a phone at the table, and the till gets it instantly, closes the bill and prints the receipt.',
+    title: 'Theoretical Metal Weight Calculator',
+    lead: 'Instantly works out the weight of a metal or polymer part and produces the sales description ready to paste into the ERP order. I built it for Softcomp’s support team and for quoting, sales and production planning.',
     rows: [
-      { label: 'Till', value: 'Table map, searchable menu, bill splitting per person and a daily report in CSV' },
-      { label: 'Waiter', value: 'A phone app to pick the table and enter the order in a few taps' },
-      { label: 'Real time', value: 'Firebase Realtime Database keeps devices in sync, with optimistic updates on screen' },
-      { label: 'Printing', value: 'Receipts on an 80 mm thermal printer, straight from the browser' },
-      { label: 'Statistics', value: 'Revenue, average ticket, peak hours and performance per waiter' },
-      { label: 'Stack', value: 'React, TypeScript, Vite, Firebase, Chart.js and Vitest' },
-      { label: 'Status', value: 'In production at the restaurant; I am the only developer' }
+      { label: 'Shapes', value: '14 industrial shapes: sheets, coils, bars, tubes, bushings and L, T, U and I/H profiles' },
+      { label: 'Materials', value: 'Over 30, including steels, stainless, aluminium, copper, brass, titanium and polymers' },
+      { label: 'Input', value: 'Accepts commas or dots and converts inches, such as 1/2" or 1 1/2, to millimetres' },
+      { label: 'Validation', value: 'Blocks impossible parts, such as an inner diameter larger than the outer one' },
+      { label: '3D viewer', value: 'Built from scratch in SVG with no libraries: rotates, zooms and draws each frame in under 0.25 ms' },
+      { label: 'Tests', value: '35 tests covering the formulas, the inch converter and the 3D engine' },
+      { label: 'Stack', value: 'React, Vite, JavaScript, CSS with design tokens and SVG' }
     ],
-    imageAlt: 'Entry screen of the Adega do Dino point-of-sale system with the Cashier, Waiter and Statistics roles',
-    caption: 'The system’s entry screen on a phone.'
-  },
-  caseGame: {
-    start: 'Take over the till',
-    quit: 'Leave the till',
-    note: 'Close five orders as fast as you can. It is a simulation: nothing reaches the real system.',
-    progress: 'Order {n} of {total}',
-    time: 'Time',
-    table: 'Table {n}',
-    counter: 'Counter',
-    tableRule: '10% service charge',
-    counterRule: 'no service charge',
-    bill: 'Bill',
-    empty: 'Ring up the items on the order.',
-    removeOne: 'Remove one',
-    closeWith: 'Close with 10%',
-    closeWithout: 'Close without service',
-    right: 'Bill is right.',
-    wrongItems: 'The items do not match the order.',
-    wrongService: 'The service charge is wrong.',
-    summaryTitle: 'END OF SHIFT',
-    okMark: 'OK',
-    badMark: 'ERR',
-    shiftTotal: 'SHIFT TOTAL',
-    summary: '{ok} of {total} bills right in {time}.',
-    again: 'Play again'
+    live: 'Open the calculator',
+    code: 'View code',
+    imageAlt: 'Theoretical weight calculator with metal profiles, a 3D technical sketch and dimension fields',
+    caption: 'The published calculator.'
   },
   about: {
     title: 'About me',
@@ -199,10 +176,6 @@ export const en = {
     privateCode: 'Private code',
     items: [
       {
-        id: 'proj-caixa-adega',
-        title: 'Point of sale'
-      },
-      {
         id: 'proj-softcomp-painel',
         title: 'Softcomp Dashboard',
         kind: 'Full stack, Softcomp Sistemas',
@@ -285,6 +258,14 @@ export const en = {
         stack: 'Java 21, JAX-RS with Jersey, JDBC, Oracle, React, Vite, Google Gemini and Docker',
         imageAlt: 'Interactive store map on a phone, with the route to the items on the shopping list'
       },
+      {
+        id: 'proj-caixa-adega',
+        title: 'Point of sale and orders',
+        kind: 'Full stack, restaurant and wine bar',
+        desc: 'A point of sale with real-time orders: the waiter takes the order on a phone at the table, and the till gets it instantly, closes the bill and prints the receipt on an 80 mm thermal printer. I am the only developer.',
+        stack: 'React, TypeScript, Vite, Firebase, Chart.js and Vitest',
+        imageAlt: 'Entry screen of the point-of-sale system with the Cashier, Waiter and Statistics roles'
+      }
     ]
   },
   contact: {

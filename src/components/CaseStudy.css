@@ -1,4 +1,4 @@
-/* O projeto em produção: o argumento à esquerda, a tela real do sistema à direita */
+/* Projeto em destaque: o argumento à esquerda, a tela real do projeto à direita */
 .case__read {
     display: flex;
     flex-direction: column;
@@ -33,6 +33,10 @@
 }
 
 .case__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px 28px;
     margin-top: 48px;
 }
 
@@ -44,9 +48,11 @@
 }
 
 .case__shot img {
-    width: auto;
-    height: calc(100svh - var(--header-h) - 150px);
-    max-height: 760px;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    max-height: calc(100svh - var(--header-h) - 150px);
+    object-fit: contain;
 }
 
 @media (max-width: 900px) {
@@ -64,26 +70,7 @@
     }
 
     .case__shot img {
-        width: min(100%, 320px);
-        height: auto;
+        width: 100%;
         max-height: none;
-    }
-}
-
-.case__game-note {
-    max-width: 40ch;
-    margin-top: 12px;
-}
-
-/* Com o jogo aberto o palco pode rolar em telas baixas */
-.case__stage.is-playing {
-    place-items: start center;
-    overflow-y: auto;
-    scroll-margin-top: var(--header-h);
-}
-
-@media (max-width: 900px) {
-    .case__stage.is-playing {
-        overflow: visible;
     }
 }

@@ -43,44 +43,21 @@ export const zh = {
     ]
   },
   caseStudy: {
-    title: 'Adega do Dino 的收银系统',
-    lead: '实时点单的收银系统：服务员在桌边用手机点单，收银台立即收到，结账并打印小票。',
+    title: '金属理论重量计算器',
+    lead: '即时算出金属或聚合物零件的重量，并生成可直接粘贴到 ERP 订单中的商品描述。我为 Softcomp 的支持团队以及报价、销售和生产计划流程开发了它。',
     rows: [
-      { label: '收银', value: '餐桌地图、可搜索的菜单、按人分账，以及可导出 CSV 的当日报表' },
-      { label: '服务员', value: '手机应用，几下点击即可选桌并录入点单' },
-      { label: '实时', value: 'Firebase Realtime Database 同步各设备，界面采用乐观更新' },
-      { label: '打印', value: '直接从浏览器在 80 毫米热敏打印机上打印小票' },
-      { label: '统计', value: '营业额、客单价、高峰时段和各服务员业绩' },
-      { label: '技术', value: 'React、TypeScript、Vite、Firebase、Chart.js 和 Vitest' },
-      { label: '状态', value: '已在餐厅投入使用；我是唯一的开发者' }
+      { label: '几何形状', value: '14 种工业形状：板材、卷材、棒材、管材、轴套以及 L、T、U、I/H 型材' },
+      { label: '材料', value: '30 多种，包括各类钢、不锈钢、铝、铜、黄铜、钛和工程塑料' },
+      { label: '输入', value: '接受逗号或小数点，并把 1/2" 或 1 1/2 等英寸值换算为毫米' },
+      { label: '校验', value: '拦截不可能的零件，例如内径大于外径' },
+      { label: '3D 查看器', value: '用 SVG 从零编写、不依赖任何库：可旋转、缩放，每帧绘制不到 0.25 毫秒' },
+      { label: '测试', value: '35 个测试，覆盖公式、英寸换算和 3D 引擎' },
+      { label: '技术', value: 'React、Vite、JavaScript、带设计令牌的 CSS 和 SVG' }
     ],
-    imageAlt: 'Adega do Dino 收银系统的入口界面，可选择收银、服务员和统计角色',
-    caption: '系统在手机上的入口界面。'
-  },
-  caseGame: {
-    start: '接管收银台',
-    quit: '离开收银台',
-    note: '尽快结完五张点单。这只是模拟，不会连接真实系统。',
-    progress: '第 {n} 张点单，共 {total} 张',
-    time: '用时',
-    table: '{n} 号桌',
-    counter: '吧台',
-    tableRule: '收取 10% 服务费',
-    counterRule: '不收服务费',
-    bill: '账单',
-    empty: '录入点单上的菜品。',
-    removeOne: '减少一份',
-    closeWith: '加收 10% 结账',
-    closeWithout: '不收服务费结账',
-    right: '账单正确。',
-    wrongItems: '菜品与点单不符。',
-    wrongService: '服务费算错了。',
-    summaryTitle: '交班结算',
-    okMark: '对',
-    badMark: '错',
-    shiftTotal: '本班合计',
-    summary: '{total} 张账单中对了 {ok} 张，用时 {time}。',
-    again: '再玩一次'
+    live: '打开计算器',
+    code: '查看代码',
+    imageAlt: '理论重量计算器，显示金属型材、3D 技术示意图和尺寸输入框',
+    caption: '已上线的计算器界面。'
   },
   about: {
     title: '关于我',
@@ -199,10 +176,6 @@ export const zh = {
     privateCode: '代码未公开',
     items: [
       {
-        id: 'proj-caixa-adega',
-        title: '收银系统'
-      },
-      {
         id: 'proj-softcomp-painel',
         title: 'Softcomp 管理面板',
         kind: '全栈，Softcomp Sistemas',
@@ -285,6 +258,14 @@ export const zh = {
         stack: 'Java 21、JAX-RS（Jersey）、JDBC、Oracle、React、Vite、Google Gemini 和 Docker',
         imageAlt: '手机上的门店交互平面图，显示前往购物清单商品的路线'
       },
+      {
+        id: 'proj-caixa-adega',
+        title: '收银与点单系统',
+        kind: '全栈，餐厅与酒窖',
+        desc: '实时点单的收银系统：服务员在桌边用手机点单，收银台立即收到、结账，并在 80 毫米热敏打印机上打印小票。我是唯一的开发者。',
+        stack: 'React、TypeScript、Vite、Firebase、Chart.js 和 Vitest',
+        imageAlt: '收银系统入口界面，可选择收银、服务员和统计角色'
+      }
     ]
   },
   contact: {

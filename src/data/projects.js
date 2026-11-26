@@ -3,18 +3,11 @@
  * Os textos traduzidos ficam em src/i18n, em projects.items, ligados pelo id.
  * A ordem deste array define a ordem da lista "Outros projetos".
  * caseStudy: o projeto que ganha seção própria e sai da lista.
- *   O sistema de caixa está em produção num restaurante: nunca publique o link dele aqui.
+ * O sistema de caixa está em produção num restaurante: nunca publique o link dele aqui.
  * codeUrl só para repositórios públicos; sem link, a lista mostra "Código privado".
  * img/imgW/imgH: tela real do projeto; sem imagem, o painel mostra o nome em texto.
  */
 export const PROJECTS = [
-  {
-    id: 'proj-caixa-adega',
-    caseStudy: true,
-    img: '/img/caixa-adega.jpg',
-    imgW: 860,
-    imgH: 1864
-  },
   // Softcomp Sistemas: repositórios privados e ferramentas internas, sem link público
   { id: 'proj-softcomp-painel' },
   { id: 'proj-monitor-sefaz' },
@@ -26,6 +19,7 @@ export const PROJECTS = [
   },
   {
     id: 'proj-calculadora-metais',
+    caseStudy: true,
     img: '/img/calculadora.jpg',
     imgW: 1440,
     imgH: 900,
@@ -59,6 +53,12 @@ export const PROJECTS = [
     imgW: 221,
     imgH: 480,
     codeUrl: 'https://github.com/bieleckydev/merlin-route-finder'
+  },
+  {
+    id: 'proj-caixa-adega',
+    img: '/img/caixa-adega.jpg',
+    imgW: 860,
+    imgH: 1864
   }
 ];
 
