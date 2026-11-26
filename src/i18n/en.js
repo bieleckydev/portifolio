@@ -139,11 +139,11 @@ export const en = {
       {
         label: 'Front end, back end and mobile',
         rows: [
-          { name: 'React and Next.js', value: 'Dashboard, SEFAZ Monitor and Changelog' },
+          { name: 'React and Next.js', value: 'Dashboard, SEFAZ Monitor, Changelog and Employee Portal' },
           { name: 'Node.js with Express and Fastify', value: 'Softcomp Dashboard and SEFAZ Monitor' },
-          { name: 'React Native with Expo', value: 'heavy.io' },
+          { name: 'React Native with Expo', value: 'heavy.io and Employee Portal' },
           { name: 'Tailwind and CSS', value: 'Softcomp Dashboard and websites' },
-          { name: 'Supabase and Firebase', value: 'Changelog and heavy.io' },
+          { name: 'Supabase and Firebase', value: 'Employee Portal, Changelog and heavy.io' },
           { name: 'Accessibility (WCAG 2.1 AA)', value: 'Tax Reform Guide' }
         ]
       },
@@ -151,6 +151,8 @@ export const en = {
         label: 'Infrastructure and integrations',
         rows: [
           { name: 'Nginx, systemd and GitHub Actions', value: 'Dashboard and Monitor deploys' },
+          { name: 'Database security (Row Level Security)', value: 'Employee Portal' },
+          { name: 'Monorepo with pnpm and Turborepo', value: 'Employee Portal' },
           { name: 'Vercel', value: 'Changelog, menu, OTIS and Feira' },
           { name: 'ESC/POS thermal printing', value: 'Point-of-sale system' },
           { name: 'ERP and API integration', value: 'Softcomp Dashboard and SEFAZ Monitor' },
