@@ -145,6 +145,7 @@ export const zh = {
           { name: 'React Native（Expo）', value: 'heavy.io 和员工门户' },
           { name: 'Tailwind 和 CSS', value: 'Softcomp 面板和网站' },
           { name: 'Chart.js、MapLibre 和 Leaflet', value: 'Softcomp 面板和 SEFAZ 监控' },
+          { name: '不依赖库的 SVG 与 3D', value: '金属重量计算器' },
           { name: 'Supabase 和 Firebase', value: 'SoftcompCRM、员工门户、仓储系统、更新日志和 heavy.io' },
           { name: '软件架构', value: '仓储系统：领域层与网页层分离' },
           { name: '无障碍（WCAG 2.1 AA）', value: '税制改革指南' }
@@ -168,7 +169,7 @@ export const zh = {
         label: '工具',
         rows: [
           { name: 'Git 和 GitHub', value: '所有项目' },
-          { name: 'Vitest 与 Playwright 测试', value: '仓储系统（553 个测试）、SoftcompCRM 和发货应用' },
+          { name: 'Vitest、Playwright 与 Node 测试', value: '仓储系统（553 个测试）、CRM、发货应用和计算器' },
           { name: 'VS Code 和 IntelliJ IDEA', value: '日常使用' },
           { name: 'Trello', value: '交付规划' }
         ]

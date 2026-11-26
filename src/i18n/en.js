@@ -145,6 +145,7 @@ export const en = {
           { name: 'React Native with Expo', value: 'heavy.io and Employee Portal' },
           { name: 'Tailwind and CSS', value: 'Softcomp Dashboard and websites' },
           { name: 'Chart.js, MapLibre and Leaflet', value: 'Softcomp Dashboard and SEFAZ Monitor' },
+          { name: 'SVG and 3D without libraries', value: 'Metal Calculator' },
           { name: 'Supabase and Firebase', value: 'SoftcompCRM, Portal, Warehouse, Changelog and heavy.io' },
           { name: 'Software architecture', value: 'Warehouse: domain kept apart from the web layer' },
           { name: 'Accessibility (WCAG 2.1 AA)', value: 'Tax Reform Guide' }
@@ -168,7 +169,7 @@ export const en = {
         label: 'Tools',
         rows: [
           { name: 'Git and GitHub', value: 'Every project' },
-          { name: 'Testing with Vitest and Playwright', value: 'Warehouse (553 tests), SoftcompCRM and Shipping App' },
+          { name: 'Testing with Vitest, Playwright and Node', value: 'Warehouse (553 tests), CRM, Shipping App and Calculator' },
           { name: 'VS Code and IntelliJ IDEA', value: 'Every day' },
           { name: 'Trello', value: 'Planning deliveries' }
         ]

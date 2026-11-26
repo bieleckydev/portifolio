@@ -145,6 +145,7 @@ export const pt = {
           { name: 'React Native com Expo', value: 'heavy.io e Portal do Colaborador' },
           { name: 'Tailwind e CSS', value: 'Painel Softcomp e sites' },
           { name: 'Chart.js, MapLibre e Leaflet', value: 'Painel Softcomp e Monitor SEFAZ' },
+          { name: 'SVG e 3D sem bibliotecas', value: 'Calculadora de Metais' },
           { name: 'Supabase e Firebase', value: 'SoftcompCRM, Portal, Almoxarifado, Changelog e heavy.io' },
           { name: 'Arquitetura de software', value: 'Almoxarifado: domínio separado da camada web' },
           { name: 'Acessibilidade (WCAG 2.1 AA)', value: 'Guia da Reforma Tributária' }
@@ -168,7 +169,7 @@ export const pt = {
         label: 'Ferramentas',
         rows: [
           { name: 'Git e GitHub', value: 'Todos os projetos' },
-          { name: 'Testes com Vitest e Playwright', value: 'Almoxarifado (553 testes), SoftcompCRM e Expedição' },
+          { name: 'Testes com Vitest, Playwright e Node', value: 'Almoxarifado (553 testes), CRM, Expedição e Calculadora' },
           { name: 'VS Code e IntelliJ IDEA', value: 'Dia a dia' },
           { name: 'Trello', value: 'Organização de entregas' }
         ]
