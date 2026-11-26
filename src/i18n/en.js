@@ -101,7 +101,7 @@ export const en = {
         rows: [
           {
             name: 'Junior developer, Softcomp Sistemas',
-            detail: 'I build tools for the company and its clients with AI in my daily workflow: an executive dashboard, a SEFAZ monitor, the systems changelog and a metal weight calculator.',
+            detail: 'I build tools for the company and its clients with AI in my daily workflow: an executive dashboard, a SEFAZ monitor, the systems changelog, a metal weight calculator and the tax reform guide.',
             value: 'Since Jun 2026'
           },
           {

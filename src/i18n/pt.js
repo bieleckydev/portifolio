@@ -101,7 +101,7 @@ export const pt = {
         rows: [
           {
             name: 'Desenvolvedor júnior, Softcomp Sistemas',
-            detail: 'Desenvolvo com IA no dia a dia ferramentas para a empresa e seus clientes: painel executivo, monitor da SEFAZ, changelog dos sistemas e calculadora de metais.',
+            detail: 'Desenvolvo com IA no dia a dia ferramentas para a empresa e seus clientes: painel executivo, monitor da SEFAZ, changelog dos sistemas, calculadora de metais e o guia da Reforma Tributária.',
             value: 'Desde jun. de 2026'
           },
           {
