@@ -101,7 +101,7 @@ export const zh = {
         rows: [
           {
             name: '初级开发工程师，Softcomp Sistemas',
-            detail: '日常借助 AI 为公司及客户开发工具：管理面板、SEFAZ 监控、系统更新日志、金属重量计算器和税制改革指南。',
+            detail: '日常借助 AI 为公司及客户开发工具：管理面板、SEFAZ 监控、系统更新日志、金属重量计算器、税制改革指南和 SoftcompCRM。',
             value: '2026 年 6 月至今'
           },
           {
