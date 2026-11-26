@@ -221,8 +221,8 @@ export const zh = {
         id: 'proj-calculadora-metais',
         title: '金属重量计算器',
         kind: '前端，Softcomp Sistemas',
-        desc: '为 ERP 报价和销售计算 14 种型材、30 种材料的理论重量，支持英寸分数输入，可完全用键盘操作。',
-        stack: 'React、Vite、JavaScript 和 Python',
+        desc: '即时计算 14 种几何形状、30 多种材料的理论重量，用于 ERP 报价和销售；支持英寸输入，拦截不可能的尺寸，并用从零编写、不依赖任何库的 SVG 3D 查看器展示零件。',
+        stack: 'React、Vite、JavaScript、带设计令牌的 CSS、SVG 和 Node test runner',
         imageAlt: '理论重量计算器，显示金属型材、3D 技术示意图和尺寸输入框'
       },
       {

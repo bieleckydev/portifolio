@@ -221,8 +221,8 @@ export const pt = {
         id: 'proj-calculadora-metais',
         title: 'Calculadora de Metais',
         kind: 'Front-end, Softcomp Sistemas',
-        desc: 'Calcula o peso teórico de 14 perfis em 30 materiais para cotações e vendas no ERP, aceita frações em polegadas e funciona inteira pelo teclado.',
-        stack: 'React, Vite, JavaScript e Python',
+        desc: 'Calcula na hora o peso teórico de 14 geometrias em mais de 30 materiais para cotação e vendas no ERP, aceita polegadas, bloqueia peças impossíveis e mostra a peça num visualizador 3D feito do zero em SVG, sem bibliotecas.',
+        stack: 'React, Vite, JavaScript, CSS com design tokens, SVG e Node test runner',
         imageAlt: 'Calculadora de peso teórico com os perfis de metal, o esquema técnico em 3D e os campos de dimensão'
       },
       {
