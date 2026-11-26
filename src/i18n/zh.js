@@ -52,8 +52,8 @@ export const zh = {
     photoAlt: 'Eduardo Bielecky 的照片',
     paragraphs: [
       '我是软件工程专业的学生，住在巴西圣保罗州的圣贝尔纳多-杜坎普。',
-      '我曾在 Adega do Dino 烤肉店负责繁忙的前厅服务，并维护库存表格。餐厅现在使用的收银系统，就是为这套日常流程编写的。',
-      '从后端到移动应用我都做：TypeScript 搭配 React 和 Node.js、Java、Python、移动端的 React Native 和 Kotlin，以及 SQL 数据库。我根据问题选择工具，缺什么就学什么。',
+      '我曾在 Adega do Dino 烤肉店负责繁忙的前厅服务，并维护库存表格。',
+      '从后端到移动应用我都做：TypeScript 搭配 React 和 Node.js、Java、Python、移动端的 React Native，以及 SQL 数据库。我根据问题选择工具，缺什么就学什么。',
       '写代码之外，我喜欢组装和调校电脑：做稳定性测试、管理散热，弄清楚底层到底发生了什么。',
       '我在寻找实习或初级职位，希望在团队中学习，交付真正有人在用的软件。'
     ],
@@ -95,11 +95,10 @@ export const zh = {
       {
         label: '编程语言',
         rows: [
-          { name: 'TypeScript', value: '收银系统、Softcomp 面板、SEFAZ 监控、更新日志和 heavy.io' },
-          { name: 'JavaScript', value: '计算器、菜单、OTIS 和 Feira' },
-          { name: 'Java', value: 'Merlin Route Finder、Aurum Banking 与课程项目' },
-          { name: 'Python', value: 'Softcomp 面板、Ready 2 Work 与自动化' },
-          { name: 'Kotlin', value: 'kcal.io' },
+          { name: 'TypeScript', value: '面板、SEFAZ 监控、CRM、现金流、员工门户、仓储系统和收银系统' },
+          { name: 'JavaScript', value: '金属重量计算器和税制改革指南' },
+          { name: 'Java', value: 'Merlin Route Finder 与课程项目' },
+          { name: 'Python', value: 'Softcomp 面板与自动化' },
           { name: 'SQL', value: 'SQL Server、PostgreSQL、SQLite 和 Oracle' }
         ]
       },
@@ -109,13 +108,13 @@ export const zh = {
           { name: 'React 和 Next.js', value: '面板、SEFAZ 监控、更新日志、员工门户和仓储系统' },
           { name: 'Node.js（Express、Fastify）', value: 'Softcomp 面板、SEFAZ 监控和发货应用' },
           { name: '面向 Android 手持终端的 PWA', value: '发货应用' },
-          { name: 'React Native（Expo）', value: 'heavy.io 和员工门户' },
+          { name: 'React Native（Expo）', value: '员工门户' },
           { name: 'Java（JAX-RS 与 JDBC）', value: 'Merlin Route Finder' },
-          { name: 'Gemini 与函数调用', value: 'Merlin Route Finder 和 heavy.io' },
+          { name: 'Gemini 与函数调用', value: 'Merlin Route Finder' },
           { name: 'Tailwind 和 CSS', value: 'Softcomp 面板和网站' },
           { name: 'Chart.js、MapLibre 和 Leaflet', value: 'Softcomp 面板和 SEFAZ 监控' },
           { name: '不依赖库的 SVG 与 3D', value: '金属重量计算器' },
-          { name: 'Supabase 和 Firebase', value: '收银系统、SoftcompCRM、员工门户、仓储系统、更新日志和 heavy.io' },
+          { name: 'Supabase 和 Firebase', value: 'SoftcompCRM、员工门户、仓储系统、更新日志和收银系统' },
           { name: '软件架构', value: '仓储系统：领域层与网页层分离' },
           { name: '无障碍（WCAG 2.1 AA）', value: '税制改革指南' }
         ]
@@ -126,7 +125,7 @@ export const zh = {
           { name: 'Nginx、systemd、Redis 和 GitHub Actions', value: '面板和监控的部署' },
           { name: '数据库安全（行级安全 RLS）', value: '员工门户' },
           { name: 'pnpm 与 Turborepo 单仓库', value: '员工门户' },
-          { name: 'Vercel', value: '更新日志、菜单、OTIS 和 Feira' },
+          { name: 'Vercel', value: '更新日志、计算器和仓储系统' },
           { name: '热敏打印（80 毫米小票和 ZPL）', value: '收银系统和发货应用' },
           { name: 'REST API、OpenAPI 与 ERP 集成', value: 'SoftcompCRM、面板、SEFAZ 监控和现金流中的 Protheus' },
           { name: 'Web 安全（RSA-OAEP、bcrypt、JWT、限流）', value: '现金流和 Softcomp 面板' },

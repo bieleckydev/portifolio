@@ -52,8 +52,8 @@ export const pt = {
     photoAlt: 'Retrato de Eduardo Bielecky',
     paragraphs: [
       'Sou estudante de Engenharia de Software e moro em São Bernardo do Campo, SP.',
-      'Na Adega do Dino cuidei do atendimento num salão de muito movimento e das planilhas de estoque. O sistema de caixa que a casa usa hoje foi escrito para essa rotina.',
-      'Trabalho do back-end ao app: TypeScript com React e Node.js, Java, Python, React Native e Kotlin no celular, e bancos SQL. Escolho a ferramenta pelo problema e aprendo a que faltar.',
+      'Na Adega do Dino cuidei do atendimento num salão de muito movimento e das planilhas de estoque.',
+      'Trabalho do back-end ao app: TypeScript com React e Node.js, Java, Python, React Native no celular e bancos SQL. Escolho a ferramenta pelo problema e aprendo a que faltar.',
       'Fora do código, monto e ajusto computadores. Gosto de testar estabilidade, cuidar da parte térmica e entender o que acontece por baixo dos panos.',
       'Procuro um estágio ou uma vaga júnior em que eu aprenda com um time e entregue software que alguém usa de verdade.'
     ],
@@ -95,11 +95,10 @@ export const pt = {
       {
         label: 'Linguagens',
         rows: [
-          { name: 'TypeScript', value: 'Sistema de caixa, Painel Softcomp, Monitor SEFAZ, Changelog e heavy.io' },
-          { name: 'JavaScript', value: 'Calculadora, cardápio, OTIS e Feira' },
-          { name: 'Java', value: 'Merlin Route Finder, Aurum Banking e faculdade' },
-          { name: 'Python', value: 'Painel Softcomp, Ready 2 Work e automações' },
-          { name: 'Kotlin', value: 'kcal.io' },
+          { name: 'TypeScript', value: 'Painel, Monitor SEFAZ, CRM, Fluxo de Caixa, Portal, Almoxarifado e caixa' },
+          { name: 'JavaScript', value: 'Calculadora de Metais e Guia da Reforma' },
+          { name: 'Java', value: 'Merlin Route Finder e faculdade' },
+          { name: 'Python', value: 'Painel Softcomp e automações' },
           { name: 'SQL', value: 'SQL Server, PostgreSQL, SQLite e Oracle' }
         ]
       },
@@ -109,13 +108,13 @@ export const pt = {
           { name: 'React e Next.js', value: 'Painel, Monitor SEFAZ, Changelog, Portal e Almoxarifado' },
           { name: 'Node.js com Express e Fastify', value: 'Painel Softcomp, Monitor SEFAZ e App de Expedição' },
           { name: 'PWA para coletores Android', value: 'App de Expedição' },
-          { name: 'React Native com Expo', value: 'heavy.io e Portal do Colaborador' },
+          { name: 'React Native com Expo', value: 'Portal do Colaborador' },
           { name: 'Java com JAX-RS e JDBC', value: 'Merlin Route Finder' },
-          { name: 'IA com Gemini e function calling', value: 'Merlin Route Finder e heavy.io' },
+          { name: 'IA com Gemini e function calling', value: 'Merlin Route Finder' },
           { name: 'Tailwind e CSS', value: 'Painel Softcomp e sites' },
           { name: 'Chart.js, MapLibre e Leaflet', value: 'Painel Softcomp e Monitor SEFAZ' },
           { name: 'SVG e 3D sem bibliotecas', value: 'Calculadora de Metais' },
-          { name: 'Supabase e Firebase', value: 'Sistema de caixa, SoftcompCRM, Portal, Almoxarifado, Changelog e heavy.io' },
+          { name: 'Supabase e Firebase', value: 'SoftcompCRM, Portal, Almoxarifado, Changelog e sistema de caixa' },
           { name: 'Arquitetura de software', value: 'Almoxarifado: domínio separado da camada web' },
           { name: 'Acessibilidade (WCAG 2.1 AA)', value: 'Guia da Reforma Tributária' }
         ]
@@ -126,7 +125,7 @@ export const pt = {
           { name: 'Nginx, systemd, Redis e GitHub Actions', value: 'Deploy do Painel e do Monitor' },
           { name: 'Segurança no banco (Row Level Security)', value: 'Portal do Colaborador' },
           { name: 'Monorepo com pnpm e Turborepo', value: 'Portal do Colaborador' },
-          { name: 'Vercel', value: 'Changelog, cardápio, OTIS e Feira' },
+          { name: 'Vercel', value: 'Changelog, Calculadora e Almoxarifado' },
           { name: 'Impressão térmica (cupom 80 mm e ZPL)', value: 'Sistema de caixa e App de Expedição' },
           { name: 'APIs REST, OpenAPI e integração com ERP', value: 'SoftcompCRM, Painel, Monitor SEFAZ e Protheus no Fluxo de Caixa' },
           { name: 'Segurança web (RSA-OAEP, bcrypt, JWT, rate limit)', value: 'Fluxo de Caixa e Painel Softcomp' },

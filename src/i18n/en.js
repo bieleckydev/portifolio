@@ -52,8 +52,8 @@ export const en = {
     photoAlt: 'Portrait of Eduardo Bielecky',
     paragraphs: [
       'I am a Software Engineering student living in São Bernardo do Campo, Brazil.',
-      'At Adega do Dino I worked the floor of a busy steakhouse and kept the stock spreadsheets. The point-of-sale system the restaurant uses today was written for that routine.',
-      'I work from back end to app: TypeScript with React and Node.js, Java, Python, React Native and Kotlin on mobile, and SQL databases. I pick the tool for the problem and learn whatever is missing.',
+      'At Adega do Dino I worked the floor of a busy steakhouse and kept the stock spreadsheets.',
+      'I work from back end to app: TypeScript with React and Node.js, Java, Python, React Native on mobile and SQL databases. I pick the tool for the problem and learn whatever is missing.',
       'Away from code I build and tune computers. I like stress-testing for stability, managing heat and understanding what happens under the hood.',
       'I am looking for an internship or a junior role where I can learn from a team and ship software people actually use.'
     ],
@@ -95,11 +95,10 @@ export const en = {
       {
         label: 'Languages',
         rows: [
-          { name: 'TypeScript', value: 'Point of sale, Softcomp Dashboard, SEFAZ Monitor, Changelog and heavy.io' },
-          { name: 'JavaScript', value: 'Calculator, menu, OTIS and Feira' },
-          { name: 'Java', value: 'Merlin Route Finder, Aurum Banking and university' },
-          { name: 'Python', value: 'Softcomp Dashboard, Ready 2 Work and automation' },
-          { name: 'Kotlin', value: 'kcal.io' },
+          { name: 'TypeScript', value: 'Dashboard, SEFAZ Monitor, CRM, Cash Flow, Portal, Warehouse and point of sale' },
+          { name: 'JavaScript', value: 'Metal Calculator and Tax Reform Guide' },
+          { name: 'Java', value: 'Merlin Route Finder and university' },
+          { name: 'Python', value: 'Softcomp Dashboard and automation' },
           { name: 'SQL', value: 'SQL Server, PostgreSQL, SQLite and Oracle' }
         ]
       },
@@ -109,13 +108,13 @@ export const en = {
           { name: 'React and Next.js', value: 'Dashboard, SEFAZ Monitor, Changelog, Portal and Warehouse' },
           { name: 'Node.js with Express and Fastify', value: 'Softcomp Dashboard, SEFAZ Monitor and Shipping App' },
           { name: 'PWA for Android scanners', value: 'Shipping App' },
-          { name: 'React Native with Expo', value: 'heavy.io and Employee Portal' },
+          { name: 'React Native with Expo', value: 'Employee Portal' },
           { name: 'Java with JAX-RS and JDBC', value: 'Merlin Route Finder' },
-          { name: 'AI with Gemini and function calling', value: 'Merlin Route Finder and heavy.io' },
+          { name: 'AI with Gemini and function calling', value: 'Merlin Route Finder' },
           { name: 'Tailwind and CSS', value: 'Softcomp Dashboard and websites' },
           { name: 'Chart.js, MapLibre and Leaflet', value: 'Softcomp Dashboard and SEFAZ Monitor' },
           { name: 'SVG and 3D without libraries', value: 'Metal Calculator' },
-          { name: 'Supabase and Firebase', value: 'Point of sale, SoftcompCRM, Portal, Warehouse, Changelog and heavy.io' },
+          { name: 'Supabase and Firebase', value: 'SoftcompCRM, Portal, Warehouse, Changelog and point of sale' },
           { name: 'Software architecture', value: 'Warehouse: domain kept apart from the web layer' },
           { name: 'Accessibility (WCAG 2.1 AA)', value: 'Tax Reform Guide' }
         ]
@@ -126,7 +125,7 @@ export const en = {
           { name: 'Nginx, systemd, Redis and GitHub Actions', value: 'Dashboard and Monitor deploys' },
           { name: 'Database security (Row Level Security)', value: 'Employee Portal' },
           { name: 'Monorepo with pnpm and Turborepo', value: 'Employee Portal' },
-          { name: 'Vercel', value: 'Changelog, menu, OTIS and Feira' },
+          { name: 'Vercel', value: 'Changelog, Calculator and Warehouse' },
           { name: 'Thermal printing (80 mm receipts and ZPL)', value: 'Point-of-sale system and Shipping App' },
           { name: 'REST APIs, OpenAPI and ERP integration', value: 'SoftcompCRM, Dashboard, SEFAZ Monitor and Protheus in Cash Flow' },
           { name: 'Web security (RSA-OAEP, bcrypt, JWT, rate limiting)', value: 'Cash Flow and Softcomp Dashboard' },
